@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Job Fiction - Main</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container ">
+			<h2>Candidate Job Descriptions</h2>
+			<p>Enter job descriptions you are interested in by either selecting one of the pre-determined job titles, or entered the job title and text below.</p>
+			<form role="form">
+				<div class="form-group col-sm-8">
+					<label for="usr">Title:</label>
+					<input type="text" class="form-control" id="usr">
+					<label for="comment">Description:</label>
+					<textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+				<div class="form-group col-sm-4"> 
+      				<input type="text" class="form-control" style="visibility:hidden">
+    			</div>
+    			<div class="form-group col-sm-12">
+					<button type="submit" class="btn btn-primary active">Save to Job 1</button>
+					<button type="submit" class="btn btn-primary active">Save to Job 2</button>
+					<button type="submit" class="btn btn-primary active">Save to Job 3</button>
+				</div>
+			</form>
+		</div>
+		<hr>
+		<div class="container">
+			<h2>Currently Active Job Descriptions</h2>
+			<p>When you are finished entering the job description(s), click "Create the Dream"</p>
+		  	<ul class="nav nav-tabs">
+				<li class="active"><a data-toggle="tab" href="#home">Job 1</a></li>
+				<li><a data-toggle="tab" href="#menu1">Job 2</a></li>
+				<li><a data-toggle="tab" href="#menu2">Job 3</a></li>
+			</ul>
+
+  			<div class="tab-content well">
+    			<div id="home" class="tab-pane fade in active">
+	      			<h3>Butcher</h3>
+					<p>A job 1 Description</p>
+    			</div>
+	    		<div id="menu1" class="tab-pane fade">
+	      			<h3>Baker</h3>
+					<p>A job 2 Description</p>
+	    		</div>
+	    		<div id="menu2" class="tab-pane fade">
+	      			<h3>Candlestick Maker</h3>
+					<p>A job 3 Description</p>
+	    		</div>
+	    	</div>
+	    	<a href=model.html  role="button">Link</a>
+	    	<button type="submit" class="btn btn-primary active">Create the Dream</button>
+  		</div>
+
+	</body>
+</html>

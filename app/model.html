@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Dynamic venn</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style>
+#makeMeDraggable { float: left; width: 300px; height: 300px; background: red; }
+#makeMeDroppable { float: right; width: 300px; height: 300px; border: 1px solid #999; }
+</style>
+ 
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+ 
+<script type="text/javascript">
+ 
+$( init );
+ 
+function init() {
+  $('#makeMeDraggable').draggable();
+  $('#makeMeDroppable').droppable( {
+    drop: handleDropEvent
+  } );
+}
+ 
+function handleDropEvent( event, ui ) {
+  var draggable = ui.draggable;
+  alert( 'The square with ID "' + draggable.attr('id') + '" was dropped onto me!' );
+}
+ 
+</script>
+</head>
+
+<body>
+
+<div class="container">
+  <h2>Build the Dream</h2>
+  <p><strong>Note:</strong> Use the following sections to model your dream job.</p>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Customize</a>
+        </h4>
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+          <div class="form-group ">
+            <label for="usr">ZIP Code
+              <input type="text" class="form-control" id="usr">
+            <label for="usr">Salary Target (+/- 3000)</label>
+              <input type="text" class="form-control" id="usr">
+              <div class="checkbox">
+                  <label><input type="checkbox" value="">Include Company Info </label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" value="">Include Salary Info</label>
+                </div>
+                <div class="checkbox disabled">
+                  <label><input type="checkbox" value="" disabled>Include Bacon</label>
+                </div>
+              <label for="sel1">Minimum Education:</label>
+              <select class="form-control" id="sel1">
+                <option>None</option>
+                <option>Bachelor</option>
+                <option>Master</option>
+                <option>Doctorate</option>
+              </select>
+            </div>
+           
+
+        </div>
+      </div>
+    </div>
+     <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Prioritize</a>
+        </h4>
+      </div>
+      <div id="collapse3" class="panel-collapse collapse">
+           <div id="content" style="height: 400px;">
+ 
+  <div id="makeMeDraggable"> </div>
+ 
+</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Visualize</a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+           <div style="float:left;padding:10px">
+                <table>
+                <tr>
+                  <td>|A|</td>
+                  <td>
+                    <input class="input-mini venn_area" id="A" type="number" value="16">
+                  </td>
+                </tr>
+                <tr>
+                  <td>|B|</td>
+                  <td>
+                    <input class="input-mini venn_area" id="B" type="number" value="16">
+                  </td>
+                </tr>
+                <tr>
+                  <td>|C|</td>
+                  <td>
+                    <input class="input-mini venn_area" id="C" type="number" value="12">
+                  </td>
+                </tr>
+                <tr>
+                  <td>|A&#8745B|</td>
+                  <td>
+                    <input class="input-mini venn_area" id="A,B" type="number" value="4">
+                  </td>
+                </tr>
+                <tr>
+                  <td>|A&#8745C|</td>
+                  <td>
+                    <input class="input-mini venn_area" id="A,C" type="number" value="4">
+                  </td>
+                </tr>
+                <tr>
+                  <td>|B&#8745C|</td>
+                  <td>
+                    <input class="input-mini venn_area" id="B,C" type="number" value="3">
+                  </td>
+                </tr>
+                <tr>
+                  <td>|A&#8745B&#8745C|&nbsp</td>
+                  <td>
+                    <input class="input-mini venn_area" id="A,B,C" type="number" value="2">
+                  </td>
+                </tr>
+                </table>
+            </div>
+            <div id="venn"></div>
+            <div style="clear: both;"></div>
+
+        </div>
+      </div>
+    </div>
+   
+  </div> 
+</div>
+
+<a href=accordian.html  role="button">Link</a>
+<button type="submit" class="btn btn-primary active">Find the Dream</button>
+
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+<script src="venn/venn.js"></script>
+<script>
+function getSetIntersections() {
+    areas = d3.selectAll(".venn_area")[0].map(
+        function (element) {
+            return { sets: element.id.split(","),
+                     size: parseFloat(element.value)};} );
+    return areas;
+}
+
+
+// draw the initial set
+var chart = venn.VennDiagram()
+                 .width(600)
+                 .height(500);
+
+d3.select("#venn").datum(getSetIntersections()).call(chart);
+
+// redraw the sets on any change in input
+d3.selectAll("input").on("change", function() {
+    d3.select("#venn").datum(getSetIntersections()).call(chart);
+});
+
+// tweak style
+var colours = ['black', 'red', 'blue'];
+d3.selectAll("#venn .venn-circle path")
+    .style("fill-opacity", 0)
+    .style("stroke-width", 10)
+    .style("stroke-opacity", .5)
+    .style("stroke", function(d,i) { return colours[i]; });
+
+d3.selectAll("#venn .venn-circle text")
+    .style("fill", function(d,i) { return colours[i]})
+    .style("font-size", "32px")
+    .style("font-weight", "100");
+
+</script>
+</html>
