@@ -1,0 +1,20 @@
+Overview:,
+
+CSRA is looking for a Senior Data Analyst/Scientist to join our U.S. Department of State Refugee Processing Center (RPC) team in Arlington (Rosslyn), Virginia.
+,
+The Senior Data Analyst/Scientist will leverage his or her advanced data mining techniques, such as clustering, regression analysis, and decision trees to work that involves designing and administering data collection tools, analyzing data patterns and performing predictive analysis to identify processes that can be streamlined and, therefore, completed more quickly. Responsibilities: Collaborate with a team of IT and SMEs to manage statistical data and create different models based on program needs. Provide advanced data management support, including creation of complex macros, graphs, and output. Perform complex data mining using predictive analytical modeling techniques and provide systems-related recommendation for streamlining the program Perform and interpret data studies and product experiments concerning new data sources or new uses for existing data sources. Develop prototypes, proof of concepts, algorithms, predictive models, and custom analysis. Design and build new data set processes for modeling, data mining, and production purposes. Design and validate data collection instruments Determine new ways to improve data and search quality, and predictive capabilities Develop presentations and reports of analytical findings Develop data visualizations and dashboards to display results Collect and study data to analyze methods to improve operations and business processes within the program Interpret statistical analyses and help client shift from an ad hoc analysis to an ongoing informed conclusions and recommendations Qualifications :
+,
+US Citizenship.
+,
+
+,
+Years Of Experience:,
+ 6-9 Years; Required Education: Masters or PhD or equivalent experience to make up for the lack of degree.
+,
+
+,
+Required Education and Experience:,
+ Advanced analytical skills and the ability to process research information for easier consumption and transform it into actionable plans. The applicant must possess exceptional oral and written communication and the ability to counsel clients about the analytic process and how to use data to answer policy and program questions. An advanced degree (such as a MS or PhD) in computer science or related field is usually required for this kind of position, in addition to previous years of work experience in a related field. Willingness and ability to participate in, author, and review project technical documentation. Detail oriented with strong analytical and organizational skills.
+,
+Preferred Experience:,
+ Experience with SQL Experience with one or more predictive analysis software such as R, Stata, or SAS Prior experience in any US Government Agency

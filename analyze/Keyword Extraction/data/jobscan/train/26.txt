@@ -1,0 +1,44 @@
+Position Description
+,
+
+Will serve as a senior data architect and manager. Will develop and implement standards to manage data related to NOAA observing systems; support the NOAA Observing System Council's (NOSC) Environmental Data Management Committee (EDMC) through engaging stakeholders, providing education on NOAA's environmental data management policies, and coordinating activates to promote EDMC goals and objectives; and also support the Data Management Integration Team (DMIT) to help improve NOAA data management practices. Will help lead efforts to improve the visualization of data and will help improve the data management and analysis capabilities of current systems. Other duties include:
+,
+
+,
+
+,
+Define/maintain complex data models, data dictionaries, and master data management plans,
+
+,
+Develop and document data requirements and design specifications in the form of data models, data mappings, and data quality metrics,
+
+,
+Develop, improve, and support data standards and data architecture policies and procedures,
+
+,
+Monitor and enforce compliance of data standards to minimize data redundancies and enhance information quality throughout the organization,
+
+,
+Implement and document the client company's data architecture and data strategy,
+
+,
+Govern conformance of the use of data in new technology solutions to the enterprise data model and usage policies and standards,
+
+,
+Understand and employ best practices for database design,
+
+,
+
+Required Skills
+,
+
+8+ years of experience providing full-life-cycle data architecture and data management services in a scientific environment, preferably related to satellites, remote sensing observation systems, and large-scale data management. Experience applying best practices for database design. Experience working with diverse/heterogeneous platforms and with GIS. Experience with stakeholder outreach, communications, preferred.
+,
+
+Must be able to pass a background investigation to obtain a security badge to enter the applicable government facility.
+,
+
+Education
+,
+
+MS in Computer Science, Meteorology, Oceanography, Physical Science, related field, or equivalent.
