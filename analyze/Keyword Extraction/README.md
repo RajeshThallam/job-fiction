@@ -1,8 +1,8 @@
 # MIDS W210 - Capstone Project - "Job Fiction/Keyword extract with MAUI"
 
-Tutorial at https://www.airpair.com/nlp/keyword-extraction-tutorial
-More info at: https://code.google.com/archive/p/maui-indexer/wikis/Resources.wiki
-Based on KEA: http://www.nzdl.org/Kea/description.html
+- Tutorial at https://www.airpair.com/nlp/keyword-extraction-tutorial
+- More info at: https://code.google.com/archive/p/maui-indexer/wikis/Resources.wiki
+- Based on KEA: http://www.nzdl.org/Kea/description.html
 
 ## Training data:
 - Only jobs containing "data"

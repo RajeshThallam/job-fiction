@@ -1,0 +1,1920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<skos:ConceptScheme rdf:about="http://www.jobfiction.com">
+</skos:ConceptScheme>
+
+	<skos:Concept rdf:about="http://www.jobfiction.com/1">
+		<skos:prefLabel xml:lang="en"></skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/2">
+		<skos:prefLabel xml:lang="en">A/b Testing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/3">
+		<skos:prefLabel xml:lang="en">API</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/4">
+		<skos:prefLabel xml:lang="en">AWS</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/5">
+		<skos:prefLabel xml:lang="en">Ability To Analyze</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/6">
+		<skos:prefLabel xml:lang="en">Ability To Lead</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/7">
+		<skos:prefLabel xml:lang="en">Ability To Multi-task</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/8">
+		<skos:prefLabel xml:lang="en">Abuse</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/9">
+		<skos:prefLabel xml:lang="en">Academia</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/10">
+		<skos:prefLabel xml:lang="en">Accountable</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/11">
+		<skos:prefLabel xml:lang="en">Accounting</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/12">
+		<skos:prefLabel xml:lang="en">Ad Hoc Reporting</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/13">
+		<skos:prefLabel xml:lang="en">Advanced</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/14">
+		<skos:prefLabel xml:lang="en">Advertising</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/15">
+		<skos:prefLabel xml:lang="en">Advisory</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/16">
+		<skos:prefLabel xml:lang="en">Agenda</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/17">
+		<skos:prefLabel xml:lang="en">Agile</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/18">
+		<skos:prefLabel xml:lang="en">Algorithm</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/19">
+		<skos:prefLabel xml:lang="en">Analysis</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/20">
+		<skos:prefLabel xml:lang="en">Analyst</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/21">
+		<skos:prefLabel xml:lang="en">Analytical</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/22">
+		<skos:prefLabel xml:lang="en">Analytical Support</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/23">
+		<skos:prefLabel xml:lang="en">Analytical Thinking</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/24">
+		<skos:prefLabel xml:lang="en">Analytics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/25">
+		<skos:prefLabel xml:lang="en">Analytics Tools</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/26">
+		<skos:prefLabel xml:lang="en">Analyze</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/27">
+		<skos:prefLabel xml:lang="en">Analyzing Data</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/28">
+		<skos:prefLabel xml:lang="en">Anti-virus</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/29">
+		<skos:prefLabel xml:lang="en">Antipiracy</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/30">
+		<skos:prefLabel xml:lang="en">Apache</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/31">
+		<skos:prefLabel xml:lang="en">Applicable</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/32">
+		<skos:prefLabel xml:lang="en">Applicable Laws</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/33">
+		<skos:prefLabel xml:lang="en">Application</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/34">
+		<skos:prefLabel xml:lang="en">Applied</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/35">
+		<skos:prefLabel xml:lang="en">Applied Physics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/36">
+		<skos:prefLabel xml:lang="en">Appropriate</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/37">
+		<skos:prefLabel xml:lang="en">Architecting</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/38">
+		<skos:prefLabel xml:lang="en">Architecture</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/39">
+		<skos:prefLabel xml:lang="en">Asia</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/40">
+		<skos:prefLabel xml:lang="en">Attention To Detail</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/41">
+		<skos:prefLabel xml:lang="en">Attribution</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/42">
+		<skos:prefLabel xml:lang="en">Audit</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/43">
+		<skos:prefLabel xml:lang="en">Azure</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/44">
+		<skos:prefLabel xml:lang="en">BI</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/45">
+		<skos:prefLabel xml:lang="en">Balancing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/46">
+		<skos:prefLabel xml:lang="en">Banking</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/47">
+		<skos:prefLabel xml:lang="en">Behavioral</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/48">
+		<skos:prefLabel xml:lang="en">Best</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/49">
+		<skos:prefLabel xml:lang="en">Best Practices</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/50">
+		<skos:prefLabel xml:lang="en">Best-in-class</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/51">
+		<skos:prefLabel xml:lang="en">Big Data</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/52">
+		<skos:prefLabel xml:lang="en">Big Data Analytics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/53">
+		<skos:prefLabel xml:lang="en">Bing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/54">
+		<skos:prefLabel xml:lang="en">Biochemistry</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/55">
+		<skos:prefLabel xml:lang="en">Biology</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/56">
+		<skos:prefLabel xml:lang="en">Biostatistics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/57">
+		<skos:prefLabel xml:lang="en">Bottom Line</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/58">
+		<skos:prefLabel xml:lang="en">Brand</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/59">
+		<skos:prefLabel xml:lang="en">Budget</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/60">
+		<skos:prefLabel xml:lang="en">Build</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/61">
+		<skos:prefLabel xml:lang="en">Build Relationship</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/62">
+		<skos:prefLabel xml:lang="en">Building</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/63">
+		<skos:prefLabel xml:lang="en">Business</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/64">
+		<skos:prefLabel xml:lang="en">Business Acumen</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/65">
+		<skos:prefLabel xml:lang="en">Business Intelligence</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/66">
+		<skos:prefLabel xml:lang="en">Business Issues</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/67">
+		<skos:prefLabel xml:lang="en">Business Knowledge</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/68">
+		<skos:prefLabel xml:lang="en">Business Objects</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/69">
+		<skos:prefLabel xml:lang="en">Business Planning</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/70">
+		<skos:prefLabel xml:lang="en">Business Plans</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/71">
+		<skos:prefLabel xml:lang="en">Business Stakeholders</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/72">
+		<skos:prefLabel xml:lang="en">Business Value</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/73">
+		<skos:prefLabel xml:lang="en">C</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/74">
+		<skos:prefLabel xml:lang="en">C++</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/75">
+		<skos:prefLabel xml:lang="en">CPG</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/76">
+		<skos:prefLabel xml:lang="en">Capabilities</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/77">
+		<skos:prefLabel xml:lang="en">Capacity</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/78">
+		<skos:prefLabel xml:lang="en">Capacity Planning</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/79">
+		<skos:prefLabel xml:lang="en">Care</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/80">
+		<skos:prefLabel xml:lang="en">Career</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/81">
+		<skos:prefLabel xml:lang="en">Cassandra</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/82">
+		<skos:prefLabel xml:lang="en">Cataloging</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/83">
+		<skos:prefLabel xml:lang="en">Catalyst</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/84">
+		<skos:prefLabel xml:lang="en">Center</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/85">
+		<skos:prefLabel xml:lang="en">Certification</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/86">
+		<skos:prefLabel xml:lang="en">Change Management</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/87">
+		<skos:prefLabel xml:lang="en">Chemistry</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/88">
+		<skos:prefLabel xml:lang="en">Chief</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/89">
+		<skos:prefLabel xml:lang="en">Child Care</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/90">
+		<skos:prefLabel xml:lang="en">Claims</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/91">
+		<skos:prefLabel xml:lang="en">Clients</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/92">
+		<skos:prefLabel xml:lang="en">Clinical</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/93">
+		<skos:prefLabel xml:lang="en">Clinical Research</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/94">
+		<skos:prefLabel xml:lang="en">Coaching</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/95">
+		<skos:prefLabel xml:lang="en">Code</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/96">
+		<skos:prefLabel xml:lang="en">Coding</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/97">
+		<skos:prefLabel xml:lang="en">Coe</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/98">
+		<skos:prefLabel xml:lang="en">Cognos</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/99">
+		<skos:prefLabel xml:lang="en">Collaborate</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/100">
+		<skos:prefLabel xml:lang="en">Collaboration</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/101">
+		<skos:prefLabel xml:lang="en">Collaborative</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/102">
+		<skos:prefLabel xml:lang="en">Collaboratively</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/103">
+		<skos:prefLabel xml:lang="en">Colleagues</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/104">
+		<skos:prefLabel xml:lang="en">Collect Data</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/105">
+		<skos:prefLabel xml:lang="en">College Degree</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/106">
+		<skos:prefLabel xml:lang="en">Committed</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/107">
+		<skos:prefLabel xml:lang="en">Companies</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/108">
+		<skos:prefLabel xml:lang="en">Competitive</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/109">
+		<skos:prefLabel xml:lang="en">Complex</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/110">
+		<skos:prefLabel xml:lang="en">Complex Data Models</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/111">
+		<skos:prefLabel xml:lang="en">Complex Data Sets</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/112">
+		<skos:prefLabel xml:lang="en">Complex Projects</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/113">
+		<skos:prefLabel xml:lang="en">Compliance</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/114">
+		<skos:prefLabel xml:lang="en">Computer Programming</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/115">
+		<skos:prefLabel xml:lang="en">Computer Science</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/116">
+		<skos:prefLabel xml:lang="en">Computer Vision</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/117">
+		<skos:prefLabel xml:lang="en">Concepts</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/118">
+		<skos:prefLabel xml:lang="en">Conceptually</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/119">
+		<skos:prefLabel xml:lang="en">Confidential Information</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/120">
+		<skos:prefLabel xml:lang="en">Configuration Management</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/121">
+		<skos:prefLabel xml:lang="en">Consistent</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/122">
+		<skos:prefLabel xml:lang="en">Consultants</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/123">
+		<skos:prefLabel xml:lang="en">Consulting</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/124">
+		<skos:prefLabel xml:lang="en">Consulting Services</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/125">
+		<skos:prefLabel xml:lang="en">Consumer Behaviors</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/126">
+		<skos:prefLabel xml:lang="en">Consumer Insights</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/127">
+		<skos:prefLabel xml:lang="en">Consumers</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/128">
+		<skos:prefLabel xml:lang="en">Content</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/129">
+		<skos:prefLabel xml:lang="en">Continuous Improvement</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/130">
+		<skos:prefLabel xml:lang="en">Contracts</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/131">
+		<skos:prefLabel xml:lang="en">Control Design</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/132">
+		<skos:prefLabel xml:lang="en">Cooperative</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/133">
+		<skos:prefLabel xml:lang="en">Coordinate Meetings</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/134">
+		<skos:prefLabel xml:lang="en">Coordination</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/135">
+		<skos:prefLabel xml:lang="en">Cost</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/136">
+		<skos:prefLabel xml:lang="en">Cost Reduction</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/137">
+		<skos:prefLabel xml:lang="en">Counsel Clients</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/138">
+		<skos:prefLabel xml:lang="en">Create</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/139">
+		<skos:prefLabel xml:lang="en">Creative</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/140">
+		<skos:prefLabel xml:lang="en">Creativity</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/141">
+		<skos:prefLabel xml:lang="en">Critical Thinking</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/142">
+		<skos:prefLabel xml:lang="en">Cross-functional</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/143">
+		<skos:prefLabel xml:lang="en">Cross-functional Teams</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/144">
+		<skos:prefLabel xml:lang="en">Curious</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/145">
+		<skos:prefLabel xml:lang="en">Customer</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/146">
+		<skos:prefLabel xml:lang="en">Customer Experience</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/147">
+		<skos:prefLabel xml:lang="en">Customer Retention</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/148">
+		<skos:prefLabel xml:lang="en">Customer Support</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/149">
+		<skos:prefLabel xml:lang="en">Customer Transactions</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/150">
+		<skos:prefLabel xml:lang="en">Customers</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/151">
+		<skos:prefLabel xml:lang="en">D3</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/152">
+		<skos:prefLabel xml:lang="en">DB2</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/153">
+		<skos:prefLabel xml:lang="en">Data</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/154">
+		<skos:prefLabel xml:lang="en">Data Analysis</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/155">
+		<skos:prefLabel xml:lang="en">Data Architecture</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/156">
+		<skos:prefLabel xml:lang="en">Data Center</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/157">
+		<skos:prefLabel xml:lang="en">Data Cleaning</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/158">
+		<skos:prefLabel xml:lang="en">Data Collection</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/159">
+		<skos:prefLabel xml:lang="en">Data Entry</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/160">
+		<skos:prefLabel xml:lang="en">Data Integrity</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/161">
+		<skos:prefLabel xml:lang="en">Data Management</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/162">
+		<skos:prefLabel xml:lang="en">Data Manipulation</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/163">
+		<skos:prefLabel xml:lang="en">Data Mining</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/164">
+		<skos:prefLabel xml:lang="en">Data Modeling</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/165">
+		<skos:prefLabel xml:lang="en">Data Processing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/166">
+		<skos:prefLabel xml:lang="en">Data Profiling</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/167">
+		<skos:prefLabel xml:lang="en">Data Quality</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/168">
+		<skos:prefLabel xml:lang="en">Data Requirements</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/169">
+		<skos:prefLabel xml:lang="en">Data Retrieval</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/170">
+		<skos:prefLabel xml:lang="en">Data Science</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/171">
+		<skos:prefLabel xml:lang="en">Data Sets</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/172">
+		<skos:prefLabel xml:lang="en">Data Sources</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/173">
+		<skos:prefLabel xml:lang="en">Data Visualization</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/174">
+		<skos:prefLabel xml:lang="en">Data Warehouse</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/175">
+		<skos:prefLabel xml:lang="en">Database</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/176">
+		<skos:prefLabel xml:lang="en">Database Design</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/177">
+		<skos:prefLabel xml:lang="en">Database Maintenance</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/178">
+		<skos:prefLabel xml:lang="en">Datasets</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/179">
+		<skos:prefLabel xml:lang="en">Decision Making</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/180">
+		<skos:prefLabel xml:lang="en">Deep</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/181">
+		<skos:prefLabel xml:lang="en">Deliver</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/182">
+		<skos:prefLabel xml:lang="en">Delivery</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/183">
+		<skos:prefLabel xml:lang="en">Design</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/184">
+		<skos:prefLabel xml:lang="en">Design Development</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/185">
+		<skos:prefLabel xml:lang="en">Design Engineer</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/186">
+		<skos:prefLabel xml:lang="en">Detail Oriented</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/187">
+		<skos:prefLabel xml:lang="en">Detect Fraud</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/188">
+		<skos:prefLabel xml:lang="en">Detection</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/189">
+		<skos:prefLabel xml:lang="en">Develop</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/190">
+		<skos:prefLabel xml:lang="en">Develop Creative Solutions</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/191">
+		<skos:prefLabel xml:lang="en">Develop Presentations</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/192">
+		<skos:prefLabel xml:lang="en">Developing Relationships</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/193">
+		<skos:prefLabel xml:lang="en">Device</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/194">
+		<skos:prefLabel xml:lang="en">Digital</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/195">
+		<skos:prefLabel xml:lang="en">Digital Marketing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/196">
+		<skos:prefLabel xml:lang="en">Digital Media</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/197">
+		<skos:prefLabel xml:lang="en">Disaster Recovery</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/198">
+		<skos:prefLabel xml:lang="en">Distributed Computing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/199">
+		<skos:prefLabel xml:lang="en">Distribution</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/200">
+		<skos:prefLabel xml:lang="en">Documentation</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/201">
+		<skos:prefLabel xml:lang="en">Documenting</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/202">
+		<skos:prefLabel xml:lang="en">Draft Reports</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/203">
+		<skos:prefLabel xml:lang="en">Drive</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/204">
+		<skos:prefLabel xml:lang="en">Driven</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/205">
+		<skos:prefLabel xml:lang="en">Dynamic Environment</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/206">
+		<skos:prefLabel xml:lang="en">E-commerce</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/207">
+		<skos:prefLabel xml:lang="en">EDW</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/208">
+		<skos:prefLabel xml:lang="en">ER</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/209">
+		<skos:prefLabel xml:lang="en">ETL</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/210">
+		<skos:prefLabel xml:lang="en">Ecommerce</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/211">
+		<skos:prefLabel xml:lang="en">Economics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/212">
+		<skos:prefLabel xml:lang="en">Effective Reporting</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/213">
+		<skos:prefLabel xml:lang="en">Electrical Engineering</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/214">
+		<skos:prefLabel xml:lang="en">Embedded</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/215">
+		<skos:prefLabel xml:lang="en">Employment</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/216">
+		<skos:prefLabel xml:lang="en">Employment Practices</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/217">
+		<skos:prefLabel xml:lang="en">Encouraging</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/218">
+		<skos:prefLabel xml:lang="en">Encryption</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/219">
+		<skos:prefLabel xml:lang="en">End-to-end</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/220">
+		<skos:prefLabel xml:lang="en">Engagement</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/221">
+		<skos:prefLabel xml:lang="en">Engaging</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/222">
+		<skos:prefLabel xml:lang="en">Engineering</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/223">
+		<skos:prefLabel xml:lang="en">English</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/224">
+		<skos:prefLabel xml:lang="en">Enterprise</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/225">
+		<skos:prefLabel xml:lang="en">Environmental</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/226">
+		<skos:prefLabel xml:lang="en">Environmental Science</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/227">
+		<skos:prefLabel xml:lang="en">Epo</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/228">
+		<skos:prefLabel xml:lang="en">Everything</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/229">
+		<skos:prefLabel xml:lang="en">Excellent Communication</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/230">
+		<skos:prefLabel xml:lang="en">Experimental</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/231">
+		<skos:prefLabel xml:lang="en">Experimental Design</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/232">
+		<skos:prefLabel xml:lang="en">Experiments</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/233">
+		<skos:prefLabel xml:lang="en">Expertise</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/234">
+		<skos:prefLabel xml:lang="en">External Partners</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/235">
+		<skos:prefLabel xml:lang="en">Extract Data</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/236">
+		<skos:prefLabel xml:lang="en">Facebook</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/237">
+		<skos:prefLabel xml:lang="en">Familiar</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/238">
+		<skos:prefLabel xml:lang="en">Familiarity</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/239">
+		<skos:prefLabel xml:lang="en">Fashion</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/240">
+		<skos:prefLabel xml:lang="en">Fast-paced</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/241">
+		<skos:prefLabel xml:lang="en">Fast-paced Environment</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/242">
+		<skos:prefLabel xml:lang="en">Finance</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/243">
+		<skos:prefLabel xml:lang="en">Financial Analysis</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/244">
+		<skos:prefLabel xml:lang="en">Financial Information</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/245">
+		<skos:prefLabel xml:lang="en">Financial Services</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/246">
+		<skos:prefLabel xml:lang="en">Flexibility</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/247">
+		<skos:prefLabel xml:lang="en">Flexible</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/248">
+		<skos:prefLabel xml:lang="en">Focus</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/249">
+		<skos:prefLabel xml:lang="en">Follow-through</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/250">
+		<skos:prefLabel xml:lang="en">Forecasting</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/251">
+		<skos:prefLabel xml:lang="en">Formal Training</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/252">
+		<skos:prefLabel xml:lang="en">Frameworks</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/253">
+		<skos:prefLabel xml:lang="en">Fraud</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/254">
+		<skos:prefLabel xml:lang="en">Frontier</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/255">
+		<skos:prefLabel xml:lang="en">Future</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/256">
+		<skos:prefLabel xml:lang="en">GIS</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/257">
+		<skos:prefLabel xml:lang="en">Gantt</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/258">
+		<skos:prefLabel xml:lang="en">Gender</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/259">
+		<skos:prefLabel xml:lang="en">Github</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/260">
+		<skos:prefLabel xml:lang="en">Global</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/261">
+		<skos:prefLabel xml:lang="en">Global Scale</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/262">
+		<skos:prefLabel xml:lang="en">Google Analytics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/263">
+		<skos:prefLabel xml:lang="en">Hadoop</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/264">
+		<skos:prefLabel xml:lang="en">Hands On</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/265">
+		<skos:prefLabel xml:lang="en">Hands-on</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/266">
+		<skos:prefLabel xml:lang="en">Hardware</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/267">
+		<skos:prefLabel xml:lang="en">Hbase</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/268">
+		<skos:prefLabel xml:lang="en">Hdfs</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/269">
+		<skos:prefLabel xml:lang="en">Health</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/270">
+		<skos:prefLabel xml:lang="en">Health Management</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/271">
+		<skos:prefLabel xml:lang="en">Health Services</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/272">
+		<skos:prefLabel xml:lang="en">Healthcare</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/273">
+		<skos:prefLabel xml:lang="en">Here</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/274">
+		<skos:prefLabel xml:lang="en">High Energy</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/275">
+		<skos:prefLabel xml:lang="en">High Quality</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/276">
+		<skos:prefLabel xml:lang="en">Hive</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/277">
+		<skos:prefLabel xml:lang="en">Hospital</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/278">
+		<skos:prefLabel xml:lang="en">Hotels</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/279">
+		<skos:prefLabel xml:lang="en">IBM</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/280">
+		<skos:prefLabel xml:lang="en">IC</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/281">
+		<skos:prefLabel xml:lang="en">Icrossing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/282">
+		<skos:prefLabel xml:lang="en">Ideas</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/283">
+		<skos:prefLabel xml:lang="en">Identify Trends</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/284">
+		<skos:prefLabel xml:lang="en">Implement Data Collection</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/285">
+		<skos:prefLabel xml:lang="en">Implement Standards</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/286">
+		<skos:prefLabel xml:lang="en">Improve</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/287">
+		<skos:prefLabel xml:lang="en">In-store</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/288">
+		<skos:prefLabel xml:lang="en">Inc</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/289">
+		<skos:prefLabel xml:lang="en">Industry</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/290">
+		<skos:prefLabel xml:lang="en">Industry Experience</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/291">
+		<skos:prefLabel xml:lang="en">Influence</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/292">
+		<skos:prefLabel xml:lang="en">Influencing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/293">
+		<skos:prefLabel xml:lang="en">Informatica</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/294">
+		<skos:prefLabel xml:lang="en">Information</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/295">
+		<skos:prefLabel xml:lang="en">Information Management</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/296">
+		<skos:prefLabel xml:lang="en">Information Systems</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/297">
+		<skos:prefLabel xml:lang="en">Information Technology</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/298">
+		<skos:prefLabel xml:lang="en">Infrastructure</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/299">
+		<skos:prefLabel xml:lang="en">Ingestion</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/300">
+		<skos:prefLabel xml:lang="en">Innovation</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/301">
+		<skos:prefLabel xml:lang="en">Innovative</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/302">
+		<skos:prefLabel xml:lang="en">Insight</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/303">
+		<skos:prefLabel xml:lang="en">Inspire</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/304">
+		<skos:prefLabel xml:lang="en">Insurance Claims</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/305">
+		<skos:prefLabel xml:lang="en">Integrity</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/306">
+		<skos:prefLabel xml:lang="en">Intelligence</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/307">
+		<skos:prefLabel xml:lang="en">Intern</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/308">
+		<skos:prefLabel xml:lang="en">Internal</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/309">
+		<skos:prefLabel xml:lang="en">Internship</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/310">
+		<skos:prefLabel xml:lang="en">Interpret Data</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/311">
+		<skos:prefLabel xml:lang="en">Interpret Results</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/312">
+		<skos:prefLabel xml:lang="en">Interpretation</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/313">
+		<skos:prefLabel xml:lang="en">Inventory</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/314">
+		<skos:prefLabel xml:lang="en">Investigate</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/315">
+		<skos:prefLabel xml:lang="en">Investigation</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/316">
+		<skos:prefLabel xml:lang="en">Iri</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/317">
+		<skos:prefLabel xml:lang="en">It Operations</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/318">
+		<skos:prefLabel xml:lang="en">It Security</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/319">
+		<skos:prefLabel xml:lang="en">Java</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/320">
+		<skos:prefLabel xml:lang="en">Javascript</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/321">
+		<skos:prefLabel xml:lang="en">Judgment</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/322">
+		<skos:prefLabel xml:lang="en">KPIs</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/323">
+		<skos:prefLabel xml:lang="en">Key Performance Indicators</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/324">
+		<skos:prefLabel xml:lang="en">Knowledge</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/325">
+		<skos:prefLabel xml:lang="en">Knowledge Of Sql</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/326">
+		<skos:prefLabel xml:lang="en">Knowledgeable</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/327">
+		<skos:prefLabel xml:lang="en">Large Data Sets</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/328">
+		<skos:prefLabel xml:lang="en">Large Projects</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/329">
+		<skos:prefLabel xml:lang="en">Large-scale</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/330">
+		<skos:prefLabel xml:lang="en">Latin America</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/331">
+		<skos:prefLabel xml:lang="en">Lead</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/332">
+		<skos:prefLabel xml:lang="en">Leadership</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/333">
+		<skos:prefLabel xml:lang="en">Leadership Experience</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/334">
+		<skos:prefLabel xml:lang="en">Leading</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/335">
+		<skos:prefLabel xml:lang="en">Learning</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/336">
+		<skos:prefLabel xml:lang="en">Legal</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/337">
+		<skos:prefLabel xml:lang="en">Leverage</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/338">
+		<skos:prefLabel xml:lang="en">Life Cycle</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/339">
+		<skos:prefLabel xml:lang="en">Lifecycle</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/340">
+		<skos:prefLabel xml:lang="en">Llp</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/341">
+		<skos:prefLabel xml:lang="en">Local Laws</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/342">
+		<skos:prefLabel xml:lang="en">Logic</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/343">
+		<skos:prefLabel xml:lang="en">Logistics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/344">
+		<skos:prefLabel xml:lang="en">Loss Prevention</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/345">
+		<skos:prefLabel xml:lang="en">Love</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/346">
+		<skos:prefLabel xml:lang="en">Machine Learning</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/347">
+		<skos:prefLabel xml:lang="en">Macros</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/348">
+		<skos:prefLabel xml:lang="en">Manage Competing Priorities</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/349">
+		<skos:prefLabel xml:lang="en">Manage Multiple Projects</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/350">
+		<skos:prefLabel xml:lang="en">Management</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/351">
+		<skos:prefLabel xml:lang="en">Management Experience</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/352">
+		<skos:prefLabel xml:lang="en">Management Skills</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/353">
+		<skos:prefLabel xml:lang="en">Manages Resources</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/354">
+		<skos:prefLabel xml:lang="en">Mapreduce</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/355">
+		<skos:prefLabel xml:lang="en">Maritime</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/356">
+		<skos:prefLabel xml:lang="en">Market Intelligence</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/357">
+		<skos:prefLabel xml:lang="en">Marketing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/358">
+		<skos:prefLabel xml:lang="en">Mars</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/359">
+		<skos:prefLabel xml:lang="en">Math</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/360">
+		<skos:prefLabel xml:lang="en">Mathematical Modeling</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/361">
+		<skos:prefLabel xml:lang="en">Mathematics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/362">
+		<skos:prefLabel xml:lang="en">Matlab</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/363">
+		<skos:prefLabel xml:lang="en">Mcafee</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/364">
+		<skos:prefLabel xml:lang="en">Means</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/365">
+		<skos:prefLabel xml:lang="en">Measurement Plans</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/366">
+		<skos:prefLabel xml:lang="en">Media</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/367">
+		<skos:prefLabel xml:lang="en">Media Planning</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/368">
+		<skos:prefLabel xml:lang="en">Medical</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/369">
+		<skos:prefLabel xml:lang="en">Medicare</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/370">
+		<skos:prefLabel xml:lang="en">Merchandising</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/371">
+		<skos:prefLabel xml:lang="en">Metadata</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/372">
+		<skos:prefLabel xml:lang="en">Meteorology</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/373">
+		<skos:prefLabel xml:lang="en">Methods</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/374">
+		<skos:prefLabel xml:lang="en">Metrics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/375">
+		<skos:prefLabel xml:lang="en">Microsoft</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/376">
+		<skos:prefLabel xml:lang="en">Microsoft Office</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/377">
+		<skos:prefLabel xml:lang="en">Mobile</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/378">
+		<skos:prefLabel xml:lang="en">Model</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/379">
+		<skos:prefLabel xml:lang="en">Modeling</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/380">
+		<skos:prefLabel xml:lang="en">Mongodb</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/381">
+		<skos:prefLabel xml:lang="en">Motivated</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/382">
+		<skos:prefLabel xml:lang="en">Ms Excel</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/383">
+		<skos:prefLabel xml:lang="en">Ms Office</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/384">
+		<skos:prefLabel xml:lang="en">Ms Project</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/385">
+		<skos:prefLabel xml:lang="en">Ms Visio</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/386">
+		<skos:prefLabel xml:lang="en">Multi-disciplinary Team</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/387">
+		<skos:prefLabel xml:lang="en">Mysql</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/388">
+		<skos:prefLabel xml:lang="en">Network</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/389">
+		<skos:prefLabel xml:lang="en">Network Design</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/390">
+		<skos:prefLabel xml:lang="en">Network Engineering</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/391">
+		<skos:prefLabel xml:lang="en">Network Performance</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/392">
+		<skos:prefLabel xml:lang="en">Noaa</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/393">
+		<skos:prefLabel xml:lang="en">Non-technical</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/394">
+		<skos:prefLabel xml:lang="en">Nosql</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/395">
+		<skos:prefLabel xml:lang="en">Numeracy</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/396">
+		<skos:prefLabel xml:lang="en">Numerical</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/397">
+		<skos:prefLabel xml:lang="en">Omniture</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/398">
+		<skos:prefLabel xml:lang="en">Open Source</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/399">
+		<skos:prefLabel xml:lang="en">Open-source</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/400">
+		<skos:prefLabel xml:lang="en">Operations</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/401">
+		<skos:prefLabel xml:lang="en">Operations Research</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/402">
+		<skos:prefLabel xml:lang="en">Opportunity</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/403">
+		<skos:prefLabel xml:lang="en">Optimization</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/404">
+		<skos:prefLabel xml:lang="en">Oracle</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/405">
+		<skos:prefLabel xml:lang="en">Orbit</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/406">
+		<skos:prefLabel xml:lang="en">Order</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/407">
+		<skos:prefLabel xml:lang="en">Organization</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/408">
+		<skos:prefLabel xml:lang="en">Organized</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/409">
+		<skos:prefLabel xml:lang="en">Outreach</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/410">
+		<skos:prefLabel xml:lang="en">Outsourcing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/411">
+		<skos:prefLabel xml:lang="en">Participate</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/412">
+		<skos:prefLabel xml:lang="en">Participate In Training</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/413">
+		<skos:prefLabel xml:lang="en">Partners</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/414">
+		<skos:prefLabel xml:lang="en">Partnership</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/415">
+		<skos:prefLabel xml:lang="en">Partnerships</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/416">
+		<skos:prefLabel xml:lang="en">Passion</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/417">
+		<skos:prefLabel xml:lang="en">Passionate</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/418">
+		<skos:prefLabel xml:lang="en">Peer Review</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/419">
+		<skos:prefLabel xml:lang="en">People</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/420">
+		<skos:prefLabel xml:lang="en">Performance Management</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/421">
+		<skos:prefLabel xml:lang="en">Perl</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/422">
+		<skos:prefLabel xml:lang="en">Pharmacy</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/423">
+		<skos:prefLabel xml:lang="en">Physics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/424">
+		<skos:prefLabel xml:lang="en">Piracy</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/425">
+		<skos:prefLabel xml:lang="en">Platform</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/426">
+		<skos:prefLabel xml:lang="en">Policies</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/427">
+		<skos:prefLabel xml:lang="en">Policies And Procedures</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/428">
+		<skos:prefLabel xml:lang="en">Population</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/429">
+		<skos:prefLabel xml:lang="en">Positive</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/430">
+		<skos:prefLabel xml:lang="en">Potential</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/431">
+		<skos:prefLabel xml:lang="en">Powerpoint</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/432">
+		<skos:prefLabel xml:lang="en">Practical Thinking</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/433">
+		<skos:prefLabel xml:lang="en">Predictive</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/434">
+		<skos:prefLabel xml:lang="en">Predictive Analytics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/435">
+		<skos:prefLabel xml:lang="en">Predictive Models</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/436">
+		<skos:prefLabel xml:lang="en">Prepare</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/437">
+		<skos:prefLabel xml:lang="en">Presentation</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/438">
+		<skos:prefLabel xml:lang="en">Pricing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/439">
+		<skos:prefLabel xml:lang="en">Proactive</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/440">
+		<skos:prefLabel xml:lang="en">Problem Solving</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/441">
+		<skos:prefLabel xml:lang="en">Problems</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/442">
+		<skos:prefLabel xml:lang="en">Procedures</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/443">
+		<skos:prefLabel xml:lang="en">Process Development</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/444">
+		<skos:prefLabel xml:lang="en">Process Improvement</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/445">
+		<skos:prefLabel xml:lang="en">Processes</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/446">
+		<skos:prefLabel xml:lang="en">Professional Services</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/447">
+		<skos:prefLabel xml:lang="en">Professionals</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/448">
+		<skos:prefLabel xml:lang="en">Program</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/449">
+		<skos:prefLabel xml:lang="en">Program Management</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/450">
+		<skos:prefLabel xml:lang="en">Programmer</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/451">
+		<skos:prefLabel xml:lang="en">Programming</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/452">
+		<skos:prefLabel xml:lang="en">Programming Languages</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/453">
+		<skos:prefLabel xml:lang="en">Project</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/454">
+		<skos:prefLabel xml:lang="en">Project Management</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/455">
+		<skos:prefLabel xml:lang="en">Prototype</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/456">
+		<skos:prefLabel xml:lang="en">Prototyping</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/457">
+		<skos:prefLabel xml:lang="en">Proven Track Record</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/458">
+		<skos:prefLabel xml:lang="en">Provide Data</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/459">
+		<skos:prefLabel xml:lang="en">Provider</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/460">
+		<skos:prefLabel xml:lang="en">Providing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/461">
+		<skos:prefLabel xml:lang="en">Psychology</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/462">
+		<skos:prefLabel xml:lang="en">Purchasing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/463">
+		<skos:prefLabel xml:lang="en">Python</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/464">
+		<skos:prefLabel xml:lang="en">QA</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/465">
+		<skos:prefLabel xml:lang="en">Qualified</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/466">
+		<skos:prefLabel xml:lang="en">Quality</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/467">
+		<skos:prefLabel xml:lang="en">Quality Assurance</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/468">
+		<skos:prefLabel xml:lang="en">Quality Control</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/469">
+		<skos:prefLabel xml:lang="en">Quality Improvement</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/470">
+		<skos:prefLabel xml:lang="en">Quality Standards</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/471">
+		<skos:prefLabel xml:lang="en">Quantitative</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/472">
+		<skos:prefLabel xml:lang="en">Quantitative Analysis</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/473">
+		<skos:prefLabel xml:lang="en">Quantitative Modeling</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/474">
+		<skos:prefLabel xml:lang="en">Quantitative Research</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/475">
+		<skos:prefLabel xml:lang="en">R</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/476">
+		<skos:prefLabel xml:lang="en">ROC</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/477">
+		<skos:prefLabel xml:lang="en">Radar</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/478">
+		<skos:prefLabel xml:lang="en">Reconnaissance</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/479">
+		<skos:prefLabel xml:lang="en">Recruiting</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/480">
+		<skos:prefLabel xml:lang="en">Regulations</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/481">
+		<skos:prefLabel xml:lang="en">Relational Database Concepts</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/482">
+		<skos:prefLabel xml:lang="en">Relational Databases</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/483">
+		<skos:prefLabel xml:lang="en">Reliability</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/484">
+		<skos:prefLabel xml:lang="en">Remote Sensing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/485">
+		<skos:prefLabel xml:lang="en">Report Writing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/486">
+		<skos:prefLabel xml:lang="en">Reporting</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/487">
+		<skos:prefLabel xml:lang="en">Requirements</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/488">
+		<skos:prefLabel xml:lang="en">Requirements Analysis</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/489">
+		<skos:prefLabel xml:lang="en">Research</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/490">
+		<skos:prefLabel xml:lang="en">Research Information</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/491">
+		<skos:prefLabel xml:lang="en">Researching</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/492">
+		<skos:prefLabel xml:lang="en">Resolving Conflicts</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/493">
+		<skos:prefLabel xml:lang="en">Responsible For Training</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/494">
+		<skos:prefLabel xml:lang="en">Results</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/495">
+		<skos:prefLabel xml:lang="en">Retail</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/496">
+		<skos:prefLabel xml:lang="en">Routing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/497">
+		<skos:prefLabel xml:lang="en">SAN</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/498">
+		<skos:prefLabel xml:lang="en">SAP</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/499">
+		<skos:prefLabel xml:lang="en">SAS</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/500">
+		<skos:prefLabel xml:lang="en">SCI</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/501">
+		<skos:prefLabel xml:lang="en">SEM</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/502">
+		<skos:prefLabel xml:lang="en">SEO</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/503">
+		<skos:prefLabel xml:lang="en">SPSS</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/504">
+		<skos:prefLabel xml:lang="en">SQL</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/505">
+		<skos:prefLabel xml:lang="en">SSIS</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/506">
+		<skos:prefLabel xml:lang="en">SSRS</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/507">
+		<skos:prefLabel xml:lang="en">SaaS</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/508">
+		<skos:prefLabel xml:lang="en">Sales</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/509">
+		<skos:prefLabel xml:lang="en">Salesforce</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/510">
+		<skos:prefLabel xml:lang="en">Scala</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/511">
+		<skos:prefLabel xml:lang="en">School</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/512">
+		<skos:prefLabel xml:lang="en">Science</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/513">
+		<skos:prefLabel xml:lang="en">Scientist</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/514">
+		<skos:prefLabel xml:lang="en">Secret Clearance</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/515">
+		<skos:prefLabel xml:lang="en">Security Clearance</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/516">
+		<skos:prefLabel xml:lang="en">Security Requirements</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/517">
+		<skos:prefLabel xml:lang="en">Segmentation</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/518">
+		<skos:prefLabel xml:lang="en">Self-motivated</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/519">
+		<skos:prefLabel xml:lang="en">Self-service</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/520">
+		<skos:prefLabel xml:lang="en">Sensors</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/521">
+		<skos:prefLabel xml:lang="en">Service</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/522">
+		<skos:prefLabel xml:lang="en">Services</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/523">
+		<skos:prefLabel xml:lang="en">Signature</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/524">
+		<skos:prefLabel xml:lang="en">Simulations</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/525">
+		<skos:prefLabel xml:lang="en">Single</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/526">
+		<skos:prefLabel xml:lang="en">Six Sigma</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/527">
+		<skos:prefLabel xml:lang="en">Social</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/528">
+		<skos:prefLabel xml:lang="en">Social Media</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/529">
+		<skos:prefLabel xml:lang="en">Sociology</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/530">
+		<skos:prefLabel xml:lang="en">Software</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/531">
+		<skos:prefLabel xml:lang="en">Software Development</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/532">
+		<skos:prefLabel xml:lang="en">Software Development Lifecycle</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/533">
+		<skos:prefLabel xml:lang="en">Solutions</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/534">
+		<skos:prefLabel xml:lang="en">Solve</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/535">
+		<skos:prefLabel xml:lang="en">Specialized</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/536">
+		<skos:prefLabel xml:lang="en">Specifications</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/537">
+		<skos:prefLabel xml:lang="en">Speech</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/538">
+		<skos:prefLabel xml:lang="en">Src</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/539">
+		<skos:prefLabel xml:lang="en">Staff</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/540">
+		<skos:prefLabel xml:lang="en">Stakeholder Management</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/541">
+		<skos:prefLabel xml:lang="en">Standardization</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/542">
+		<skos:prefLabel xml:lang="en">Standards</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/543">
+		<skos:prefLabel xml:lang="en">Start-up</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/544">
+		<skos:prefLabel xml:lang="en">Statements Of Work</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/545">
+		<skos:prefLabel xml:lang="en">Statistical</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/546">
+		<skos:prefLabel xml:lang="en">Statistical Analysis</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/547">
+		<skos:prefLabel xml:lang="en">Statistical Modeling</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/548">
+		<skos:prefLabel xml:lang="en">Statistical Software</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/549">
+		<skos:prefLabel xml:lang="en">Statistical Techniques</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/550">
+		<skos:prefLabel xml:lang="en">Statistical Tools</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/551">
+		<skos:prefLabel xml:lang="en">Statistics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/552">
+		<skos:prefLabel xml:lang="en">Status</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/553">
+		<skos:prefLabel xml:lang="en">Statutory</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/554">
+		<skos:prefLabel xml:lang="en">Strategic Plans</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/555">
+		<skos:prefLabel xml:lang="en">Strategies</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/556">
+		<skos:prefLabel xml:lang="en">Strategy</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/557">
+		<skos:prefLabel xml:lang="en">Streamlining</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/558">
+		<skos:prefLabel xml:lang="en">Strong Communication Skills,</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/559">
+		<skos:prefLabel xml:lang="en">Structured</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/560">
+		<skos:prefLabel xml:lang="en">Supply Chain</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/561">
+		<skos:prefLabel xml:lang="en">Supply Chain Management</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/562">
+		<skos:prefLabel xml:lang="en">Support</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/563">
+		<skos:prefLabel xml:lang="en">Supportive</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/564">
+		<skos:prefLabel xml:lang="en">Sustainability</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/565">
+		<skos:prefLabel xml:lang="en">Synthesis</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/566">
+		<skos:prefLabel xml:lang="en">Systems</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/567">
+		<skos:prefLabel xml:lang="en">Tableau</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/568">
+		<skos:prefLabel xml:lang="en">Tailor Solutions</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/569">
+		<skos:prefLabel xml:lang="en">Tax</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/570">
+		<skos:prefLabel xml:lang="en">Teaching</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/571">
+		<skos:prefLabel xml:lang="en">Team</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/572">
+		<skos:prefLabel xml:lang="en">Team Player</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/573">
+		<skos:prefLabel xml:lang="en">Teams</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/574">
+		<skos:prefLabel xml:lang="en">Technical</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/575">
+		<skos:prefLabel xml:lang="en">Technical Discipline</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/576">
+		<skos:prefLabel xml:lang="en">Technical Documentation</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/577">
+		<skos:prefLabel xml:lang="en">Technical Documents</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/578">
+		<skos:prefLabel xml:lang="en">Technical Knowledge</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/579">
+		<skos:prefLabel xml:lang="en">Technical Skills</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/580">
+		<skos:prefLabel xml:lang="en">Techniques</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/581">
+		<skos:prefLabel xml:lang="en">Technologies</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/582">
+		<skos:prefLabel xml:lang="en">Technology</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/583">
+		<skos:prefLabel xml:lang="en">Telecom</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/584">
+		<skos:prefLabel xml:lang="en">Test Cases</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/585">
+		<skos:prefLabel xml:lang="en">Testing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/586">
+		<skos:prefLabel xml:lang="en">Threat Analysis</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/587">
+		<skos:prefLabel xml:lang="en">Tight Deadlines</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/588">
+		<skos:prefLabel xml:lang="en">Time</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/589">
+		<skos:prefLabel xml:lang="en">Time Management</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/590">
+		<skos:prefLabel xml:lang="en">Tool</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/591">
+		<skos:prefLabel xml:lang="en">Tools</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/592">
+		<skos:prefLabel xml:lang="en">Track Record</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/593">
+		<skos:prefLabel xml:lang="en">Traffic Acquisition</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/594">
+		<skos:prefLabel xml:lang="en">Train</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/595">
+		<skos:prefLabel xml:lang="en">Training</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/596">
+		<skos:prefLabel xml:lang="en">Transactions</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/597">
+		<skos:prefLabel xml:lang="en">Transportation</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/598">
+		<skos:prefLabel xml:lang="en">Troubleshooting</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/599">
+		<skos:prefLabel xml:lang="en">Twitter</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/600">
+		<skos:prefLabel xml:lang="en">UI</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/601">
+		<skos:prefLabel xml:lang="en">UX</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/602">
+		<skos:prefLabel xml:lang="en">Understand Consumer</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/603">
+		<skos:prefLabel xml:lang="en">Understanding</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/604">
+		<skos:prefLabel xml:lang="en">Unisys</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/605">
+		<skos:prefLabel xml:lang="en">University</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/606">
+		<skos:prefLabel xml:lang="en">Use Cases</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/607">
+		<skos:prefLabel xml:lang="en">User Experience</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/608">
+		<skos:prefLabel xml:lang="en">User Stories</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/609">
+		<skos:prefLabel xml:lang="en">VBA</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/610">
+		<skos:prefLabel xml:lang="en">Vendors</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/611">
+		<skos:prefLabel xml:lang="en">Verbal Communication Skills</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/612">
+		<skos:prefLabel xml:lang="en">Video</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/613">
+		<skos:prefLabel xml:lang="en">Visio</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/614">
+		<skos:prefLabel xml:lang="en">Visit</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/615">
+		<skos:prefLabel xml:lang="en">Visual Studio</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/616">
+		<skos:prefLabel xml:lang="en">Visualization</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/617">
+		<skos:prefLabel xml:lang="en">Vulnerability Analysis</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/618">
+		<skos:prefLabel xml:lang="en">Warehouses</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/619">
+		<skos:prefLabel xml:lang="en">Web Analytics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/620">
+		<skos:prefLabel xml:lang="en">Web Technologies</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/621">
+		<skos:prefLabel xml:lang="en">Website Analytics</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/622">
+		<skos:prefLabel xml:lang="en">Willing To Learn</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/623">
+		<skos:prefLabel xml:lang="en">Windows</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/624">
+		<skos:prefLabel xml:lang="en">Windows Server</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/625">
+		<skos:prefLabel xml:lang="en">Work In A Team</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/626">
+		<skos:prefLabel xml:lang="en">Work Independently</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/627">
+		<skos:prefLabel xml:lang="en">Workflows</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/628">
+		<skos:prefLabel xml:lang="en">World-class</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/629">
+		<skos:prefLabel xml:lang="en">Worlds</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/630">
+		<skos:prefLabel xml:lang="en">Write-ups</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/631">
+		<skos:prefLabel xml:lang="en">Writing</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/632">
+		<skos:prefLabel xml:lang="en">Written Communication</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/633">
+		<skos:prefLabel xml:lang="en">Written Communication Skills</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/634">
+		<skos:prefLabel xml:lang="en">XML</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/635">
+		<skos:prefLabel xml:lang="en">Youre</skos:prefLabel>
+	</skos:Concept>
+	<skos:Concept rdf:about="http://www.jobfiction.com/636">
+		<skos:prefLabel xml:lang="en">Youtube</skos:prefLabel>
+	</skos:Concept>
+</rdf:RDF>
