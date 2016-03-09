@@ -5,64 +5,165 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    div#skilltable {
+        width: 30%;
+        height: 200px;
+        float: left;
+    }
+    div#skillgraph {
+        margin-left: 50%;
+        height: 200px;
+        background: #cccccc;
+    }
+  </style>  
+
+
+    <script>
+        $('.closeall').click(function(){
+            $('.panel-collapse.in')
+            .collapse('hide');
+        });
+        $('.openall').click(function(){
+          $('.panel-collapse:not(".in")')
+            .collapse('show');
+        });
+    </script>
+
 </head>
+
 <body>
 
 <div class="container">
-  <h2>Results</h2>
-  <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
-  <div id="OrderPackages">
+  <h1>Results</h1>
+  <div id="controls" style="padding-bottom: 10px">
+    <button type="button" class="btn btn-primary">Expand All</button>
+    <button type="button" class="btn btn-primary">Collapse All</button>
+    <a href="#" class="btn btn-default openall">open all</a> <a href="#" class="btn btn-default closeall">close all</a>
+    <button id="collapse-init" class="btn btn-primary">
+    Disable accordion behavior
+</button>
+  </div>
+  <div id="JobResults" style="overflow : auto; height:600px;">
     <table id="tableSearchResults" class="table table-hover  table-striped table-condensed">
         <thead>
             <tr>
-                <th>Package ID</th>
-                <th>Quantity</th>
-                <th></th>
+                <th>Job Title</th>
+                <th>Company</th>
+                <th>Location</th>
+                <th>Match Result</th>
             </tr>
         </thead>
         <tbody>
-            <tr id="package1" class="accordion-toggle" data-toggle="collapse" data-parent="#OrderPackages" data-target=".packageDetails1">
-                <td>123456</td>
-                <td>3</td>
+            <tr id="job1" class="accordion-toggle" data-toggle="collapse" data-parent="#JobResults" data-target=".jobDetails1">
+                 <h4 class="panel-title" 
+                 data-toggle="collapse" 
+                 data-target="#collapseTwo">
+                <td><strong>Data Scientist</strong></td>
+                <td>Intuit</td>
+                <td>Mountain View, California 94039</td>
+                <td>Developer - 56%</td>
                 <td><i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>
-
                 </td>
+                </h4>
+
             </tr>
             <tr>
-                <td colspan="3" class="hiddenRow">
-                    <div class="accordion-body collapse packageDetails1" id="accordion1">
-                        <table>
-                            <tr>
-                                <td>Revealed item 1</td>
-                            </tr>
-                            <tr>
-                                <td>Revealed item 2</td>
-                            </tr>
-                        </table>
+                <td colspan="4" class="hiddenRow" style="padding-bottom:  10px;">
+                    <div class="accordion-body collapse jobDetails1" id="result1">
+                        <p>Proven leadership experience in the domain of Data Science. Collaborate with infrastructure architects in assessing and addressing the requirements for more...</p>
+                        <a href="http://careers.intuit.com/job-category/7/data/job/00122116/data-scientist?src=JB-10116&utm_source=indeed&utm_medium=jb" target="_blank" >More Information / Apply</a>
+                        <br>
+                        <section>
+                            <div id="skilltable">
+                                <table  class="table table-condensed">
+                                    <thead>
+                                        <tr>
+                                            <th>Skill Category</th>
+                                            <th>Number Matches</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Business</td>
+                                            <td>4/6</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ML/Big Data</td>
+                                            <td>5/6</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Math/OR</td>
+                                            <td>0/2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Programming</td>
+                                            <td>4/9</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Statistics</td>
+                                            <td>4/4</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div id="skillgraph">
+                            </div>
+                        </section>
                     </div>
                 </td>
             </tr>
-            <tr id="package2" class="accordion-toggle" data-toggle="collapse" data-parent="#OrderPackages" data-target=".packageDetails2">
-                <td>654321</td>
-                <td>2</td>
+            <tr id="job2" class="accordion-toggle" data-toggle="collapse" data-parent="#JobResults" data-target=".jobDetails2">
+                <td><strong>Data Scientist, Analytics</td>
+                <td>Oculus VR</td>
+                <td>Menlo Park, California</td>
+                <td>Creative - 55%</td>
                 <td><i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>
 
                 </td>
             </tr>
             <tr>
-                <td colspan="3" class="hiddenRow">
-                    <div class="accordion-body collapse packageDetails2" id="accordion2">
-                        <table>
-                            <tr>
-                                <td>Revealed item 1</td>
-                            </tr>
-                            <tr>
-                                <td>Revealed item 2</td>
-                            </tr>
-                            <tr>
-                                <td>Revealed item 3</td>
-                            </tr>
-                        </table>
+                <td colspan="4" class="hiddenRow" style="padding-bottom:  10px;">
+                    <div class="accordion-body collapse jobDetails2" id="result2">
+                       <p>Apply your expertise in quantitative analysis, data mining, and the presentation of data to see beyond the numbers and understand how our users interact with...</p>
+                        <a href="https://www.oculus.com/en-us/careers/a0I1200000IADLFEA5/" target="_blank" >More Information / Apply</a>
+                        <br>
+                       <section>
+                            <div id="skilltable">
+                                <table  class="table table-condensed">
+                                    <thead>
+                                        <tr>
+                                            <th>Skill Category</th>
+                                            <th>Number Matches</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Business</td>
+                                            <td>4/6</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ML/Big Data</td>
+                                            <td>5/6</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Math/OR</td>
+                                            <td>0/2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Programming</td>
+                                            <td>4/9</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Statistics</td>
+                                            <td>4/4</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div id="skillgraph">
+                            </div>
+                        </section>
                     </div>
                 </td>
             </tr>
@@ -70,7 +171,13 @@
         </tbody>
     </table>
 </div>
-</div>
+<ul class="pagination">
+  <li  class="active"><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+</ul>
     
 </body>
 </html>
