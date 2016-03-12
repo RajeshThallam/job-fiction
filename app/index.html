@@ -2,56 +2,56 @@
 <html lang="en">
 <head>
 	
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-    <title>Job Fiction - Find Your Career</title>
+	<title>Job Fiction - Find Your Career</title>
 
 
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
 
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-    <!-- jQuery -->
-    <script src="js/jquery-1.11.3.js"></script>
+	<!-- jQuery -->
+	<script src="js/jquery-1.11.3.js"></script>
 
-    <script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
 
-    <!-- Viz js-->
-    <script src="js/d3.js"></script>
-    <script src="js/d3.layout.cloud.js"></script>
-    <script src="js/crossfilter.js"></script>
-    <script src="js/dc.js"></script>
+	<!-- Viz js-->
+	<script src="js/d3.js"></script>
+	<script src="js/d3.layout.cloud.js"></script>
+	<script src="js/crossfilter.js"></script>
+	<script src="js/dc.js"></script>
 
 
   <!-- d3 -->
   <script src="http://d3js.org/d3.v3.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+	<!-- Plugin JavaScript -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/cbpAnimatedHeader.js"></script>
 
 
 	<script type="text/javascript"charset="utf-8">
 
-  		function collectData(){
-  			t1 = document.getElementById("title1").value;
-  			t2 = document.getElementById("title2").value;
-  			t3 = document.getElementById("title3").value;
-  			d1 = document.getElementById("desc1").value;
-  			d2 = document.getElementById("desc2").value;
-  			d3 = document.getElementById("desc3").value;
-  			alert(t1);
-  		}
-  	</script>
+		function collectData(){
+			t1 = document.getElementById("title1").value;
+			t2 = document.getElementById("title2").value;
+			t3 = document.getElementById("title3").value;
+			d1 = document.getElementById("desc1").value;
+			d2 = document.getElementById("desc2").value;
+			d3 = document.getElementById("desc3").value;
+			alert(t1);
+		}
+	</script>
 
   <!--BEGIN STUFF FOR MODEL-->
 
@@ -63,474 +63,575 @@
 
 
   <script type="text/javascript"charset="utf-8">
-    
+	
 
-    function addNewToken(target, token, size){
-      var newelement = d3.select(target)
-          .append("div")
-          .text(token)
-          .attr("data-ss-colspan",size)
-          .attr("class","ss-active-child");
-      $(".container").shapeshift();
-    };
+	function addNewToken(target, token, size){
+	  var newelement = d3.select(target)
+		  .append("div")
+		  .text(token)
+		  .attr("data-ss-colspan",size)
+		  .attr("class","ss-active-child");
+	  $(".container").shapeshift();
+	};
 
-    </script>
+	</script>
 
 
-          
-      
+		  
+	  
  <!-- CSS -->
   <style>
-    div.modelcontainer {
-      border: 1px dashed grey;
-      position: relative;
-      min-height: 100px;
-      width:90%;
+	div.modelcontainer {
+	  border: 1px dashed grey;
+	  position: relative;
+	  min-height: 100px;
+	  width:90%;
 
-    }
-    div.modelcontainer > div {
-      background: #e6e6e6;
-      position: absolute;
-      height: 30px;
-      width: 100px;
-      border: 1px solid #f2f2f2;
-       color:#f2f2f2;font-weight: bold;
-          }
-    div.modelcontainer > div[data-ss-colspan="Auto"] { width: 15%; background: cornflowerblue;}
-    div.modelcontainer > div[data-ss-colspan="Manual"] {width: 15%; background: #009933;}
-    div.modelcontainer > .ss-placeholder-child {
-      background: transparent;
-      border: 1px dashed blue;
-    }
+	}
+	div.modelcontainer > div {
+	  background: #e6e6e6;
+	  position: absolute;
+	  height: 30px;
+	  width: 100px;
+	  border: 1px solid #f2f2f2;
+	   color:#f2f2f2;font-weight: bold;
+		  }
+	div.modelcontainer > div[data-ss-colspan="Auto"] { width: 15%; background: cornflowerblue;}
+	div.modelcontainer > div[data-ss-colspan="Manual"] {width: 15%; background: #009933;}
+	div.modelcontainer > .ss-placeholder-child {
+	  background: transparent;
+	  border: 1px dashed blue;
+	}
 
+	div.notshapeshift {
+	  position: relative;
+	  min-height: 100px;
+	  text-align: center;
+	  padding-bottom: 20px;
+	}
 
-   
+	section.modelsection {
+		width: 80%;
+		height: 150px;
+		margin: auto;
+		padding: 10px;
+		background: pink;
+	}
+	div#one {
+		width: 50%;
+		height: 150px;
+		background: #cccccc;
+		float: left;
+	}
+	div#two {
+		margin-left: 50%;
+		height: 150px;
+		background: #999999;
+	}
 
-    div.notshapeshift {
-      position: relative;
-      min-height: 100px;
-      text-align: center;
-      padding-bottom: 20px;
-    }
-
-    H3.h3_indented {
-      padding-left: 15px;
-      width:80%;
-      text-indent: 100px; 
-    }
-
-    section.modelsection {
-        width: 80%;
-        height: 200px;
-        margin: auto;
-        padding: 10px;
-        background: pink;
-    }
-    div#one {
-        width: 50%;
-        height: 200px;
-        background: #cccccc;
-        float: left;
-    }
-    div#two {
-        margin-left: 50%;
-        height: 200px;
-        background: #999999;
-    }
-
-      
-    div#skilltable {
-        width: 30%;
-        height: 200px;
-        float: left;
-    }
-    div#skillgraph {
-        margin-left: 50%;
-        height: 200px;
-        background: #cccccc;
-    }
+	  
+	div#skilltable {
+		width: 30%;
+		height: 150px;
+		float: left;
+	}
+	div#skillgraph {
+		margin-left: 50%;
+		height: 200px;
+		background: #cccccc;
+	}
   </style> 
 
-     <!-- Javascript -->
+	 <!-- Javascript -->
   <script>
-    $(document).ready(function() {
-      $(".modelcontainer").shapeshift();
+	$(document).ready(function() {
+	  $(".modelcontainer").shapeshift();
 
-      $(".trash").shapeshift({
-        autoHeight: false,
-        colWidth: 80,
-        enableTrash: true
-      });
-    })
+	  $(".trash").shapeshift({
+		autoHeight: false,
+		colWidth: 80,
+		enableTrash: true
+	  });
+	})
 
-    
+	
   </script>
 <!--END STUFF FOR MODEL-->
 
 </head>
 
 <body>
-  	<div class="modal-header">
-    	<nav class="navbar navbar-inverse navbar-fixed-top">
-        	<div class="container">
-            	<!-- Brand and toggle get grouped for better mobile display -->
-            	<div class="navbar-header page-scroll">
-                	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-app-navbar-collapse-1">
-	                    <span class="sr-only">Toggle navigation</span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-	                    <span class="icon-bar"></span>
-                	</button>
-                	<!--<a class="navbar-brand page-scroll" href="#page-top">Yelp</a>-->
-                	<a class="page-scroll" href="index.html" target="_top"><h2 class="section-heading">Job Fiction</h2></a>
-            	</div>
+	<div class="modal-header">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-app-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!--<a class="navbar-brand page-scroll" href="#page-top">Yelp</a>-->
+					<a class="page-scroll" href="index.html" target="_top"><h2 class="section-heading">Job Fiction</h2></a>
+				</div>
 
-	            <!-- Collect the nav links, forms, and other content for toggling -->
-	            <div class="collapse navbar-collapse" id="bs-app-navbar-collapse-1">
-	                <ul class="nav navbar-nav navbar-center">
-	                    <li class="hidden">
-	                        <a href="#page-top"></a>
-	                    </li>
-	                    <li><a class="page-scroll" href="#portfolioModal0"><h4 class="section-heading">Job Descriptions</h4></a></li>
-	                    <li><a class="page-scroll" href="#portfolioModal1"><h4 class="section-heading">Options</h4></a></li>
-	                    <li><a class="page-scroll" href="#portfolioModal2"><h4 class="section-heading">Model</h4></a></li>
-	                    <li><a class="page-scroll" href="#portfolioModal3"><h4 class="section-heading">Results</h4></a></li>
-	                </ul>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-app-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-center">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li><a class="page-scroll" href="#portfolioModal0"><h4 class="section-heading">Job Descriptions</h4></a></li>
+						<li><a class="page-scroll" href="#portfolioModal1"><h4 class="section-heading">Options</h4></a></li>
+						<li><a class="page-scroll" href="#portfolioModal2"><h4 class="section-heading">Model</h4></a></li>
+						<li><a class="page-scroll" href="#portfolioModal3"><h4 class="section-heading">Results</h4></a></li>
+					</ul>
 
-	                <ul class="nav navbar-nav navbar-right navbar-header">
-	                  <li><a class="page-scroll close" data-dismiss="modal" aria-hidden="true"><h4 class="section-heading">Close</h4></a></li>
-	                </ul>
-	            </div>
-	            <!-- /.navbar-collapse -->
-        	</div>
-        	<!-- /.container-fluid -->
-    	</nav>
-  	</div>
-	<div class="modal-body" style="max-height: 800px; overflow-y: auto;">
-    	<div class="container-fluid">
-        	<div class="row-fluid">
-          		<div class='span12' id='explore-container'>
-          			<section id="portfolioModal">
-		              <div class="container">
-		                <div class="row">
-		                  <p class="intro-description" style="color: cornflowerblue; font-weight: 300;">The visualization is built with only one business in focus, "Mon Ami Gabi", a popular French restaurant on Las Vegas strip. <br>The visualization can be enhanced to view trends for any business available in Yelp academic data set.</p>
+					<ul class="nav navbar-nav navbar-right navbar-header">
+					  <li><a class="page-scroll close" data-dismiss="modal" aria-hidden="true"><h4 class="section-heading">Close</h4></a></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+	</div>
+	<div class="modal-body" style="max-height: 900px; overflow-y: auto; ">
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class='span12' id='explore-container'>
 
-		              </div>
-		            </section>
-		            <section id="portfolioModal0">
-                		
-						<div class="container ">
-							<div class="row">
-		                        <div class="col-lg-12 text-center">
-		                        	<p>&nbsp</p>
-		                        	<p>&nbsp</p>
-		                            <h2 class="section-heading">Enter Job Descriptions</h2>
-		                            <h3 class="section-subheading text-muted">Enter the descriptions of up to three jobs you currently are interested in.</h3>
-		                        </div>
+
+
+
+
+					<section id="portfolioModal">
+					  <div class="container">
+						<div class="row">
+						  <p class="intro-description" style="color: cornflowerblue; font-weight: 300;"></p>
+
+					  </div>
+					</section>
+				
+
+
+<!--  JOB DESCRIPTION PAGE -->
+
+
+					<section id="portfolioModal0">
+						
+						<div class="container " style="min-height: 900px;">
+							<div class="row" >
+								<div class="col-lg-12 text-center">
+									<p>&nbsp</p>
+									<p>&nbsp</p>
+									<h2 class="section-heading">Enter Job Descriptions</h2>
+									<h3 class="section-subheading text-muted">Enter the descriptions of up to three jobs you currently are interested in.</h3>
+								</div>
 								<form id="f" action = "">
 									<div class="container">
-									  	<ul class="nav nav-tabs">
+										<ul class="nav nav-tabs">
 											<li class="active"><a data-toggle="tab" href="#menu1">Job 1</a></li>
 											<li><a data-toggle="tab" href="#menu2">Job 2</a></li>
 											<li><a data-toggle="tab" href="#menu3">Job 3</a></li>
 										</ul>
 
-							  			<div class="tab-content well">
-							    			<div id="menu1" class="tab-pane fade in active">
-								      			
+										<div class="tab-content well">
+											<div id="menu1" class="tab-pane fade in active">
+												
 												<label for="title1">Title1:</label>
 												<input type="text" class="form-control" id="title1">
 												<label for="desc1">Description:</label>
 												<textarea class="form-control" rows="5" id="desc1"></textarea>
 												
 											</div>
-								    		<div id="menu2" class="tab-pane fade">
+											<div id="menu2" class="tab-pane fade">
 												<label for="title2">Title2:</label>
 												<input type="text" class="form-control" id="title2">
 												<label for="desc2">Description:</label>
 												<textarea class="form-control" rows="5" id="desc2"></textarea>
-								    		</div>
-								    		<div id="menu3" class="tab-pane fade">
+											</div>
+											<div id="menu3" class="tab-pane fade">
 												<label for="title3">Title3:</label>
 												<input type="text" class="form-control" id="title3">
 												<label for="desc3">Description:</label>
 												<textarea class="form-control" rows="5" id="desc3"></textarea>
-								    		</div>
-								    	</div>
-								    	<a href=model.html  role="button">Link</a>
-								    	<button type="submit" class="btn btn-primary active" onclick='collectData()'>Create the Dream</button>
-						  			</div>
-						  		</form>
-						  	</div>
-		  				</div>
+											</div>
+										</div>
+										<a href=model.html  role="button">Link</a>
+										<button type="submit" class="btn btn-primary active" onclick='collectData()'>Create the Dream</button>
+									</div>
+								</form>
+							</div>
+						</div>
 					</section>
-				<section id="portfolioModal1">
-                		
-						<div class="container ">
+
+
+
+<!--  OPTIONS PAGE -->
+
+
+					<section id="portfolioModal1">
+						
+						<div class="container " style="min-height: 900px;">
 							<div class="row">
-		                        <div class="col-lg-12 text-center">
-		                        	<p>&nbsp</p>
-		                        	<p>&nbsp</p>
-		                            <h2 class="section-heading">Options</h2>
-		                            <h3 class="section-subheading text-muted">Specify filter and other options.</h3>
-		                        </div>
+								<div class="col-lg-12 text-center">
+									<p>&nbsp;</p>
+									<p>&nbsp;</p>
+									<h2 class="section-heading">Options</h2>
+									<h3 class="section-subheading text-muted">Specify filter and other options.</h3>
+								</div>
 								<form id="f" action = "">
 									<div class="container">
-									  	<ul class="nav nav-tabs">
+										<ul class="nav nav-tabs">
 											<li class="active"><a data-toggle="tab" href="#optmenu1">Results Filter & Display</a></li>
 											<li><a data-toggle="tab" href="#optmenu2">Custom Words</a></li>
 											<li><a data-toggle="tab" href="#optmenu3">Custom result screen</a></li>
 										</ul>
 
-							  			<div class="tab-content well">
-							    			<div id="optmenu1" class="tab-pane fade in active ">
-								      			
+										<div class="tab-content well">
+											<div id="optmenu1" class="tab-pane fade in active ">
+												
 												<table>
 													<tr>
 														<td><label for="usr">ZIP Code:</label></td>
 														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-										            	<td><input type="text" size = "10" id="usr"></td>
+														<td><input type="text" size = "10" id="usr"></td>
 													</tr>
 												
-									            	<tr>
-									            													            
-										            	<td><label for="sel1">Minimum Education:</label></td>
-										            	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-										            	<td><select  id="sel1">
-											            		<option>None</option>
-											                	<option>Bachelor</option>
-											                	<option>Master</option>
-											                	<option>Doctorate</option>
-										            		</select></td>
-										            </tr>
-
-									            </table>
-									          
+													<tr>
+																												
+														<td><label for="sel1">Minimum Education:</label></td>
+														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+														<td><select  id="sel1">
+																<option>None</option>
+																<option>Bachelor</option>
+																<option>Master</option>
+																<option>Doctorate</option>
+															</select></td>
+													</tr>
+													<tr>
+																												
+														<td><label for="sel1">Sort Results By:</label></td>
+														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+														<td><select  id="sel1">
+																<option>Company</option>
+																<option>Location</option>
+																<option>Class</option>
+																<option>Match</option>
+															</select></td>
+													</tr>
+												</table>
+											  
 											
-									            <div class="checkbox">
-								                  <label><input type="checkbox" value="">Include Company Info </label>
-								                </div>
-								                <div class="checkbox">
-								                  <label><input type="checkbox" value="">Include Bacon</label>
-								                </div>
-								               
+												<div class="checkbox">
+												  <label><input type="checkbox" value="">Include Company Info </label>
+												</div>
+												<div class="checkbox">
+												  <label><input type="checkbox" value="">Include Bacon</label>
+												</div>
+											   
 												 
 											</div>
-								    		<div id="optmenu2" class="tab-pane fade">
+											<div id="optmenu2" class="tab-pane fade">
 												<table>
 													<tr>
 														<td><label for="usr">Token Name:</label></td>
 														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-										            	<td><input type="text" size = "30" id="usr"></td>
+														<td><input type="text" size = "30" id="usr"></td>
 													</tr>
 												
-									            	<tr>
-									            													            
-										            	<td><label for="sel1">Token</label></td>
-										            	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-										            	<td><select  id="sel1">
-											            		<option>None</option>
-											                	<option>Bachelor</option>
-											                	<option>Master</option>
-											                	<option>Doctorate</option>
-										            		</select></td>
-										            </tr>
+													<tr>
+																												
+														<td><label for="sel1">Token</label></td>
+														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+														<td><select  id="sel1">
+																<option>None</option>
+																<option>Bachelor</option>
+																<option>Master</option>
+																<option>Doctorate</option>
+															</select></td>
+													</tr>
 
-									            </table>
-								    		</div>
-								    		<div id="optmenu3" class="tab-pane fade">
+												</table>
+											</div>
+											<div id="optmenu3" class="tab-pane fade">
 												  
 
-								    		</div>
-								    	</div>
-								    	<a href=model.html  role="button">Link</a>
-								    	<button type="submit" class="btn btn-primary active" onclick='collectData()'>Create the Dream</button>
-						  			</div>
-						  		</form>
-						  	</div>
-		  				</div>
+											</div>
+										</div>
+										<a href=model.html  role="button">Link</a>
+										<button type="submit" class="btn btn-primary active" onclick='collectData()'>Create the Dream</button>
+									</div>
+								</form>
+							</div>
+						</div>
 					</section>
 
-					<section id="portfolioModal2">
-                		
+
+
+<!--  MODEL PAGE -->
+
+
+					<section id="portfolioModal2" style="min-height: 900px;">
+						
 						<div class="container ">
 							<div class="row">
-		                        <div class="col-lg-12 text-center">
-		                        	<p>&nbsp</p>
-		                        	<p>&nbsp</p>
-		                            <h2 class="section-heading">Model</h2>
-		                            <h3 class="section-subheading text-muted">Model the Dream Job</h3>
-		                        </div>
+								<div class="col-lg-12 text-center">
+									<p>&nbsp;</p>
+									<p>&nbsp;</p>
+									<h2 class="section-heading">Model</h2>
+									<h3 class="section-subheading text-muted">Model the Dream Job</h3>
+								</div>
 								<H4>This area will have a bar chart showing the breakdown of the skill categories, and another one showing the suggested career identifier</H4>
-							    <section class="modelsection">
-							        <div id="one">Bar Chart 1: chart of percentages of each category (5)
-							        </div>
-							        <div id="two">Bar Chart 2: chart of where in the 4 spectrums the fictional job fits (business, creative, etc)
-							        </div>
-							    </section>
+								<section class="modelsection">
+									<div id="one">Bar Chart 1: chart of percentages of each category (5)
+									</div>
+									<div id="two">Bar Chart 2: chart of where in the 4 spectrums the fictional job fits (business, creative, etc)
+									</div>
+								</section>
 								<div>
-								      <h3 class="h3_indented">Must Have</h3>
-								      <div class="modelcontainer" id="must_have">
-								        
-								        <div data-ss-colspan="Auto"><p style="text-align:center">math</p></div>
-								      </div>
-								      <h3 class="h3_indented">Nice to Have</h3>
-								      <div class="modelcontainer" id="nice_to_have">
-								        <div data-ss-colspan="Auto"><p style="text-align:center">relational databases</p></div>
-								        
-								      </div>
-								      <h3 class="h3_indented">Indifferent</h3>
-								      <div class="modelcontainer" id="landing">
-								        <div data-ss-colspan="Auto"><p style="text-align:center">cross-functional</p>
-								        </div>
-								      </div>
+									  <h3 >Must Have</h3>
+									  <div class="modelcontainer" id="must_have">
+										
+										<div data-ss-colspan="Auto"><p style="text-align:center">math</p></div>
+										<div data-ss-colspan="Auto"><p style="text-align:center">HDFS</p></div>
+										<div data-ss-colspan="Auto"><p style="text-align:center">visualization</p></div>
+										<div data-ss-colspan="Auto"><p style="text-align:center">modelling</p></div>
+									  </div>
+									  <h3>Nice to Have</h3>
+									  <div class="modelcontainer" id="nice_to_have">
+										<div data-ss-colspan="Auto"><p style="text-align:center">relational databases</p></div>
+										<div data-ss-colspan="Auto"><p style="text-align:center">R</p></div>
+										<div data-ss-colspan="Auto"><p style="text-align:center">Python</p></div>
+										<div data-ss-colspan="Auto"><p style="text-align:center">Analysis</p></div>
+										
+									  </div>
+									  <h3>Indifferent</h3>
+									  <div class="modelcontainer" id="landing">
+										<div data-ss-colspan="Auto"><p style="text-align:center">cross-functional</p>
+										</div>
+									  </div>
 								  <HR></HR>
-		                    	</div>
-				            </div>
-		                </div>
-		            </section>
+								</div>
+							</div>
+						</div>
+					</section>
 
-					<section id="portfolioModal3">
-                		
+
+
+<!--  RESULTS PAGE -->
+
+
+
+					<section id="portfolioModal3" style="min-height: 900px;">
+						
 						<div class="container ">
 							<div class="row">
-		                        <div class="col-lg-12 text-center">
-		                        	<p>&nbsp</p>
-		                        	<p>&nbsp</p>
-		                            <h2 class="section-heading">Results</h2>
-		                            <h3 class="section-subheading text-muted">Job Search Results</h3>
-		                        </div>
-		                    </div>
-<div id="JobResults" style="overflow : auto; height:600px;">
-    <table id="tableSearchResults" class="table table-hover  table-striped table-condensed">
-        <thead>
-            <tr>
-                <th>Job Title</th>
-                <th>Company</th>
-                <th>Location</th>
-                <th>Match Result</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr id="job1" class="accordion-toggle" data-toggle="collapse" data-parent="#JobResults" data-target=".jobDetails1">
-                 <h4 class="panel-title" 
-                 data-toggle="collapse" 
-                 data-target="#collapseTwo">
-                <td><strong>Data Scientist</strong></td>
-                <td>Intuit</td>
-                <td>Mountain View, California 94039</td>
-                <td>Developer - 56%</td>
-                <td><i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>
-                </td>
-                </h4>
+								<div class="col-lg-12 text-center">
+									
+									<p>&nbsp;</p>
+									<p>&nbsp;</p>
+									<h2 class="section-heading">Results</h2>
+									<h3 class="section-subheading text-muted">Job Search Results</h3>
+								</div>
+							</div>
+							<div id="JobResults" style="overflow : auto; height:900px;">
+								<table id="tableSearchResults" class="table table-hover  table-striped table-condensed">
+									<thead>
+										<tr>
+											<th>Title</th>
+											<th>Company</th>
+											<th>Location</th>
+											<th>Class</th>
+											<th>Match</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr id="job1" class="accordion-toggle" data-toggle="collapse" data-parent="#JobResults" data-target="#result1">
+											 <h4 class="panel-title" 
+											 data-toggle="collapse" 
+											 data-target="#collapseTwo">
+											<td><strong>Data Scientist</strong></td>
+											<td>Intuit</td>
+											<td>Mountain View, California 94039</td>
+											<td>Data Architect</td>
+											<td>56%</td>
+											<td><i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>
+											</td>
+											</h4>
 
-            </tr>
-            <tr>
-                <td colspan="4" class="hiddenRow" style="padding-bottom:  10px;">
-                    <div class="accordion-body collapse jobDetails1" id="result1">
-                        <p>Proven leadership experience in the domain of Data Science. Collaborate with infrastructure architects in assessing and addressing the requirements for more...</p>
-                        <a href="http://careers.intuit.com/job-category/7/data/job/00122116/data-scientist?src=JB-10116&utm_source=indeed&utm_medium=jb" target="_blank" >More Information / Apply</a>
-                        <br>
-                        <section>
-                            <div id="skilltable">
-                                <table  class="table table-condensed">
-                                    <thead>
-                                        <tr>
-                                            <th>Skill Category</th>
-                                            <th>Number Matches</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Business</td>
-                                            <td>4/6</td>
-                                        </tr>
-                                        <tr>
-                                            <td>ML/Big Data</td>
-                                            <td>5/6</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Math/OR</td>
-                                            <td>0/2</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Programming</td>
-                                            <td>4/9</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Statistics</td>
-                                            <td>4/4</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div id="skillgraph">
-                            </div>
-                        </section>
-                    </div>
-                </td>
-            </tr>
-            <tr id="job2" class="accordion-toggle" data-toggle="collapse" data-parent="#JobResults" data-target=".jobDetails2">
-                <td><strong>Data Scientist, Analytics</td>
-                <td>Oculus VR</td>
-                <td>Menlo Park, California</td>
-                <td>Creative - 55%</td>
-                <td><i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>
+										</tr>
+										<tr>
+											<td colspan="6" class="hiddenRow" style="padding-bottom:  10px;">
+												<div class="accordion-body collapse" id="result1">
+													<p>Proven leadership experience in the domain of Data Science. Collaborate with infrastructure architects in assessing and addressing the requirements for more...</p>
+													<a href="http://careers.intuit.com/job-category/7/data/job/00122116/data-scientist?src=JB-10116&utm_source=indeed&utm_medium=jb" target="_blank" >More Information / Apply</a>
+													<br>
+													<section>
+														<div id="skilltable">
+															<table  class="table table-condensed">
+																<thead>
+																	<tr>
+																		<th>Skill Category</th>
+																		<th>Number Matches</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Business</td>
+																		<td>4/6</td>
+																	</tr>
+																	<tr>
+																		<td>ML/Big Data</td>
+																		<td>5/6</td>
+																	</tr>
+																	<tr>
+																		<td>Math/OR</td>
+																		<td>0/2</td>
+																	</tr>
+																	<tr>
+																		<td>Programming</td>
+																		<td>4/9</td>
+																	</tr>
+																	<tr>
+																		<td>Statistics</td>
+																		<td>4/4</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<div id="skillgraph">
+														</div>
+													</section>
+												</div>
+											</td>
+										</tr>
+										<tr id="job3" class="accordion-toggle" data-toggle="collapse" data-parent="#JobResults" data-target="#result3" 
+											 <h4 class="panel-title" 
+											 data-toggle="collapse" 
+											 data-target="#collapseTwo">
+											<td><strong>Code Monkey</td>
+											<td>Google</td>
 
-                </td>
-            </tr>
-            <tr>
-                <td colspan="4" class="hiddenRow" style="padding-bottom:  10px;">
-                    <div class="accordion-body collapse jobDetails2" id="result2">
-                       <p>Apply your expertise in quantitative analysis, data mining, and the presentation of data to see beyond the numbers and understand how our users interact with...</p>
-                        <a href="https://www.oculus.com/en-us/careers/a0I1200000IADLFEA5/" target="_blank" >More Information / Apply</a>
-                        <br>
-                       <section>
-                            <div id="skilltable">
-                                <table  class="table table-condensed">
-                                    <thead>
-                                        <tr>
-                                            <th>Skill Category</th>
-                                            <th>Number Matches</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Business</td>
-                                            <td>4/6</td>
-                                        </tr>
-                                        <tr>
-                                            <td>ML/Big Data</td>
-                                            <td>5/6</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Math/OR</td>
-                                            <td>0/2</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Programming</td>
-                                            <td>4/9</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Statistics</td>
-                                            <td>4/4</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div id="skillgraph">
-                            </div>
-                        </section>
-                    </div>
-                </td>
-            </tr>
-            <tr></tr>
-        </tbody>
-    </table>
-</div>
+											<td>Mountain View, California 94039</td>
+											<td>Data Architect</td>
+											<td>66%</td>
+											<td><i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>
+											</td>
+											</h4>
 
-		                </div>
-		            </section>
+										</tr>
+										<tr>
+											<td colspan="6" class="hiddenRow" style="padding-bottom:  10px;">
+												<div class="accordion-body collapse" id="result3">
+													<p>Exceptional at programming and eating bananas...</p>
+													<a href="http://www.vbforums.com/attachment.php?attachmentid=83977&d=1306043044" target="_blank" >More Information / Apply</a>
+													<br>
+													<section>
+														<div id="skilltable">
+															<table  class="table table-condensed">
+																<thead>
+																	<tr>
+																		<th>Skill Category</th>
+																		<th>Number Matches</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Business</td>
+																		<td>4/6</td>
+																	</tr>
+																	<tr>
+																		<td>ML/Big Data</td>
+																		<td>5/6</td>
+																	</tr>
+																	<tr>
+																		<td>Math/OR</td>
+																		<td>0/2</td>
+																	</tr>
+																	<tr>
+																		<td>Programming</td>
+																		<td>4/9</td>
+																	</tr>
+																	<tr>
+																		<td>Statistics</td>
+																		<td>4/4</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<div id="skillgraph">
+														</div>
+													</section>
+												</div>
+											</td>
+										</tr>
+
+
+										<tr id="job2" class="accordion-toggle" data-toggle="collapse" data-parent="#JobResults" data-target="#result2">
+											<td><strong>Data Scientist, Analytics</td>
+											<td>Oculus VR</td>
+											<td>Menlo Park, California</td>
+											<td>Data Analyst</td>
+											<td>55%</td>
+											<td><i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>
+
+											</td>
+										</tr>
+										<tr>
+											<td colspan="6" class="hiddenRow" style="padding-bottom:  10px;">
+												<div class="accordion-body collapse" id="result2">
+													<p>Apply your expertise in quantitative analysis, data mining, and the presentation of data to see beyond the numbers and understand how our users interact with...</p>
+													<a href="https://www.oculus.com/en-us/careers/a0I1200000IADLFEA5/" target="_blank" >More Information / Apply</a>
+													<br>
+												   <section>
+														<div id="skilltable">
+															<table  class="table table-condensed">
+																<thead>
+																	<tr>
+																		<th>Skill Category</th>
+																		<th>Number Matches</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Business</td>
+																		<td>4/6</td>
+																	</tr>
+																	<tr>
+																		<td>ML/Big Data</td>
+																		<td>5/6</td>
+																	</tr>
+																	<tr>
+																		<td>Math/OR</td>
+																		<td>0/2</td>
+																	</tr>
+																	<tr>
+																		<td>Programming</td>
+																		<td>4/9</td>
+																	</tr>
+																	<tr>
+																		<td>Statistics</td>
+																		<td>4/4</td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+														<div id="skillgraph">
+														</div>
+													</section>
+												</div>
+											</td>
+										</tr>
+										<tr></tr>
+									</tbody>
+								</table>
+							</div>
+
+						</div>
+					</section>
 
 
 
@@ -543,10 +644,10 @@
 				</div>
 			</div>
 		</div>
-  	</div>
+	</div>
 
-    <!-- </div> -->
-    <!-- /#wrapper -->
+	<!-- </div> -->
+	<!-- /#wrapper -->
 
 
 
