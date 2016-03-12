@@ -10,74 +10,67 @@
 
 	<title>Job Fiction - Find Your Career</title>
 
-
-
-	<!-- Bootstrap Core CSS -->
-	<link href="css/bootstrap-responsive.css" rel="stylesheet">
-
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-	<!-- jQuery -->
-	<script src="js/jquery-1.11.3.js"></script>
-
-	<script src="js/jquery-ui.min.js"></script>
-
-	<!-- Viz js-->
-	<script src="js/d3.js"></script>
-	<script src="js/d3.layout.cloud.js"></script>
-	<script src="js/crossfilter.js"></script>
-	<script src="js/dc.js"></script>
-
-
-  <!-- d3 -->
-  <script src="http://d3js.org/d3.v3.min.js"></script>
-
-	<!-- Plugin JavaScript -->
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	<script src="js/classie.js"></script>
-	<script src="js/cbpAnimatedHeader.js"></script>
-
-
-	<script type="text/javascript"charset="utf-8">
-
-		function collectData(){
-			t1 = document.getElementById("title1").value;
-			t2 = document.getElementById("title2").value;
-			t3 = document.getElementById("title3").value;
-			d1 = document.getElementById("desc1").value;
-			d2 = document.getElementById("desc2").value;
-			d3 = document.getElementById("desc3").value;
-			alert(t1);
-		}
-	</script>
-
-  <!--BEGIN STUFF FOR MODEL-->
-
-  <!-- jQuery.Shapeshift -->
-  <script src="js/jquery.shapeshift.js"></script>
-
-  <!-- Crossfilter -->
-  <script src='js/crossfilter.js' type='text/javascript'></script>
-
-
-  <script type="text/javascript"charset="utf-8">
+	<!-- Stylesheets -->
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	
+	<!-- Javascripts -->
+		<!-- jquery core and UI -->
+	 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-	function addNewToken(target, token, size){
-	  var newelement = d3.select(target)
-		  .append("div")
-		  .text(token)
-		  .attr("data-ss-colspan",size)
-		  .attr("class","ss-active-child");
-	  $(".container").shapeshift();
-	};
+  		<!-- jQuery.Shapeshift -->
+  		<script src="https://raw.githubusercontent.com/McPants/jquery.shapeshift/master/core/vendor/jquery.touch-punch.min.js"></script>
+  		<script src="https://raw.githubusercontent.com/McPants/jquery.shapeshift/master/core/jquery.shapeshift.js"></script>
 
-	</script>
+		<!-- d3 and wrappers -->
+		<script src="js/d3.js"></script>
+		<script src="js/d3.layout.cloud.js"></script>
+		<script src="js/crossfilter.js"></script>
+		<script src="js/dc.js"></script>
 
+		<!-- plugin JavaScript -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/cbpAnimatedHeader.js"></script>
 
-		  
+		<script>
+			$(document).ready(function() {
+		  		$('.modelcontainer').shapeshift({
+				    align:'left'
+		  		});
+
+			  	$(".trash").shapeshift({
+					autoHeight: false,
+					colWidth: 80,
+					enableTrash: true
+			  	});
+		  	});
+		</script>
+
+ 		<script type="text/javascript"charset="utf-8">
+			function collectData(){
+				t1 = document.getElementById("title1").value;
+				t2 = document.getElementById("title2").value;
+				t3 = document.getElementById("title3").value;
+				d1 = document.getElementById("desc1").value;
+				d2 = document.getElementById("desc2").value;
+				d3 = document.getElementById("desc3").value;
+				alert(t1);
+			}
+
+			function addNewToken(target, token, size){
+			  var newelement = d3.select(target)
+				  .append("div")
+				  .text(token)
+				  .attr("data-ss-colspan",size)
+				  .attr("class","ss-active-child");
+			  $(".modelcontainer").shapeshift();
+			};
+
+		</script>
 	  
  <!-- CSS -->
   <style>
@@ -143,19 +136,7 @@
   </style> 
 
 	 <!-- Javascript -->
-  <script>
-	$(document).ready(function() {
-	  $(".modelcontainer").shapeshift();
 
-	  $(".trash").shapeshift({
-		autoHeight: false,
-		colWidth: 80,
-		enableTrash: true
-	  });
-	})
-
-	
-  </script>
 <!--END STUFF FOR MODEL-->
 
 </head>
@@ -395,14 +376,14 @@
 									  <h3 >Must Have</h3>
 									  <div class="modelcontainer" id="must_have">
 										
-										<div data-ss-colspan="Auto"><p style="text-align:center">math</p></div>
+										<div data-ss-colspan="Auto"><p style="text-align:center">Math</p></div>
 										<div data-ss-colspan="Auto"><p style="text-align:center">HDFS</p></div>
-										<div data-ss-colspan="Auto"><p style="text-align:center">visualization</p></div>
-										<div data-ss-colspan="Auto"><p style="text-align:center">modelling</p></div>
+										<div data-ss-colspan="Auto"><p style="text-align:center">Visualization</p></div>
+										<div data-ss-colspan="Auto"><p style="text-align:center">Modelling</p></div>
 									  </div>
 									  <h3>Nice to Have</h3>
 									  <div class="modelcontainer" id="nice_to_have">
-										<div data-ss-colspan="Auto"><p style="text-align:center">relational databases</p></div>
+										<div data-ss-colspan="Auto"><p style="text-align:center">Relational databases</p></div>
 										<div data-ss-colspan="Auto"><p style="text-align:center">R</p></div>
 										<div data-ss-colspan="Auto"><p style="text-align:center">Python</p></div>
 										<div data-ss-colspan="Auto"><p style="text-align:center">Analysis</p></div>
@@ -410,7 +391,7 @@
 									  </div>
 									  <h3>Indifferent</h3>
 									  <div class="modelcontainer" id="landing">
-										<div data-ss-colspan="Auto"><p style="text-align:center">cross-functional</p>
+										<div data-ss-colspan="Auto"><p style="text-align:center">Cross-Functional</p>
 										</div>
 									  </div>
 								  <HR></HR>
