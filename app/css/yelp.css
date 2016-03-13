@@ -1,0 +1,145 @@
+svg .pumpkin {
+    fill: yellow;
+    stroke: orange;
+    stroke-width: 5;
+ }
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.dc-chart text{
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+#cat_graph g .row text {
+    fill: black;
+}
+
+#map { height: 350px; width: 600px;}
+/****** Style Star Rating Widget *****/
+
+.rating {
+  border: none;
+  float: left;
+  margin-left: 500px
+  font: 12px 'Helvetica Neue';
+  font-weight: 400;
+}
+
+.rating > input { display: none; }
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label {
+  color: #ddd;
+ float: right;
+
+}
+
+
+#custom_yelp_nav li a {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+#custom_yelp_nav li a:hover, li a:focus {
+    color: #fed136;
+    outline: 0;
+    background-color: transparent;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
+
+.bar.positive {
+  fill: steelblue;
+}
+
+.bar.negative {
+  fill: brown;
+}
+
+.bartext {
+  font: 10px 'Helvetica Neue';
+  font-weight: 400;
+}
+
+.axis text {
+  font: 10px 'Helvetica Neue';
+  font-weight: 400;
+  color: red;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.background-fade {
+    background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+    padding: 3em;
+}
+
+
+.intro-description {
+  color: #ffffff;
+  font: 16px 'Helvetica Neue';
+  font-weight: 800;
+}
+
+.sentiment-left {
+  float:left; 
+}
+
+#portfolioModal0 {
+    height: 1100px;
+}
+
+#portfolioModal1 {
+    height: 800px;
+}
+
+#portfolioModal2 {
+    height: 600px;
+}
+
+#team {
+    height: 700px;
+}

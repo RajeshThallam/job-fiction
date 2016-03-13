@@ -13,7 +13,7 @@
       align: "center",
       colWidth: null,
       columns: null,
-      minColumns: 5,
+      minColumns: 4,
       autoHeight: true,
       maxHeight: null,
       minHeight: 100,
