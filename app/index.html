@@ -50,27 +50,7 @@
 		  	});
 		</script>
 
- 		<script type="text/javascript"charset="utf-8">
-			function collectData(){
-				t1 = document.getElementById("title1").value;
-				t2 = document.getElementById("title2").value;
-				t3 = document.getElementById("title3").value;
-				d1 = document.getElementById("desc1").value;
-				d2 = document.getElementById("desc2").value;
-				d3 = document.getElementById("desc3").value;
-				alert(t1);
-			}
 
-			function addNewToken(target, token, size){
-			  var newelement = d3.select(target)
-				  .append("div")
-				  .text(token)
-				  .attr("data-ss-colspan",size)
-				  .attr("class","ss-active-child");
-			  $(".modelcontainer").shapeshift();
-			};
-
-		</script>
 	  
  <!-- CSS -->
   <style>
@@ -136,6 +116,26 @@
   </style> 
 
 	 <!-- Javascript -->
+ 		<script>
+			function JobDescription_dataCollect() {
+				//function for collecting data for Job Description page
+			    alert( Date());
+			    t1 = document.getElementById("title1").value;
+				t2 = document.getElementById("title2").value;
+				t3 = document.getElementById("title3").value;
+				d1 = document.getElementById("desc1").value;
+				d2 = document.getElementById("desc2").value;
+				d3 = document.getElementById("desc3").value;
+				
+				job1 = '{job_title: "' + t1.replace(/[^\w\s]/gi, '') + '", job_description: "' + d1.replace(/[^\w\s]/gi, '') + '"}'
+				job2 = '{job_title: "' + t2.replace(/[^\w\s]/gi, '') + '", job_description: "' + d2.replace(/[^\w\s]/gi, '') + '"}'
+				job3 = '{job_title: "' + t3.replace(/[^\w\s]/gi, '') + '", job_description: "' + d3.replace(/[^\w\s]/gi, '') + '"}'
+
+				all_string = job1 + ',' + job2 + ',' + job3
+
+				alert (all_string);
+			};
+		</script>
 
 <!--END STUFF FOR MODEL-->
 
@@ -210,7 +210,6 @@
 									<h2 class="section-heading">Enter Job Descriptions</h2>
 									<h3 class="section-subheading text-muted">Enter the descriptions of up to three jobs you currently are interested in.</h3>
 								</div>
-								<form id="f" action = "">
 									<div class="container">
 										<ul class="nav nav-tabs">
 											<li class="active"><a data-toggle="tab" href="#menu1">Job 1</a></li>
@@ -241,15 +240,13 @@
 											</div>
 										</div>
 										<a href=model.html  role="button">Link</a>
-										<button type="submit" class="btn btn-primary active" onclick='collectData()'>Create the Dream</button>
+										<button onclick="JobDescription_dataCollect()">Create the Dream here</button>
 									</div>
-								</form>
 							</div>
 						</div>
 					</section>
 
-
-
+			
 <!--  OPTIONS PAGE -->
 
 
@@ -263,7 +260,7 @@
 									<h2 class="section-heading">Options</h2>
 									<h3 class="section-subheading text-muted">Specify filter and other options.</h3>
 								</div>
-								<form id="f" action = "">
+								
 									<div class="container">
 										<ul class="nav nav-tabs">
 											<li class="active"><a data-toggle="tab" href="#optmenu1">Results Filter & Display</a></li>
@@ -345,7 +342,7 @@
 										<a href=model.html  role="button">Link</a>
 										<button type="submit" class="btn btn-primary active" onclick='collectData()'>Create the Dream</button>
 									</div>
-								</form>
+								
 							</div>
 						</div>
 					</section>
