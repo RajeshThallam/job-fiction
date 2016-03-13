@@ -9,11 +9,11 @@
 - Keywords retrieved from jobscan.co
 
 ## Train the model:
-java -Xmx1024m -jar maui-standalone-1.1-SNAPSHOT.jar train -l data/jobscan/train -m data/models/keyword_extraction_model -v none -o 2
+java -Xmx1024m -jar maui-standalone-1.1-SNAPSHOT.jar train -l data/jobscanManualClean/train -m data/models/keyword_extraction_model -v ACMTaxonomySkos.rdf -f skos -o 1
 
 
 ## Test the model and generate keywords:
-java -Xmx1024m -jar maui-standalone-1.1-SNAPSHOT.jar test -l data/jobscan/ -m data/models/keyword_extraction_model -v none -n 20
+java -Xmx1024m -jar maui-standalone-1.1-SNAPSHOT.jar test -l data/jobscanManualClean/ -m data/models/keyword_extraction_model -v ACMTaxonomySkos.rdf -f skos -n 40
 
 ## TO DO:
 - Add vocabulary to improve accuracy
