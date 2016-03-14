@@ -8,15 +8,27 @@
 - Only jobs containing "data"
 - Keywords retrieved from jobscan.co
 
+## Vocabulary 
+- ACM Computer related topics SKOS format
+- Extended with keywords from jobscan
+
+
 ## Train the model:
-java -Xmx1024m -jar maui-standalone-1.1-SNAPSHOT.jar train -l data/jobscanManualClean/train -m data/models/keyword_extraction_model -v ACMTaxonomySkos.rdf -f skos -o 1
+java -Xmx1024m -jar maui-standalone-1.1-SNAPSHOT.jar train -l data/jobscan/train -m data/models/keyword_extraction_model -v ACMTaxonomySkosExtended.rdf -f skos -o 1
 
 
 ## Test the model and generate keywords:
-java -Xmx1024m -jar maui-standalone-1.1-SNAPSHOT.jar test -l data/jobscanManualClean/ -m data/models/keyword_extraction_model -v ACMTaxonomySkos.rdf -f skos -n 40
+java -Xmx1024m -jar maui-standalone-1.1-SNAPSHOT.jar test -l data/jobscan/test -m data/models/keyword_extraction_model -v ACMTaxonomySkosExtended.rdf -f skos -n 50
+
+## Options:
+-Xmx[size]m set the java heap size
+-l path to the training/test data
+-m path to the model
+-v path to the vocabulary
+-f format of the vocabulary
+-o in training phase, set the minimum occurence of keyphrase candidates
+-n in testing phase, set the maximimun number of keyphrases per document 
 
 ## TO DO:
-- Add vocabulary to improve accuracy
 - Maybe add more training data
-- Manually tag keywords
 

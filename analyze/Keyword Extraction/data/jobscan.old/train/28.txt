@@ -1,0 +1,108 @@
+Responsibilities
+,
+
+,
+
+,
+Interpret data, analyze results using statistical techniques and develop reports and analysis outputs,
+
+,
+Develop and implement data collection systems and other strategies that optimize statistical efficiency and data quality,
+
+,
+Acquire data from primary or secondary data sources and maintain databases/data systems,
+
+,
+Identify, analyze, and interpret trends or patterns in complex data sets including methods of sample segmentation,
+
+,
+Filter and âcleanâ data, and review computer reports, printouts, and performance indicators to locate and correct code problems,
+
+,
+Work closely with management to prioritize business and information needs,
+
+,
+Locate and define new process improvement opportunities,
+
+,
+Knowledge to work with teams that design, prototype and iteratively test heuristic algorithms, statistical algorithms, multivariate models, predictive models to assess clinical study risks,
+
+,
+
+Qualifications
+,
+
+Requirements
+,
+
+,
+
+,
+Background of operational research, process improvement, process modelling, analytical thinking,
+
+,
+Proven working experience as a data analyst,
+
+,
+Technical expertise regarding data models, database design development, data mining and segmentation techniques,
+
+,
+Knowledge of and experience with:,
+
+,
+Statistical analysis, mathematical modeling, optimization, machine learning,
+
+,
+Visualization reporting packages (Business Objects etc), databases (SQL etc), programming (XML, Javascript, or ETL frameworks),
+
+,
+Knowledge of statistics and experience using statistical packages for analyzing large datasets (Excel, SPSS, SAS etc),
+
+,
+Strong analytical skills with the ability to collect, organize, analyse, and disseminate significant amounts of information with attention to detail and accuracy,
+
+,
+Adept at queries, report writing and presenting findings,
+
+,
+Advanced studies in Mathematics, Statistics and statistical models, Computer Science, Information Management or Statistics,
+
+,
+
+Minimum Required Education and Experience
+,
+
+Bachelor's degree, or educational equivalence, in clinical, biological or mathematical sciences, business or related field with 5 years experience in a clinical research environment, including project management experience, with specific knowledge of clinical systems or equivalent combination of education, training and experience
+,
+
+Physical Requirements
+,
+
+Extensive use of telephone and face-to-face communication requiring accurate perception of speech
+,
+
+Extensive use of keyboard requiring repetitive motion of fingers
+,
+
+Regular sitting for extended periods of time
+,
+
+EEO Minorities/Females/Protected Veterans/Disabled
+,
+
+Primary Location
+,
+
+:
+,
+
+USA-North Carolina-Durham
+,
+
+Organization
+,
+
+:
+,
+
+USA02 - US Clinical Development Svcs

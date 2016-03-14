@@ -1,0 +1,83 @@
+Deloitte Consulting LLP Deloitte is one of the leading professional services organizations in the United States, specializing in audit, tax, consulting, and financial advisory services with clients in more than 20 industries. We provide powerful business solutions to some of the worldâs most well-known and respected companies, including more than 75 percent of the Fortune 100. At Deloitte, you can have a rewarding career on every level. In addition to challenging and meaningful work, youâll have the chance to give back to your community, make a positive impact on the environment, participate in a range of diversity and inclusion initiatives, and find the support, coaching, and training it takes to advance your career. Our commitment to individual choice lets you customize aspects of your career path, your educational opportunities and your benefits. And our culture of innovation means your ideas on how to improve our business and your clientsâ will be heard. TECHNOLOGY SERVICE AREA Deloitte Consulting's technology professionals help clients identify and solve their most critical information and technological challenges. We provide advisory through end-to-end implementation services as well as outsourcing services and are recognized in the marketplace for capabilities across the spectrum. Our experienced technology professionals offer deep technical experience in their area of focus and are committed to delivering efficient, technology-based solutions to our clients. Our professionals are also aligned to industry sectors. By combining our technical capabilities with our industry experiences, we create unmatched market offerings to solve our clients' business issues. Additionally, we have long-term partnerships with many of the world's leading technology companies, allowing us to understand solution alternatives and recommend and support the most appropriate solution for our clients. By leveraging these elements, we are able to help our clients convert leading edge ideas into tangible results. Our professionals are aligned with a technology service line to promote the development of deep technical skills and experiences and improve our ability to tailor solutions to solve our clients' business issues. Our service lines include:
+,
+Analytics + Information Management
+,
+SAP Package Technologies
+,
+Oracle Package Technologies
+,
+Technology Strategy & Architecture
+,
+Deloitte Digital
+,
+Systems Integration
+,
+Application Management Services Analytics + Information Management Service Line (AIM) : Plans, designs, and implements solutions that deliver and analyze information efficiently for competitive advantage. Our specific capabilities within the AIM area include:
+,
+Advanced Analytics Enablement
+,
+Data Management and Architecture
+,
+Information Delivery
+,
+Performance Management Information Delivery Capability Team (ID) : Delivers ingestion and provisioning of structured and unstructured data types to create an integrated data supply chain that supports enterprise scale analytics. Essential Functions of a Big Data Senior Consultant:
+,
+Senior Consultants will be responsible for designing and implementing strategies, architectures, ingestion, storage, consumption and delivery processes for complex, large-volume, multi-variate, batch and real time data sets used for modeling, data mining, and research purposes.
+,
+Senior Consultants work within an engagement team and are not responsible for project management.
+,
+Design and implement data ingestion techniques for real time and batch processes for video, voice, weblog, sensor, machine and social media data into Hadoop ecosystems and HDFS clusters
+,
+Perform data studies and data discovery routines for video, voice, weblog, sensor, machine and social media data sources or mash ups of new and existing data sources.
+,
+Visualize and report data findings creatively in a variety of visual formats that appropriately provides insights to the organization.
+,
+
+,
+Big Data Senior Consultant candidates are required to have:,
+
+3+ years of relevant technology architecture consulting or industry experience to include experience in Information delivery, Analytics and Business Intelligence based on data from hybrid of Hadoop Distributed File System (HDFS), non-relational (NoSQL, MongoDB, Cassandra) and relational Data Warehouses
+,
+At least 1 year hands-on working experience one or more of the following Big Data technologies: Hadoop, Mahout, Pig, Hive, HBase, Sqoop, Zookeeper, Ambari, MapReduce and R.
+,
+Bachelorâs Degree or 4 years equivalent professional experience
+,
+Willingness to travel to client locations (80%+, typically M-TH) In addition, successful Big Data Senior Consultants will also have the following preferred skills:
+,
+Experience working as a Data Scientist
+,
+Experience designing and implementing reporting and visualization for unstructured and structured data sets
+,
+Experience designing and developing data cleansing routines utilizing typical data quality functions involving standardization, transformation, rationalization, linking and matching
+,
+Knowledge of data, master data and metadata related standards, processes and technology
+,
+Experience working with multi-Terabyte data sets
+,
+Experience working with commercial distributions of HDFS (Hortonworks, Cloudera, Pivotal HD, MapR)
+,
+Experience with Hadoop Cluster Administration
+,
+Experience with Data Integration on traditional and Hadoop environments
+,
+Ability to work independently, manage small engagements or parts of large engagements.
+,
+Strong oral and written communication skills, including presentation skills (MS Visio, MS PowerPoint).
+,
+Strong problem solving and troubleshooting skills with the ability to exercise mature judgment.
+,
+Willingness to mentor junior staff.
+,
+An advanced degree in the area of specialization is preferred.
+,
+
+Deloitte is one of the leading professional services organizations in the United States, specializing in audit, tax, consulting, and financial advisory services with clients in more than 20 industries. We provide powerful business solutions to some of the worldâs most well-known and respected companies, including more than 75 percent of the Fortune 100.
+,
+At Deloitte, you can have a rewarding career on every level. In addition to challenging and meaningful work, youâll have the chance to give back to your community, make a positive impact on the environment, participate in a range of diversity and inclusion initiatives, and find the support, coaching, and training it takes to advance your career. Our commitment to individual choice lets you customize aspects of your career path, your educational opportunities and your benefits. And our culture of innovation means your ideas on how to improve our business and your clientsâ will be heard.
+,
+About Deloitte
+,
+As used in this document, âDeloitteâ means Deloitte LLP and its subsidiaries. Please see www.deloitte.com/us/about for a detailed description of the legal structure of Deloitte LLP and its subsidiaries. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or protected veteran status, or any other legally protected basis, in accordance with applicable law.
+,
+Disclaimer:,
+ If you are not reviewing this job posting on our Careersâ site ( jobs2.deloitte.com ) or one of our approved job boards we cannot guarantee the validity of this posting. For a list of our current postings, please visit us at jobs2.deloitte.com 
