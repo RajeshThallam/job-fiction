@@ -39,7 +39,8 @@
 		<script>
 			$(document).ready(function() {
 		  		$('.modelcontainer').shapeshift({
-				    align:'left'
+				    align:'left',
+        			minColumns: 3
 		  		});
 
 			  	$(".trash").shapeshift({
@@ -64,13 +65,13 @@
 	div.modelcontainer > div {
 	  background: #e6e6e6;
 	  position: absolute;
-	  height: 30px;
+	  height: 43px;
 	  width: 100px;
 	  border: 1px solid #f2f2f2;
 	   color:#f2f2f2;font-weight: bold;
 		  }
-	div.modelcontainer > div[data-ss-colspan="Auto"] { width: 15%; background: cornflowerblue;}
-	div.modelcontainer > div[data-ss-colspan="Manual"] {width: 15%; background: #009933;}
+	div.modelcontainer > div[data-ss-colspan="Auto"] { width: 10%; background: cornflowerblue;}
+	div.modelcontainer > div[data-ss-colspan="Manual"] {width: 10%; background: #009933;}
 	div.modelcontainer > .ss-placeholder-child {
 	  background: transparent;
 	  border: 1px dashed blue;
@@ -119,23 +120,69 @@
  		<script>
 			function JobDescription_dataCollect() {
 				//function for collecting data for Job Description page
-			    alert( Date());
-			    t1 = document.getElementById("title1").value;
-				t2 = document.getElementById("title2").value;
-				t3 = document.getElementById("title3").value;
-				d1 = document.getElementById("desc1").value;
-				d2 = document.getElementById("desc2").value;
-				d3 = document.getElementById("desc3").value;
+			    
+			    var t1 = document.getElementById("title1").value;
+				var t2 = document.getElementById("title2").value;
+				var t3 = document.getElementById("title3").value;
+				var d1 = document.getElementById("desc1").value;
+				var d2 = document.getElementById("desc2").value;
+				var d3 = document.getElementById("desc3").value;
 				
-				job1 = '{job_title: "' + t1.replace(/[^\w\s]/gi, '') + '", job_description: "' + d1.replace(/[^\w\s]/gi, '') + '"}'
-				job2 = '{job_title: "' + t2.replace(/[^\w\s]/gi, '') + '", job_description: "' + d2.replace(/[^\w\s]/gi, '') + '"}'
-				job3 = '{job_title: "' + t3.replace(/[^\w\s]/gi, '') + '", job_description: "' + d3.replace(/[^\w\s]/gi, '') + '"}'
+				var job1 = '{job_title: "' + t1.replace(/[^\w\s]/gi, '') + '", job_description: "' + d1.replace(/[^\w\s]/gi, '') + '"}'
+				var job2 = '{job_title: "' + t2.replace(/[^\w\s]/gi, '') + '", job_description: "' + d2.replace(/[^\w\s]/gi, '') + '"}'
+				var job3 = '{job_title: "' + t3.replace(/[^\w\s]/gi, '') + '", job_description: "' + d3.replace(/[^\w\s]/gi, '') + '"}'
 
-				all_string = job1 + ',' + job2 + ',' + job3
+				var all_string = job1 + ',' + job2 + ',' + job3;
 
 				alert (all_string);
 			};
 		</script>
+		<script>
+
+			function Model_parseLoad() {
+
+
+				var text = '{"must_have":{"Python":6,      "D3":0.4445,      "Analytics":0.3776,      "Data Modeling":0.4567,      "Software Development":0.3675,      "Visualization":3   },   "nice_to_have":{      "Database":3,      "Research":3,      "Design":3,      "Java":3,      "Mysql":0.1289,      "Oracle":4,      "Data Management":0.2987,      "Data Collection":0.3056,      "Competitive":0.002,      "Leadership":5   }}';
+				
+				//Remove all existing tokens
+				$('.ss-active-child').remove();
+
+				var arr = JSON.parse(text);
+				
+				for (var key in arr){
+					
+					var obj = arr[key];
+					for (var prop in obj){
+						//alert(key + " -> " + prop + " = " + obj[prop]);
+						addNewToken("#"+key, prop, "Auto")
+					}
+				}
+
+			};
+			    
+			function addNewToken(target, token, type){
+			    
+		      	var newelement = d3.select(target)
+		          .append("div")
+		          .attr("data-ss-colspan",type)
+		          .attr("class","ss-active-child")
+		          .attr("id",token);
+
+		        newelement.append("p")
+		          .attr("style","text-align:center")
+		          .attr("word-wrap", "normal")
+		          .text(token);
+
+	          	$('.modelcontainer').shapeshift({
+					    align:'left',
+        				minColumns: 3
+
+			  	});
+
+	        };
+
+
+		</script>	
 
 <!--END STUFF FOR MODEL-->
 
@@ -369,6 +416,8 @@
 									<div id="two">Bar Chart 2: chart of where in the 4 spectrums the fictional job fits (business, creative, etc)
 									</div>
 								</section>
+								<button onclick="Model_parseLoad()">Click Here</button>
+							
 								<div>
 									  <h3 >Must Have</h3>
 									  <div class="modelcontainer" id="must_have">
