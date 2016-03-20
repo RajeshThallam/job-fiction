@@ -39,7 +39,8 @@
 		<script>
 			$(document).ready(function() {
 		  		$('.modelcontainer').shapeshift({
-				    align:'left'
+				    align:'left',
+        			minColumns: 3
 		  		});
 
 			  	$(".trash").shapeshift({
@@ -64,13 +65,13 @@
 	div.modelcontainer > div {
 	  background: #e6e6e6;
 	  position: absolute;
-	  height: 30px;
+	  height: 43px;
 	  width: 100px;
 	  border: 1px solid #f2f2f2;
 	   color:#f2f2f2;font-weight: bold;
 		  }
-	div.modelcontainer > div[data-ss-colspan="Auto"] { width: 15%; background: cornflowerblue;}
-	div.modelcontainer > div[data-ss-colspan="Manual"] {width: 15%; background: #009933;}
+	div.modelcontainer > div[data-ss-colspan="Auto"] { width: 10%; background: cornflowerblue;}
+	div.modelcontainer > div[data-ss-colspan="Manual"] {width: 10%; background: #009933;}
 	div.modelcontainer > .ss-placeholder-child {
 	  background: transparent;
 	  border: 1px dashed blue;
@@ -84,22 +85,20 @@
 	}
 
 	section.modelsection {
-		width: 80%;
-		height: 150px;
-		margin: auto;
+		width: 90%;
+		height: 170px;
 		padding: 10px;
-		background: pink;
+		background: #f5f5f5;
 	}
 	div#one {
-		width: 50%;
-		height: 150px;
-		background: #cccccc;
+		width: 30%;
+		height:200px;
 		float: left;
 	}
 	div#two {
 		margin-left: 50%;
-		height: 150px;
-		background: #999999;
+		width: 40%;
+		height: 200px;
 	}
 
 	  
@@ -110,8 +109,8 @@
 	}
 	div#skillgraph {
 		margin-left: 50%;
-		height: 200px;
-		background: #cccccc;
+		height: 150px;
+		background: cornflowerblue;
 	}
   </style> 
 
@@ -119,23 +118,69 @@
  		<script>
 			function JobDescription_dataCollect() {
 				//function for collecting data for Job Description page
-			    alert( Date());
-			    t1 = document.getElementById("title1").value;
-				t2 = document.getElementById("title2").value;
-				t3 = document.getElementById("title3").value;
-				d1 = document.getElementById("desc1").value;
-				d2 = document.getElementById("desc2").value;
-				d3 = document.getElementById("desc3").value;
+			    
+			    var t1 = document.getElementById("title1").value;
+				var t2 = document.getElementById("title2").value;
+				var t3 = document.getElementById("title3").value;
+				var d1 = document.getElementById("desc1").value;
+				var d2 = document.getElementById("desc2").value;
+				var d3 = document.getElementById("desc3").value;
 				
-				job1 = '{job_title: "' + t1.replace(/[^\w\s]/gi, '') + '", job_description: "' + d1.replace(/[^\w\s]/gi, '') + '"}'
-				job2 = '{job_title: "' + t2.replace(/[^\w\s]/gi, '') + '", job_description: "' + d2.replace(/[^\w\s]/gi, '') + '"}'
-				job3 = '{job_title: "' + t3.replace(/[^\w\s]/gi, '') + '", job_description: "' + d3.replace(/[^\w\s]/gi, '') + '"}'
+				var job1 = '{job_title: "' + t1.replace(/[^\w\s]/gi, '') + '", job_description: "' + d1.replace(/[^\w\s]/gi, '') + '"}'
+				var job2 = '{job_title: "' + t2.replace(/[^\w\s]/gi, '') + '", job_description: "' + d2.replace(/[^\w\s]/gi, '') + '"}'
+				var job3 = '{job_title: "' + t3.replace(/[^\w\s]/gi, '') + '", job_description: "' + d3.replace(/[^\w\s]/gi, '') + '"}'
 
-				all_string = job1 + ',' + job2 + ',' + job3
+				var all_string = job1 + ',' + job2 + ',' + job3;
 
 				alert (all_string);
 			};
 		</script>
+		<script>
+
+			function Model_parseLoad() {
+
+
+				var text = '{"must_have":{"Python":6,      "D3":0.4445,      "Analytics":0.3776,      "Data Modeling":0.4567,      "Software Development":0.3675,      "Visualization":3   },   "nice_to_have":{      "Database":3,      "Research":3,      "Design":3,      "Java":3,      "Mysql":0.1289,      "Oracle":4,      "Data Management":0.2987,      "Data Collection":0.3056,      "Competitive":0.002,      "Leadership":5   }}';
+				
+				//Remove all existing tokens
+				$('.ss-active-child').remove();
+
+				var arr = JSON.parse(text);
+				
+				for (var key in arr){
+					
+					var obj = arr[key];
+					for (var prop in obj){
+						//alert(key + " -> " + prop + " = " + obj[prop]);
+						addNewToken("#"+key, prop, "Auto")
+					}
+				}
+
+			};
+			    
+			function addNewToken(target, token, type){
+			    
+		      	var newelement = d3.select(target)
+		          .append("div")
+		          .attr("data-ss-colspan",type)
+		          .attr("class","ss-active-child")
+		          .attr("id",token);
+
+		        newelement.append("p")
+		          .attr("style","text-align:center")
+		          .attr("word-wrap", "normal")
+		          .text(token);
+
+	          	$('.modelcontainer').shapeshift({
+					    align:'left',
+        				minColumns: 3
+
+			  	});
+
+	        };
+
+
+		</script>	
 
 <!--END STUFF FOR MODEL-->
 
@@ -169,9 +214,7 @@
 						<li><a class="page-scroll" href="#portfolioModal3"><h4 class="section-heading">Results</h4></a></li>
 					</ul>
 
-					<ul class="nav navbar-nav navbar-right navbar-header">
-					  <li><a class="page-scroll close" data-dismiss="modal" aria-hidden="true"><h4 class="section-heading">Close</h4></a></li>
-					</ul>
+					
 				</div>
 				<!-- /.navbar-collapse -->
 			</div>
@@ -357,20 +400,46 @@
 						<div class="container ">
 							<div class="row">
 								<div class="col-lg-12 text-center">
-									<p>&nbsp;</p>
-									<p>&nbsp;</p>
-									<h2 class="section-heading">Model</h2>
-									<h3 class="section-subheading text-muted">Model the Dream Job</h3>
+									<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+									<h2 class="section-heading">Model&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+									<h3 class="section-subheading text-muted">Model the Dream Job&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
 								</div>
-								<H4>This area will have a bar chart showing the breakdown of the skill categories, and another one showing the suggested career identifier</H4>
+								<H8>&nbsp;</H8>
 								<section class="modelsection">
-									<div id="one">Bar Chart 1: chart of percentages of each category (5)
-									</div>
-									<div id="two">Bar Chart 2: chart of where in the 4 spectrums the fictional job fits (business, creative, etc)
-									</div>
+									<div id="one">
+															<table  class="table table-condensed">
+																<thead>
+																	<tr>
+																		<th>Skill Category</th>
+																		<th>Number Matches</th>
+																	</tr>
+																</thead>
+																<tbody>
+																	<tr>
+																		<td>Must Have</td>
+																		<td>4/6</td>
+																	</tr>
+																	<tr>
+																		<td>Nice to Have</td>
+																		<td>5/6</td>
+																	</tr>
+																	<tr>
+																		<td>Indifferent</td>
+																		<td>0/2</td>
+																	</tr>
+
+																</tbody>
+															</table>
+														</div>
+														<div id="two">
+														<img src="img/Capture.png" style="width:80%;height:75%;display:block; margin:auto;">
+														</div>
 								</section>
+								
+							
 								<div>
-									  <h3 >Must Have</h3>
+								<h8>&nbsp</h8>
+									 <h3>Must Have</h3>
 									  <div class="modelcontainer" id="must_have">
 										
 										<div data-ss-colspan="Auto"><p style="text-align:center">Math</p></div>
@@ -386,6 +455,8 @@
 										<div data-ss-colspan="Auto"><p style="text-align:center">Analysis</p></div>
 										
 									  </div>
+
+									  
 									  <h3>Indifferent</h3>
 									  <div class="modelcontainer" id="landing">
 										<div data-ss-colspan="Auto"><p style="text-align:center">Cross-Functional</p>
@@ -395,6 +466,8 @@
 								</div>
 							</div>
 						</div>
+
+								<button onclick="Model_parseLoad()">Click Here</button>
 					</section>
 
 
@@ -458,29 +531,23 @@
 																</thead>
 																<tbody>
 																	<tr>
-																		<td>Business</td>
+																		<td>Must Have</td>
 																		<td>4/6</td>
 																	</tr>
 																	<tr>
-																		<td>ML/Big Data</td>
+																		<td>Nice to Have</td>
 																		<td>5/6</td>
 																	</tr>
 																	<tr>
-																		<td>Math/OR</td>
+																		<td>Indifferent</td>
 																		<td>0/2</td>
 																	</tr>
-																	<tr>
-																		<td>Programming</td>
-																		<td>4/9</td>
-																	</tr>
-																	<tr>
-																		<td>Statistics</td>
-																		<td>4/4</td>
-																	</tr>
+
 																</tbody>
 															</table>
 														</div>
 														<div id="skillgraph">
+														<img src="img/Capture.png" style="width:80%;height:100%;display:block; margin:auto;">
 														</div>
 													</section>
 												</div>
