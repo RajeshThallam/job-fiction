@@ -70,12 +70,14 @@
 	  border: 1px solid #f2f2f2;
 	   color:#f2f2f2;font-weight: bold;
 		  }
-	div.modelcontainer > div[data-ss-colspan="Auto"] { width: 10%; background: cornflowerblue;}
-	div.modelcontainer > div[data-ss-colspan="Manual"] {width: 10%; background: #009933;}
+	div.modelcontainer > div[data-ss-colspan="Auto-Must"] { width: 10%; background: cornflowerblue;}
+	div.modelcontainer > div[data-ss-colspan="Auto-Nice"] { width: 10%; background: steelblue;}
+	div.modelcontainer > div[data-ss-colspan="Manual"] {width: 10%; background: lightslategray;}
 	div.modelcontainer > .ss-placeholder-child {
 	  background: transparent;
 	  border: 1px dashed blue;
 	}
+
 
 	div.notshapeshift {
 	  position: relative;
@@ -152,9 +154,15 @@
 					var obj = arr[key];
 					for (var prop in obj){
 						//alert(key + " -> " + prop + " = " + obj[prop]);
-						addNewToken("#"+key, prop, "Auto")
+						if (key == 'must_have'){
+							addNewToken("#"+key, prop, "Auto-Must")
+						}else{
+							addNewToken("#"+key, prop, "Auto-Nice")
+						}
 					}
 				}
+
+
 
 			};
 			    
@@ -250,8 +258,8 @@
 								<div class="col-lg-12 text-center">
 									<p>&nbsp</p>
 									<p>&nbsp</p>
-									<h2 class="section-heading">Enter Job Descriptions</h2>
-									<h3 class="section-subheading text-muted">Enter the descriptions of up to three jobs you currently are interested in.</h3>
+									<h2 class="section-heading">Job Descriptions</h2>
+									<h4 class="section-subheading text-muted">Enter the descriptions of up to three jobs you currently are interested in.</h3>
 								</div>
 									<div class="container">
 										<ul class="nav nav-tabs">
@@ -355,29 +363,8 @@
 											   
 												 
 											</div>
-											<div id="optmenu2" class="tab-pane fade">
-												<table>
-													<tr>
-														<td><label for="usr">Token Name:</label></td>
-														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-														<td><input type="text" size = "30" id="usr"></td>
-													</tr>
-												
-													<tr>
-																												
-														<td><label for="sel1">Token</label></td>
-														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-														<td><select  id="sel1">
-																<option>None</option>
-																<option>Bachelor</option>
-																<option>Master</option>
-																<option>Doctorate</option>
-															</select></td>
-													</tr>
 
-												</table>
-											</div>
-											<div id="optmenu3" class="tab-pane fade">
+											<div id="optmenu2" class="tab-pane fade">
 												  
 
 											</div>
@@ -400,11 +387,13 @@
 						<div class="container ">
 							<div class="row">
 								<div class="col-lg-12 text-center">
-									<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-									<h2 class="section-heading">Model&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
-									<h3 class="section-subheading text-muted">Model the Dream Job&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+									<p>&nbsp;</p><p>&nbsp;</p>
+									<h2 class="section-heading">Job Description Model</h2>
 								</div>
-								<H8>&nbsp;</H8>
+							</div>
+							<div class="row">
+								<!--<H8>&nbsp;</H8>-->
+								
 								<section class="modelsection">
 									<div id="one">
 															<table  class="table table-condensed">
@@ -434,40 +423,88 @@
 														<div id="two">
 														<img src="img/Capture.png" style="width:80%;height:75%;display:block; margin:auto;">
 														</div>
+								<div class="row">
+								<!-- Trigger the modal with a button -->	
+								    <div class="col-sm-3"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">Add New Tokens</button></div>
+								    <div class="col-sm-3" style="background-color:cornflowerblue; color:#e6e6e6;"><strong>Auto - High Weight</strong></div>
+								    <div class="col-sm-3" style="background-color:steelblue; color:#e6e6e6;"><strong>Auto - Low Weight</strong></div>
+								    <div class="col-sm-3" style="background-color:lightslategray; color:#e6e6e6;"><strong>User Entered</strong></div>
+								    
+								 </div>
 								</section>
-								
-							
-								<div>
-								<h8>&nbsp</h8>
-									 <h3>Must Have</h3>
-									  <div class="modelcontainer" id="must_have">
-										
-										<div data-ss-colspan="Auto"><p style="text-align:center">Math</p></div>
-										<div data-ss-colspan="Auto"><p style="text-align:center">HDFS</p></div>
-										<div data-ss-colspan="Auto"><p style="text-align:center">Visualization</p></div>
-										<div data-ss-colspan="Auto"><p style="text-align:center">Modelling</p></div>
-									  </div>
-									  <h3>Nice to Have</h3>
-									  <div class="modelcontainer" id="nice_to_have">
-										<div data-ss-colspan="Auto"><p style="text-align:center">Relational databases</p></div>
-										<div data-ss-colspan="Auto"><p style="text-align:center">R</p></div>
-										<div data-ss-colspan="Auto"><p style="text-align:center">Python</p></div>
-										<div data-ss-colspan="Auto"><p style="text-align:center">Analysis</p></div>
-										
-									  </div>
 
-									  
-									  <h3>Indifferent</h3>
-									  <div class="modelcontainer" id="landing">
-										<div data-ss-colspan="Auto"><p style="text-align:center">Cross-Functional</p>
-										</div>
+			<!--User Entered Tokens Modal-->
+									<!-- Modal -->
+									<div id="myModal" class="modal fade" role="dialog">
+									  <div class="modal-dialog">
+
+									    <!-- Modal content-->
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <button type="button" class="close" data-dismiss="modal">&times;</button>
+									        <h4 class="modal-title">Add New Tokens</h4>
+									      </div>
+									      <div class="modal-body">
+									        <table>
+												<tr>
+													<td><label for="token">Token Name:</label></td>
+													<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+													<td><input type="text" size = "30" id="token"></td>
+												</tr>
+											
+												<tr>
+																											
+													<td><label for="target_group">Target</label></td>
+													<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+													<td><select id="target_group">
+															<option value="#must_have">Must Have</option>
+															<option value="#nice_to_have">Nice to Have</option>
+														</select></td>
+												</tr>
+												<tr>
+													<td><button type="button" class="btn btn-primary btn-sm" onclick="addNewToken(document.getElementById('target_group').value, document.getElementById('token').value, 'Manual')">Add Token</button></td>
+												</tr>
+											</table>
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-default" data-dismiss="modal">Done</button>
+									      </div>
+									    </div>
+
 									  </div>
-								  <HR></HR>
-								</div>
+									</div>
+
 							</div>
-						</div>
 
-								<button onclick="Model_parseLoad()">Click Here</button>
+							<div class="row">
+							
+								 <h3>Must Have</h3>
+								  <div class="modelcontainer" id="must_have">
+									<!--place holder - will be filled with things later-->
+								  </div>
+								  <h3>Nice to Have</h3>
+								  <div class="modelcontainer" id="nice_to_have">
+									<!--place holder - will be filled with things later-->
+								  </div>
+
+								  
+								  <h3>Indifferent</h3>These tokens will not influence the job results
+								  <div class="modelcontainer" id="indiffer ">
+									<!--place holder - will be filled with things later-->
+								  </div>
+
+								  <h3 style = "color:red;">Exclude</h3>Resulting jobs will not include these tokens
+								  <div class="modelcontainer" id="exclude" style="border: 1px dashed red;">
+									<!--place holder - will be filled with things later-->
+								  </div>
+							</div>
+							<HR></HR>
+						</div>
+							
+						
+
+
+<button onclick="Model_parseLoad()">Click Here</button>
 					</section>
 
 
@@ -484,8 +521,7 @@
 									
 									<p>&nbsp;</p>
 									<p>&nbsp;</p>
-									<h2 class="section-heading">Results</h2>
-									<h3 class="section-subheading text-muted">Job Search Results</h3>
+									<h2 class="section-heading">Job Search Matches</h2>
 								</div>
 							</div>
 							<div id="JobResults" style="overflow : auto; height:900px;">
