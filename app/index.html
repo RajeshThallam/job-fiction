@@ -129,11 +129,11 @@
 				var d2 = document.getElementById("desc2").value;
 				var d3 = document.getElementById("desc3").value;
 				
-				var job1 = '{job_title: "' + t1.replace(/[^\w\s]/gi, '') + '", job_description: "' + d1.replace(/[^\w\s]/gi, '') + '"}'
-				var job2 = '{job_title: "' + t2.replace(/[^\w\s]/gi, '') + '", job_description: "' + d2.replace(/[^\w\s]/gi, '') + '"}'
-				var job3 = '{job_title: "' + t3.replace(/[^\w\s]/gi, '') + '", job_description: "' + d3.replace(/[^\w\s]/gi, '') + '"}'
+				var job1 = '"job1":{"job_title": "' + t1.replace(/[^\w\s]/gi, '') + '", "job_description": "' + d1.replace(/[^\w\s]/gi, '') + '"}'
+				var job2 = '"job2":{"job_title": "' + t2.replace(/[^\w\s]/gi, '') + '", "job_description": "' + d2.replace(/[^\w\s]/gi, '') + '"}'
+				var job3 = '"job3":{"job_title": "' + t3.replace(/[^\w\s]/gi, '') + '", "job_description": "' + d3.replace(/[^\w\s]/gi, '') + '"}'
 
-				var all_string = job1 + ',' + job2 + ',' + job3;
+				var all_string = "{" + job1 + ',' + job2 + ',' + job3 + "}";
 
 				alert (all_string);
 			};
