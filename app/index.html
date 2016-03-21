@@ -73,6 +73,7 @@
 	div.modelcontainer > div[data-ss-colspan="Auto-Must"] { width: 10%; background: cornflowerblue;}
 	div.modelcontainer > div[data-ss-colspan="Auto-Nice"] { width: 10%; background: steelblue;}
 	div.modelcontainer > div[data-ss-colspan="Manual"] {width: 10%; background: lightslategray;}
+	div.modelcontainer > div[data-ss-colspan="PlaceHolder"] {width: 10%; background: transparent;border: transparent;}
 	div.modelcontainer > .ss-placeholder-child {
 	  background: transparent;
 	  border: 1px dashed blue;
@@ -259,40 +260,75 @@
 									<p>&nbsp</p>
 									<p>&nbsp</p>
 									<h2 class="section-heading">Job Descriptions</h2>
-									<h4 class="section-subheading text-muted">Enter the descriptions of up to three jobs you currently are interested in.</h3>
+									<h4 class="section-subheading text-muted">Enter the descriptions of up to three jobs you currently are interested in.</h4>
 								</div>
-									<div class="container">
-										<ul class="nav nav-tabs">
-											<li class="active"><a data-toggle="tab" href="#menu1">Job 1</a></li>
-											<li><a data-toggle="tab" href="#menu2">Job 2</a></li>
-											<li><a data-toggle="tab" href="#menu3">Job 3</a></li>
-										</ul>
+								<div class="container">
+									<ul class="nav nav-tabs">
+										<li class="active"><a data-toggle="tab" href="#menu1">Job 1</a></li>
+										<li><a data-toggle="tab" href="#menu2">Job 2</a></li>
+										<li><a data-toggle="tab" href="#menu3">Job 3</a></li>
+									</ul>
 
-										<div class="tab-content well">
-											<div id="menu1" class="tab-pane fade in active">
-												
-												<label for="title1">Title1:</label>
-												<input type="text" class="form-control" id="title1">
-												<label for="desc1">Description:</label>
-												<textarea class="form-control" rows="5" id="desc1"></textarea>
-												
-											</div>
-											<div id="menu2" class="tab-pane fade">
-												<label for="title2">Title2:</label>
-												<input type="text" class="form-control" id="title2">
-												<label for="desc2">Description:</label>
-												<textarea class="form-control" rows="5" id="desc2"></textarea>
-											</div>
-											<div id="menu3" class="tab-pane fade">
-												<label for="title3">Title3:</label>
-												<input type="text" class="form-control" id="title3">
-												<label for="desc3">Description:</label>
-												<textarea class="form-control" rows="5" id="desc3"></textarea>
-											</div>
+									<div class="tab-content well">
+										<div id="menu1" class="tab-pane fade in active">
+											
+											<label for="title1">Title1:</label>
+											<input type="text" class="form-control" id="title1">
+											<label for="desc1">Description:</label>
+											<textarea class="form-control" rows="5" id="desc1"></textarea>
+											
 										</div>
-										<a href=model.html  role="button">Link</a>
-										<button onclick="JobDescription_dataCollect()">Create the Dream here</button>
+										<div id="menu2" class="tab-pane fade">
+											<label for="title2">Title2:</label>
+											<input type="text" class="form-control" id="title2">
+											<label for="desc2">Description:</label>
+											<textarea class="form-control" rows="5" id="desc2"></textarea>
+										</div>
+										<div id="menu3" class="tab-pane fade">
+											<label for="title3">Title3:</label>
+											<input type="text" class="form-control" id="title3">
+											<label for="desc3">Description:</label>
+											<textarea class="form-control" rows="5" id="desc3"></textarea>
+										</div>
 									</div>
+									<button type="button" class="btn btn-primary btn-sm" onclick="JobDescription_dataCollect();Model_parseLoad();">Submit Job Descriptions</button>
+								</div>
+							</div>
+
+
+							make this area below visible only when job descriptions have been submitted.
+							<div class="row">
+								<p>&nbsp;</p> 
+								<div id="one">
+									<table  class="table table-condensed">
+										<thead>
+											<tr>
+												<th>Skill Category</th>
+												<th>Number Matches</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Must Have</td>
+												<td>4/6</td>
+											</tr>
+											<tr>
+												<td>Nice to Have</td>
+												<td>5/6</td>
+											</tr>
+											<tr>
+												<td>Indifferent</td>
+												<td>0/2</td>
+											</tr>
+
+										</tbody>
+									</table>
+								</div>
+								<div id="two">
+									<img src="img/Capture.png" style="width:80%;height:75%;display:block; margin:auto;">
+								</div>
+
+
 							</div>
 						</div>
 					</section>
@@ -315,8 +351,7 @@
 									<div class="container">
 										<ul class="nav nav-tabs">
 											<li class="active"><a data-toggle="tab" href="#optmenu1">Results Filter & Display</a></li>
-											<li><a data-toggle="tab" href="#optmenu2">Custom Words</a></li>
-											<li><a data-toggle="tab" href="#optmenu3">Custom result screen</a></li>
+											<li><a data-toggle="tab" href="#optmenu2">Custom result screen</a></li>
 										</ul>
 
 										<div class="tab-content well">
@@ -324,16 +359,16 @@
 												
 												<table>
 													<tr>
-														<td><label for="usr">ZIP Code:</label></td>
+														<td><label for="zip">ZIP Code:</label></td>
 														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-														<td><input type="text" size = "10" id="usr"></td>
+														<td><input type="text" size = "10" id="zip"></td>
 													</tr>
 												
 													<tr>
 																												
-														<td><label for="sel1">Minimum Education:</label></td>
+														<td><label for="education">Minimum Education:</label></td>
 														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-														<td><select  id="sel1">
+														<td><select  id="education">
 																<option>None</option>
 																<option>Bachelor</option>
 																<option>Master</option>
@@ -342,9 +377,9 @@
 													</tr>
 													<tr>
 																												
-														<td><label for="sel1">Sort Results By:</label></td>
+														<td><label for="sort">Sort Results By:</label></td>
 														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-														<td><select  id="sel1">
+														<td><select  id="sort">
 																<option>Company</option>
 																<option>Location</option>
 																<option>Class</option>
@@ -358,7 +393,7 @@
 												  <label><input type="checkbox" value="">Include Company Info </label>
 												</div>
 												<div class="checkbox">
-												  <label><input type="checkbox" value="">Include Bacon</label>
+												  <label><input type="checkbox" value="">Include Job Visual</label>
 												</div>
 											   
 												 
@@ -394,44 +429,19 @@
 							<div class="row">
 								<!--<H8>&nbsp;</H8>-->
 								
-								<section class="modelsection">
-									<div id="one">
-															<table  class="table table-condensed">
-																<thead>
-																	<tr>
-																		<th>Skill Category</th>
-																		<th>Number Matches</th>
-																	</tr>
-																</thead>
-																<tbody>
-																	<tr>
-																		<td>Must Have</td>
-																		<td>4/6</td>
-																	</tr>
-																	<tr>
-																		<td>Nice to Have</td>
-																		<td>5/6</td>
-																	</tr>
-																	<tr>
-																		<td>Indifferent</td>
-																		<td>0/2</td>
-																	</tr>
+								
+									
 
-																</tbody>
-															</table>
-														</div>
-														<div id="two">
-														<img src="img/Capture.png" style="width:80%;height:75%;display:block; margin:auto;">
-														</div>
-								<div class="row">
+								
 								<!-- Trigger the modal with a button -->	
-								    <div class="col-sm-3"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">Add New Tokens</button></div>
-								    <div class="col-sm-3" style="background-color:cornflowerblue; color:#e6e6e6;"><strong>Auto - High Weight</strong></div>
-								    <div class="col-sm-3" style="background-color:steelblue; color:#e6e6e6;"><strong>Auto - Low Weight</strong></div>
-								    <div class="col-sm-3" style="background-color:lightslategray; color:#e6e6e6;"><strong>User Entered</strong></div>
+								    <div class="col-sm-2"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">Add New Tokens</button></div>
+								    <div class="col-sm-2">&nbsp;</div>
+								    <div class="col-sm-2" style="background-color:cornflowerblue; color:#e6e6e6;"><strong>Auto - High Weight</strong></div>
+								    <div class="col-sm-2" style="background-color:steelblue; color:#e6e6e6;"><strong>Auto - Low Weight</strong></div>
+								    <div class="col-sm-2" style="background-color:lightslategray; color:#e6e6e6;"><strong>User Entered</strong></div>
 								    
-								 </div>
-								</section>
+								 
+						
 
 			<!--User Entered Tokens Modal-->
 									<!-- Modal -->
@@ -480,22 +490,24 @@
 							
 								 <h3>Must Have</h3>
 								  <div class="modelcontainer" id="must_have">
-									<!--place holder - will be filled with things later-->
+									<div style="left: 10px; top: 63px;" id="Data Management" class="ss-active-child" data-ss-colspan="PlaceHolder"><p word-wrap="normal" style="text-align:center">&nbsp;</p></div>
 								  </div>
 								  <h3>Nice to Have</h3>
 								  <div class="modelcontainer" id="nice_to_have">
-									<!--place holder - will be filled with things later-->
+									<div style="left: 10px; top: 63px;" id="Data Management" class="ss-active-child" data-ss-colspan="PlaceHolder"><p word-wrap="normal" style="text-align:center">&nbsp;</p></div>
 								  </div>
 
 								  
 								  <h3>Indifferent</h3>These tokens will not influence the job results
 								  <div class="modelcontainer" id="indiffer ">
 									<!--place holder - will be filled with things later-->
+									<div style="left: 10px; top: 63px;" id="Data Management" class="ss-active-child" data-ss-colspan="PlaceHolder"><p word-wrap="normal" style="text-align:center">&nbsp;</p></div>
 								  </div>
 
 								  <h3 style = "color:red;">Exclude</h3>Resulting jobs will not include these tokens
 								  <div class="modelcontainer" id="exclude" style="border: 1px dashed red;">
 									<!--place holder - will be filled with things later-->
+									<div style="left: 10px; top: 63px;" id="Data Management" class="ss-active-child" data-ss-colspan="PlaceHolder"><p word-wrap="normal" style="text-align:center">&nbsp;</p></div>
 								  </div>
 							</div>
 							<HR></HR>
@@ -524,6 +536,92 @@
 									<h2 class="section-heading">Job Search Matches</h2>
 								</div>
 							</div>
+							 <div class="col-sm-2"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#optionsModal">Options</button></div>
+							<div class="col-sm-10" id="savedOptions"></div>
+
+
+			<!--Options Modal-->
+									<!-- Modal -->
+									<div id="optionsModal" class="modal fade" role="dialog">
+									  <div class="modal-dialog">
+
+									    <!-- Modal content-->
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <button type="button" class="close" data-dismiss="modal">&times;</button>
+									        <h4 class="modal-title">Add New Tokens</h4>
+									      </div>
+									      <div class="modal-body">
+									        <table>
+													<tr>
+														<td><label for="zip">ZIP Code:</label></td>
+														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+														<td><input type="text" size = "10" id="zip"></td>
+													</tr>
+												
+													<tr>
+																												
+														<td><label for="education">Minimum Education:</label></td>
+														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+														<td><select  id="education">
+																<option value = "None">None</option>
+																<option value = "Bachelor">Bachelor</option>
+																<option value = "Master">Master</option>
+																<option value = "Doctorate">Doctorate</option>
+															</select></td>
+													</tr>
+													<tr>
+																												
+														<td><label for="sort">Sort Results By:</label></td>
+														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+														<td><select  id="sort">
+																<option value="Company">Company</option>
+																<option value="Location">Location</option>
+																<option value="Class">Class</option>
+																<option value="Match">Match</option>
+															</select></td>
+													</tr>
+												</table>
+											  
+											
+												<div class="checkbox">
+												  <label><input type="checkbox" value="" id="IncComp">Include Company Info </label>
+												</div>
+												<div class="checkbox">
+												  <label><input type="checkbox" value="" id="IncVisual">Include Job Visual</label>
+												</div>
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-default" data-dismiss="modal" onclick="setOptions();">Save</button>
+									      </div>
+									    </div>
+
+									  </div>
+									</div>
+
+							</div>
+
+<script type="text/javascript">
+	function setOptions(){
+		var educationOpt = document.getElementById('education').value;
+		var sortOpt = document.getElementById('sort').value;
+		var compInfoOpt = document.getElementById('IncComp').value;
+		var visualOpt = document.getElementById('IncVisual').value;
+
+		var optionString = "";
+		if (educationOpt != 'None') {
+			optionString = optionString + "Education: " + educationOpt;
+		}
+		optionString = optionString + "Sort by: " + sortOpt;
+		optionString = optionString + "Company Info: " + compInfoOpt;
+		optionString = optionString + "Visual Include: " + visualOpt;
+
+
+		document.getElementById('savedOptions').innerHTML = optionString;
+	}
+</script>
+
+
 							<div id="JobResults" style="overflow : auto; height:900px;">
 								<table id="tableSearchResults" class="table table-hover  table-striped table-condensed">
 									<thead>
