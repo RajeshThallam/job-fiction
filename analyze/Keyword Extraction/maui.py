@@ -98,4 +98,4 @@ def mauiTopicClf(query,thres1=0.6,thres2=0.2):
             keywords['Excluded']= exclude
         results[key]=keywords
     
-    return results
+    return json.dumps(results)
