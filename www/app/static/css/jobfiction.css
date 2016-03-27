@@ -1,0 +1,80 @@
+	div.modelcontainer {
+		border: 1px dashed grey;
+		position: relative;
+		min-height: 100px;
+		width:90%;
+	}
+
+	div.modelcontainer > div {
+		background: #e6e6e6;
+		position: absolute;
+		height: 43px;
+		width: 100px;
+		border: 1px solid #f2f2f2;
+		color:#f2f2f2;
+		font-weight: bold;
+	}
+
+	div.modelcontainer > div[data-ss-colspan="Auto-Must"] { 
+		width: 10%; 
+		background: cornflowerblue;
+	}
+
+	div.modelcontainer > div[data-ss-colspan="Auto-Nice"] { 
+		width: 10%; 
+		background: steelblue;
+	}
+	
+	div.modelcontainer > div[data-ss-colspan="Manual"] {
+		width: 10%; 
+		background: lightslategray;
+	}
+	
+	div.modelcontainer > div[data-ss-colspan="PlaceHolder"] {
+		width: 10%; 
+		background: transparent;
+		border: transparent;
+	}
+	
+	div.modelcontainer > .ss-placeholder-child {
+		background: transparent;
+		border: 1px dashed blue;
+	}
+
+	div.notshapeshift {
+		position: relative;
+		min-height: 100px;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	section.modelsection {
+		width: 90%;
+		height: 170px;
+		padding: 10px;
+		background: #f5f5f5;
+	}
+
+	div#one {
+		width: 30%;
+		height:200px;
+		float: left;
+	}
+
+	div#two {
+		margin-left: 50%;
+		width: 40%;
+		height: 200px;
+	}
+	  
+	div#skilltable {
+		width: 30%;
+		height: 150px;
+		float: left;
+	}
+
+	div#skillgraph {
+		margin-left: 50%;
+		height: 150px;
+		background: cornflowerblue;
+	}
