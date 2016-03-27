@@ -64,7 +64,6 @@
 							<a href="#page-top"></a>
 						</li>
 						<li><a class="page-scroll" href="#portfolioModal0"><h4 class="section-heading">Job Descriptions</h4></a></li>
-						<li><a class="page-scroll" href="#portfolioModal1"><h4 class="section-heading">Options</h4></a></li>
 						<li><a class="page-scroll" href="#portfolioModal2"><h4 class="section-heading">Model</h4></a></li>
 						<li><a class="page-scroll" href="#portfolioModal3"><h4 class="section-heading">Results</h4></a></li>
 					</ul>
@@ -177,83 +176,6 @@
 					</section>
 
 			
-<!--  OPTIONS PAGE -->
-
-
-					<section id="portfolioModal1">
-						
-						<div class="container " style="min-height: 900px;">
-							<div class="row">
-								<div class="col-lg-12 text-center">
-									<p>&nbsp;</p>
-									<p>&nbsp;</p>
-									<h2 class="section-heading">Options</h2>
-									<h3 class="section-subheading text-muted">Specify filter and other options.</h3>
-								</div>
-								
-									<div class="container">
-										<ul class="nav nav-tabs">
-											<li class="active"><a data-toggle="tab" href="#optmenu1">Results Filter & Display</a></li>
-											<li><a data-toggle="tab" href="#optmenu2">Custom result screen</a></li>
-										</ul>
-
-										<div class="tab-content well">
-											<div id="optmenu1" class="tab-pane fade in active ">
-												
-												<table>
-													<tr>
-														<td><label for="zip">ZIP Code:</label></td>
-														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-														<td><input type="text" size = "10" id="zip"></td>
-													</tr>
-												
-													<tr>
-																												
-														<td><label for="education">Minimum Education:</label></td>
-														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-														<td><select  id="education">
-																<option>None</option>
-																<option>Bachelor</option>
-																<option>Master</option>
-																<option>Doctorate</option>
-															</select></td>
-													</tr>
-													<tr>
-																												
-														<td><label for="sort">Sort Results By:</label></td>
-														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-														<td><select  id="sort">
-																<option>Company</option>
-																<option>Location</option>
-																<option>Class</option>
-																<option>Match</option>
-															</select></td>
-													</tr>
-												</table>
-											  
-											
-												<div class="checkbox">
-												  <label><input type="checkbox" value="">Include Company Info </label>
-												</div>
-												<div class="checkbox">
-												  <label><input type="checkbox" value="">Include Job Visual</label>
-												</div>
-											   
-												 
-											</div>
-
-											<div id="optmenu2" class="tab-pane fade">
-												  
-
-											</div>
-										</div>
-										<a href=model.html  role="button">Link</a>
-										<button type="submit" class="btn btn-primary active" onclick='collectData()'>Create the Dream</button>
-									</div>
-								
-							</div>
-						</div>
-					</section>
 
 
 
@@ -372,8 +294,13 @@
 									<h2 class="section-heading">Job Search Matches</h2>
 								</div>
 							</div>
-							 <div class="col-sm-2"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#optionsModal">Options</button></div>
-							<div class="col-sm-10" id="savedOptions"></div>
+							 <div class="col-sm-2">
+							 	<button type="button" class="btn btn-primary btn-sm" onclick="getResults();">Get/Refresh Results</button>
+							 </div>
+							 <div class="col-sm-2">
+							 	<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#optionsModal">Options</button>
+							 	
+							 </div>
 
 
 			<!--Options Modal-->
@@ -400,7 +327,7 @@
 														<td><label for="education">Minimum Education:</label></td>
 														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 														<td><select  id="education">
-																<option value = "None">None</option>
+																<option value = "None" selected = "selected">None</option>
 																<option value = "Bachelor">Bachelor</option>
 																<option value = "Master">Master</option>
 																<option value = "Doctorate">Doctorate</option>
@@ -411,21 +338,16 @@
 														<td><label for="sort">Sort Results By:</label></td>
 														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 														<td><select  id="sort">
-																<option value="Company">Company</option>
-																<option value="Location">Location</option>
 																<option value="Class">Class</option>
-																<option value="Match">Match</option>
+																<option value="Company">Company</option>
+																<option value="Location">Location</option>				
+																<option value="Match" selected = "selected">Match</option>
 															</select></td>
 													</tr>
 												</table>
 											  
 											
-												<div class="checkbox">
-												  <label><input type="checkbox" value="" id="IncComp">Include Company Info </label>
-												</div>
-												<div class="checkbox">
-												  <label><input type="checkbox" value="" id="IncVisual">Include Job Visual</label>
-												</div>
+												
 									      </div>
 									      <div class="modal-footer">
 									        <button type="button" class="btn btn-default" data-dismiss="modal" onclick="setOptions();">Save</button>
