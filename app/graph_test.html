@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.bar {
+  fill: cornflowerblue;
+}
+
+.bar:hover {
+  fill: lightslategray;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+</style>
+
+
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+<!-- d3 and wrappers -->
+    <script src="js/d3.js"></script>
+    <script src="js/d3.layout.cloud.js"></script>
+    <script src="js/crossfilter.js"></script>
+    <script src="js/dc.js"></script>
+<!-- Stylesheets -->
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  
+  <!-- Javascripts -->
+    <!-- jquery core and UI -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+      <!-- jQuery.Shapeshift -->
+      <script src="https://raw.githubusercontent.com/McPants/jquery.shapeshift/master/core/vendor/jquery.touch-punch.min.js"></script>
+      <script src="https://raw.githubusercontent.com/McPants/jquery.shapeshift/master/core/jquery.shapeshift.js"></script>
+
+    <!-- d3 and wrappers -->
+    <script src="js/d3.js"></script>
+    <script src="js/d3.layout.cloud.js"></script>
+    <script src="js/crossfilter.js"></script>
+    <script src="js/dc.js"></script>
+
+    <!-- plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+<body>
+
+
+<div id="skillgraph_job1">
+</div>
+<div id="skillgraph_job2">
+</div>
+
+      <!--Options Modal-->
+                  <!-- Modal -->
+                  <div id="optionsModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                      <!-- Modal content-->
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h4 class="modal-title">Job Skills</h4>
+                        </div>
+                        <div class="modal-body" id = "modal_graph">
+                        <!-- level 1 category -->
+                         </div>
+                         <div class="modal-body" id = "modal_drilldown" style="border:1px solid black;">
+                        <!-- drill-down category -->
+                         </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+              </div>
+
+
+</body>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+
+<script>
+
+var JSON_in = '{"job1":{"job_title": "Data Scientist","job_description": "Job description As a Data Science Consultant at RBA, you will work on client projects in ",       "job_url": "http://careers.intuit.com/job-category/7/data/job/00122116/data-scientist?src=JB-10116&utm_source=indeed&utm_medium=jb",        "company": "Intuit",        "industry": "Finance",        "job_class": {          "Data Scientist": 100       },        "match_rate": 52,       "location": "Mountain View, California 94039",        "skill_match": {          "must_have": 5,         "nice_to_have": 3       },        "categories": {               "GENERAL": {"count":3,            "Integrated Circits": 1,            "Real-time systems": 2          },              "MATHEMATICS": {"count":1,              "Mathematical Software": 1          },      "COMPUTING": {  "count":8,          "Machine learning": 5,            "Modeling and simulation": 2,           "Electronic commerce": 1          },        "HUMAN": {    "count":2,        "Visualization": 2          },  "PROFESSIONAL": { "count":2,          "Computing Technology policy": 2          }       }     }, "job2": {"job_title": "Analyst","job_description": "iashjdf kasdfoaksdfv  l;askdjf; asdx kajsdf kal;skdx laskd sdakas dfksadl;kfmk;asdc ;sadfkncl;kdsf ",       "job_url": "http://careers.intuit.com/job-category/7/data/job/00122116/data-scientist?src=JB-10116&utm_source=indeed&utm_medium=jb",        "company": "Place To Work",        "industry": "Finance",        "job_class": {          "Data Scientist": 100       },        "match_rate": 52,       "location": "Mountain View, California 94039",        "skill_match": {          "must_have": 1,         "nice_to_have": 1       },        "categories": {               "GENERAL": {"count":1,            "Integrated Circits": 1         },              "MATHEMATICS": {"count":1,              "Mathematical Software": 1          },      "COMPUTING": {  "count":14,          "Machine learning": 7,            "Modeling and simulation": 2,           "Electronic commerce": 5          },        "HUMAN": {    "count":2,        "Visualization": 2          },  "PROFESSIONAL": { "count":4,          "Computing Technology policy": 2 , "presentations": 2         }       }     }}';
+
+      var results = JSON.parse(JSON_in);
+
+      var job_graph = {}; // this will be the structure storing all job category values
+      var job_count = 1;
+      for (var job in results){  //for each job
+          var current_job = results[job];  //get the JSON for that job
+          var categories = current_job.categories;  //get just the categories object
+
+          var current_cat = [];  //temp object
+
+          var cat_counts = []; //counts for level 1 categories//for immediate graph
+          var cat_labels = []; //labels for level 1 categories//for immediate graph
+          var cat1_array = {}; //object for holding all category 1
+         
+          for (var cat in categories){  //cat is the category 1 label                           GENERAL
+              cat_labels.push(cat);//for immediate graph
+              current_cat = current_job.categories[cat];
+              var obj_cat1 = {}; //object for holding category 1 information
+              var obj_cat2 = {};  //object for holding category 2 info
+              for (var c_name in current_cat){                                                     //count,  skill, skill
+                  if (c_name == 'count'){
+                    //count is a special category !!
+                    //add count to cat_counts
+                    //add count to object for category 1
+                    cat_counts.push(current_job.categories[cat][c_name]); //for immediate graph
+                    obj_cat1["count"] = current_job.categories[cat][c_name];
+                  } else{
+                    //put values into some sort of structure that has the category 2 stuff.
+                    //c_name is the category2 name.
+                    obj_cat2[c_name] = current_job.categories[cat][c_name];
+                  }
+              }
+              //after loop, add category2 object to cat 2 array
+              obj_cat1["cat2"] = obj_cat2;
+              
+              cat1_array[cat] = obj_cat1;
+          } //end for cat in categories
+
+          job_id = "job" + job_count;
+          job_graph[job_id] = cat1_array;
+
+          createBarChart(cat_labels, cat_counts, "skillgraph_"+job_id, "Categories of Skills", 600, 250, job_id);
+          job_count++;
+
+
+      } //for job end
+
+
+      
+      
+
+
+function createBarChart(labels, values, target_div, title, input_width, input_height, job_id){
+
+
+  var data = [];
+  for (var i = 0; i < labels.length; ++i){
+      var obj = {};
+      obj.label = labels[i];
+      obj.frequency = values[i];
+      data.push(obj);
+  }
+
+  var margin = {top: 60, right: 20, bottom: 30, left: 40},
+      width = input_width - margin.left - margin.right,
+      height = input_height - margin.top - margin.bottom;
+
+  var x = d3.scale.ordinal()
+      .rangeRoundBands([0, width], .1);
+
+  var y = d3.scale.linear()
+      .range([height, 0]);
+
+  var xAxis = d3.svg.axis()
+      .scale(x)
+      .orient("bottom");
+
+  var yAxis = d3.svg.axis()
+      .scale(y)
+      .orient("left")
+      .ticks(10);
+
+  var tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([-5, 0])
+    .html(function(d) {
+      return "<strong>Frequency:</strong> <span style='color:red'>" + d.frequency + "</span>";
+    });
+
+  var svg = d3.select("#"+target_div).append("svg")
+      .attr("width", width + margin.left + margin.right)
+      .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+  //svg.call(tip);
+
+  x.domain(data.map(function(d) { return d.label; }));
+  y.domain([0, Math.max(10, d3.max(data, function(d) { return d.frequency; }))]);
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Frequency");
+
+  svg.append("text")
+        .attr("x", (width / 2))             
+        .attr("y", 0 - (margin.top / 2))
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .style("text-decoration", "underline")  
+        .text(title);
+
+  //Graphs will have different on-click functionality depending on target.
+  if (target_div == 'modal_drilldown'){
+    //no on-click event  -- this is the drill-down chart that has no functionality
+    svg.selectAll(".bar")
+        .data(data)
+      .enter().append("rect")
+        .attr("class", "bar")
+        .attr("id",job_id)
+        .attr("x", function(d) {return  x(d.label) + (x.rangeBand() - d3.min([x.rangeBand(), 100]))/2})
+        .attr("width", Math.min(100,x.rangeBand()))
+        .attr("y", function(d) { return y(d.frequency); })
+        .attr("height", function(d) { return height - y(d.frequency); })
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide);
+  }else if (target_div == 'modal_graph'){
+    //on-click is a drilldown -- this is the graph at top of modal; must have the functionality for drilling down.
+    svg.selectAll(".bar")
+        .data(data)
+      .enter().append("rect")
+        .attr("class", "bar")
+        .attr("id",job_id)
+        .attr("x", function(d) {return  x(d.label) + (x.rangeBand() - d3.min([x.rangeBand(), 100]))/2})
+        .attr("width", Math.min(100,x.rangeBand()))
+        .attr("y", function(d) { return y(d.frequency); })
+        .attr("height", function(d) { return height - y(d.frequency); })
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide)
+        .on('click', function(d){ // show drilldown
+            drilldown_chart(d.label, this.id);
+
+        });
+  }else{
+      //this is just on the main page - click will open modal with chart and drill-down.
+      svg.selectAll(".bar")
+        .data(data)
+      .enter().append("rect")
+        .attr("class", "bar")
+        .attr("id",job_id)
+        .attr("x", function(d) {return  x(d.label) + (x.rangeBand() - d3.min([x.rangeBand(), 100]))/2})
+        .attr("width", Math.min(100,x.rangeBand()))
+        .attr("y", function(d) { return y(d.frequency); })
+        .attr("height", function(d) { return height - y(d.frequency); })
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide)
+        .on('click', function(d){ //open modal
+              alert("hahaha");
+              openModel(d.label, this.id);
+        });
+
+  }
+
+
+    }
+
+function openModel(source, id){
+  //called from graph on a main page - opens modal.
+  //source is the label of the category selected
+  //id is the job id
+
+  //get the labels and values
+    var categories = job_graph[id];
+    var cat;
+    var cat_labels = [];
+    var cat_counts = [];
+
+    for (cat in categories){
+      cat_labels.push(cat);
+      cat_counts.push(categories[cat]["count"]);
+    }
+    
+
+    document.getElementById("modal_graph").innerHTML = "";
+    createBarChart(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 600, 250, id);
+    drilldown_chart(source, id);  //populate the detail
+    $('#optionsModal').modal('show');  //open the modal
+}
+
+function drilldown_chart(source, id){
+  //gets the data for the drilldown chart
+  //source is the label of the category selected
+  //id is the job id
+
+    //get the labels and values
+    var categories = job_graph[id][source]["cat2"];
+    var cat;
+    var cat_labels = [];
+    var cat_counts = [];
+
+    for (cat in categories){
+      cat_labels.push(cat);
+      cat_counts.push(categories[cat]);
+    }
+    document.getElementById("modal_drilldown").innerHTML = "";
+    createBarChart(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 600, 250, id);
+   
+}
+
+
+</script>
+
+
+
+
