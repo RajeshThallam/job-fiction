@@ -78,3 +78,27 @@
 		height: 150px;
 		background: cornflowerblue;
 	}
+
+	
+.bar {
+  fill: cornflowerblue;
+}
+
+.bar:hover {
+  fill: lightslategray;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
