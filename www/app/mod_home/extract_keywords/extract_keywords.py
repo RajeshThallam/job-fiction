@@ -1,9 +1,11 @@
-from app import app
 from subprocess import Popen, PIPE, STDOUT
-import os
-import json
+from collections import defaultdict  
+from app import app
 import shutil
+import json
 import uuid
+import re
+import os
 
 
 class ExtractKeywords(object):
@@ -51,11 +53,6 @@ class ExtractKeywords(object):
         doc = ""
         init = 0
 
-        print self.maui_home
-        print path_to_model
-        print app.config['ACM_DICT']
-        print path_to_test
-
         p = Popen(["java", "-jar", "-Xmx1024m", self.maui_home, 
             "test", "-l", path_to_test, "-m", path_to_model,
             "-v", app.config['ACM_DICT'], 
@@ -85,7 +82,6 @@ class ExtractKeywords(object):
             if init:
                 results[doc]=kw
 
-        print results
         return json.dumps(results)
 
 
@@ -110,15 +106,14 @@ class ExtractKeywords(object):
                 recFile.write(v)
 
         # call the Maui wrapper on these files
-        print "Running MAUI test"
+        print "Running MAUI test @" + maui_workbench
         response= json.loads(
             self.test_maui(maui_workbench, app.config['MODEL_KEYWORDS_ID'], 40)
             )
-        print "Completed MAUI test"
+        print "Completed MAUI test @" + maui_workbench
         # remove the working directory
         shutil.rmtree(maui_workbench)
         
-        print "Prettying up!!"
         # generate pretty results
         results={}
         for k,v in response.iteritems():
@@ -141,6 +136,97 @@ class ExtractKeywords(object):
                 keywords['nice_have'] = niceHave
                 keywords['excluded'] = exclude
 
-            results[key]=keywords
+            results[key] = keywords
         
+        # get categories and append to keywords
+        all_keywords = \
+            results['all_jobs']['must_have'].keys() + \
+            results['all_jobs']['nice_have'].keys()
+
+        results['all_jobs']['categories'] = self.get_categories(all_keywords)
+
+        print results
+
         return json.dumps(results)
+
+
+    # ACM Taxonomy converter
+    # We convert the flat file from ACM Taxonomy into a JSON file. Each line 
+    # contains the keyword and the path that represent the categories and 
+    # subcategories of this keyword.
+
+    def generate_keyword_paths(self):
+        path = []
+        level = 0
+        previousLabel = ""
+        paths = {}
+
+        with open(app.config['ACM_TAXONOMY_TEXT'],'rb') as f:
+            # construct dict with key: Keyword and value: pathToKeyword
+            for line in f.readlines():
+                # lineLevel represents the level of the currently processed label
+                lineLevel = len(re.findall('@#!',line)) 
+                # extracts the label
+                label = line.split("@#!")[-1].replace("\n","") 
+
+                # going up  a level
+                if lineLevel > level: 
+                    level = lineLevel
+                    path.append(previousLabel)
+                    paths[label] = [i for i in path]
+                # same level
+                elif lineLevel == level:
+                    paths[label] = [i for i in path]
+                # going down one or multiple level
+                else:
+                    diff = level - lineLevel 
+                    for i in range(diff):
+                        level -= 1
+                        path.pop() 
+                    paths[label] = [i for i in path]
+
+                previousLabel = label
+
+        with open(app.config['ACM_TAXONOMY_PATH'], "wb")as f2:
+            f2.write(json.dumps(paths))
+
+
+    # given a list of keywords, this function calculates the count of each 
+    # level 1 and level 2 categories in ACM taxonomy
+
+    def get_categories(self, keywords):
+        kwPaths = {}
+
+        with open(app.config['ACM_TAXONOMY_PATH'], "rb")as f:
+            allPaths=json.loads(f.read())
+            
+        # get the path of each keyword from the file generated previously
+        for i in keywords:
+            i=i.strip()
+            try:
+                kwPaths[i] = allPaths[i]
+            except:
+                kwPaths[i] = ["Others"]
+        
+        # for all keywords, compute the total level 1 and level 2 categories
+        level2Cat = defaultdict(int)
+        level1Cat = defaultdict(int)
+        categories = {}
+        
+        for k,v in kwPaths.iteritems():
+            
+            if v[0] not in categories.keys():
+                categories[v[0]] = {}
+                categories[v[0]]["count"] = 1
+            else:
+                categories[v[0]]["count"] += 1
+
+            try:
+                if v[1] not in categories[v[0]].keys():
+                    categories[v[0]][v[1]] = 1
+                else:
+                    categories[v[0]][v[1]] += 1   
+            except:
+                print "categories 'Other' encountered"
+            
+        return categories

@@ -1,2 +1,12 @@
-
+# compiled python scripts
 *.pyc
+
+# Ignore checkpoints created (especially for the examples)
+.ipynb_checkpoints
+
+# Misc
+*.DS_Store
+.DS_Store
+
+# ignore log files
+*.log
