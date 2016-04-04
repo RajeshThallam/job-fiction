@@ -5,7 +5,9 @@ from flask import Blueprint, request, render_template, \
 
 from app import app
 from run_scripts import RunThread
+from extract_keywords import extract_keywords as kw
 import json
+import ast
 
 
 # Define the blueprint: 'home', set its url prefix: app.url/home
@@ -23,15 +25,22 @@ def home_page():
 @mod_home.route('/getkeywords', methods=['GET', 'POST'])
 def get_keywords():
     # read url parameters
-    job_posts = request.args.get('jobposts')
+    #job_posts = request.args.post('jobposts')
+    job_posts = request.get_data().decode('utf-8')
+    job_posts_json = json.loads(job_posts)
 
-    # set parameters to call keyword extraction module
-    params = [app.config['EXTRACT_KEYWORDS'], job_posts]
+    job_desc_json = {}
+    job_desc_txt = ""
+    for key, desc in enumerate(job_posts_json['desc']):
+        job_desc_txt += desc
+        #job_desc_json[ 'job_' + str(key+1)] = desc.encode('utf-8')
+    
+    job_desc_json[ 'all_jobs'] = desc.encode('utf-8')
 
-    # launch script and capture output
-    thread = RunThread(params)
-    thread.start()
-    thread.join()
-    keywords = json.loads(thread.stdout)
+    print job_desc_json
 
-    return jsonify(keywords)
+    maui = kw.ExtractKeywords()
+    keywords = json.loads(maui.find_keywords(job_desc_json))
+    print keywords['all_jobs']
+
+    return jsonify(keywords['all_jobs'])

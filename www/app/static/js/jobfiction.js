@@ -10,7 +10,8 @@ $(document).ready(function() {
 	// function to set shapeshift plug-in containers
 	$('.modelcontainer').shapeshift({
 		align:'left',
-		minColumns: 3
+		minColumns: 3,
+		colWidth: 1
 	});
 
 	// function to set trash/excluded container in shapeshift
@@ -36,7 +37,10 @@ $(document).ready(function() {
 		var job_posts = { title: job_title, desc: job_desc};
 		console.log(job_posts);
 
-		$.getJSON('/home/getkeywords', data = 'jobposts=' + JSON.stringify(job_posts), function(data) {
+		$.post(
+			url = '/home/getkeywords', 
+			data = JSON.stringify(job_posts), 
+			function(data) {
 			console.log(data);
 
 			// remove all existing tokens
@@ -44,17 +48,16 @@ $(document).ready(function() {
 			
 			for (var key in data) {	
 				var keywords = data[key];
-				
 				for (var keyword in keywords) {
-					if (key == 'must_have') {
+					if (key === 'must_have') {
 						addNewToken("#" + key, keyword, "Auto-Must")
 					}
-					else {
+					else if (key === 'nice_have') {
 						addNewToken("#" + key, keyword, "Auto-Nice")
 					}
 				}
 			}
-		});
+		}, dataType = 'json');
 
 	});
 });
@@ -73,7 +76,8 @@ function addNewToken(target, token, type) {
 
   	$('.modelcontainer').shapeshift({
   		align:'left',
-  		minColumns: 3
+  		minColumns: 3,
+  		colWidth: 100
   	});
 };
 

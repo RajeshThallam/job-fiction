@@ -18,4 +18,10 @@ THREADS_PER_PAGE = 2
 SECRET_KEY = "j0bf1ct10n"
 
 # Python scripts launched by app
-EXTRACT_KEYWORDS = os.path.join(BASE_DIR, "app", "mod_home", "extract_keywords.py")
+EXTRACT_KEYWORDS_DIR = os.path.join(BASE_DIR, "app", "mod_home", "extract_keywords")
+EXTRACT_KEYWORDS = os.path.join(EXTRACT_KEYWORDS_DIR, "extract_keywords.py")
+MAUI_HOME_PATH = os.path.join(EXTRACT_KEYWORDS_DIR, "maui-standalone-1.1-SNAPSHOT.jar")
+MODEL_KEYWORDS_DIR = os.path.join(EXTRACT_KEYWORDS_DIR, "models")
+ACM_EXTENDED_DICT = os.path.join(EXTRACT_KEYWORDS_DIR, "dict", "ACMTaxonomySkosExtended.rdf")
+ACM_DICT = os.path.join(EXTRACT_KEYWORDS_DIR, "dict", "ACMTaxonomySkos.rdf")
+MODEL_KEYWORDS_ID = "keyword_extraction_model"
