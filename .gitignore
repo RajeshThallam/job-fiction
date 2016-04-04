@@ -5,8 +5,10 @@
 .ipynb_checkpoints
 
 # Misc
-*.DS_Store
 .DS_Store
+analyze/.DS_Store
+analyze/Keyword Extraction/data/jobscan/.DS_Store
 
 # ignore log files
 *.log
+
