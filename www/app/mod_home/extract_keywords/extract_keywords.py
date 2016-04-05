@@ -1,6 +1,7 @@
 from subprocess import Popen, PIPE, STDOUT
 from collections import defaultdict  
 from app import app
+import operator as op
 import shutil
 import json
 import uuid
@@ -132,8 +133,13 @@ class ExtractKeywords(object):
                 else:
                     exclude[k2] = float(v2)
 
-                keywords['must_have'] = mustHave
-                keywords['nice_have'] = niceHave
+                srt_must = sorted(mustHave.items(),
+                    key=op.itemgetter(1))[:app.config['TOPN_MUST_KEYWORDS']]
+                srt_nice = sorted(niceHave.items(),
+                    key=op.itemgetter(1))[:app.config['TOPN_NICE_KEYWORDS']]
+
+                keywords['must_have'] = {k:v for k, v in srt_must}
+                keywords['nice_have'] = {k:v for k, v in srt_nice}
                 keywords['excluded'] = exclude
 
             results[key] = keywords

@@ -26,3 +26,5 @@ ACM_EXTENDED_DICT = os.path.join(EXTRACT_KEYWORDS_DIR, "dict", "ACMTaxonomySkosE
 ACM_DICT = os.path.join(EXTRACT_KEYWORDS_DIR, "dict", "ACMTaxonomySkos.rdf")
 ACM_TAXONOMY_TEXT = os.path.join(EXTRACT_KEYWORDS_DIR, "dict", "ACMTaxonomyFlat.txt")
 ACM_TAXONOMY_PATH = os.path.join(EXTRACT_KEYWORDS_DIR, "dict", "ACMTaxonomyPaths.txt")
+TOPN_MUST_KEYWORDS = 20
+TOPN_NICE_KEYWORDS = 20
