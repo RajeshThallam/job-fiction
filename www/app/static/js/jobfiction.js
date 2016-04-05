@@ -1,6 +1,7 @@
 
 //GLOBAL VARIABLE
 var job_graph = {}
+var description_graph = {}
 
 // initialization
 $(document).ready(function() {
@@ -17,7 +18,7 @@ $(document).ready(function() {
 	// function to set trash/excluded container in shapeshift
 	$(".trash").shapeshift({
 		autoHeight: false,
-		colWidth: 80,
+		colWidth: 100,
 		enableTrash: true
 	});
 
@@ -49,14 +50,58 @@ $(document).ready(function() {
 			for (var key in data) {	
 				var keywords = data[key];
 				for (var keyword in keywords) {
-					if (key === 'must_have') {
-						addNewToken("#" + key, keyword, "Auto-Must")
+					addNewToken("#" + key, keyword, key)
+					/*if (key === 'must_have') {
+						addNewToken("#" + key, keyword, "must_have")
 					}
 					else if (key === 'nice_have') {
-						addNewToken("#" + key, keyword, "Auto-Nice")
-					}
-				}
+						addNewToken("#" + key, keyword, "nice_have")
+					}*/
+				}				
 			}
+
+			//Graph
+			categories = data.categories
+
+			var current_cat = [];  //temp object
+
+	        var cat_counts = []; //counts for level 1 categories//for immediate graph
+	        var cat_labels = []; //labels for level 1 categories//for immediate graph
+	        var cat1_array = {}; //object for holding all category 1
+	         
+	        for (var cat in categories){  //cat is the category 1 label                           GENERAL
+	            cat_labels.push(cat);//for immediate graph
+	            current_cat = categories[cat];
+	            var obj_cat1 = {}; //object for holding category 1 information
+	            var obj_cat2 = {};  //object for holding category 2 info
+	            for (var c_name in current_cat){                                                     //count,  skill, skill
+	                  if (c_name == 'count'){
+	                    //count is a special category !!
+	                    //add count to cat_counts
+	                    //add count to object for category 1
+	                    cat_counts.push(categories[cat][c_name]); //for immediate graph
+	                    obj_cat1["count"] = categories[cat][c_name];
+	                  } else{
+	                    //put values into some sort of structure that has the category 2 stuff.
+	                    //c_name is the category2 name.
+	                    obj_cat2[c_name] = categories[cat][c_name];
+	                  }
+	            }
+	            //after loop, add category2 object to cat 2 array
+	            obj_cat1["cat2"] = obj_cat2;
+	              
+	            cat1_array[cat] = obj_cat1;
+	        } //end for cat in categories
+
+	        description_graph[0] = cat1_array;   //job_graph is (and MUST) be global
+
+	        createBarChart(cat_labels, cat_counts, "description_graph", "Categories of Skills", 1100, 400, "description_graph");
+
+
+//end graph
+
+
+
 		}, dataType = 'json');
 
 	});
@@ -65,8 +110,8 @@ $(document).ready(function() {
 function addNewToken(target, token, type) {
   	var newelement = d3.select(target)
   		.append("div")
-		.attr("data-ss-colspan", type)
-		.attr("class", "ss-active-child")
+		.attr("data-ss-colspan", 2)
+		.attr("class", "ss-active-child " + type)
 		.attr("id", token);
 
     newelement.append("p")
@@ -517,6 +562,11 @@ function openModel(source, id){
 
   //get the labels and values
     var categories = job_graph[id];
+  	if (id == "description_graph"){
+  		categories = description_graph[0];
+  	}else{
+  		categories = job_graph[id];
+  	}
     var cat;
     var cat_labels = [];
     var cat_counts = [];
@@ -528,7 +578,7 @@ function openModel(source, id){
     
 
     document.getElementById("modal_graph").innerHTML = "";
-    createBarChart(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 600, 250, id);
+    createBarChart(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 1000, 300, id);
     drilldown_chart(source, id);  //populate the detail
     $('#graphModal').modal('show');  //open the modal
 }
@@ -539,7 +589,13 @@ function drilldown_chart(source, id){
   //id is the job id
 
     //get the labels and values
-    var categories = job_graph[id][source]["cat2"];
+    var topchart;
+    if (id == "description_graph"){
+    	topchart = description_graph[0];
+    }else{
+    	topchart = job_graph[id];
+    }
+    var categories = topchart[source]["cat2"];
     var cat;
     var cat_labels = [];
     var cat_counts = [];
@@ -549,7 +605,7 @@ function drilldown_chart(source, id){
       cat_counts.push(categories[cat]);
     }
     document.getElementById("modal_drilldown").innerHTML = "";
-    createBarChart(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 600, 250, id);
+    createBarChart(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 1000, 300, id);
    
 }
 
