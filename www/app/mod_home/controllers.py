@@ -34,11 +34,10 @@ def get_keywords():
     for key, desc in enumerate(job_posts_json['desc']):
         job_desc_txt += desc
         #job_desc_json[ 'job_' + str(key+1)] = desc.encode('utf-8')
-    
-    job_desc_json[ 'all_jobs'] = desc.encode('utf-8')
+
+    job_desc_json['all_jobs'] = job_desc_txt.encode('utf-8')
 
     print job_desc_json
-
     maui = kw.ExtractKeywords()
     keywords = json.loads(maui.find_keywords(job_desc_json))
     print keywords['all_jobs']

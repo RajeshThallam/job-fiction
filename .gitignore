@@ -4,6 +4,8 @@
 # Ignore checkpoints created (especially for the examples)
 .ipynb_checkpoints
 
+workbench
+
 # Misc
 .DS_Store
 analyze/.DS_Store

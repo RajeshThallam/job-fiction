@@ -137,7 +137,7 @@ class ExtractKeywords(object):
                 keywords['excluded'] = exclude
 
             results[key] = keywords
-        
+
         # get categories and append to keywords
         all_keywords = \
             results['all_jobs']['must_have'].keys() + \
@@ -149,12 +149,10 @@ class ExtractKeywords(object):
 
         return json.dumps(results)
 
-
     # ACM Taxonomy converter
     # We convert the flat file from ACM Taxonomy into a JSON file. Each line 
     # contains the keyword and the path that represent the categories and 
     # subcategories of this keyword.
-
     def generate_keyword_paths(self):
         path = []
         level = 0
