@@ -16,7 +16,7 @@ def trainMaui(pathToTrain, modelID, minOccurence):
     pathToModel="./data/models/keyword_extraction_model_"+modelID
     p = Popen(["java", "-jar", "-Xmx1024m", "maui-standalone-1.1-SNAPSHOT.jar", 
          "train", "-l",pathToTrain, "-m",pathToModel,
-               "-v","ACMTaxonomySkosExtended.rdf","-f","skos","-o",str(minOccurence)], stdout=PIPE, stderr=STDOUT)
+               "-v","ACMTaxonomySkosExtended2.rdf","-f","skos","-o",str(minOccurence)], stdout=PIPE, stderr=STDOUT)
     for line in p.stdout:
         if line.find("WARN"):
             continue
@@ -36,7 +36,7 @@ def testMaui(pathToTest, modelID, numKw):
     pathToModel="./data/models/keyword_extraction_model_"+modelID
     p = Popen(["java", "-jar", "-Xmx1024m", "maui-standalone-1.1-SNAPSHOT.jar", 
          "test", "-l",pathToTest, "-m",pathToModel,
-           "-v","ACMTaxonomySkos.rdf","-f","skos","-n",str(numKw)], stdout=PIPE, stderr=STDOUT)
+           "-v","ACMTaxonomySkosExtended2.rdf","-f","skos","-n",str(numKw)], stdout=PIPE, stderr=STDOUT)
     results={}
     kw={}
     doc=""
