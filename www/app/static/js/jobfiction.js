@@ -92,7 +92,8 @@ $(document).ready(function() {
 		        } //end for cat in categories
 
 		        description_graph[0] = cat1_array;   //job_graph is (and MUST) be global
-
+				
+				document.getElementById("description_graph").innerHTML = "";
 		        createBarChart(cat_labels, cat_counts, "description_graph", "Categories of Skills", 1100, 400, "description_graph");
 			}, 
 			dataType = 'json'
@@ -226,17 +227,21 @@ function loadResults(results){
 	var parent = document.getElementById("JobResults");
 	var table = document.getElementById("tableSearchResults");
 
+	var tb = document.getElementById('tableSearchResults_body');
+	tb.innerHTML="";
+	
+	var tb = document.getElementById('tableSearchResults').getElementsByTagName('tbody')[0];
 	var job_count = 0;
 	var job_prefix = "job";
 	var current_job;
 
 	//loop through each job:
 	for (var job in results){
-		job_count++;
-		current_job_id = job_prefix + job_count;  //so we can consistently use this.
+		var current_idx = job_count++;
+		current_job_id = job_prefix + current_idx;  //so we can consistently use this.
 		current_job = results[job];
 
-		var row = table.insertRow(job_count);
+		var row = tb.insertRow(current_idx);
 		row.id=current_job_id;
 		row.className = "accordion-toggle"; 
 		row.setAttribute("data-toggle","collapse");
@@ -309,7 +314,7 @@ function loadResults(results){
 		skillcell = skillrow.insertCell();
 		skillcell.innerHTML = "Nice to Have";
 		skillcell = skillrow.insertCell();
-		var cellvalue = current_job.skill_match.nice_have;
+		var cellvalue = current_job.skill_match.nice_to_have;
 		if (cellvalue < 0){
 			cellvalue = 0;
 		}
@@ -386,6 +391,8 @@ function loadResults(results){
 
 
 function createBarChart(labels, values, target_div, title, input_width, input_height, job_id){
+
+   document.getElementById(target_div).innerHTML = "";
 
 
   var data = [];
