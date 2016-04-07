@@ -6,6 +6,7 @@ from flask import Blueprint, request, render_template, \
 from app import app
 from run_scripts import RunThread
 from extract_keywords import extract_keywords as kw
+from model_talking import model_talking as mdl
 import json
 import ast
 
@@ -25,7 +26,6 @@ def home_page():
 @mod_home.route('/getkeywords', methods=['GET', 'POST'])
 def get_keywords():
     # read url parameters
-    #job_posts = request.args.post('jobposts')
     job_posts = request.get_data().decode('utf-8')
     job_posts_json = json.loads(job_posts)
 
@@ -43,3 +43,24 @@ def get_keywords():
     print keywords['all_jobs']
 
     return jsonify(keywords['all_jobs'])
+
+# get job results based on the dream job description and preferences of user
+@mod_home.route('/getresults', methods=['GET', 'POST'])
+def get_results():
+    # read url parameters
+    job_posts = request.get_data().decode('utf-8')
+    job_posts_json = json.loads(job_posts)
+
+    job_desc_json = {}
+    job_desc_txt = ""
+    for key, desc in enumerate(job_posts_json['desc']):
+        job_desc_txt += desc
+
+    job_desc_json['all_jobs'] = job_desc_txt.encode('utf-8')
+
+    print job_desc_json
+    model = mdl.ModelTalking()
+    results = json.loads(model.get_job_recommendations(job_desc_json))
+    print results
+
+    return jsonify(results)

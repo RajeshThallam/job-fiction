@@ -6,8 +6,6 @@ var description_graph = {}
 // initialization
 $(document).ready(function() {
 
-
-
 	// function to set shapeshift plug-in containers
 	$('.modelcontainer').shapeshift({
 		align:'left',
@@ -42,68 +40,63 @@ $(document).ready(function() {
 			url = '/home/getkeywords', 
 			data = JSON.stringify(job_posts), 
 			function(data) {
-			console.log(data);
+				console.log(data);
 
-			// remove all existing tokens
-			$('.ss-active-child').remove();
-			
-			for (var key in data) {	
-				var keywords = data[key];
-				for (var keyword in keywords) {
-					addNewToken("#" + key, keyword, key)
-					/*if (key === 'must_have') {
-						addNewToken("#" + key, keyword, "must_have")
-					}
-					else if (key === 'nice_have') {
-						addNewToken("#" + key, keyword, "nice_have")
-					}*/
-				}				
-			}
+				// remove all existing tokens
+				$('.ss-active-child').remove();
+				
+				for (var key in data) {	
+					var keywords = data[key];
+					for (var keyword in keywords) {
+						addNewToken("#" + key, keyword, key)
+						/*if (key === 'must_have') {
+							addNewToken("#" + key, keyword, "must_have")
+						}
+						else if (key === 'nice_have') {
+							addNewToken("#" + key, keyword, "nice_have")
+						}*/
+					}				
+				}
 
-			//Graph
-			categories = data.categories
+				//Graph
+				categories = data.categories
 
-			var current_cat = [];  //temp object
+				var current_cat = [];  //temp object
 
-	        var cat_counts = []; //counts for level 1 categories//for immediate graph
-	        var cat_labels = []; //labels for level 1 categories//for immediate graph
-	        var cat1_array = {}; //object for holding all category 1
-	         
-	        for (var cat in categories){  //cat is the category 1 label                           GENERAL
-	            cat_labels.push(cat);//for immediate graph
-	            current_cat = categories[cat];
-	            var obj_cat1 = {}; //object for holding category 1 information
-	            var obj_cat2 = {};  //object for holding category 2 info
-	            for (var c_name in current_cat){                                                     //count,  skill, skill
-	                  if (c_name == 'count'){
-	                    //count is a special category !!
-	                    //add count to cat_counts
-	                    //add count to object for category 1
-	                    cat_counts.push(categories[cat][c_name]); //for immediate graph
-	                    obj_cat1["count"] = categories[cat][c_name];
-	                  } else{
-	                    //put values into some sort of structure that has the category 2 stuff.
-	                    //c_name is the category2 name.
-	                    obj_cat2[c_name] = categories[cat][c_name];
-	                  }
-	            }
-	            //after loop, add category2 object to cat 2 array
-	            obj_cat1["cat2"] = obj_cat2;
-	              
-	            cat1_array[cat] = obj_cat1;
-	        } //end for cat in categories
+		        var cat_counts = []; //counts for level 1 categories//for immediate graph
+		        var cat_labels = []; //labels for level 1 categories//for immediate graph
+		        var cat1_array = {}; //object for holding all category 1
+		         
+		        for (var cat in categories){  //cat is the category 1 label                           GENERAL
+		            cat_labels.push(cat);//for immediate graph
+		            current_cat = categories[cat];
+		            var obj_cat1 = {}; //object for holding category 1 information
+		            var obj_cat2 = {};  //object for holding category 2 info
+		            for (var c_name in current_cat){                                                     //count,  skill, skill
+		                  if (c_name == 'count'){
+		                    //count is a special category !!
+		                    //add count to cat_counts
+		                    //add count to object for category 1
+		                    cat_counts.push(categories[cat][c_name]); //for immediate graph
+		                    obj_cat1["count"] = categories[cat][c_name];
+		                  } else{
+		                    //put values into some sort of structure that has the category 2 stuff.
+		                    //c_name is the category2 name.
+		                    obj_cat2[c_name] = categories[cat][c_name];
+		                  }
+		            }
+		            //after loop, add category2 object to cat 2 array
+		            obj_cat1["cat2"] = obj_cat2;
+		              
+		            cat1_array[cat] = obj_cat1;
+		        } //end for cat in categories
 
-	        description_graph[0] = cat1_array;   //job_graph is (and MUST) be global
+		        description_graph[0] = cat1_array;   //job_graph is (and MUST) be global
 
-	        createBarChart(cat_labels, cat_counts, "description_graph", "Categories of Skills", 1100, 400, "description_graph");
-
-
-//end graph
-
-
-
-		}, dataType = 'json');
-
+		        createBarChart(cat_labels, cat_counts, "description_graph", "Categories of Skills", 1100, 400, "description_graph");
+			}, 
+			dataType = 'json'
+		);
 	});
 });
 
@@ -143,118 +136,92 @@ function setOptions(){
 
 //this function just coordinates the retrieval of the job lists.
 function getResults(){
-	sendModel();
-	loadResults();
+	//sendModel();
+	//loadResults();
+
+    model_inputs_json = collectModelInputs()
+	$.post(
+        url = '/home/getresults', 
+        data = JSON.stringify(model_inputs_json), 
+        function(data) {
+            console.log(data);
+            loadResults(data);
+        },
+        dataType = 'json'
+    );
 }
 
-//this function sends the model
-function sendModel(){
-	var model_json = collectModel();
-
-	//do stuff here to send the model
-}
-
-//this function collects the model and returns it as JSON
-function collectModel(){
-
-
-	var must_have = [];
-	var nice_to_have = [];
-	var exclude = [];
-
-	//loop through all must have
-	var ancestor = document.getElementById('must_have'), 
-		decendents = ancestor.getElementsByTagName('div');
-	var i, element, token;
-
-	for (i = 0; i < decendents.length; i++){
-		element = decendents[i];
-		token = element.id;
-		if (token != 'Placeholder_temp'){
-			must_have.push(token);	
-		}
-		
-
-	}
-
-	//loop through all must have
-	var ancestor = document.getElementById('nice_to_have'), 
-		decendents = ancestor.getElementsByTagName('div');
-	var i, element, token;
-	for (i = 0; i < decendents.length; i++){
-		element = decendents[i];
-		token = element.id;
-		if (token != 'Placeholder_temp'){
-			nice_to_have.push(token);	
-		}
-		
-
-	}
-	//loop through all exclude
-	var ancestor = document.getElementById('exclude'), 
-		decendents = ancestor.getElementsByTagName('div');
-	var i, element, token;
-	for (i = 0; i < decendents.length; i++){
-		element = decendents[i];
-		token = element.id;
-		if (token != 'Placeholder_temp'){
-			exclude.push(token);	
-		}			
-
-	}
-
-
-	//compose JSON
-	//NOTE - yes, creation of each tmpSTR could have been done above, but at this time it is not
-	//certain how it is best to create JSON, so this gives most flexibility
-	var strJSON = "";
-
+// this function collects the model and returns it as JSON
+function collectModelInputs(){
 	var job_title = [];
 	var job_desc = [];
+	var must_have = [];
+	var nice_have = [];
+	var exclude = [];
 
+	// loop through all must have
+	$("#must_have").find("div").each(function() {
+		must_have.push($(this).attr('id'));
+	});
+
+	// loop through all nice to have
+	$("#nice_have").find("div").each(function() {
+		nice_have.push($(this).attr('id'));
+	});
+
+	//loop through all exclude
+	$("#exclude").find("div").each(function() {
+		exclude.push($(this).attr('id'));
+	});
+
+    // loop job titles
 	$(".user-job-title").each(function() {
 		job_title.push($(this).val());
 	});
 
+    // loop job descriptions
 	$(".user-job-desc").each(function() {
 		job_desc.push($(this).val());
 	});
-	
-	//option - zip code
 
-	e = document.getElementById('zip')
-	if (e.value.length>0){
-		var zip = e.value;
-	}
+    // option - zip code
+    if ($("#zip").val().length>0) {
+        var zip = $("#zip").val();
+    }
 
-	//option - education
-	e = document.getElementById('education')
-	value = e.options[e.selectedIndex].value
-	if (value != "None"){
-		var education = value;
-	}		
+    // option - education
+    if ($('#education').val() != "None"){
+        var education = $('#education').val();
+    }
 
-	//option - sort
-	e = document.getElementById('sort')
-	value = e.options[e.selectedIndex].value
-	if (e.value != "None"){
-		var sort = value;		
-	}	
+    // option - sort
+    if ($('#sort').val() != "None"){
+        var sort = $('#sort').val();
+    }
 
-	//TODO: Fix: Made into string because it was complaining about something
-	strJSON = "{title: job_title, desc: job_desc; keywords:{must_have: must_have, nice_to_have: nice_to_have, exclude: exclude},preferences:{zip_code: zip, education: education, sort:sort}}";	
+	// compose model input JSON
+	var strJSON = {
+        title: job_title, 
+        desc: job_desc, 
+        keywords: {
+            must_have: must_have, 
+            nice_have: nice_have, 
+            exclude: exclude
+        },
+        preferences: {
+            zip_code: zip, 
+            education: education, 
+            sort:sort
+        }
+    };
 
+    console.log(strJSON);
 	return strJSON;
-
 }
 
 //this function loads the results
-function loadResults(){
-
-	//THIS IS HERE UNTIL WE HAVE ACTUAL JSON TO LOAD
-	var JSON_in = '{"job1":{"job_title": "Data Scientist","job_description": "Job description As a Data Science Consultant at RBA, you will work on client projects in ",       "job_url": "http://careers.intuit.com/job-category/7/data/job/00122116/data-scientist?src=JB-10116&utm_source=indeed&utm_medium=jb",        "company": "Intuit",        "industry": "Finance",        "job_class": {          "Data Scientist": 100       },        "match_rate": 52,       "location": "Mountain View, California 94039",        "skill_match": {          "must_have": 5,         "nice_to_have": 3       },        "categories": {               "GENERAL": {"count":3,            "Integrated Circits": 1,            "Real-time systems": 2          },              "MATHEMATICS": {"count":1,              "Mathematical Software": 1          },      "COMPUTING": {  "count":8,          "Machine learning": 5,            "Modeling and simulation": 2,           "Electronic commerce": 1          },        "HUMAN": {    "count":2,        "Visualization": 2          },  "PROFESSIONAL": { "count":2,          "Computing Technology policy": 2          }       }     }, "job2": {"job_title": "Analyst","job_description": "iashjdf kasdfoaksdfv  l;askdjf; asdx kajsdf kal;skdx laskd sdakas dfksadl;kfmk;asdc ;sadfkncl;kdsf ",       "job_url": "http://careers.intuit.com/job-category/7/data/job/00122116/data-scientist?src=JB-10116&utm_source=indeed&utm_medium=jb",        "company": "Place To Work",        "industry": "Finance",        "job_class": {          "Data Scientist": 100       },        "match_rate": 52,       "location": "Mountain View, California 94039",        "skill_match": {          "must_have": 1,         "nice_to_have": 1       },        "categories": {               "GENERAL": {"count":1,            "Integrated Circits": 1         },              "MATHEMATICS": {"count":1,              "Mathematical Software": 1          },      "COMPUTING": {  "count":14,          "Machine learning": 7,            "Modeling and simulation": 2,           "Electronic commerce": 5          },        "HUMAN": {    "count":2,        "Visualization": 2          },  "PROFESSIONAL": { "count":4,          "Computing Technology policy": 2 , "presentations": 2         }       }     }}';
-
-	var results = JSON.parse(JSON_in);
+function loadResults(results){
+	//var results = JSON.parse(results_str);
 
 	var parent = document.getElementById("JobResults");
 	var table = document.getElementById("tableSearchResults");
@@ -342,7 +309,7 @@ function loadResults(){
 		skillcell = skillrow.insertCell();
 		skillcell.innerHTML = "Nice to Have";
 		skillcell = skillrow.insertCell();
-		var cellvalue = current_job.skill_match.nice_to_have;
+		var cellvalue = current_job.skill_match.nice_have;
 		if (cellvalue < 0){
 			cellvalue = 0;
 		}
