@@ -2078,7 +2078,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/10344"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/10373">
-		<skos:prefLabel xml:lang="en">B&I Computer Consultants Childcare Sage</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">B&amp;I Computer Consultants Childcare Sage</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/10344"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/10374">
@@ -2090,7 +2090,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/10344"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/10376">
-		<skos:prefLabel xml:lang="en">Bowen & Groves M1 ERP</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Bowen &amp; Groves M1 ERP</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/10344"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/10377">
@@ -2438,7 +2438,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/10344"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/10463">
-		<skos:prefLabel xml:lang="en">IPro Series 40 Restaurant Inventory, Recipe & Menu Software</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">IPro Series 40 Restaurant Inventory, Recipe &amp; Menu Software</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/10344"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/10464">
@@ -2446,7 +2446,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/10344"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/10465">
-		<skos:prefLabel xml:lang="en">Jack Henry & Associates Vertex</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Jack Henry &amp; Associates Vertex</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/10344"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/10466">
@@ -7716,7 +7716,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11391">
-		<skos:prefLabel xml:lang="en">Belmar & Associates Mortware</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Belmar &amp; Associates Mortware</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11392">
@@ -8068,7 +8068,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11479">
-		<skos:prefLabel xml:lang="en">CoPilot Flight Planning & E6B</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">CoPilot Flight Planning &amp; E6B</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11480">
@@ -8088,7 +8088,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11484">
-		<skos:prefLabel xml:lang="en">Corporate Legal Solutions Case&Point software</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Corporate Legal Solutions Case&amp;Point software</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11485">
@@ -8260,7 +8260,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11527">
-		<skos:prefLabel xml:lang="en">Dean Evans & Associates EMS Professional</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Dean Evans &amp; Associates EMS Professional</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11528">
@@ -8428,7 +8428,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11569">
-		<skos:prefLabel xml:lang="en">Elite Software Elite Salon & Spa Management</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Elite Software Elite Salon &amp; Spa Management</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11570">
@@ -8712,7 +8712,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11640">
-		<skos:prefLabel xml:lang="en">Gavel & Gown Software Amicus Attorney software</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Gavel &amp; Gown Software Amicus Attorney software</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11641">
@@ -8788,7 +8788,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11659">
-		<skos:prefLabel xml:lang="en">G&P Engineering Software PhysProps</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">G&amp;P Engineering Software PhysProps</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11660">
@@ -8912,7 +8912,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11690">
-		<skos:prefLabel xml:lang="en">IDEAS Software & Training IDEAS Property Clerk</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">IDEAS Software &amp; Training IDEAS Property Clerk</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11691">
@@ -9324,7 +9324,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11793">
-		<skos:prefLabel xml:lang="en">Mainstreet Systems & Software DentaLab/PC II</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Mainstreet Systems &amp; Software DentaLab/PC II</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11794">
@@ -9440,7 +9440,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11822">
-		<skos:prefLabel xml:lang="en">MIKAL Salon & Spa Software</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">MIKAL Salon &amp; Spa Software</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/11823">
@@ -10440,7 +10440,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/12072">
-		<skos:prefLabel xml:lang="en">SS&C Technologies Skyline Property Management</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">SS&amp;C Technologies Skyline Property Management</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/11292"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/12073">
@@ -11484,7 +11484,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/12206"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/12238">
-		<skos:prefLabel xml:lang="en">AT&T</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">AT&amp;T</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/12206"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/12239">
@@ -11572,7 +11572,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/12206"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/12260">
-		<skos:prefLabel xml:lang="en">Cable & Wireless Worldwide</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Cable &amp; Wireless Worldwide</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/12206"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/12261">
@@ -11816,7 +11816,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/12206"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/12321">
-		<skos:prefLabel xml:lang="en">Ernst & Young</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Ernst &amp; Young</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/12206"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/12322">
@@ -12268,7 +12268,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/12206"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/12434">
-		<skos:prefLabel xml:lang="en">McKinsey & Company</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">McKinsey &amp; Company</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/12206"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/12435">
@@ -15680,7 +15680,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13074"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/13123">
-		<skos:prefLabel xml:lang="en">Crones & Associations Project Tracker Pro</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Crones &amp; Associations Project Tracker Pro</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13074"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/13124">
@@ -15976,7 +15976,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13074"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/13197">
-		<skos:prefLabel xml:lang="en">National Concrete & Masonry Estimator</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">National Concrete &amp; Masonry Estimator</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13074"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/13198">
@@ -18977,7 +18977,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13802"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/13809">
-		<skos:prefLabel xml:lang="en">AT&T Troff</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">AT&amp;T Troff</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13802"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/13810">
@@ -21174,7 +21174,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/13919">
-		<skos:prefLabel xml:lang="en">Advanced Dimensional Management 3D-GD&T</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Advanced Dimensional Management 3D-GD&amp;T</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/13920">
@@ -21690,7 +21690,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14048">
-		<skos:prefLabel xml:lang="en">Biodegration flow and transport modeling BIO F&T software</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Biodegration flow and transport modeling BIO F&amp;T software</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14049">
@@ -21930,7 +21930,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14108">
-		<skos:prefLabel xml:lang="en">Cedaron Dexter Evaluation & Impairment Rating</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Cedaron Dexter Evaluation &amp; Impairment Rating</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14109">
@@ -22362,7 +22362,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14216">
-		<skos:prefLabel xml:lang="en">Crystallography & NMR System CNS software</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Crystallography &amp; NMR System CNS software</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14217">
@@ -22390,11 +22390,11 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14223">
-		<skos:prefLabel xml:lang="en">Cullimore & Ring Technologies SINDA/FLUINT</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Cullimore &amp; Ring Technologies SINDA/FLUINT</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14224">
-		<skos:prefLabel xml:lang="en">Cullimore & Ring Technologies Thermal Desktop</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Cullimore &amp; Ring Technologies Thermal Desktop</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14225">
@@ -22918,7 +22918,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14355">
-		<skos:prefLabel xml:lang="en">Enggist & Grandjean EGS CALCMENU software</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Enggist &amp; Grandjean EGS CALCMENU software</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14356">
@@ -23350,7 +23350,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14463">
-		<skos:prefLabel xml:lang="en">Food Software.com IPro Restaurant Inventory, Recipe & Menu Software</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Food Software.com IPro Restaurant Inventory, Recipe &amp; Menu Software</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14464">
@@ -23678,7 +23678,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14545">
-		<skos:prefLabel xml:lang="en">GE Sensing & Inspection Technologies Rhythm UT</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">GE Sensing &amp; Inspection Technologies Rhythm UT</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14546">
@@ -23726,11 +23726,11 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14557">
-		<skos:prefLabel xml:lang="en">G&P Engineering Software EngVert</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">G&amp;P Engineering Software EngVert</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14558">
-		<skos:prefLabel xml:lang="en">G&P Engineering Software PipeDrop</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">G&amp;P Engineering Software PipeDrop</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14559">
@@ -23870,7 +23870,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14593">
-		<skos:prefLabel xml:lang="en">Hellman & Schofield MP3</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Hellman &amp; Schofield MP3</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14594">
@@ -24278,7 +24278,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14695">
-		<skos:prefLabel xml:lang="en">K&K Associates Thermal Analysis Kit TAK</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">K&amp;K Associates Thermal Analysis Kit TAK</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14696">
@@ -24366,7 +24366,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14717">
-		<skos:prefLabel xml:lang="en">Land & Sea DYNO-MAX</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Land &amp; Sea DYNO-MAX</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14718">
@@ -25034,11 +25034,11 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14884">
-		<skos:prefLabel xml:lang="en">Muthen & Muthen Mplus</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Muthen &amp; Muthen Mplus</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14885">
-		<skos:prefLabel xml:lang="en">Muthen & Muthen MPlus</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Muthen &amp; Muthen MPlus</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/14886">
@@ -25542,7 +25542,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15011">
-		<skos:prefLabel xml:lang="en">Power & Precision software</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Power &amp; Precision software</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15012">
@@ -25766,7 +25766,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15067">
-		<skos:prefLabel xml:lang="en">Quality Plans & Software HVAC Calculator</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Quality Plans &amp; Software HVAC Calculator</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15068">
@@ -26178,7 +26178,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15170">
-		<skos:prefLabel xml:lang="en">Schlumberger E&P software</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Schlumberger E&amp;P software</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15171">
@@ -26250,7 +26250,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15188">
-		<skos:prefLabel xml:lang="en">Scientific Software Group BIOF&T</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Scientific Software Group BIOF&amp;T</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15189">
@@ -27346,7 +27346,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15462">
-		<skos:prefLabel xml:lang="en">Tradesman&apos;s Software Master Estimator</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Tradesman&amp;apos;s Software Master Estimator</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15463">
@@ -27598,7 +27598,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15525">
-		<skos:prefLabel xml:lang="en">Vieux & Associates Vflow</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Vieux &amp; Associates Vflow</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/13894"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15526">
@@ -29623,7 +29623,7 @@
 		<skos:broader rdf:resource="www.jobfiction.com/15881"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15936">
-		<skos:prefLabel xml:lang="en">Medical Wizards ER & ICU ToolBox</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Medical Wizards ER &amp; ICU ToolBox</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/15881"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15937">
@@ -29779,11 +29779,11 @@
 		<skos:broader rdf:resource="www.jobfiction.com/15881"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15975">
-		<skos:prefLabel xml:lang="en">Standard & Poor's Capital IQ Compustat</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Standard &amp; Poor's Capital IQ Compustat</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/15881"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15976">
-		<skos:prefLabel xml:lang="en">Standard & Poor's Capital IQ software</skos:prefLabel>
+		<skos:prefLabel xml:lang="en">Standard &amp; Poor's Capital IQ software</skos:prefLabel>
 		<skos:broader rdf:resource="www.jobfiction.com/15881"/>
 	</skos:Concept>
 	<skos:Concept rdf:about="www.jobfiction.com/15977">
