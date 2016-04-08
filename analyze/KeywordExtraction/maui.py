@@ -1,9 +1,8 @@
 from subprocess import Popen, PIPE, STDOUT
 import os,time
-import json,shutil
+import json
 
-pathToMaui="/root/job-fiction/analyze/Keyword Extraction/"
-os.chdir(pathToMaui)
+pathToMaui="/root/job-fiction/analyze/KeywordExtraction/"
 # Function to train a MAUI model. 
 # Input: 
 # - path to training file, 
@@ -13,10 +12,10 @@ os.chdir(pathToMaui)
 # - path to model file
 
 def trainMaui(pathToTrain, modelID, minOccurence):
-    pathToModel="./data/models/keyword_extraction_model_"+modelID
-    p = Popen(["java", "-jar", "-Xmx1024m", "maui-standalone-1.1-SNAPSHOT.jar", 
+    pathToModel=pathToMaui+"data/models/keyword_extraction_model_"+modelID
+    p = Popen(["java", "-jar", "-Xmx1024m", pathToMaui+"maui-standalone-1.1-SNAPSHOT.jar", 
          "train", "-l",pathToTrain, "-m",pathToModel,
-               "-v","ACMTaxonomySkosExtended2.rdf","-f","skos","-o",str(minOccurence)], stdout=PIPE, stderr=STDOUT)
+               "-v",pathToMaui+"ACMTaxonomySkosExtended2.rdf","-f","skos","-o",str(minOccurence)], stdout=PIPE, stderr=STDOUT)
     for line in p.stdout:
         if line.find("WARN"):
             continue
@@ -33,10 +32,10 @@ def trainMaui(pathToTrain, modelID, minOccurence):
 # - A JSON containing the keywords
 
 def testMaui(pathToTest, modelID, numKw):
-    pathToModel="./data/models/keyword_extraction_model_"+modelID
-    p = Popen(["java", "-jar", "-Xmx1024m", "maui-standalone-1.1-SNAPSHOT.jar", 
+    pathToModel=pathToMaui+"data/models/keyword_extraction_model_"+modelID
+    p = Popen(["java", "-jar", "-Xmx1024m", pathToMaui+"maui-standalone-1.1-SNAPSHOT.jar", 
          "test", "-l",pathToTest, "-m",pathToModel,
-           "-v","ACMTaxonomySkosExtended2.rdf","-f","skos","-n",str(numKw)], stdout=PIPE, stderr=STDOUT)
+           "-v",pathToMaui+"ACMTaxonomySkosExtended2.rdf","-f","skos","-n",str(numKw)], stdout=PIPE, stderr=STDOUT)
     results={}
     kw={}
     doc=""
@@ -64,7 +63,8 @@ def testMaui(pathToTest, modelID, numKw):
 
 # Function takes a JSON, save it into a directory and call the testMaui function.
 # Query should be in the form of {"jobID1":"summary","jobID2":"summary2",...}
-def mauiTopicClf(query,thres1=0.6,thres2=0.2):
+# You can choose the model. Default is Steph2
+def mauiTopicClf(query,model="Steph2",thres1=0.6,thres2=0.2):
     #create a temporary directory for MAUI to work in
     if not os.path.exists("workbench"):
         os.makedirs("workbench")
@@ -74,7 +74,7 @@ def mauiTopicClf(query,thres1=0.6,thres2=0.2):
         with open("workbench/"+k+".txt",'w') as recFile:
             recFile.write(v)
     # call the Maui wrapper on these files
-    response= json.loads(testMaui("workbench", "Steph", 40))
+    response= json.loads(testMaui("workbench", model, 40))
     # remove the working directory
     shutil.rmtree("./workbench")
     
