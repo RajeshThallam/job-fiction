@@ -1,0 +1,37 @@
+Data Scientist
+KPMG
+New York, NY United States
+
+KPMG is proud to foster a high-performance culture, one that’s defined by having the best people, with the skills and determination to deliver above and beyond. We look for insightful and astute professionals who are also forward-thinking, confident, and globally minded. Our business services groups consist of professionals with a wide range of skills and backgrounds. We are currently seeking a Data Scientist, to join our Data & Analytics team in our New York office with other locations considered.
+
+Responsibilities:
+
+Analyze and model structured data using advanced statistical methods and implement algorithms and software needed to perform analyses
+Build recommendation engines, spam classifiers, sentiment analyzers and classifiers for unstructured and semi-structured data
+Cluster large amount of user generated content and process data in large-scale environments using Amazon EC2, Storm, Hadoop and Spark
+Perform machine learning, natural language, and statistical analysis methods, such as classification, collaborative filtering, association rules, sentiment analysis, topic modeling, time-series analysis, regression, statistical inference, and validation methods
+Drive client engagements focused on Big Data and Advanced Business Analytics, in diverse domains such as product development, marketing research, public policy, optimization, and risk management; Communicate results and educate others through reports and presentations
+Perform explanatory data analyses, generate and test working hypotheses, prepare and analyze historical data and identify patterns
+Qualifications:
+
+Eight years of professional experience working as a Data Scientist
+Experience with command-line scripting, data structures and algorithms and ability to work in a Linux environment, processing large amounts of data in a cloud environment
+Masters degree or PhD from an accredited college/university in Computer Science, Statistics, Mathematics, Engineering, Bioinformatics, Physics, Operations Research, or related fields, with a minimum of two years of relevant experience (strong mathematical background with ability to understand algorithms and methods from a mathematical viewpoint and an intuitive viewpoint)
+Strong knowledge in at least one of the following fields: machine learning, data visualization, statistical modeling, data mining, or information retrieval
+Strong data extraction and processing, using MapReduce, Pig, and/or Hive preferred
+Proficiency in analysis (e.g. R, SAS, Matlab) packages, programming languages (e.g. Java, Python, Ruby) as well as the ability to implement, maintain, and troubleshoot big data infrastructure, such as distributed processing paradigms, stream processing and databases such as Hadoop, Storm, SQL and Solr
+KPMG offers a comprehensive compensation and benefits package.
+
+No phone calls or agencies please.
+
+One Firm. One Team. Countless Opportunities.
+
+KPMG, an equal opportunity employer/disability/veteran. KPMG maintains a drug-free workplace.
+
+KPMG will consider for employment qualified applicants with criminal histories in a manner consistent with the requirements of applicable local, state or federal law (including San Francisco Ordinance number 131192).
+
+
+Click here to apply for this position.
+
+Job code: 56420
+47155790

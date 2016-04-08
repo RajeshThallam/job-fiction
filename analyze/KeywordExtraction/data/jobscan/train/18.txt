@@ -1,0 +1,75 @@
+The Network Data Analyst must possess âData analysisâ skills and be willing to learn telecommunications/network engineering methodologies and best practices to apply data analysis techniques to telecom. The person will be required to manage project timelines and ensure the analytics provided by NPM to various groups (internal and external) are consistent and driven by quality and performance objectives.
+,
+
+The data scientist will focus on 4 major areas of NPM activities and put together a roadmap for Data Analytics implementation. They are:
+,
+
+1) Network performance data (FCC benchmarking), Flow based data (Calix as well as NetFlow), Procera (Usage based), Topology data, Queue level stats, Operational data - trouble tickets, CDR, IPDR
+,
+
+2) Network optimization â transport
+,
+
+3) Tactical - Congestion relief (reactive) and Strategic - Capacity planning (proactive)
+,
+
+4) Location based initiatives - engineering or marketing (spatial analytics)
+,
+
+The analyst will be required to work as a team player by sharing knowledge, training and best practices with team members. He/she will be required to engage with the Director and Vendors to discuss future roadmaps, systems and data requirements, statements of work and other confidential information. The analyst will be expected to work closely with other functional groups in Engineering including Reporting and Data Analysis, Traffic Data Management, Analytics, NEEDS and future groups as well as other cross functional groups in Frontier including Product, Marketing, Operations, Strategy, IT and others.
+,
+
+Extensive knowledge of âBig Dataâ techniques and methods, databases, programming (Python, R/SAS etc), is desired. This person is expected to become a power user of several internal Frontier systems (Broadband Service Availability, NMARS, NEEDS, DPI, Infinium, EDW) and other future applications.
+,
+
+,
+Essential Duties and Responsibilities include the following:,
+
+Develop documentation and workflows for Data Analysis and Reporting group. Write technical documents, specifications and use cases for existing and new applications.
+,
+
+Develop Data Analysis and Reporting groupâs solutions that drive Frontier to become more efficient, consistent and accurate. Enhance existing applications such as NMARS while enabling other systems (for Data Analysis) to be leveraged for strategic purposes where not already available.
+,
+
+Provide technical leadership guidance to other members of Frontier.
+,
+
+,
+Requirements:,
+
+1-5 years of relevant hands on experience.
+,
+
+Strong working knowledge of a combination of the following languages: Hadoop, R/SAS, Python, SQL, MySQL, Perl, Javascript, Oracle and C/C++.
+,
+
+This position requires knowledge âData Analysisâ methods, and must be capable of putting together a âdata analysisâ platform deployment plans. It also requires strong organizational skills, ability to multi-task, resource coordination, strong verbal and written communication skills and proven ability to interact with all levels of the organization.
+,
+
+Demonstrated hands-on experience in the analysis, design, implementation, deployment, training, and support of a variety of large and complex projects.
+,
+
+Ability to work independently and in teams, prioritizing multiple projects, issues and tasks with minimal direction.
+,
+
+Ability to interface knowledgeably and effectively with individuals and teams from across all organizations in the company.
+,
+
+Maintain professional and technical knowledge by leveraging on-line technical resources, attending conferences, establishing personal and professional relationships, attending formal training classes, and pursuing certifications where appropriate.
+,
+
+,
+Working Knowledge of a combination of the following:,
+ Hadoop, R/SAS, Python, SQL, C/C++.
+,
+
+Bachelors or Masterâs Degree in Computer Science, IT, IS or Engineering or in âData Analysisâ intense fields such as nuclear physics, astrophysics, biotechnology, biochemistry.
+,
+
+Some travel may be required.
+,
+
+Required Skills
+,
+
+Required Experience

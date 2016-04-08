@@ -1,0 +1,93 @@
+Position Title:,
+ Healthcare Data Analyst
+,
+Summary:,
+ The Healthcare Data Analyst develops algorithms analyzing Medical, Dental and Pharmacy claims data to detect fraud, waste and abuse. They prepare formal write-ups detailing the analysis performed while highlighting suspicious providers, trends, outliers and potential overpayments. They work with the Data Analysis manager to refine analysis and prepare presentations to the client's Program Integrity department.
+,
+
+,
+Essential Duties:,
+
+,
+
+,
+Analyze health care claims data for the Surveillance Utilization Review - Program Integrity department to identify potential fraud and abuse by providers and/or recipients. Prepare formal write-ups detailing algorithm parameters, programming and results. Present effective, polished presentations of these results to clients.,
+
+,
+Research policies, provider manuals, provider communications, law and coding guidelines related to analytic projects. Translate this policy into data analysis.,
+
+,
+Perform drill down reporting on suspicious providers and/or recipients and create reports to show the dollars paid and the potential recovery. Provide recommendations for next steps in the investigation of algorithm results, opportunities policy clarification, provider education and/or claim edit enhancement as methods of cost avoidance.,
+
+,
+Work in a team setting and independently performing detailed claims analysis using proprietary software tools as well as industry leading analytic tools. Participate in training to learn these tools.,
+
+,
+Update internal team databases and the case tracking tool to reflect project status.,
+
+,
+Peer review algorithm logic and write-ups for other Senior Analytic Consultants.,
+
+,
+Create draft provider audit letters and mail merges for completed algorithms.,
+
+,
+Provide on-site and/or telephone support (e.g., client inquiries, ad hoc reporting assistance, miscellaneous research, advice on analytic methods) and training as requested by client end users and management.,
+
+,
+Through the use of analytic findings, define problems and recommend appropriate solutions to clients, other team members and management taking into account the project budget, the sophistication of the user and the intended use of project results.,
+
+,
+Demonstrates increasing responsibility for completion and ownership of projects and/or tasks with a significant impact on a department or function.,
+
+,
+
+,
+Requirements:,
+
+,
+
+,
+2-4 years as an Analytic Consultant, Data Analyst, Data Scientist or related quantitative analysis field.,
+
+,
+Four year college degree in mathematics, economics, business, information systems, informatics, statistics, health administration, or comparable field involving quantitative analysis.,
+
+,
+Registered Health Information Administrator (RHIA), Certified Fraud Examiner (CFE), or Accredited Health Care Fraud Investigator (AHFI) certifications preferred .,
+
+,
+Knowledge of SAS, SQL, Access, or similar data analysis software tools. Skillful in MS Excel.,
+
+,
+Experience with data validation and data integrity testing.,
+
+,
+Ability to analyze large data sets to draw relevant conclusions and make educated decisions.,
+
+,
+Demonstrated ability to convey complex ideas in an easily understood manner to guide audience through written or verbal communications.,
+
+,
+Excellent oral and written communication skills and outstanding presentation skills.,
+
+,
+Previous knowledge of healthcare insurance claims from clinical or administrative experience.,
+
+,
+Experience in applying health analysis methods and measures utilizing basic statistical methods.,
+
+,
+Experience transforming raw data into visual interpretations.,
+
+,
+Excellent time management techniques and the ability to develop creative solutions to enhance processes.,
+
+,
+
+Briljent will not discriminate against any employee or applicant on the basis of age, color, gender, marital status, race, religion, veteran status, disability (in compliance with the American Disabilities Act), sex, sexual orientation, gender identity, or national origin or other status as protected by applicable law.
+,
+
+,
+Keywords:,
+ Algorithms, research, fraud, abuse, analysis, healthcare
