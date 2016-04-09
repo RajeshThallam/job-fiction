@@ -1,0 +1,44 @@
+Job Description
+ 
+Data Analyst(Job Number: 00017681601)
+ 
+Description
+ 
+Responsibilities
+ 
+Interpret data, analyze results using statistical techniques and provide ongoing reports
+Develop and implement data collection systems and other strategies that optimize statistical efficiency and data quality
+Acquire data from primary or secondary data sources and maintain databases/data systems
+Identify, analyze, and interpret trends or patterns in complex data sets
+Work closely with management to prioritize business and information needs
+Locate and define new process improvement opportunities
+ 
+Requirements
+Proven working experience as a data analyst
+Technical expertise regarding data models, database design development, data mining and segmentation techniques
+Strong knowledge of and experience with reporting packages (Business Objects etc), databases (SQL etc), programming (XML, Javascript, or ETL frameworks)
+Knowledge of statistics and experience using statistical packages for analysing large datasets (Excel, SPSS, SAS etc)
+Strong analytical skills with the ability to collect, organise, analyse, and disseminate significant amounts of information with attention to detail and accuracy
+Adept at queries, report writing and presenting findings
+Strong experience in SQL and PLSQL
+Strong experience with SQL Server, Oracle and ETL tools like Informatica and SSIS etc
+Very strong experience in Data Analysis which includes source to target data model design, ETL process design
+Strong experience in converting Business requirements to Technical requirements
+Strong experience as a lead 
+ 
+ 
+Education :
+BS in Mathematics, Economics, Computer Science, Information Management or Statistics
+ 
+ 
+NOTE:
+Cognizant is an Equal Opportunity Employer M/F/D/V.
+We will only be able to respond to those candidates that most closely meet our criteria.
+ 
+ 
+A Snapshot about Us:
+Cognizant is an Equal Opportunity Employer M/F/D/V. Cognizant is committed to ensuring that all current and prospective associates are afforded equal opportunities and treatment and a work environment free of harassment.
+Cognizant (NASDAQ: CTSH) is a leading provider of IT services. Focused on delivering strategic information technology solutions that address the complex business needs of its clients, Cognizant uses its own on-site/offshore outsourcing model to provide applications management, development, integration, and reengineering; infrastructure management; business process outsourcing; and numerous related services, such as enterprise consulting, technology architecture, program management, and change management.
+Cognizant's 1,60,000+ employees globally are committed to partnerships that sustain long-term, proven value for customers by delivering high-quality, cost-effective solutions through its development centers in India and on-site client teams. Cognizant maintains P-CMM and SEI-CMM Level 5 assessments from an independent third-party assessor, was recently named one of Forbes' Best Small Companies in America for the fourth consecutive year, and ranked among the top information technology companies in Business Week's Hot Growth Companies. Cognizant is a member of the NASDAQ-100 Index and S&P 500 Index. We offer a complete Benefits package including Medical and Dental Insurance coverage for self and family, paid vacation, Short and Long term Disability Insurance, ESPP (Employee Stock Purchase Plan), Relocation Assistance, Group Life Insurance, etc. Find additional information about Cognizant at www.cognizant.com
+ 
+ 

@@ -1,0 +1,36 @@
+Data Science Intern
+San Francisco, CAIntern
+Company Description
+We started with a simple idea—that everyone should be able to accept credit cards—and we’ve been rethinking buying and selling ever since.
+
+For sellers, we’re creating one cohesive service to run your entire business, from a register in your pocket to analytics on your laptop. For buyers, we’re making it faster to order from the businesses you love and more fun to pay your friends back.
+
+Buying and selling sound like simple things—and they should be. Somewhere along the way, they got complicated. We’re working hard to make commerce easy for everyone.
+Job Description
+.-	Partner with Square's product and operations teams to identify, prioritize, and answer the most important business questions where analytics projects could have material impact 
+
+-	Drive cross functional analytics projects from beginning to end: build relationships with partner teams, frame and structure questions, collect, structure, and analyze data, distill and present key insights in support of decision making 
+
+-	Work with engineers to evangelize data best practices and implement analytics solutions 
+
+-	Collaborate with product leaders, subject matter experts, and decision makers to develop success criteria and optimize new products, features, policies, and models 
+
+-	Leverage your experience in analytics tools and scientific rigor to produce actionable insights 
+
+-	Distill and communicate key insights to senior management in verbal, visual, and written media 
+Qualifications
+We’re looking for people who are passionate about building solutions on Square’s commerce platform. You’ll work closely and collaboratively with other engineers to ensure that needs and requirements are reflected in the services we build. Beyond representing the needs of developers, you’ll also have the chance to engage with the external community through speaking, blogging, meet-ups, and a variety of other events. Come grow our Square community with us!
+
+-	Currently pursuing a degree in preferably Economics, Statistics, Computer Science, Life or Physical Sciences, or related technical field 
+
+-	Hands on experience in executing analysis using one or more of the following technologies: SQL (strongly preferred), R, SPSS, SAS, Excel, JMP, Tableau 
+
+-	Willingness to learn new technologies on the job 
+
+-	Ability to understand complex business systems 
+
+-	Ability to clearly communicate complex results to business partners 
+
+-	Relentless curiosity 
+Additional Information
+At Square, we value diversity and always treat all employees and job applicants based on merit, qualifications, competence, and talent. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. We will consider for employment qualified applicants with criminal histories in a manner consistent with the requirements of the San Francisco Fair Chance Ordinance. 

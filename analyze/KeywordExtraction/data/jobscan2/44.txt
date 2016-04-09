@@ -1,0 +1,42 @@
+Job Description
+ 
+Data Quality Analyst(Job Number: 00017544691)
+ 
+Description
+ 
+We are looking for a Data Quality Analyst. This is a client facing role & the candidate will have regular interactions with various client managers.
+ 
+Responsibilities:
+Analysis of the Data Stewardship activities along with SMEs
+Proactive data quality profiling of the source systems & MDM Hub
+Monitoring of data quality health
+Analysis of data quality reports & presentation to the key stakeholders
+Suggesting tactical & strategic DQ initiatives collectively with data governance team
+Helping with analysis of downstream data quality issues
+Tuning of data quality rules
+ 
+Cognizant is an Equal Opportunity Employer Minority/Female/Disability/Veteran. If you require accessibility assistance applying for open positions in the US please send an email with your request to CareersNorthAmerica@cognizant.com
+ 
+Qualifications
+ 
+Basic Qualifications:
+5+ years of experience in Data Quality on in large/medium scale implementations
+Working knowledge of Oracle, SQL server, and other major databases
+Perform root cause analysis and resolution of issues with reports and data model
+Excellent query writing skills
+Good Team Player
+Excellent communication skills and experience in onsite - offshore team coordination
+ 
+ 
+Organization Marketing Statement
+Cognizant (NASDAQ: CTSH) is a leading provider of information technology, consulting, and business process outsourcing services, dedicated to helping the world's leading companies build stronger businesses. Headquartered in Teaneck, New Jersey (U.S.), Cognizant combines a passion for client satisfaction, technology innovation, deep industry and business process expertise, and a global, collaborative workforce that embodies the future of work. With over 100 development and delivery centers worldwide and approximately 217,700 employees as of March 31, 2015, Cognizant is a member of the NASDAQ-100, the S&P 500, the Forbes Global 2000, and the Fortune 500 and is ranked among the top performing and fastest growing companies in the world.
+ 
+Job Application Development / Application Maintenance
+Primary Location United States-California-Santa Clara - CA USA, CLT
+ 
+Employee Status Permanent
+Schedule Full-time
+Job Type Standard
+Job Level Individual Contributor
+Shift Day Job
+Travel No

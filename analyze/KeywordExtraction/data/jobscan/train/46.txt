@@ -1,0 +1,44 @@
+Data Analyst
+
+Location: (Multiple states) Department: Strategy Type: Full Time Min. Experience: Mid Level
+About Us
+
+Mediacurrent is a digital agency that specializes its focus and outstanding reputation in open-source software and Drupal. We have a proven track record of helping some of the most recognizable brands (The Weather Channel, WWE, Travelport), higher-ed institutions (Harvard, Louisiana State University, Georgia Tech) and non-profit organizations (Habitat for Humanity, CARE) in the world adopt and grow with an open-source based web strategy.  We strongly believe in open-source principles, are consistently recognized as one of the top 10 most active contributors to Drupal in the world, and generated hundreds of thought provoking content assets and industry presentations. You will have an opportunity to challenge and stretch your mind on a daily basis.
+
+We are a company founded on building a close knit company culture with a fully distributed/telecommute team. We have fun at team-building activities, an annual company retreat, conduct weekly knowledge shares, have a 9/80 flexible schedule option, lunch and learns and virtual/in-person coworking meetups.
+
+At Mediacurrent we invest heavily in our team providing perks such a company match savings plan, continuing education reimbursement, speaking bonuses, and all the equipment you need to effectively do your job.
+
+Position Summary: We are seeking a Data Analyst who is passionate about working with clients and helping them make the smartest business decisions thanks to their data. Data Analysts work closely with clients and all departments at Mediacurrent including Drupal Developers, Front-end Engineers, Designers, and Digital Strategists to help our clients achieve the most ROI from their website. This role is responsible for turning data into actionable intelligence, feasible data-driven product features, and well-defined predictive user behavior models that can be implemented by the Mediacurrent team. In addition to advanced statistics, Data Analysts are also proficient strategic thinkers; they propose innovative ways to look at problems, validate their findings via experimental and iterative approaches, and present back their results in a way that can be easily understood by non-technical counterparts.
+
+Position Responsibilities:  
+
+Inspire clients with a vision for how data collection can improve their ROI.
+Design experiments, test hypotheses, and build testing models.
+Identify and define opportunities for personalization, AB testing, and data collection.
+Apply advanced statistical and predictive modeling techniques to build, maintain, and improve real-time decision systems.
+Audit existing data systems in order to identify gaps in coverage against known business requirements.
+Provide ongoing tracking and monitoring of the performance of decision systems and statistical models.
+Present research findings and recommendations in plain English to team members and the client.
+Be a thought leader in data analysis by contributing articles, ebooks, and leading workshops on behalf of Mediacurrent.  
+Be an arbiter of best practices in Data collection.
+Assist with Mediacurrent’s own internal projects like monitoring anlytics on our company website.
+Actively participate in new business initiatives by augmenting proposals and presentations.
+Required knowledge, skills and experience:
+
+3 - 5 years of full-time experience in data analysis for digital properties (quantitative and qualitative research methods).
+Strong understanding of modern SEO/SEM practices, Google Analytics, and User Testing Software.
+Comfortable with various ready-made social dashboards (Facebook, Twitter, Instagram, Youtube, Tumblr, etc).
+Experience with Web-based GUIs for ‘deeper’ data exploration (e.g. Google Analytics, Omniture, etc), and structured and unstructured raw data (often messy or incomplete) in various formats (log files, databases, CSV, etc.).
+Advanced knowledge of Excel is a must for cleaning, organizing and distilling data.
+Proven track record of writing and presenting high quality, visually engaging reports.
+Exceptional communication skills: written, verbal and presentational.
+Strong leadership, managerial and analytical skills; the ability to analyze data and make meaningful recommendations.
+Ability to identify opportunities for growth and incremental opportunities with client partners.
+Able to multitask in a fast-paced environment under tight deadlines.
+Hands-on experience with schema design and dimensional data modeling.
+Valued knowledge, skills and experience:
+
+Agency experience.  
+Drupal experience.
+Understanding of open-source software principle

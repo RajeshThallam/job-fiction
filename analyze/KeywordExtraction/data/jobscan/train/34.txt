@@ -1,0 +1,37 @@
+Data Associate
+All times are in Pacific Daylight Time.
+Job ID  390185
+Location US-MA-Cambridge
+Posted Date  3/24/2016
+Company Amazon Corporate LLC
+Position Category  Editorial, Writing, & Content Management
+Recruiting Team North American Teams - Kindle & DP
+Job Description
+
+Amazon is seeking a Data Associate to join our data team. This role focuses on speech and language data, primarily in the areas of transcription, text annotation, and general data analysis deliverables. The Associate must be capable of:
+Transcribing and annotating high priority deliverables
+Contributing toward dialog evaluation deliverables
+Delivering high quality under aggressive deadlines
+Translating established guidelines into daily work practices
+Working autonomously with minimum direction
+Handling unique data analysis requests from a range of data customers
+Contributing to process improvements to reduce handling time and improve output
+In addition, the Data Associate will need to quickly understand changes to conventions deployed in response to customers’ requests and change workflows accordingly. The Associate should be able to contribute to improvements in the software tools by identifying bugs and suggesting enhancements.
+The Data Associate must have a passion for data, efficiency, and accuracy as well as show proactive behavior in addressing issues and problems. 
+Basic Qualifications
+
+
+Excellent proficiency in US English, both verbal and written skills
+Comfortable working with speech from various dialects and accents
+One or more years experience as a transcriber or annotator
+Willing to work with audio content (wearing headsets) for a portion of the day
+Working knowledge of computers
+Excellent communication, strong organizational skills and very detailed-oriented
+Comfortable working in a fast paced, highly collaborative, dynamic work environment
+Willingness to support several projects at one time, and to accept reprioritization as necessary
+Ablility to keep up with changing project conventions and new projects
+Preferred Qualifications
+
+Bachelor’s degree in a relevant field
+Experience working with speech or language data, including experience with annotation and other forms of data markup
+Practical knowledge of data processing needs and trade-offs

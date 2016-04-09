@@ -1,0 +1,23 @@
+ Job Description
+Evo is looking for a Senior BSA for our Beaverton Client. The client is expanding it's analytics organization into Hadoop and AWS. With that, a project to unlock multiple data sets within that environment and migrate existing data from an Oracle database. This contract role is currently projected to go through 11/11/2016, with an extension based on fit, need and budget. 
+
+DUTIES:
+Partner with Analytics Directors and Data Scientists to define and document business requirements for operational and BI retail reporting
+Write detailed functional specs and user-stories for engineering team(s) to consume
+Coordinate the development and testing efforts across multiple internal and external teams
+Provide end-to-end solution ownership in the delivery of retail business intelligence solutions
+Partner with the Project Manager to understand the delivery approach/timeline and provide consulting and expertise to identify gaps, risks, etc.
+Provide data analysis, business process knowledge, and source system subject matter expertise
+SKILLS and REQUIREMENTS:
+Technical documentation of business requirements and as-is & to-be solution designs
+Critically thinking through data analysis, business needs, and technical solution
+Data analysis and relational data models
+Writing SQL queries (4+ years)
+Agile delivery methodology
+Elicitation utilizing interviews, document analysis, workshops, etc.
+Data warehousing concepts
+Exceptional collaboration, listening, written and verbal communication
+Hive/AWS/Oracle/Impala/Tableau experience is a significant plus
+eCommerce knowledge is a plus
+Bachelor's Degree and minimum of 5 years directly relevant work experience
+Knowledgeable and experienced software practitioner, comfortable with fully understanding an existing data set and how it is leveraged by the business, and then driving the transition of that data into a technical solution on our new platform
