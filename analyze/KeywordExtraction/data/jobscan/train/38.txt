@@ -1,0 +1,5 @@
+Data Scientist
+User Experience, Research, UI Design   |   San Jose, CA   |   TiVo
+Requisition #3470   |   Full-Time PositionApply Now
+	Send Jobvite
+Support both internal and external client initiatives by mining through a variety of large data sets using advanced statistical techniques to identify patterns and insights. Specific duties include: performing statistical programming using programs such as R and SAS; querying data from a variety of database systems (SQL, HiveQL, Splunk, etc.); providing support in SQL and no-SQL data environments; performing advanced statistical modeling (multivariate analysis/machine learning); translating statistical findings into business insights; working with a team of data engineers and data scientists to turn statistical models into business applications; and working with click stream data, specifically in the television/media space.

@@ -1,0 +1,82 @@
+Enterprise Application Analyst 
+MSH Group 2 reviews - Weston, FL 
+$95,000 a year
+Job Location : Weston, FL 
+
+Job Type : Full time 
+
+Job Description 
+
+The Enterprise Application Analyst is responsible for working with business to design and implement "end to end" Vistex enabled business processes. This includes implementation, upgrade, and/or extension of existing SAP applications. Will be responsible for providing services towards evaluation, selection, procurement, installation, configuration, validation, support, maintenance and change control of computerized systems to meet functional business requirements, GIS standards and organization compliance requirements. 
+
+Job Responsibilities:
+Develop and manage working relationships with customers to acquire a sense of their information technology needs and develop a more in-depth knowledge of their business and processes. 
+
+Serve in a technical role providing guidance to other team members and other employees within information services. 
+
+Investigate, diagnose and resolve incidents with customers and peers utilizing advanced problem solving techniques to identify root causes. 
+
+Develop an in-depth understanding of all company policies, procedures and standards and operating processes associated with their information technology area. 
+
+Responds to more complex, but conventional queries from managers, team members, other employees, and internal customers and provide technical and business process advice in their area of expertise. 
+
+Make complex interpretation and application decisions in their area of expertise. 
+
+Provide accurate and complete documentation of processes and procedures to ensure that systems can be supported. 
+
+Ensures work is performed in compliance with the GIS Incident Management process and GIS Change Management process. 
+
+Understand and communicate department objectives, translating them into project team and individual performance goals. 
+
+Conduct regular knowledge transfer activities from senior or other technical experts for personal development and to realize support backup personnel towards business continuity. 
+
+Support GIS Management during audits from internal or external customers. 
+
+Perform other related duties as assigned, in accordance with job responsibilities and necessary department activities. 
+
+May be required to be on-call. All such work will be covered by the requirements of the on-call policy. 
+
+Works as a member of a team to achieve all outcomes. 
+
+Performs all work in support of our Corporate Values of Pride, Accountability, Integrity and Diligence. 
+
+Performs all work in accordance with all established regulatory and compliance and safety requirements.
+
+Responsible for implementation planning, fit analysis, testing, rollout and post-implementation support of large-scale SAP Vistex application solutions. 
+
+Provide system and process improvement recommendations in support of Customer Development and other business partner sponsored initiatives 
+
+Develop functional specifications associated with system enhancements, interfaces and reports (WRICEF) 
+
+Develop and execute unit-test and integration test scenarios 
+
+Develop, maintain and provide technical expertise in order to transfer knowledge to other associates 
+
+Provide support (e.g., break/fix, how to expertise, minor enhancements, monitoring, testing, troubleshooting) for VISTEX business applications 
+
+All other duties as assigned. 
+
+Job Requirements :
+Excellent interpersonal and communication skills. Proven organizational, customer service, document management and time management skills. 
+
+Strong strategic skills with ability and vision to map out “to be” business processes 
+
+Demonstrated ability to influence and foster collaborative relationships 
+
+Good understanding of SAP core products and related applications 
+
+Functions in a fast paced and continuously changing environment. 
+
+Commits to continuous learning and improvement. 
+
+Demonstrated knowledge of Good Documentation Practices. 
+
+Proficient in the operation of Microsoft Operating Systems and Microsoft Office Systems ( Word, Excel, PowerPoint, Outlook) 
+
+Understanding of database systems such as Oracle Database and Microsoft SQL database. 
+
+An understanding and ability to configure TCP/IP network connectivity between systems. 
+
+An understanding of security of data systems for the protection of company’s electronic assets, intellectual property and privacy. 
+
+Experience in developing and implementing moderate data exchange technology processes between information systems.

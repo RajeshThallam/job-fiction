@@ -1,0 +1,49 @@
+Job Description
+*NOTE: Candidates will be selected off the Research Assistant List Exam #1014
+
+The Department of Consumer Affairs (DCA) empowers consumers and businesses to ensure a fair and vibrant marketplace. DCA licenses and regulates over 80,000 businesses in 35 different industries, and enforces the Consumer Protection Law and other related business laws in New York City. The agency educates the public and businesses through outreach and partnerships with weights and measures regulations, and the New York City Consumer Protection Law.
+
+Effective April 1, 2014, under New York City’s Earned Sick Time Act, most employers in New York City will be required to give their employees sick leave. DCA is charged with enforcement of this law. DCA is also responsible for enforcement of New York City’s Transit Benefits law. Pursuant to that law, effective January 1, 2016, certain employers will be required to offer their full-time employees the opportunity to use pre-tax earnings to purchase qualified transportation fringe benefits.
+
+The DCA Office of Financial Empowerment (DCA/OFE) is the first local government initiative in the country with the specific mission to educate, empower, and protect individuals and families with low incomes. DCA/OFE creates innovative programs, products, and services for New Yorkers so they can build assets and make the most of their financial resources. At the center of the fight to reduce income inequality and expand economic opportunity, DCA/OFE works to support low-income New Yorkers and communities in building wealth and improving financial capabilities. DCA/OFE’s goal is to increase access to high-quality, low-cost financial education and counseling; connect individuals to safe and affordable mainstream banking products and services; improve access to income-boosting tax credits, savings, and other asset building opportunities; and enforce and improve consumer financial protections to safeguard financial stability.
+
+DCA’s Data Analysis and Strategic Planning unit is currently seeking a motivated, organized, and detail-oriented individual to serve as a Data Analyst. The Data Analyst will report directly to DCA’s Senior Analyst for Data and Analytics and will work closely with DCA/OFE, as well as other divisional directors and agency staff. The Data Analyst will be responsible for analyzing data from DCA/OFE, primarily using the Efforts-to-Outcomes (ETO) database, in order to support the efficient operation of services provided to New Yorkers and the timely delivery of accurate information to DCA Executive Staff, City Hall, media outlets, and other relevant stakeholders. Responsibilities will include:
+
+•	Support the design of evaluation tools and metrics for DCA/OFE’s Financial Empowerment Centers and other DCA/OFE initiatives.
+•	Assess data integrity and develop technical solutions to improve reporting capabilities.
+•	Analyze data related to DCA/OFE, producing reports to measure departmental and programmatic performance and to assist in accurately communicating programmatic impacts to a variety of stakeholders including consumers, policymakers, partners, and media.
+•	Liaise with DCA/OFE staff and external service providers to ensure accurate collection and interpretation of departmental data, particularly in relation to the operation of DCA/OFE’s Financial Empowerment Centers and other DCA/OFE initiatives.
+•	Provide ongoing technical support and training to users of DCA/OFE’s ETO database, which include DCA/OFE staff and external service providers.
+•	Utilize SQL and business intelligence software, including SAP Business Objects, IBM Cognos, and Oracle Business Intelligence, to query departmental data. Create reports to automate and streamline data collections for departmental use.
+•	Manage data for mandated external reporting, including the Mayor’s Management Report and periodic DCA/OFE stakeholder reports.
+•	Complete analytical projects alone or as part of a team.
+Minimum Qual Requirements
+1. A baccalaureate degree from an accredited college and six months of satisfactory full-time experience in research which involves gathering, organizing and analyzing data, and report writing; or 
+2. An associate degree from an accredited college, or completion of 60 semester credits at an accredited college, and two years and six months of satisfactory full-time experience in research which involves gathering, organizing and analyzing data, and report writing; or 
+3. A four-year high school diploma or its educational equivalent and four years and six months of satisfactory full-time experience in research which involves gathering, organizing and analyzing data, and report writing; or 
+4. Education and experience equivalent to "1", "2", or "3" above. Undergraduate college credit can be substituted for experience on the basis of 30 semester credits from an accredited college for one year of full-time experience. Completion of nine credits, at the college or graduate school level, in statistics, quantitative methods, mathematics, or research can be substituted for six months of the required experience. However, all candidates must possess a four-year high school diploma or its educational equivalent and at least six months of required experience or the nine specialized credits.
+Preferred Skills
+•	Strong verbal and written communication skills; ability to establish strong working relationships with fellow staff.
+•	High proficiency with Microsoft Office, including advanced knowledge of Excel; experience with VLOOKUP and Pivot Tables strongly preferred.
+•	Experience querying large databases using SQL strongly preferred; experience with Social Solutions’ Efforts-to-Outcomes (ETO) a plus.
+•	Demonstrated understanding of principles and methods of data cleaning, including the ability to identify and resolve issues relating to duplicate records or missing/incorrect data values.
+•	Experience analyzing data using statistical packages, in particular Stata.
+•	Demonstrated ability to learn new software and methods.
+•	Strong interest in public service delivery, particularly related to the financial empowerment and protection of low-income New Yorkers.
+•	Entrepreneurial spirit with the ability to prioritize work and meet deadlines.
+To Apply
+For Non-City/External Candidates: Visit the External Applicant NYC Careers site and type “Consumer Affairs” on the search line. Then locate the Job ID number. 
+
+For Current City Employees: Visit Employee Self Service (ESS) to view and click on Recruiting Activities, Careers, and search by Job ID number.
+
+A RESUME AND COVER LETTER ARE REQUIRED. 
+PLEASE INDICATE IN YOUR COVER LETTER HOW YOU HEARD ABOUT THIS POSITION.
+INCOMPLETE APPLICATIONS WILL NOT BE CONSIDERED. 
+NO PHONE CALLS, FAXES, E-MAILS OR PERSONAL INQUIRIES PERMITTED. 
+NOTE: ONLY THOSE CANDIDATES UNDER CONSIDERATION WILL BE CONTACTED.
+
+*NOTE: Candidates will be selected off the Research Assistant List Exam #1014
+Hours/Shift
+9:00 AM to 5:00 PM
+Work Location
+42 Broadway, New York, N.Y.

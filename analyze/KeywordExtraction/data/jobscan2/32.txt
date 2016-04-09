@@ -1,0 +1,21 @@
+Specific Responsibilities
+
+The Statistical Programming team is responsible for performing all SAS programming tasks and related documentation required for clinical trial analysis and reporting. To accomplish these tasks more efficiently, programming standards are established and implemented which include development of standard macros and tools. The Statistical Programmer is a member of the Biometrics department and works closely with other members of Biometrics including Biostatistics and Clinical Data Management.
+
+Job Responsibilities may include the following tasks:
+Develop, share, and document innovative programming techniques for data review, data reconciliation & cleaning and data visualization.
+Create a macro inventory and identify areas for parameter standardization.
+Design, develop, and validate programs based on the given specifications.
+Generate datasets and/or perform data quality check.
+Create or review documentation to support analysis activities.
+Provide support to routine SAS programming and validation activities.
+Essential Duties and Job Functions
+
+The ideal candidate has interest and background both in science as well as computer programming. S/he is detailed oriented and is interested in or has demonstrated technical writing abilities related to programming documentation. The internship will include review and possible restructuring of current programming macros into a standard format to enable the use of automated tools. 
+Knowledge, Experience and Skills
+
+Excellent analytical, problem-solving, organizational, time-management, interpersonal and communication skills
+Strong technical writing capabilities
+Knowledge of SAS, familiar with Microsoft Office
+Degree Major(s) preferred: Mathematics/Statistics/Biostatistics, Engineering, Computer Science, other scientific field (or equivalent theoretical/technical depth)
+Ability to complete 10-12 consecutive weeks between May and September

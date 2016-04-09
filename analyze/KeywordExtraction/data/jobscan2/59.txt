@@ -1,0 +1,60 @@
+Database Analyst
+
+Below you will find the details for the position including any supplementary documentation and questions you should review before applying for the opening.  To apply for the position, please click the Apply for this Job link/button.
+
+If you would like to bookmark this position for later review, click on the Bookmark link.  If you would like to print a copy of this position for your records, click on the Print Preview link.
+
+Bookmark this Posting | Print Preview | Apply for this Job
+
+Posting Information
+
+Position Information
+Position Type	Permanent Staff (SHRA)
+Is this an internal only recruitment?	No
+Position Title	Applications Analyst - Journey
+Working Title	Database Analyst
+Position Number	00054508
+Vacancy ID	P005197
+Budgeted Hiring Range	$65,800 - $74,000
+Pay Band Information	
+For more information on the pay band for this branch and role, please click here .
+
+Salary Grade Equivalent	76
+Full-time/Part-time Permanent/Time-Limited	Full-Time Permanent
+If time-limited, estimated duration of appointment	
+Hours per week	40
+Work Schedule	Monday – Friday, 8am-5pm
+Department Name and Number	WUNC-FM-259000
+Date First Posted	04/05/2016
+Closing Date	05/06/2016
+Position Location	Chapel Hill, NC
+Position Posting Category	Information Technology
+Position Summary Information
+Department Description	
+WUNC Radio provides quality news, information and entertainment programming to a broad listening audience that includes North Carolina, the United States and the world. WUNC serves North Carolinians from Greensboro to the Outer Banks through a network of six stations, with a weekly cume of 330,000 listeners.
+
+Equal Opportunity Employer	
+The University of North Carolina at Chapel Hill is an equal opportunity and affirmative action employer. All qualified applicants will receive consideration for employment without regard to age, color, disability, gender, gender expression, gender identity, genetic information, race, national origin, religion, sex, sexual orientation, or status as a protected veteran.
+
+Position Description	
+The Database Analyst supports the fundraising applications and business systems for WUNC Radio. WUNC-FM is a NPR member station serving over 280,000 weekly listeners and 30,000 contributors. This position writes and maintains custom reports and data extractions in support of the Fundraising Department. The Database Analyst establishes and maintains systems and procedures for secure, compliant, and accurate gift processing, with integration of data into WUNC’s accounts receivable and donor management database, Enterprise, an OLTP SQL Server database supported by Access, Int. This position serves as the Database Administrator for Enterprise and Site Administrator for Convio, a hosted content management system and oversees software upgrades. The Database Analyst oversees extraction, translation, loading, and data quality procedures. The position works closely with the Business Office, IT and Fundraising Departments to ensure gift processing methods adhere to UNC/State business requirements including proper internal control, Payment Card Industry (PCI) standards compliance and donor receipts.
+
+Minimum Education and Experience Requirements	
+Bachelor’s degree in Computer Science, Computer Information Systems, Computer Engineering, math, or Engineering or related technical degree from an appropriately accredited institution; or 
+- Bachelor’s degree and some computer coursework from an appropriately accredited institution and one year of experience in business application consulting or development; or 
+- Associate’s degree in Computer Programming and one year of experience in application consulting or development; or an equivalent combination of education and experience. 
+- Journey level requires an additional one year of experience. 
+- Advanced level requires an additional two years of experience.
+
+Essential Skills, Knowledge and Abilities	
+Essential skills include the following: Demonstrated ability to write Access database applications, macros, SQL Server transactional DDL/DML, Crystal Reports, HTML, CSS, VBA, Javascript and PHP. Proven ability as database administrator. Demonstrated ability for project management with exceptional written and verbal communication skills. Proven ability to design scripts for automated file transfers, data acquisition and web data entry.
+
+Preferred Qualifications	
+Working knowledge of accounting and financial systems is key. Strong customer service skills highly desirable, as well as fundraising concepts and experience with direct and electronic mail campaigns. Knowledge of fundraising, accounting and financial systems as well as PCI standards preferred. Public radio listener also helpful.
+
+Required Licenses/Certifications	
+Special Physical and Mental Requirements	
+Position/Schedule Requirements	Evening work occasionally, Weekend work occasionally
+Position Attributes	
+Stimulus/ARRA Funded	No
+Quick Link	http://unc.peopleadmin.com:80/postings/95369

@@ -1,0 +1,31 @@
+Become a Part of the NIKE, Inc. Team
+NIKE, Inc. does more than outfit the world’s best athletes. It is a place to explore potential, obliterate boundaries and push out the edges of what can be. The company looks for people who can grow, think, dream and create. Its culture thrives by embracing diversity and rewarding imagination. The brand seeks achievers, leaders and visionaries. At Nike, it’s about each person bringing skills and passion to a challenging and constantly evolving game.
+Consumer conversations and relationships fuel the work of Nike Marketing. It’s the fuel that has built one of the most recognizable brands in the world. Nike Marketing captures the science, art and emotion of Nike’s innovations and connects them with the hearts, minds and souls of athletes. The pros in brand strategy, advertising, digital engagement, product presentation, consumer analytics and more foster consumer connections via channels ranging from Nike Stores to social media. They approach marketing in a way that only Nike can: taking risks, pushing boundaries and inspiring consumers to be champions.
+Nike does more than outfit the world's best athletes. We are a place to explore potential, obliterate boundaries, and push out the edges of what can be.
+Nike’s Global Consumer Knowledge Center of Excellence is a growing team responsible for building and deepening a holistic view of Nike’s consumers through data and analytics, and applying those insights to inform the development of incredible digital services and experiences for our consumers.
+We are looking for a top-tier professional to define the design, capabilities, and implementation of an evolving data and analytics platform. This person will work cross functionally with business intelligence, data science, engineering, and architecture teams to gather and thoughtfully document feature requirements then drive them through the product development lifecycle.
+The Data Platform Product Manager must have experience successfully developing enterprise-scale data products and a deep understanding of how progressive reporting and analytics systems are designed, built, and operated. Candidates should have prior data development or architecture experience and a deep familiarity with foundational data science requirements. Success in this role will require an ability to understand both stakeholder and partner requirements to define the short and long-term strategy for delivery, document technical product specifications in appropriate detail, and work across engineering and architecture to guide development.
+The ideal candidate is a technical leader who has previously contributed to a data platform, data warehouse, or data product technical programs, can influence via great technical requirements and engineering partnerships, and is exited to work in a dynamic data environment with a strong set of teammates.
+Key Responsibilities:
+· Write, drive, and prioritize thoughtful and detailed functional specifications for data ingestion, data cleansing, data quality, analytic processing, BI, and data science use cases then drive them via an Agile development methodology
+· Become a subject mater expert across the entire Nike data & analytics landscape, enabling the greater Consumer Knowledge organization
+· Use your distributed computing, database, analytics background to contribute to the ongoing short and long term vision for the platform
+· Work with data scientists and data analysts on optimal data structures for efficiency of analysis
+· Support and troubleshoot issues (process & system), identify root cause, and proactively recommend sustainable corrective actions
+
+Qualifications
+· Bachelors Degree in Computer Science, MIS, other quantitative disciplines, or related fields
+· 4-8 years of relevant product experiences that can translate into defining platform vision and working with the best engineers, analysts and data scientists
+· Experience writing detailed technical specifications describing requirements for data movement, transformation, storage, quality checks, and read latency
+· Incredible attention to detail, great communications skills (written and verbal), and strong interpersonal skills
+· Understanding of the nature of web data and app data
+· Understanding of data architecture, data taxonomy, and both structured and unstructured data
+· Ability to be an active participant in architecture and design reviews, able to understand the technical implementation trade-offs to ensure that requirements are not misunderstood or being ignored by a given implementation plan
+· Understanding of logical and physical data modeling
+· Experience with agile development methodologies
+· Considerable experience with at least one Hadoop distro and associated tools
+· Experience with data transformation and BI tools
+· Experience with retail or ecommerce domains is a plus
+
+
+Job ID: 00221037 
