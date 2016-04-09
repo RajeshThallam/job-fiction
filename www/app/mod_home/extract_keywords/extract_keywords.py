@@ -53,9 +53,9 @@ class ExtractKeywords(object):
         doc = ""
         init = 0
 
-        p = Popen(["java", "-jar", "-Xmx1024m", self.maui_home, 
+        p = Popen(["java", "-jar", "-Xmx1024m", self.maui_home,
             "test", "-l", path_to_test, "-m", path_to_model,
-            "-v", app.config['ACM_DICT'], 
+            "-v", app.config['ACM_EXTENDED_DICT'], 
             "-f","skos","-n",str(num_keywords)], 
             stdout=PIPE, stderr=STDOUT
             )
