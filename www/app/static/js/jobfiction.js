@@ -94,7 +94,8 @@ $(document).ready(function() {
 		        description_graph[0] = cat1_array;   //job_graph is (and MUST) be global
 				
 				document.getElementById("description_graph").innerHTML = "";
-		        createBarChart(cat_labels, cat_counts, "description_graph", "Categories of Skills", 1100, 400, "description_graph");
+		        //createBarChart(cat_labels, cat_counts, "description_graph", "Categories of Skills", 1100, 500, "description_graph");
+		        horizontal_graph(cat_labels, cat_counts, "description_graph", "Categories of Skills", 1000, 400, "description_graph");
 			}, 
 			dataType = 'json'
 		);
@@ -376,7 +377,7 @@ function loadResults(results){
 
         job_graph[current_job_id] = cat1_array;   //job_graph is (and MUST) be global
 
-        createBarChart(cat_labels, cat_counts, graphdiv.id, "Categories of Skills", 900, 250, current_job_id);
+        horizontal_graph(cat_labels, cat_counts, graphdiv.id, "Categories of Skills", 900, 250, current_job_id);
 
         job_count++; //increment job count
 	} // for (var job in results){
@@ -552,7 +553,8 @@ function openModel(source, id){
     
 
     document.getElementById("modal_graph").innerHTML = "";
-    createBarChart(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 1000, 300, id);
+    //createBarChart(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 1000, 300, id);
+    horizontal_graph(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 1000, 300, id);
     drilldown_chart(source, id);  //populate the detail
     $('#graphModal').modal('show');  //open the modal
 }
@@ -579,7 +581,220 @@ function drilldown_chart(source, id){
       cat_counts.push(categories[cat]);
     }
     document.getElementById("modal_drilldown").innerHTML = "";
-    createBarChart(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 1000, 300, id);
-   
+    //createBarChart(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 1000, 300, id);
+  	horizontal_graph(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 1000, 300, id);
 }
+
+
+function horizontal_graph(labels, values, target_div, title, input_width, input_height, job_id){
+
+        Array.prototype.max = function() {
+      return Math.max.apply(null, this);
+    };
+
+  Array.prototype.longest=function() {
+      return this.sort(
+        function(a,b) {  
+          if (a.length > b.length) return -1;
+          if (a.length < b.length) return 1;
+            return 0
+        }
+      )[0];
+  }
+    var tmp_labels = labels.slice();
+    var maxLabel = tmp_labels.sort(function (a, b) { return b.length - a.length })[0];
+    var maxLabelLength = 45;//maxLabel.length;
+    
+    var maxValue = [values.max()+5,10].max() +2;
+
+
+    var colors = ['#0000b4','#0082ca','#0094ff','#0d4bcf','#0066AE','#074285','#00187B','#285964','#405F83','#416545','#4D7069','#6E9985','#7EBC89','#0283AF','#79BCBF','#99C19E'];
+
+    var margin = {top: 40, right: 20, bottom: 30, left: 40},
+      width = input_width - margin.left - margin.right,
+      height = input_height - margin.top - margin.bottom;
+
+    //var width = width;  //target size of div
+    //var height = height;  //target height of div
+    var transform_x = maxLabelLength*8; //moves whole chart left or right (distance from edge)
+
+    var y2 = height -20; //actual height of chart (controls where x axis is)
+    var x2 = width - transform_x; //actual width of chart (controls where y axis is)
+
+    var y_xis_transform_y = margin.top;  //adjustment of chart content up and down
+
+    var yscale_range_y = height - margin.top - margin.bottom +10; //spread of y axis.
+    var bar_height = 15;  //width of bars (height because it is vertical size of rect)
+
+    var space = x2/(maxValue);  //space between grid lines.
+
+    var grid = d3.range(maxValue).map(function(i){
+      return {'x1':0,'y1':margin.top,'x2':0,'y2':y2};
+    });
+
+    var tickVals = grid.map(function(d,i){
+      if(i>0){ return i; }
+      else if(i===0){ return "100";}
+    });
+    //domain is tick range
+    var xscale = d3.scale.linear()
+            .domain([0,maxValue])
+            .range([0,x2]);
+
+    var yscale = d3.scale.linear()
+            .domain([0,labels.length])
+            .range([0,yscale_range_y]);
+
+    var colorScale = d3.scale.quantize()
+            .domain([0,labels.length])
+            .range(colors);
+
+    var canvas = d3.select('#'+target_div)
+            .append('svg')
+            .attr({'width':width,'height':height})
+            .attr('id',target_div);
+
+
+    
+    //grid lines
+    var grids = canvas.append('g')
+              .attr('id','grid')
+              .attr('transform','translate('+transform_x+',0)')
+              .selectAll('line')
+              .data(grid)
+              .enter()
+              .append('line')
+              .attr({'x1':function(d,i){ return i*space; },
+                 'y1':function(d){ return d.y1; },
+                 'x2':function(d,i){ return i*space; },
+                 'y2':function(d){ return d.y2; },
+              })
+              .style({'stroke':'#adadad','stroke-width':'1px'});
+
+
+
+
+
+    //y axis line and labels  
+    var yAxis = d3.svg.axis();
+      yAxis
+        .orient('left')
+        .scale(yscale)
+        .tickSize(2)
+        .tickFormat(function(d,i){ return labels[i]; })
+        .tickValues(d3.range(30));
+
+    var y_xis = canvas.append('g')
+              .attr("transform", "translate("+transform_x+", " + y_xis_transform_y+ ")")
+              .attr('id','yaxis')
+              .call(yAxis);
+
+y_xis.selectAll("text")
+      .attr('y', 6);              
+
+    //x axis line and labels
+    var xAxis = d3.svg.axis();
+      xAxis
+        .orient('bottom')
+        .scale(xscale)
+        .tickValues(tickVals);
+
+    var x_xis = canvas.append('g')
+              .attr("transform", "translate("+transform_x+"," + y2 + ")")
+              .attr('id','xaxis')
+              .call(xAxis);
+
+
+
+    var title = canvas.append("text")
+        .attr("x", ((width / 2) + (transform_x/2)))
+        .attr("y", 30)//0 - (margin.top / 2))
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .style("text-decoration", "underline")  
+        .text(title);
+
+  //Graphs will have different on-click functionality depending on target.
+  if (target_div == 'modal_drilldown'){
+    //no on-click event  -- this is the drill-down chart that has no functionality
+    var chart = canvas.append('g')
+              .attr("transform", "translate("+transform_x+",0)")
+              .attr('id','bars')
+              .selectAll('rect')
+              .data(values)
+              .enter()
+              .append('rect')
+              .attr('height',bar_height)
+              .attr('id',function(d,i){return labels[i] +'|'+ job_id;})
+              .attr({'x':0,'y':function(d,i){ return yscale(i)+y_xis_transform_y; }})
+              .style('fill',function(d,i){ return colorScale(i); })
+              .attr('width',function(d){ return d*space; });
+        //.on('mouseover', tip.show)
+        //.on('mouseout', tip.hide);
+  }else if (target_div == 'modal_graph'){
+    //on-click is a drilldown -- this is the graph at top of modal; must have the functionality for drilling down.
+    var chart = canvas.append('g')
+              .attr("transform", "translate("+transform_x+",0)")
+              .attr('id','bars')
+              .selectAll('rect')
+              .data(values)
+              .enter()
+              .append('rect')
+              .attr('height',bar_height)
+              .attr('id',function(d,i){return labels[i] +'|'+ job_id;})
+              .attr({'x':0,'y':function(d,i){ return yscale(i)+y_xis_transform_y; }})
+              .style('fill',function(d,i){ return colorScale(i); })
+              .attr('width',function(d){return d * space; })
+              .on('click', function(d){ //update drilldown
+              					var tokens = this.id.split("|");
+              					drilldown_chart(tokens[0], tokens[1]);
+
+        			});
+        
+  }else{
+      //this is just on the main page - click will open modal with chart and drill-down.
+      var chart = canvas.append('g')
+              .attr("transform", "translate("+transform_x+",0)")
+              .attr('id','bars')
+              .selectAll('rect')
+              .data(values)
+              .enter()
+              .append('rect')
+              .attr('height',bar_height)
+              .attr('id',function(d,i){return labels[i] +'|'+ job_id;})
+              .attr({'x':0,'y':function(d,i){ return yscale(i)+y_xis_transform_y; }})
+              .style('fill',function(d,i){ return colorScale(i); })
+              .attr('width',function(d){ return d * space; })
+              .on('click', function(d){ //open modal
+              					var tokens = this.id.split("|");
+              					openModel(tokens[0], tokens[1]);
+        			});
+
+  }
+
+
+    //draws the bars
+    var transit = d3.select(target_div).selectAll("rect")
+                .data(values)
+                .transition()
+                .duration(1000) 
+
+                .attr("width", function(d) {return xscale(d); });
+
+
+/*
+    //white text
+    var transitext = d3.select('#bars')
+              .selectAll('text')
+              .data(values)
+              .enter()
+              .append('text')
+
+              .attr({'x':function(d) {return xscale(d)-20; },'y':function(d,i){ return yscale(i) + margin.top + 12; }})
+              .text(function(d){ return d; }).style({'fill':'white'});
+*/
+
+
+}//end function horizontal_graph 
+
 
