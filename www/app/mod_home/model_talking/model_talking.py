@@ -1,86 +1,71 @@
+# gensim corpus and models
+from app import app
+import job_preprocess as jp
+import gensim
+from gensim import utils
+from gensim import corpora, models
+from gensim.similarities import Similarity
+from gensim.corpora import Dictionary
+from gensim.models.ldamodel import LdaModel
 import json
 
-class ModelTalking(object): 
-    def get_job_recommendations(self, model_inputs_json):
-        job_results = {
-            "result_1": {
-               "job_title": "Data Scientist",
-               "job_description": "Job description As a Data Science Consultant at RBA, you will work on client projects in ",
-               "job_url": "http: //careers.intuit.com/job-category/7/data/job/00122116/data-scientist?src=JB-10116&utm_source=indeed&utm_medium=jb",
-               "company": "Intuit",
-               "industry": "Finance",
-               "job_class": ["Data Scientist"],
-               "match_rate": 52,
-               "location": "Mountain View, California 94039",
-               "skill_match": {
-                  "must_have": 5,
-                  "nice_to_have": 3
-               },
-               "categories": {
-                  "GENERAL": {
-                     "count": 3,
-                     "Integrated Circits": 1,
-                     "Real-time systems": 2
-                  },
-                  "MATHEMATICS": {
-                     "count": 1,
-                     "Mathematical Software": 1
-                  },
-                  "COMPUTING": {
-                     "count": 8,
-                     "Machine learning": 5,
-                     "Modeling and simulation": 2,
-                     "Electronic commerce": 1
-                  },
-                  "HUMAN": {
-                     "count": 2,
-                     "Visualization": 2
-                  },
-                  "PROFESSIONAL": {
-                     "count": 2,
-                     "Computing Technology policy": 2
-                  }
-               }
-            },
-            "result_2": {
-               "job_title": "Analyst",
-               "job_description": "iashjdf kasdfoaksdfv  l;askdjf; asdx kajsdf kal;skdx laskd sdakas dfksadl;kfmk;asdc ;sadfkncl;kdsf ",
-               "job_url": "http: //careers.intuit.com/job-category/7/data/job/00122116/data-scientist?src=JB-10116&utm_source=indeed&utm_medium=jb",
-               "company": "Place To Work",
-               "industry": "Finance",
-               "job_class": ["Data Scientist"],
-               "match_rate": 52,
-               "location": "Mountain View, California 94039",
-               "skill_match": {
-                  "must_have": 1,
-                  "nice_to_have": 1
-               },
-               "categories": {
-                  "GENERAL": {
-                     "count": 1,
-                     "Integrated Circits": 1
-                  },
-                  "MATHEMATICS": {
-                     "count": 1,
-                     "Mathematical Software": 1
-                  },
-                  "COMPUTING": {
-                     "count": 14,
-                     "Machine learning": 7,
-                     "Modeling and simulation": 2,
-                     "Electronic commerce": 5
-                  },
-                  "HUMAN": {
-                     "count": 2,
-                     "Visualization": 2
-                  },
-                  "PROFESSIONAL": {
-                     "count": 4,
-                     "Computing Technology policy": 2,
-                     "presentations": 2
-                  }
-               }
+class ModelTalking(object):
+    def __init__(self):
+        self.dictionary = Dictionary.load(app.config['RCMDR_DICT'])
+        self.corpus = corpora.MmCorpus(app.config['RCMDR_CORPUS'])
+        self.model = LdaModel.load(app.config['RCMDR_LDA_MODEL'])
+        self.index = Similarity.load(app.config['RCMDR_LDA_INDEX'])
+        self.job_labels = { 
+            int(k):v 
+            for k, v in (line.split("=") 
+                for line in open(app.config['RCMDR_JOB_LABELS'])
+                .read().strip().split('\n')) 
             }
-        }
 
-        return json.dumps(job_results)
+    def get_job_recommendations(self, query):
+        results = {}
+
+        if 'all_jobs' in query:
+            # read all job descriptions
+            job_desc = query['all_jobs']
+
+            # clean job descriptions
+            query_text = jp.JobPreprocess(
+                job_desc, 
+                app.config['RCMDR_DICT'], 
+                stopwords=True)
+
+            # get bag-of-words for the job descriptions
+            query_bow = [bow for bow in query_text]
+
+            # get probable job topics fitting the model
+            query_topics = self.model[query_bow]
+
+            # find similar jobs in the indexed jobs
+            sim_jobs = self.index[query_topics]
+
+            n = app.config['TOPN_RCMND_JOBS']
+            srt_sim_jobs = []
+            for sim_job in sim_jobs:
+                s = sorted(
+                        enumerate(sim_job),
+                        key=lambda item: -item[1])[:n]
+                srt_sim_jobs.extend(s)
+
+            sim_jobs = sorted(srt_sim_jobs, key=lambda item: -item[1])[:n]
+
+            # get job ids of the recommended results
+            all_job_ids = [
+                line for line in 
+                open(app.config['TRAIN_DOC_IDX']).read().strip().split('\n')
+            ]
+
+            sim_job_ids = {}
+            for job_id, score in sim_jobs:
+                sim_job_ids[all_job_ids[job_id]] = str(score)
+
+            # return results
+            results = sim_job_ids
+            return results
+        else:
+            return json.dumps({'error': 'invalid_query_string'})

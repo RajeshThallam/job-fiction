@@ -51,16 +51,16 @@ def get_results():
     job_posts = request.get_data().decode('utf-8')
     job_posts_json = json.loads(job_posts)
 
-    job_desc_json = {}
-    job_desc_txt = ""
-    for key, desc in enumerate(job_posts_json['desc']):
-        job_desc_txt += desc
+    job_query_json = {}
+    job_txt = []
+    for key, (desc, title) in enumerate(
+        zip(job_posts_json['desc'], job_posts_json['title'])):
+        job_txt.append(title + ' ' + desc)
 
-    job_desc_json['all_jobs'] = job_desc_txt.encode('utf-8')
+    job_query_json['all_jobs'] = job_txt
 
-    print job_desc_json
+    print job_query_json
     model = mdl.ModelTalking()
-    results = json.loads(model.get_job_recommendations(job_desc_json))
-    print results
+    results = model.get_job_recommendations(job_query_json)
 
-    return jsonify(results)
+    return jsonify(jobs=results)

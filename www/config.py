@@ -17,7 +17,7 @@ THREADS_PER_PAGE = 2
 # Secret key for signing cookies
 SECRET_KEY = "j0bf1ct10n"
 
-# Python scripts launched by app
+# Keyword Extraction Variables
 EXTRACT_KEYWORDS_DIR = os.path.join(BASE_DIR, "app", "mod_home", "extract_keywords")
 MAUI_HOME_PATH = os.path.join(EXTRACT_KEYWORDS_DIR, "maui-standalone-1.1-SNAPSHOT.jar")
 MODEL_KEYWORDS_DIR = os.path.join(EXTRACT_KEYWORDS_DIR, "models")
@@ -28,3 +28,23 @@ ACM_TAXONOMY_TEXT = os.path.join(EXTRACT_KEYWORDS_DIR, "dict", "ACMTaxonomyFlat.
 ACM_TAXONOMY_PATH = os.path.join(EXTRACT_KEYWORDS_DIR, "dict", "ACMTaxonomyPaths.txt")
 TOPN_MUST_KEYWORDS = 20
 TOPN_NICE_KEYWORDS = 20
+
+# Recommender Variables
+RCMDR_DIR = os.path.join(BASE_DIR, "app", "mod_home", "model_talking")
+RCMDR_MODEL_DIR = os.path.join(RCMDR_DIR, "models")
+RCMDR_DICT_DIR = os.path.join(RCMDR_DIR, "dict")
+RCMDR_LDA_MODEL = os.path.join(RCMDR_MODEL_DIR, 'lda_30_topics.lda')
+RCMDR_DICT = os.path.join(RCMDR_DICT_DIR, 'train_no_stem.dict')
+RCMDR_CORPUS = os.path.join(RCMDR_DICT_DIR, 'train_no_stem.mm')
+RCMDR_LDA_INDEX = os.path.join(RCMDR_MODEL_DIR, 'lda_30_topics.idx')
+RCMDR_JOB_LABELS = os.path.join(RCMDR_DICT_DIR, 'job_labels.dict')
+TRAIN_DOC_IDX = os.path.join(RCMDR_MODEL_DIR, 'train_documents.idx')
+TOPN_JOB_CLASSES = 5
+TOPN_RCMND_JOBS = 100
+
+# Model Store Variables
+STORE_JOBDESC_FILE = ""
+STORE_JOBTITLE_FILE = ""
+ES_HOST = "50.97.254.20"
+ES_IDX_RESULT = 'jobfiction'
+ES_IDX_TYPE_RESULT = 'results'
