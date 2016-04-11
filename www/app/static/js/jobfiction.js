@@ -302,7 +302,7 @@ function loadResults(results){
 		var cell = row.insertCell(1);
 		cell.innerHTML = current_job.company;
 		var cell = row.insertCell(2);
-		cell.innerHTML = current_job.location;
+		cell.innerHTML = current_job.full_location;
 		var cell  = row.insertCell(3);
 		cell.innerHTML = current_job.job_class[0]['label'];
 		var cell  = row.insertCell(4);
