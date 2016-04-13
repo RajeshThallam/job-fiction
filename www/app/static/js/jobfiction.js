@@ -330,6 +330,7 @@ function loadResults(results){
 		//Link
 		var link = document.createElement("a");
 		link.setAttribute("href", current_job.url);
+		link.setAttribute("target","_blank");
 		link.appendChild(document.createTextNode("More Information / Apply"));
 		section.appendChild(link);
 		section.appendChild(document.createElement("br"));
