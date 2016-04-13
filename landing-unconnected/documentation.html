@@ -69,7 +69,7 @@ Released   : 20140310
 	<div id="page" class="container">
 		
 			<div class="myDocs" id="slide1">
-			  <h1>Problem</h1>
+			  <h1 style="margin-bottom: 40px">Problem</h1>
 		        <p>There are many websites out there that will assist a job seeker to find job postings they may be interested in.  They typically come in two flavors, or a combination of these:</p>
 
 				<p><strong>A</strong>) Search for jobs via keyword searches the job seeker enters.</p>
@@ -84,7 +84,7 @@ Released   : 20140310
 			<div class="myDocs" id="slide2">
 			  
 			     
-		        <h1>Our Solution</h1>
+		        <h1 style="margin-bottom: 40px">Our Solution</h1>
 		        <p>We propose a solution that will not only combine these two methods, but will include the following additional features:</p>
 <p><strong>Fictional Job</strong> - creation of a model that represents the job the job seeker actually wants. This may be done based on the combination of multiple job postings the job seeker selects as possible candidates.</p>
 <p><strong>Create the Dream</strong> - functionality to adjust the Fictional Job model to further match the user’s preferences.</p>
@@ -94,18 +94,31 @@ Released   : 20140310
 			<div class="myDocs" id="slide3">
 			  
 			     
-		        <h1>Data Collection</h1>
+		        <h1 style="margin-bottom: 40px">Data Collection</h1>
 		        <p>Data is acquired from the Indeed API. We are limited to the first 10000 first results, leading to our decision to pull by batches based on the zipcode.</p>
 <p>A Cron job runs the acquire script every morning to pull new jobs and store them in MongoDB. The jobs are not filtered; all jobs from truck drivers to data scientists are collected as we do not want to bias the jobs used (this is the problem we want to solve!).</p>
-<li>More than 1,000,000 job ads have been accumulated - that's over XX Gbs
 
-<p><font color="red">Say something about how data is stored</font></p>
-</li>
+		<ul>
+		        <li>More than 1,000,000 job ads have been accumulated - that's over 3 Gbs</li>
+		        <li>Jobs pulled daily and stored in MongoDB</li>
+		        <li>Limited to 10000 results, so pulled in batches by zipcode</li>
+		        <li>No filtering - all jobs from truck driver to CEO is pulled</li>
+		        <ul><li>Less than 20% of all jobs collected contained the word "data"</li></ul>
+		        </ul>
+		        </div>
+
+
+
+<div class="myDocs" id="slide4">
+<h1>Architecture</h1>
+<img src="images/Architecture_Diagram - Data Flow Diagram.png" width="1000" height="650"> 
 </div>
-
-<div class="myDocs" id="slide5"></div>
+<div class="myDocs" id="slide5">
+<h1>Leveraging MAUI </h1>
+<img src="images/Maui.png" width="1000" height="500">
+</div>
 <div class="myDocs" id="slide6">
-	<h1>Text Pre-Processing</h1>
+		<h1 style="margin-bottom: 40px">Text Pre-Processing</h1>
 	<h2>Filter Noise</h2>
 	<p>
 Out of 1.3 Million jobs acquired from Indeed, there are 250K jobs that have word
@@ -113,8 +126,9 @@ Out of 1.3 Million jobs acquired from Indeed, there are 250K jobs that have word
 <p>&nbsp;</p>
 <p> To filter the noise, we used inclusion and exclusion patterns in the job description and job title. The patterns were based on the research done by Data Science Central team on ~10K LinkedIn professionals with titles related to Data Science and categorized 400 job titles for data scientists. We formed inclusion patterns based on the cleaned job title from the research and also formed exclusion patterns analyzing job titles that clearly did not fell into data science related job titles. After filtering the noise from master job posts database, we have 85K job posts related to data science i.e. approximately 7% of job posts collected so far. </p>
 </div>
+
 <div class="myDocs" id="slide7">
-<h1>Text Pre-Processing</h1>
+<h1 style="margin-bottom: 40px">Text Pre-Processing</h1>
 <h2>Text Normalization</h2>
 <p>After analyzing sample job posts, we observed that companies post job descriptions
 in different formats and varying lengths and different lengths. Most of the job
@@ -140,9 +154,8 @@ does not apply stemming as some of the keywords were lost during the process.</p
 
 
 </div>
-<div class="myDocs" id="slide8"></div>
-<div class="myDocs" id="slide9">
-	<h1>User Interface</h1>
+<div class="myDocs" id="slide8">
+	<h1 style="margin-bottom: 40px">User Interface</h1>
 	<div class="col-sm-12">
 	<div class="col-sm-4">
 	<a href="http://mcpants.github.io/jquery.shapeshift/" target="_blank"><h3>jquery.shapeshift</h3><img src="images/shapeshift.PNG" height = "300" width="200" align="left" hspace="10" vspace="6"></a></div>
@@ -154,8 +167,20 @@ does not apply stemming as some of the keywords were lost during the process.</p
 	<div>
 	<p>Building the interface was challenging since no team members had experience building websites outside of W209.  Jquery.shapeshift was used to give users a feeling like they were physically manipulating the model. A typical list grouping would have worked, but it was important to us to make the user feel like they were doing something to mold thier future.</p>
 	<p>The layouts were based on styles in the bootstrap package. The graphs are created using D3.</p>
-	</div>
-
+	</div></div>
+<div class="myDocs" id="slide9">
+<h1 style="margin-bottom: 40px">Challenges and Lessons Learned</h1>
+				<ul>
+					<li>Choose a scope managable for team size and time frame.</li>
+					<ul>
+						<li>Consider what learning curve you may face, but don't be afraid of it.</li>
+					</ul>
+					<li>Start your documentation early.</li>
+					<ul>
+						<li>You will underestimate the time to write/compile it.</li>
+						<li>Will keep everyone on the same page as to what each part of the project is about.</li>
+					</ul>
+				</ul>
 </div>
 </div>
 </div>
