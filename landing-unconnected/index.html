@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : ClearFigure 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140310
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Job Fiction</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- Stylesheets -->
+		<!-- bootstrap core css -->
+		<link href="lib/bootstrap-responsive.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	
+ 		
+
+
+</head>
+<body>
+<div id="wrapper">
+	<!--<div id="banner"></div>-->
+	<div class="modal-header">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-app-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!--<a class="navbar-brand page-scroll" href="#page-top">Yelp</a>-->
+					<a class="page-scroll" href="#" target="_top"><h2 class="section-heading">Job Fiction</h2></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-app-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-center">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						<li><a class="page-scroll" href="#page"><h4 class="section-heading" style="margin-left:10px;" >Presentation</h4></a></li>
+						<li><a class="page-scroll" href="#portfolio-wrapper"><h4 class="section-heading">Team</h4></a></li>
+						<li><a class="page-scroll" href="documentation.html" target="Documentation"><h4 class="section-heading">Documentation</h4></a></li>
+					</ul>
+
+					
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+	</div>
+
+
+	<div id="page" class="container">
+		<div class="slideshow-container">
+
+			<div class="mySlides" id="slide1">
+			  <h1 style="margin-bottom: 40px">Problem</h1>
+			  	<div class="col-sm-12">
+		        	<p>Is there a better way to find a great Data Science job.</p>
+		        </div>
+		        <div class="col-sm-1">&nbsp;</div>
+		        <div class="col-sm-11">
+		        <ul>
+		        <li>Job titles are not consistent</li>
+		        <li>Keywords like "data" can mean too general</li>
+		        <li>Resumes highlight the skills used in previous jobs, not the ones you want to use in a new job.</li>
+		        </ul>
+		        </div>
+			  
+			</div>
+
+			<div class="mySlides" id="slide2">
+			  
+			     
+		        <h1 style="margin-bottom: 40px">Our Solution in 3 Easy Steps:</h1>
+		        <div class="col-lg-1">&nbsp;</div>
+		        <div class="col-lg-11" >
+		        <p>(1) Start with job descriptions you like.</p>
+		        <p>(2) Emphasize the job characteristics you want.</p>
+		        <p>(3) Find jobs that match this new job description.</p>
+		        </div>
+
+			</div>
+
+			<div class="mySlides" id="slide3">
+			  
+			     
+		        <h1>Data Collection</h1>
+		        <div class="col-sm-4"><a href="http://www.indeed.com/" target="_blank" ><img src="http://www.indeed.com/images/job_search_indeed.png" align="left" hspace="10" vspace="6"alt="" /></a></div>
+		        <div class="col-sm-4"><a href="https://www.mongodb.com/" target="_blank" ><img src="https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png" align="left" hspace="10" vspace="6"alt="" width="225" height="150"/></a></div>
+		        <div class="col-sm-4">&nbsp;</div>
+		        <div class="col-sm-12">
+
+
+
+		        <ul>
+		        <li>More than 1,000,000 job ads have been accumulated - that's over 3 Gbs</li>
+		        <li>Jobs pulled daily and stored in MongoDB</li>
+		        <li>Limited to 10000 results, so pulled in batches by zipcode</li>
+		        <li>No filtering - all jobs from truck driver to CEO is pulled</li>
+		        <ul><li>Less than 20% of all jobs collected contained the word "data"</li></ul>
+		        </ul>
+		        </div>
+			</div>
+			<div class="mySlides" id="slide4">
+				<h1>Architecture</h1>
+				<img src="images/Architecture_Diagram - Data Flow Diagram.png" width="1000" height="500"> 
+			</div>
+			<div class="mySlides" id="slide5">
+				<h1>Text Pre-Processing</h1>
+				<div class="col-sm-1">&nbsp;</div>
+				<div class="col-sm-11">
+					<h2>Filter Noise</h2>
+					<ul>
+					<li>Used inclusion and exclusion patterns:</li>
+					<ul>
+					<li>Inclusion: Data Science Central research found 400 job titles for data scientists</li>
+						<li>Exclusion: Classification of jobs that clearly do not fall into data science category. </li>
+					</ul>
+					</ul>
+				</div>
+				<div class="col-sm-1">&nbsp;</div>
+				<div class="col-sm-11">
+					<h2>Text Normalization</h2>
+					<ul>
+					<li>Text normaliztion techniques before building features:</li>
+					<ul>
+					<li>Remove non-alphanumeric characters, URLs and email addresses</li>
+					<li>Text converted to lower case</li>
+					<li>Remove stop words</li>
+					<li>Stemming (Snowball stemmer) to reduce words to root</li>
+					</ul>
+					<li>Size of relavent jobs reduced to 250M from 400M.</li>
+					<li>Current model does not use stemming; some keywords were lost in the process.</li>
+					</ul>
+				</div>
+			</div>
+			<div class="mySlides" id="slide6">
+				</div>
+			<div class="mySlides" id="slide7"></div>
+			<div class="mySlides" id="slide8"></div>
+			<div class="mySlides" id="slide9">
+				<h1>User Interface</h1>
+				<div class="col-sm-4">
+				<a href="http://mcpants.github.io/jquery.shapeshift/" target="_blank"><h3>jquery.shapeshift</h3><img src="images/shapeshift.PNG" height = "300" width="200" align="left" hspace="10" vspace="6"></a></div>
+
+				<div class="col-sm-4"><a href="http://getbootstrap.com/" target="_blank"><h3>bootstrap</h3><img src="https://pbs.twimg.com/profile_images/378800000195279414/f8404a9d719c7ffce1478ba1a50036f9.png" align="left" hspace="10" vspace="6"></a> </div>
+
+				<div class="col-sm-4"><a href="https://d3js.org"><h3>d3</h3><img src="https://d3js.org/logo.svg" align="left" hspace="100" vspace="6"></a></div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">❮</a>
+			<a class="next" onclick="plusSlides(1)">❯</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			  <span class="dot" onclick="currentSlide(4)"></span> 
+			  <span class="dot" onclick="currentSlide(5)"></span> 
+			  <span class="dot" onclick="currentSlide(6)"></span> 
+			  <span class="dot" onclick="currentSlide(7)"></span> 
+			  <span class="dot" onclick="currentSlide(8)"></span> 
+			  <span class="dot" onclick="currentSlide(9)"></span> 
+			</div>
+
+
+	</div>
+</div>
+	<div id="portfolio-wrapper">
+		<div id="portfolio" class="container">
+			<div id="column1">
+				<div class="title">
+					<h2>Angela Gunn</h2>
+				</div>
+				<a href="https://www.linkedin.com/in/anggunn" class="image image-full"><img src="images/angela.jpg" alt="" /></a>
+				<p>I am a Data Scientist with 10 years experience in business analysis and recent education in big data technologies. I have a talent for analyzing problems, developing and simplifying procedures, and finding innovative solutions. </p>
+				<a href="https://www.linkedin.com/in/anggunn" target="_blank" class="icon icon-arrow-right button">Profile</a> </div>
+			<div id="column2">
+				<div class="title">
+					<h2>Rajesh Thallam</h2>
+				</div>
+				<a href="https://www.linkedin.com/in/rajeshthallam" class="image image-full"><img src="images/rajesh.jpg" alt="" /></a>
+				<p>Insightful Technology Professional and Data Scientist with credentials that include a Master of Information and Data Science degree with 11+ years of experience in senior technology and data architect roles in diverse industries.</p>
+				<a href="https://www.linkedin.com/in/rajeshthallam" target="_blank" class="icon icon-arrow-right button">Profile</a> </div>
+			<div id="column3">
+				<div class="title">
+					<h2>Stephane Truong</h2>
+				</div>
+				<a href="https://cn.linkedin.com/in/truongstephane" class="image image-full"><img src="images/stephane.jpg" alt="" /></a>
+				<p>I am a Data Scientist following the Master of Information and Data Science at University of California at Berkeley. I am passionate by the Big Data revolution and I believe Data Science can contribute to make the world a better place. </p>
+				<a href="https://cn.linkedin.com/in/truongstephane" target="_blank" class="icon icon-arrow-right button">Profile</a> </div>
+			
+		</div>
+	</div>
+
+
+<div id="copyright" >
+	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+
+			<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length} ;
+			  for (i = 0; i < slides.length; i++) {
+			      slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			      dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+			</script>
+
+                 
+
+
+</body>
+</html>
