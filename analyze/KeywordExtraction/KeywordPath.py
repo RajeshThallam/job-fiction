@@ -50,9 +50,12 @@ def generatePathToKeyword():
 import json
 from collections import defaultdict  
 
+import json
+from collections import defaultdict  
+
 def whichPath(keywords):
     kwPaths={}
-    with open("/root/job-fiction/analyze/Keyword Extraction/ACMTaxonomyPaths.txt","rb")as f:
+    with open("/root/job-fiction/analyze/KeywordExtraction/ACMTaxonomyPaths.txt","rb")as f:
         allPaths=json.loads(f.read())
         
     #First get the path of each keyword from the file that we generate previously.
@@ -61,8 +64,8 @@ def whichPath(keywords):
         try:
             kwPaths[i]=allPaths[i]
         except:
-            kwPaths[i]=["Others"]
-    
+            kwPaths[i]=["Others","Others"]
+    print kwPaths
     #For all keywords we compute the total number level 1 and level 2 categories
     level2Cat= defaultdict(int)
     level1Cat= defaultdict(int)
