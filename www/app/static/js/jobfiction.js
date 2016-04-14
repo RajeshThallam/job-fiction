@@ -20,6 +20,45 @@ $(document).ready(function() {
 		enableTrash: true
 	});
 
+	// add sorter plug-in
+	$('#tableSearchResults').tablesorter({
+		widthFixed: false
+	});
+
+	// add search on the results table
+	$(".search").on("keyup change", function () {
+		var searchTerm = $(".search").val();
+		var listItem = $('.results tbody').children('tr');
+		var searchSplit = searchTerm.replace(/ /g, "'):containsi('")
+    
+		if(searchTerm == ""){
+			$(".results tbody tr").each(function(e){
+				$(this).attr('visible','true'); 
+			});
+			$('.counter').text('');
+			return 0;
+		}
+
+		$.extend($.expr[':'], {'containsi': function(elem, i, match, array){
+			return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;}
+  		});
+    
+		$(".results tbody tr").not(":containsi('" + searchSplit + "')").each(function(e){
+			$(this).attr('visible','false');
+		});
+
+		$(".results tbody tr:containsi('" + searchSplit + "')").each(function(e){
+			$(this).attr('visible','true');
+			$(this).next('tr').attr('visible','true');
+		});
+
+		var jobCount = $('.results tbody tr[visible="true"]').length;
+		$('.counter').text(jobCount/2 + (jobCount/2 <= 1 ? ' job': ' jobs'));
+
+		if(jobCount == '0') {$('.no-result').show();}
+		else {$('.no-result').hide();}
+	});
+
 	// collect user submited job posts and get key words
 	$("#btn-collect-job-posts").click(function() {
 		var job_title = [];
@@ -49,12 +88,6 @@ $(document).ready(function() {
 					var keywords = data[key];
 					for (var keyword in keywords) {
 						addNewToken("#" + key, keyword, key)
-						/*if (key === 'must_have') {
-							addNewToken("#" + key, keyword, "must_have")
-						}
-						else if (key === 'nice_have') {
-							addNewToken("#" + key, keyword, "nice_have")
-						}*/
 					}				
 				}
 
@@ -306,14 +339,15 @@ function loadResults(results){
 		var cell  = row.insertCell(3);
 		cell.innerHTML = current_job.job_class[0]['label'];
 		var cell  = row.insertCell(4);
-		cell.innerHTML = current_job.job_class[0]['score'];
+		cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
 		var cell = row.insertCell(5);
 		cell.innerHTML='<i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>';
 
 		//insert hidden row
 		row = table.insertRow(job_count+1);
+		row.className = "expand-child"
 		cell = row.insertCell(0);
-		cell.className = "hiddenRow";
+		cell.className = "hiddenRow ";
 		cell.setAttribute("style","padding-bottom:10px;");
 		cell.setAttribute("colspan","6");
 
@@ -431,19 +465,12 @@ function loadResults(results){
         job_count++; //increment job count
 	} // for (var job in results){
 
-
-
-
+	$("#tableSearchResults").trigger("update");
 }//end loadResults
-
-
-
-
 
 function createBarChart(labels, values, target_div, title, input_width, input_height, job_id){
 
-   document.getElementById(target_div).innerHTML = "";
-
+  document.getElementById(target_div).innerHTML = "";
 
   var data = [];
   for (var i = 0; i < labels.length; ++i){
@@ -845,5 +872,3 @@ y_xis.selectAll("text")
 
 
 }//end function horizontal_graph 
-
-
