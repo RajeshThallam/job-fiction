@@ -7,7 +7,7 @@ body {
 	padding: 0px;
 	background: cornflowerblue;
 	font-family: 'Chivo', sans-serif;
-	font-size: 12pt;
+	font-size: 16pt;
 	font-weight: 300;
 	color: steelblue;
 }
@@ -20,16 +20,13 @@ h1, h2, h3 {
 
 p, ol, ul, li {
 	margin-top: 0px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 p {
 	line-height: 190%;
 
 	
-}
-
-strong {
 }
 
 a {
@@ -200,6 +197,11 @@ hr {
 		font-weight: 400;
 		font-size: 0.90em;
 		color: #6F6F6F;
+	}
+
+	.bio
+	{
+		min-height: 280px
 	}
 
 /** WRAPPER */
@@ -388,7 +390,7 @@ hr {
 	#copyright
 	{
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 1em 0em;
 		text-align: center;
 		background-color: lightslategray;
 	}
@@ -672,7 +674,7 @@ hr {
 
 .mySlides{
 	padding: 50px; 
-	min-height: 600px;
+	min-height: 700px;
 	background-color: #01579B;
 	color: #fff;
 }

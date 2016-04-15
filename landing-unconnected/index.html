@@ -71,125 +71,76 @@ Released   : 20140310
 
 	<div id="page" class="container">
 		<div class="slideshow-container">
-
-			<div class="mySlides" id="slide1">
+			<div class="mySlides" id="slide4" style="text-align: center;">
+			  
+			  	<H1>Job Fiction - Find Your Passion</H1>
+			     <br>
+		        <img src="images/DS_cloud.jpg" width="900" height="400">
+		        
+			</div>
+			<div class="mySlides" id="slide2">
 			  <h1 style="margin-bottom: 40px">Problem</h1>
 			  	<div class="col-sm-12">
-		        	<p>Is there a better way to find a great Data Science job.</p>
+		        	<p style="font-size: 30px"><strong>Is there a better way to find a great Data Science job?</strong></p>
 		        </div>
 		        <div class="col-sm-1">&nbsp;</div>
 		        <div class="col-sm-11">
 		        <ul>
 		        <li>Job titles are not consistent</li>
+		        <br>
 		        <li>Keywords like "data" can mean too general</li>
-		        <li>Resumes highlight the skills used in previous jobs, not the ones you want to use in a new job.</li>
+		        <br>
+		        <li>Resumes highlight the skills used in previous jobs, not the ones you want to use in a new job</li>
+		        <br>
+		        <li>Current job search tools are not flexible to specific needs.</li>
 		        </ul>
 		        </div>
 			  
 			</div>
 
-			<div class="mySlides" id="slide2">
+			<div class="mySlides" id="slide3">
 			  
 			     
 		        <h1 style="margin-bottom: 40px">Our Solution in 3 Easy Steps</h1>
 		        <div class="col-lg-1">&nbsp;</div>
 		        <div class="col-lg-11" >
 		        <p>(1) Start with job descriptions you like.</p>
+		        <br>
 		        <p>(2) Emphasize the job characteristics you want.</p>
+		        <br>
 		        <p>(3) Find jobs that match this new job description.</p>
 		        </div>
 
 			</div>
 
-			<div class="mySlides" id="slide3">
+			<div class="mySlides" id="slide4"  style="text-align: center;">
 			  
 			     
-		        <h1>Data Collection</h1>
-		        <div class="col-sm-4"><a href="http://www.indeed.com/" target="_blank" ><img src="http://www.indeed.com/images/job_search_indeed.png" align="left" hspace="10" vspace="6"alt="" /></a></div>
-		        <div class="col-sm-4"><a href="https://www.mongodb.com/" target="_blank" ><img src="https://webassets.mongodb.com/_com_assets/global/mongodb-logo-white.png" align="left" hspace="10" vspace="6"alt="" width="225" height="150"/></a></div>
-		        <div class="col-sm-4">&nbsp;</div>
-		        <div class="col-sm-12">
-
-
-
-		        <ul>
-		        <li>More than 1,000,000 job ads have been accumulated - that's over 3 Gbs</li>
-		        <li>Jobs pulled daily and stored in MongoDB</li>
-		        <li>Limited to 10000 results, so pulled in batches by zipcode</li>
-		        <li>No filtering - all jobs from truck driver to CEO is pulled</li>
-		        <ul><li>Less than 20% of all jobs collected contained the word "data"</li></ul>
-		        </ul>
-		        </div>
+		        <h1>Launch Demonstration</h1>
+			     <br>
+		        
+		        <a href="http://50.97.254.20:5000/home/" target="_blank" ><img src="images/Launch.PNG" width="600" height="300"></a>
 			</div>
-			<div class="mySlides" id="slide4">
-				<h1>Architecture</h1>
-				<img src="images/Architecture_Diagram - Data Flow Diagram.png" width="800" height="500"> 
-			</div>
+			
 			<div class="mySlides" id="slide5">
-				<h1>Text Pre-Processing</h1>
-				<div class="col-sm-1">&nbsp;</div>
-				<div class="col-sm-11">
-					<h2>Filter Noise</h2>
-					<ul>
-					<li>Used inclusion and exclusion patterns:</li>
-					<ul>
-					<li>Inclusion: Data Science Central research found 400 job titles for data scientists</li>
-						<li>Exclusion: Classification of jobs that clearly do not fall into data science category. </li>
-					</ul>
-					</ul>
-				</div>
-				<div class="col-sm-1">&nbsp;</div>
-				<div class="col-sm-11">
-					<h2>Text Normalization</h2>
-					<ul>
-					<li>Text normaliztion techniques before building features:</li>
-					<ul>
-					<li>Remove non-alphanumeric characters, URLs and email addresses</li>
-					<li>Text converted to lower case</li>
-					<li>Remove stop words</li>
-					<li>Stemming (Snowball stemmer) to reduce words to root</li>
-					</ul>
-					<li>Size of relavent jobs reduced to 250M from 400M.</li>
-					<li>Current model does not use stemming; some keywords were lost in the process.</li>
-					</ul>
-				</div>
-			</div>
-			<div class="mySlides" id="slide6">
-			<h1>Leveraging MAUI </h1>
-			<img src="images/Maui.png" width="1000" height="500"> 
-				</div>
-			<div class="mySlides" id="slide7">
-				
-				<h1>User Interface</h1>
-				<div class="col-sm-4">
-				<h3>jquery.shapeshift</h3>
-				<a href="http://mcpants.github.io/jquery.shapeshift/" target="_blank"><img src="images/shapeshift.PNG" height = "300" width="200" align="left" hspace="10" vspace="6"></a></div>
-
-				<div class="col-sm-4">
-				<h3>bootstrap</h3>
-				<a href="http://getbootstrap.com/" target="_blank"><img src="https://pbs.twimg.com/profile_images/378800000195279414/f8404a9d719c7ffce1478ba1a50036f9.png" align="left" hspace="10" vspace="6"></a> </div>
-
-				<div class="col-sm-4">
-				<h3>d3</h3>
-				<a href="https://d3js.org"><img src="https://d3js.org/logo.svg" align="left" hspace="100" vspace="2"></a></div>
-			</div>
-			<div class="mySlides" id="slide8">
-				<h1 style="margin-bottom: 40px">Challenges and Lessons Learned</h1>
+				<h1 style="margin-bottom: 40px">Future Considerations</h1>
 				<ul>
-					<li>Choose a scope managable for team size and time frame.</li>
+					<li>Continue Improving Model</li>
 					<ul>
-						<li>Consider what learning curve you may face, but don't be afraid of it.</li>
+						<li>There is always room to look for different thresholds or features.</li>
 					</ul>
-					<li>Start your documentation early.</li>
+					<br>
+					<li>Get support from a third party</li>
 					<ul>
-						<li>You will underestimate the time to write/compile it.</li>
-						<li>Will keep everyone on the same page as to what each part of the project is about.</li>
+						<li>Glassdoor, for example, only releases company ratings through its API. It would be very useful they could open up salary and job titles for each company. This information would improve classification and help job seekers find the right position.</li>
+					</ul>
+					<br>
+					<li>User Interface Improvements</li>
+					<ul>
+						<li>Smoother transitions between functionality.</li>
+						<li>Intuitive inteface</li>
 					</ul>
 				</ul>
-			</div>
-
-			<div class="mySlides" id="slide9">
-
 			</div>
 
 			<a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -201,13 +152,9 @@ Released   : 20140310
 			<div style="text-align:center">
 			  <span class="dot" title="Problem" onclick="currentSlide(1)"></span> 
 			  <span class="dot" title="Solution" onclick="currentSlide(2)"></span> 
-			  <span class="dot" title="Data Collection" onclick="currentSlide(3)"></span> 
-			  <span class="dot" title="Architecture" onclick="currentSlide(4)"></span> 
-			  <span class="dot" title="Text Pre-Processing" onclick="currentSlide(5)"></span> 
-			  <span class="dot" title="Leveraging MAUI" onclick="currentSlide(6)"></span> 
-			  <span class="dot" title="User Interface" onclick="currentSlide(7)"></span> 
-			  <span class="dot" title="Challenges" onclick="currentSlide(8)"></span> 
-			  <span class="dot" title="" onclick="currentSlide(9)"></span> 
+			  <span class="dot" title="Demonstration" onclick="currentSlide(3)"></span> 
+			  <span class="dot" title="Future" onclick="currentSlide(4)"></span> 
+			  <span class="dot" title="Future" onclick="currentSlide(5)"></span> 
 			</div>
 
 
@@ -220,21 +167,28 @@ Released   : 20140310
 					<h2>Angela Gunn</h2>
 				</div>
 				<a href="https://www.linkedin.com/in/anggunn" class="image image-full"><img src="images/angela.jpg" alt="" /></a>
-				<p>I am a Data Scientist with 10 years experience in business analysis and recent education in big data technologies. I have a talent for analyzing problems, developing and simplifying procedures, and finding innovative solutions. </p>
-				<a href="https://www.linkedin.com/in/anggunn" target="_blank" class="icon icon-arrow-right button">Profile</a> </div>
-			<div id="column2">
+				<div class="bio">
+					<p>I am a Data Scientist with 10 years experi
+					ence in business analysis and recent education in big data technologies. I have a talent for analyzing problems, developing and simplifying procedures, and finding innovative solutions. </p>
+				</div>
+				<a href="https://www.linkedin.com/in/anggunn" target="_blank" 	class="icon icon-arrow-right button">Profile</a> </div>
+			<div id="column2" class = "bio">
 				<div class="title">
 					<h2>Rajesh Thallam</h2>
 				</div>
 				<a href="https://www.linkedin.com/in/rajeshthallam" class="image image-full"><img src="images/rajesh.jpg" alt="" /></a>
+				<div class="bio">
 				<p>Insightful Technology Professional and Data Scientist with credentials that include a Master of Information and Data Science degree with 11+ years of experience in senior technology and data architect roles in diverse industries.</p>
+				</div>
 				<a href="https://www.linkedin.com/in/rajeshthallam" target="_blank" class="icon icon-arrow-right button">Profile</a> </div>
 			<div id="column3">
-				<div class="title">
+				<div class="title" class = "bio">
 					<h2>Stephane Truong</h2>
 				</div>
 				<a href="https://cn.linkedin.com/in/truongstephane" class="image image-full"><img src="images/stephane.jpg" alt="" /></a>
+				<div class="bio">
 				<p>I am a Data Scientist following the Master of Information and Data Science at University of California at Berkeley. I am passionate by the Big Data revolution and I believe Data Science can contribute to make the world a better place. </p>
+				</div>
 				<a href="https://cn.linkedin.com/in/truongstephane" target="_blank" class="icon icon-arrow-right button">Profile</a> </div>
 			
 		</div>
@@ -242,7 +196,11 @@ Released   : 20140310
 
 
 <div id="copyright" >
-	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+	<p > This project was created as part of the W210 - Capstone class,
+	<br> which is a part of the <a href = "https://datascience.berkeley.edu/" style="color:yellow">Master of Information and Data Science</a> program at <a href="http://www.berkeley.edu/" style="color:yellow">UC Berkeley</a>.</p>
+
+	<p>	Word Cloud image by <a href="https://us.fotolia.com/" rel="nofollow" style="color:#01579B">Fotolia</a>.</p>
+
 </div>
 
 			<script>
