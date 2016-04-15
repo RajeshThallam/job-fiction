@@ -22,6 +22,11 @@
 		<!-- jquery core and UI -->
 	 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
   		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.23.3/js/jquery.tablesorter.min.js"></script> -->
+  		<script src="http://tablesorter.com/__jquery.tablesorter.min.js"></script>
+  		
+
+  		<!-- bootstrap -->
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   		<!-- jQuery.Shapeshift -->
@@ -36,8 +41,6 @@
 
 		<!-- plugin javascript -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-
 </head>
 
 <body>
@@ -266,11 +269,14 @@
 								</div>
 							</div>
 							 <div class="col-sm-2">
-							    <button type="button" class="btn btn-primary btn-sm" id="btn-collectResults" onclick="getResults();">Get/Refresh Results</button>
+							    <button type="button" class="btn btn-primary btn-sm" id="btn-collectResults" onclick="getResults();">Refresh Results</button>
 							 </div>
-							 <div class="col-sm-2">
-							 	<button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#optionsModal">Options</button>
-							 	
+							 <div class="col-md-10">
+							 	<!-- <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#optionsModal">Options</button> -->
+ 								<div class="form-group pull-right" style="width:255px">
+    								 <input type="text" class="search form-control" placeholder="Filter: What you looking for?">
+    								<span class="counter pull-right"></span>
+								</div>
 							 </div>
 
 
@@ -331,18 +337,17 @@
 							</div>
 
 							<div id="JobResults" style="overflow : auto; height:900px;">
-								<table id="tableSearchResults" class="table table-hover  table-striped table-condensed">
+								<table id="tableSearchResults" class="results table table-responsive table-hover table-striped table-condensed tablesorter">
 									<thead>
 										<tr>
 											<th>Title</th>
 											<th>Company</th>
 											<th>Location</th>
 											<th>Class</th>
-											<th>Match</th>
+											<th width="75">Match  <i class="fa fa-sort"></i></th>
 										</tr>
 									</thead>
 									<tbody id="tableSearchResults_body">
-										
 										<tr></tr>
 									</tbody>
 								</table>

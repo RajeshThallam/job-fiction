@@ -1,5 +1,4 @@
 from subprocess import Popen, PIPE, STDOUT
-from collections import defaultdict  
 from app import app
 import operator as op
 import shutil
@@ -27,7 +26,7 @@ class ExtractKeywords(object):
         p = Popen(["java", "-jar", "-Xmx1024m", self.maui_home, 
             "train", "-l", path_to_train, "-m", path_to_model,
             "-v", app.config['ACM_EXTENDED_DICT'], 
-            "-f", "skos", "-o",str(minOccurence)], 
+            "-f", "skos", "-o", str(minOccurence)], 
             stdout=PIPE, stderr=STDOUT
             )
 
@@ -54,9 +53,9 @@ class ExtractKeywords(object):
         doc = ""
         init = 0
 
-        p = Popen(["java", "-jar", "-Xmx1024m", self.maui_home, 
+        p = Popen(["java", "-jar", "-Xmx1024m", self.maui_home,
             "test", "-l", path_to_test, "-m", path_to_model,
-            "-v", app.config['ACM_DICT'], 
+            "-v", app.config['ACM_EXTENDED_DICT'], 
             "-f","skos","-n",str(num_keywords)], 
             stdout=PIPE, stderr=STDOUT
             )
@@ -213,24 +212,23 @@ class ExtractKeywords(object):
                 kwPaths[i] = ["Others"]
         
         # for all keywords, compute the total level 1 and level 2 categories
-        level2Cat = defaultdict(int)
-        level1Cat = defaultdict(int)
         categories = {}
         
         for k,v in kwPaths.iteritems():
-            
-            if v[0] not in categories.keys():
-                categories[v[0]] = {}
-                categories[v[0]]["count"] = 1
-            else:
-                categories[v[0]]["count"] += 1
 
-            try:
-                if v[1] not in categories[v[0]].keys():
-                    categories[v[0]][v[1]] = 1
+            if len(v) > 0:
+                if v[0] not in categories.keys():
+                    categories[v[0]] = {}
+                    categories[v[0]]["count"] = 1
                 else:
-                    categories[v[0]][v[1]] += 1   
-            except:
-                print "categories 'Other' encountered"
+                    categories[v[0]]["count"] += 1
+
+                try:
+                    if v[1] not in categories[v[0]].keys():
+                        categories[v[0]][v[1]] = 1
+                    else:
+                        categories[v[0]][v[1]] += 1   
+                except:
+                    print "categories 'Other' encountered"
             
         return categories

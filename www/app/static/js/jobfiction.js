@@ -20,6 +20,45 @@ $(document).ready(function() {
 		enableTrash: true
 	});
 
+	// add sorter plug-in
+	$('#tableSearchResults').tablesorter({
+		widthFixed: false
+	});
+
+	// add search on the results table
+	$(".search").on("keyup change", function () {
+		var searchTerm = $(".search").val();
+		var listItem = $('.results tbody').children('tr');
+		var searchSplit = searchTerm.replace(/ /g, "'):containsi('")
+    
+		if(searchTerm == ""){
+			$(".results tbody tr").each(function(e){
+				$(this).attr('visible','true'); 
+			});
+			$('.counter').text('');
+			return 0;
+		}
+
+		$.extend($.expr[':'], {'containsi': function(elem, i, match, array){
+			return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;}
+  		});
+    
+		$(".results tbody tr").not(":containsi('" + searchSplit + "')").each(function(e){
+			$(this).attr('visible','false');
+		});
+
+		$(".results tbody tr:containsi('" + searchSplit + "')").each(function(e){
+			$(this).attr('visible','true');
+			$(this).next('tr').attr('visible','true');
+		});
+
+		var jobCount = $('.results tbody tr[visible="true"]').length;
+		$('.counter').text(jobCount/2 + (jobCount/2 <= 1 ? ' job': ' jobs'));
+
+		if(jobCount == '0') {$('.no-result').show();}
+		else {$('.no-result').hide();}
+	});
+
 	// collect user submited job posts and get key words
 	$("#btn-collect-job-posts").click(function() {
 		var job_title = [];
@@ -49,12 +88,6 @@ $(document).ready(function() {
 					var keywords = data[key];
 					for (var keyword in keywords) {
 						addNewToken("#" + key, keyword, key)
-						/*if (key === 'must_have') {
-							addNewToken("#" + key, keyword, "must_have")
-						}
-						else if (key === 'nice_have') {
-							addNewToken("#" + key, keyword, "nice_have")
-						}*/
 					}				
 				}
 
@@ -138,16 +171,13 @@ function setOptions(){
 
 //this function just coordinates the retrieval of the job lists.
 function getResults(){
-	//sendModel();
-	//loadResults();
-
     model_inputs_json = collectModelInputs()
 	$.post(
         url = '/home/getresults', 
         data = JSON.stringify(model_inputs_json), 
         function(data) {
             console.log(data);
-            loadResults(data);
+            getResultsES(data);
         },
         dataType = 'json'
     );
@@ -221,10 +251,58 @@ function collectModelInputs(){
 	return strJSON;
 }
 
+function getResultsES(results){
+	//var results = JSON.parse(results_str);
+
+	// get job_ids to be queried on ElasticSearch
+	job_ids = Object.keys(results['jobs'])
+	//job_ids = [ "indeed_4da5859d10426dab", "indeed_8e1f2f2909654316" ]
+
+	// prepare ES query call
+	var s_ES = "http://50.97.254.20:9200";
+	var es_call = '{"size":' + job_ids.length + 
+		', "query": {"filtered" : {"filter" : {"terms": {"_id":["' + 
+		job_ids.join('", "') + 
+		'"]}}}}}'
+	console.log(es_call)
+
+	// REST API to query ES and get results
+	$.post(
+        url = s_ES + '/jobfiction/results/_search?pretty=true',
+        data = es_call,
+        function(data) {
+        	// get results from ElasticSearch Server
+            console.log(data);
+            results = data.hits.hits
+            console.log("# of results retreived " + results.length)
+
+            // reorder results from ES based on relevance as 
+            // returned by the model 
+			srt_results = []
+			job_ids.forEach(function(key) {
+			    var found = false;
+			    items = results.filter(function(item) {
+			        if(!found && item._id == key) {
+			            srt_results.push(item);
+			            found = true;
+			            return false;
+			        } else 
+			            return true;
+			    })
+			})
+
+			// call function to display results
+            loadResults(srt_results)
+        },
+        dataType = 'json'
+    );
+
+
+}
+
 //this function loads the results
 function loadResults(results){
 	//var results = JSON.parse(results_str);
-
 	var parent = document.getElementById("JobResults");
 	var table = document.getElementById("tableSearchResults");
 
@@ -240,7 +318,9 @@ function loadResults(results){
 	for (var job in results){
 		var current_idx = job_count++;
 		current_job_id = job_prefix + current_idx;  //so we can consistently use this.
-		current_job = results[job];
+		current_job = results[job]._source;
+
+		console.log(results[job])
 
 		var row = tb.insertRow(current_idx);
 		row.id=current_job_id;
@@ -255,18 +335,19 @@ function loadResults(results){
 		var cell = row.insertCell(1);
 		cell.innerHTML = current_job.company;
 		var cell = row.insertCell(2);
-		cell.innerHTML = current_job.location;
+		cell.innerHTML = current_job.full_location;
 		var cell  = row.insertCell(3);
-		cell.innerHTML = current_job.job_class[0];
+		cell.innerHTML = current_job.job_class[0]['label'];
 		var cell  = row.insertCell(4);
-		cell.innerHTML = current_job.match_rate;
+		cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
 		var cell = row.insertCell(5);
 		cell.innerHTML='<i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>';
 
 		//insert hidden row
 		row = table.insertRow(job_count+1);
+		row.className = "expand-child"
 		cell = row.insertCell(0);
-		cell.className = "hiddenRow";
+		cell.className = "hiddenRow ";
 		cell.setAttribute("style","padding-bottom:10px;");
 		cell.setAttribute("colspan","6");
 
@@ -282,7 +363,8 @@ function loadResults(results){
 
 		//Link
 		var link = document.createElement("a");
-		link.setAttribute("href", current_job.job_url);
+		link.setAttribute("href", current_job.url);
+		link.setAttribute("target","_blank");
 		link.appendChild(document.createTextNode("More Information / Apply"));
 		section.appendChild(link);
 		section.appendChild(document.createElement("br"));
@@ -298,37 +380,37 @@ function loadResults(results){
 		skilldiv.appendChild(skilltable);
 		skilltable.className = "table table-condensed";
 		//skill table rows
-		
 
+		if ( 'skill_match' in current_job) {
+			skillrow = skilltable.insertRow();
+			skillcell = skillrow.insertCell();
+			skillcell.innerHTML = "Must Have";
+			skillcell = skillrow.insertCell();
+			var cellvalue = current_job.skill_match.must_have;
+			if (cellvalue < 0){
+				cellvalue = 0;
+			}
+			skillcell.innerHTML = cellvalue;
 
-		skillrow = skilltable.insertRow();
-		skillcell = skillrow.insertCell();
-		skillcell.innerHTML = "Must Have";
-		skillcell = skillrow.insertCell();
-		var cellvalue = current_job.skill_match.must_have;
-		if (cellvalue < 0){
-			cellvalue = 0;
+			skillrow = skilltable.insertRow();
+			skillcell = skillrow.insertCell();
+			skillcell.innerHTML = "Nice to Have";
+			skillcell = skillrow.insertCell();
+			var cellvalue = current_job.skill_match.nice_to_have;
+			if (cellvalue < 0){
+				cellvalue = 0;
+			}
+			skillcell.innerHTML = cellvalue;
+			//skill table header
+			var skillheader = skilltable.createTHead();
+			var skillrow = skillheader.insertRow();
+			var skillcell = document.createElement("th");
+			skillcell.innerHTML = "Skill Category";
+			skillrow.appendChild(skillcell);
+			skillcell = document.createElement("th");
+			skillcell.innerHTML = "Number Matches";
+			skillrow.appendChild(skillcell);
 		}
-		skillcell.innerHTML = cellvalue;
-
-		skillrow = skilltable.insertRow();
-		skillcell = skillrow.insertCell();
-		skillcell.innerHTML = "Nice to Have";
-		skillcell = skillrow.insertCell();
-		var cellvalue = current_job.skill_match.nice_to_have;
-		if (cellvalue < 0){
-			cellvalue = 0;
-		}
-		skillcell.innerHTML = cellvalue;
-		//skill table header
-		var skillheader = skilltable.createTHead();
-		var skillrow = skillheader.insertRow();
-		var skillcell = document.createElement("th");
-		skillcell.innerHTML = "Skill Category";
-		skillrow.appendChild(skillcell);
-		skillcell = document.createElement("th");
-		skillcell.innerHTML = "Number Matches";
-		skillrow.appendChild(skillcell);
 
 		//start of graph part
 		var graphdiv = document.createElement("div");
@@ -341,60 +423,54 @@ function loadResults(results){
 		//doing this now, since the graph part is all SVG stuff.
 
 		//************-----graph----
-
 		
-        var categories = current_job.categories;  //get just the categories object
+		if ( 'skill_match' in current_job) {
+	        var categories = current_job.categories;  //get just the categories object
 
-        var current_cat = [];  //temp object
+	        var current_cat = [];  //temp object
 
-        var cat_counts = []; //counts for level 1 categories//for immediate graph
-        var cat_labels = []; //labels for level 1 categories//for immediate graph
-        var cat1_array = {}; //object for holding all category 1
-         
-        for (var cat in categories){  //cat is the category 1 label                           GENERAL
-            cat_labels.push(cat);//for immediate graph
-            current_cat = current_job.categories[cat];
-            var obj_cat1 = {}; //object for holding category 1 information
-            var obj_cat2 = {};  //object for holding category 2 info
-            for (var c_name in current_cat){                                                     //count,  skill, skill
-                  if (c_name == 'count'){
-                    //count is a special category !!
-                    //add count to cat_counts
-                    //add count to object for category 1
-                    cat_counts.push(current_job.categories[cat][c_name]); //for immediate graph
-                    obj_cat1["count"] = current_job.categories[cat][c_name];
-                  } else{
-                    //put values into some sort of structure that has the category 2 stuff.
-                    //c_name is the category2 name.
-                    obj_cat2[c_name] = current_job.categories[cat][c_name];
-                  }
-            }
-            //after loop, add category2 object to cat 2 array
-            obj_cat1["cat2"] = obj_cat2;
-              
-            cat1_array[cat] = obj_cat1;
-        } //end for cat in categories
+	        var cat_counts = []; //counts for level 1 categories//for immediate graph
+	        var cat_labels = []; //labels for level 1 categories//for immediate graph
+	        var cat1_array = {}; //object for holding all category 1
+	         
+	        for (var cat in categories){  //cat is the category 1 label                           GENERAL
+	            cat_labels.push(cat);//for immediate graph
+	            current_cat = current_job.categories[cat];
+	            var obj_cat1 = {}; //object for holding category 1 information
+	            var obj_cat2 = {};  //object for holding category 2 info
+	            for (var c_name in current_cat){                                                     //count,  skill, skill
+	                  if (c_name == 'count'){
+	                    //count is a special category !!
+	                    //add count to cat_counts
+	                    //add count to object for category 1
+	                    cat_counts.push(current_job.categories[cat][c_name]); //for immediate graph
+	                    obj_cat1["count"] = current_job.categories[cat][c_name];
+	                  } else{
+	                    //put values into some sort of structure that has the category 2 stuff.
+	                    //c_name is the category2 name.
+	                    obj_cat2[c_name] = current_job.categories[cat][c_name];
+	                  }
+	            }
+	            //after loop, add category2 object to cat 2 array
+	            obj_cat1["cat2"] = obj_cat2;
+	              
+	            cat1_array[cat] = obj_cat1;
+	        } //end for cat in categories
 
-        job_graph[current_job_id] = cat1_array;   //job_graph is (and MUST) be global
+	        job_graph[current_job_id] = cat1_array;   //job_graph is (and MUST) be global
 
-        horizontal_graph(cat_labels, cat_counts, graphdiv.id, "Categories of Skills", 900, 250, current_job_id);
+	        horizontal_graph(cat_labels, cat_counts, graphdiv.id, "Categories of Skills", 900, 250, current_job_id);
+	    }
 
         job_count++; //increment job count
 	} // for (var job in results){
 
-
-
-
+	$("#tableSearchResults").trigger("update");
 }//end loadResults
-
-
-
-
 
 function createBarChart(labels, values, target_div, title, input_width, input_height, job_id){
 
-   document.getElementById(target_div).innerHTML = "";
-
+  document.getElementById(target_div).innerHTML = "";
 
   var data = [];
   for (var i = 0; i < labels.length; ++i){
@@ -796,5 +872,3 @@ y_xis.selectAll("text")
 
 
 }//end function horizontal_graph 
-
-

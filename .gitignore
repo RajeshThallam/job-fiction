@@ -14,3 +14,5 @@ analyze/Keyword Extraction/data/jobscan/.DS_Store
 # ignore log files
 *.log
 
+
+*.out
