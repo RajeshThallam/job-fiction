@@ -40,7 +40,7 @@ def fetch_batch_data(search,location,start):
     'l' : location,
     'r': 0,
     'sort': 'date',
-    'fromage':1,      
+   
     'userip' : "1.2.3.4",
     'useragent' : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2)",
     'limit':streamLimit,
@@ -134,7 +134,7 @@ def get_zipcodes():
 
 query=""
 zipcodes=get_zipcodes()
-logging.basicConfig(filename='/root/logs/streamDaily.log', level=logging.DEBUG)
+logging.basicConfig(filename='/root/logs/streamAll.log', level=logging.DEBUG)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 logging.info("Starting acquisition. Time= "+ datetime.now().isoformat())
 print "Starting acquisition. Time= "+ datetime.now().isoformat()
