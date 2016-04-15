@@ -136,6 +136,8 @@ query=""
 zipcodes=get_zipcodes()
 logging.basicConfig(filename='/root/logs/streamAll.log', level=logging.DEBUG)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
+logging.getLogger("requests").setLevel(logging.WARNING)
+
 logging.info("Starting acquisition. Time= "+ datetime.now().isoformat())
 print "Starting acquisition. Time= "+ datetime.now().isoformat()
 
