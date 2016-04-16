@@ -64,6 +64,37 @@ $(document).ready(function() {
 
 	// collect user submited job posts and get key words
 	$("#btn-collect-job-posts").click(function() {
+		$("#description_graph").css("display", "none");
+
+		var bar = new ProgressBar.Line(progressbar, {
+		  strokeWidth: 4,
+		  easing: 'easeInOut',
+		  duration: 40000,
+		  color: '#337AB7',
+		  trailColor: '#eee',
+		  trailWidth: 1,
+		  svgStyle: {width: '100%', height: '100%'},
+		  text: {
+		    style: {
+		      color: '#337AB7',
+		      position: 'absolute',
+		      right: '0',
+		      top: '30px',
+		      padding: 0,
+		      margin: 0,
+		      transform: null,
+		      fontFamily: '"Raleway", Helvetica, sans-serif',
+		      fontSize: '1.5rem'
+		    },
+		    autoStyleContainer: false
+		  },
+		  from: {color: '#337AB7'},
+		  to: {color: '#ED6A5A'},
+		  step: (state, bar) => {
+		    bar.setText('Analyzing... ' + Math.round(bar.value() * 100) + ' %');
+		  }
+		});
+
 		var job_title = [];
 		var job_desc = [];
 
@@ -78,11 +109,16 @@ $(document).ready(function() {
 		var job_posts = { title: job_title, desc: job_desc};
 		console.log(job_posts);
 
+		$("#progressbar").css("display", "block");
+		bar.animate(1.0);  // Number from 0.0 to 1.0
+
 		$.post(
 			url = '/home/getkeywords', 
 			data = JSON.stringify(job_posts), 
 			function(data) {
 				console.log(data);
+				$("#progressbar").css("display", "none");
+				bar.destroy();
 
 				// remove all existing tokens
 				$('.ss-active-child').remove();
@@ -130,6 +166,7 @@ $(document).ready(function() {
 		        description_graph[0] = cat1_array;   //job_graph is (and MUST) be global
 				
 				document.getElementById("description_graph").innerHTML = "";
+				$("#description_graph").css("display", "block");
 		        //createBarChart(cat_labels, cat_counts, "description_graph", "Categories of Skills", 1100, 500, "description_graph");
 		        horizontal_graph(cat_labels, cat_counts, "description_graph", "Categories of Skills", 1000, 400, "description_graph");
 			}, 

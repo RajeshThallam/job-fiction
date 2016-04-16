@@ -165,3 +165,10 @@ background-color: #8dbdd8;
 .form-group {
 	margin-bottom: 0;
 }
+
+#progressbar {
+  margin: 20px;
+  width: 400px;
+  height: 8px;
+  position: relative;
+}
