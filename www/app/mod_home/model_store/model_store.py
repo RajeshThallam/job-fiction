@@ -13,7 +13,7 @@ from gensim.models.ldamodel import LdaModel
 from elasticsearch import Elasticsearch
 from elasticsearch import helpers
 import transform_doc2bow as d2b
-import config as cfg
+#import config as cfg
 from app import app
 import pandas as pd
 import json
@@ -22,11 +22,11 @@ import sys
 
 class ModelStore(object):
     def __init__(self, jobdesc_fname, jobtitle_fname):
-        self.es = Elasticsearch([{'host': cfg.ES_HOST, 'port': 9200}])
-        self.model = LdaModel.load(cfg.RCMDR_LDA_MODEL)
+        self.es = Elasticsearch([{'host': app.cfg['ES_HOST'], 'port': 9200}])
+        self.model = LdaModel.load(app.cfg['RCMDR_LDA_MODEL'])
         self.job_labels = {
             int(k):v
-            for k, v in (line.split("=") for line in open(cfg.RCMDR_JOB_LABELS)
+            for k, v in (line.split("=") for line in open(app.cfg['RCMDR_JOB_LABELS'])
                     .read().strip().split('\n'))
             }
         self.jobdesc_fname = jobdesc_fname
@@ -46,7 +46,7 @@ class ModelStore(object):
 
         # get topic labels
         doc2bow = d2b.JobPreprocess(
-            self.jobdesc_fname, cfg.RCMDR_DICT, stopwords=True)
+            self.jobdesc_fname, app.cfg['RCMDR_DICT'], stopwords=True)
 
         # get probable job topics fitting the model
         doc_topics = self.model[doc2bow]
@@ -61,7 +61,7 @@ class ModelStore(object):
         keywords = json.loads(maui.find_keywords(job_desc_text))
 
         # get top N topics
-        n = cfg.TOPN_JOB_CLASSES
+        n = app.cfg['TOPN_JOB_CLASSES']
 
         topics_labels = []
         docs_keywords = []
@@ -92,8 +92,8 @@ class ModelStore(object):
         job_df = self.get_doc_topic_details()
 
         # ignore 400 cause by IndexAlreadyExistsException when creating an index
-        es_index = cfg.ES_IDX_RESULT
-        es_index_type = cfg.ES_IDX_TYPE_RESULT
+        es_index = app.cfg['ES_IDX_RESULT']
+        es_index_type = app.cfg['ES_IDX_TYPE_RESULT']
         es_index_mapping = {
             'results': {
                 'properties': {
