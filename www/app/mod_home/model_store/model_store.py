@@ -12,7 +12,7 @@ from app.mod_home.extract_keywords import extract_keywords as kw
 from gensim.models.ldamodel import LdaModel
 from elasticsearch import Elasticsearch
 from elasticsearch import helpers
-    import transform_doc2bow as d2b
+import transform_doc2bow as d2b
 #import config as cfg
 from app import app
 import pandas as pd
@@ -84,6 +84,7 @@ class ModelStore(object):
             docs_keywords.append(keywords[str(doc_id)])
             topics_labels.append(topic_labels)
 
+        print "Updating jobs data frame"
         job_df['topic_labels'] = topics_labels
         job_df['keywords'] = docs_keywords
 

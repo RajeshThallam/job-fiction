@@ -11,6 +11,7 @@ import os
 class ExtractKeywords(object):
     def __init__(self):
         self.maui_home = app.config['MAUI_HOME_PATH']
+        self.all_categories = json.loads(open(app.config['ACM_TAXONOMY_PATH']).read())
 
     # Function to train a MAUI model.
     # Input:
@@ -204,17 +205,14 @@ class ExtractKeywords(object):
 
     def get_categories(self, keywords):
         kwPaths = {}
-
-        with open(app.config['ACM_TAXONOMY_PATH'], "rb")as f:
-            allPaths=json.loads(f.read())
             
         # get the path of each keyword from the file generated previously
         for i in keywords:
             i=i.strip()
             try:
-                kwPaths[i] = allPaths[i]
+                kwPaths[i] = self.all_categories[i]
             except:
-                kwPaths[i] = ["Others"]
+                kwPaths[i] = ["Others", "Others"]
         
         # for all keywords, compute the total level 1 and level 2 categories
         categories = {}
