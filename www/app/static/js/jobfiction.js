@@ -64,6 +64,10 @@ $(document).ready(function() {
 
 	// collect user submited job posts and get key words
 	$("#btn-collect-job-posts").click(function() {
+		if ($("#progressbar").css("display") == "block") {
+			return 1;
+		}
+
 		$("#description_graph").css("display", "none");
 		var bar = "";
 		bar = new ProgressBar.Line(progressbar, {
