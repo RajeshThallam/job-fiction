@@ -137,12 +137,14 @@ qualification (50%) and skills (79%). Length of job posts followed typical zipf
 distribution. We concatenated job title with job description for the entire analysis.</p>
 <p>&nbsp;</p>
 <p>We performed following text normalization techniques before building features:</p>
+<ul>
 <li>Removed non-alphanumeric characters including punctuations (except +, ., -)</li>
 <li>Text converted to lower case</li>
 <li>Removed URL and email ids</li>
 <li>Removed stop words (used smart list stop words, NLTK stop words and our
 own stop words based on the analysis)</li>
 <li>Stemming (Snowball stemmer) to reduce words to their root form</li>
+</ul>
 <p>&nbsp;</p>
 <p>We performed following text normalization techniques before building features
 After applying normalization techniques, size of the relevant job posts data came

@@ -207,7 +207,7 @@ hr {
 /** WRAPPER */
 
 #wrapper {
-	background: steelblue url(images/bg01.png) repeat;
+	background-color: steelblue ;
 }
 
 #footer-wrapper
@@ -679,13 +679,17 @@ hr {
 	color: #fff;
 }
 
+
+
 .myDocs{
 	padding: 50px; 
+	
 	min-height: 600px;
 	background-color: white;
 	color: black;
 	opacity: 0.75;
 	margin-bottom: 50px;
+	margin-left:20px; 
 }
 
 @-webkit-keyframes fade {

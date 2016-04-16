@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet" />
+  <link href="default.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- Stylesheets -->
+    <!-- bootstrap core css -->
+    <!--
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+-->
+
+    <link href="lib/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <style>
+  body {
+      position: relative; 
+  }
+
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+
+<div class="wrapper" style="background-color: steelblue">
+
+  <!--<div id="banner"></div>-->
+  <div class="modal-header">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll col-sm-2">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-app-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--<a class="navbar-brand page-scroll" href="#page-top">Yelp</a>-->
+          <a class="page-scroll" href="index.html" target="_top"><h2 class="section-heading" style="margin-top: 10px">Job Fiction</h2></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse navbar-center  col-sm-8" id="myNavbar"  style="line-height: 25.7167px;">
+        <ul class="nav navbar-nav navbar-center">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Introduction<span class="caret" ></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="#section11">Problem</a></li>
+              <li><a href="#section12">Our Solution</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Data<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section21">Data Collection</a></li>
+              <li><a href="#section22">Data Storage</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Architecture<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section31">Architecture Diagram</a></li>
+              <li><a href="#section32">Architecture Explained</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Modeling<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Description Parsing - Maui</a></li>
+              <li><a href="#section42">Token Categories</a></li>
+              <li><a href="#section43">Text Pre-Processing</a></li>
+              <li><a href="#section44">Job Classification</a></li>
+              <li><a href="#section45">Retrieving Job Results</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">User interface<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section51">Motivations</a></li>
+              <li><a href="#section52">Tools/Libraries</a></li>
+            </ul>
+          </li>
+        </ul>
+          
+        </div>
+        <div class="col-sm-2"><a href="http://50.97.254.20:5000/home/" target="_blank" class="btn btn-primary btn-lg active" role="button">Launch Job Fiction</a></div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </div>
+
+<!--
+
+  <div class="modal-header" style="margin-left: 150px">
+<nav class="navbar navbar-inverse navbar-fixed-top" >
+  <div class="container-fluid" style="margin-left: 250px">
+    <div class="navbar-header page-scroll col-sm-2" style="text-align: right;" >
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-app-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="page-scroll" href="index.html" target="_top"><h2 class="section-heading">Job Fiction</h2></a>
+        </div>
+    <div>
+
+
+      
+      <div class="collapse navbar-collapse navbar-center" id="myNavbar"  style="vertical-align: middle;">
+        <ul class="nav navbar-nav navbar-center">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Introduction<span class="caret" ></span></a>
+          <ul class="dropdown-menu">
+              <li><a href="#section11">Problem</a></li>
+              <li><a href="#section12">Our Solution</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Data<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section21">Data Collection</a></li>
+              <li><a href="#section22">Data Storage</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Architecture<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section31">Architecture Diagram</a></li>
+              <li><a href="#section32">Architecture Explained</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Modeling<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Description Parsing - Maui</a></li>
+              <li><a href="#section42">Token Categories</a></li>
+              <li><a href="#section43">Text Pre-Processing</a></li>
+              <li><a href="#section44">Job Classification</a></li>
+              <li><a href="#section45">Retrieving Job Results</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">User interface<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section51">Motivations</a></li>
+              <li><a href="#section52">Tools/Libraries</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+</div>
+-->
+<div class="container-fluid myDocs container" id="section11">
+        <h1 style="margin-bottom: 40px">Problem</h1>
+            <p>There are many websites out there that will assist a job seeker to find job postings they may be interested in.  They typically come in two flavors, or a combination of these:</p>
+
+        <p><strong>A</strong>) Search for jobs via keyword searches the job seeker enters.</p>
+        <p><strong>B</strong>) Search for jobs via the job seeker’s resume</p>
+<br>
+<p>The problem with A is knowing the exact words to search for. Our experience is if you search for “Data Scientist” the results typically are for positions requiring doctorate degrees or describes a job that is more management of a data science department. Searching for “Data Analyst” may result in jobs for insurance auditors or positions that are more business intelligence related. Finally, searching for just “Data” will turn up data entry clerk positions.  That is a lot of irrelevant job postings to filter through.</p>
+
+<p>B on the other hand is useful if you have related experience and are looking for a lateral move. However if you are looking for a career change, it will not give you matches to jobs in your target field.</p>
+        
+</div>
+
+<div class="container-fluid myDocs container" id="section12">
+            <h1 style="margin-bottom: 40px">Our Solution</h1>
+            <p>We propose a solution that will not only combine these two methods, but will include the following additional features:</p>
+<p><strong>Fictional Job</strong> - creation of a model that represents the job the job seeker actually wants. This may be done based on the combination of multiple job postings the job seeker selects as possible candidates.</p>
+<p><strong>Create the Dream</strong> - functionality to adjust the Fictional Job model to further match the user’s preferences.</p>
+<p><strong>Job Recommendations</strong> - Show jobs that match the Fictional Job model; this means not just the title, but the skills, education levels, and other job description elements.</p>
+</div>
+
+
+<div class="container-fluid myDocs container" id="section21">
+              <h1 style="margin-bottom: 40px">Data Collection</h1>
+            <p>Data is acquired from the Indeed API. We are limited to the first 10000 first results, leading to our decision to pull by batches based on the zipcode.</p>
+<p>A Cron job runs the acquire script every morning to pull new jobs and store them in MongoDB. The jobs are not filtered; all jobs from truck drivers to data scientists are collected as we do not want to bias the jobs used (this is the problem we want to solve!).</p>
+
+    <ul>
+            <li>More than 1,000,000 job ads have been accumulated - that's over 3 Gbs</li>
+            <li>Jobs pulled daily and stored in MongoDB</li>
+            <li>Limited to 10000 results, so pulled in batches by zipcode</li>
+            <li>No filtering - all jobs from truck driver to CEO is pulled</li>
+            <ul><li>Less than 20% of all jobs collected contained the word "data"</li></ul>
+            </ul>
+            </div>
+
+
+
+
+<!--ARCHITECTURE-->
+<div class="container-fluid myDocs container" id="section31">
+  <h1>Architecture Diagram</h1>
+  <img src="images/Architecture_Diagram - Data Flow Diagram.png" width="1000" height="650"> 
+</div>
+<div class="container-fluid myDocs container" id="section32">
+  <h1>Architecture Explained</h1>
+  <p>Data is acquired from the Indeed API. We are limited to the first 10000 first results, leading to our decision to pull by batches based on the zipcode.</p>
+<p>A Cron job runs the acquire script every morning to pull new jobs and store them in MongoDB. The jobs are not filtered; all jobs from truck drivers to data scientists are collected as we do not want to bias the jobs used (this is the problem we want to solve!).</p>
+</div>
+
+<!--MODELLING-->
+<div class="container-fluid myDocs container" id="section41">
+  <h1>Description Parsing - Maui</h1>
+  <div style="text-align: center;">
+  <img src="images/Maui.png" width="750" height="300">
+  </div>
+</div>
+<div class="container-fluid myDocs container" id="section42">
+  <h1>Token Categories</h1>
+   
+</div>
+<div class="container-fluid myDocs container" id="section43">
+  <h1>Text Pre-Processing</h1>
+  <h3>Filter Noise</h3>
+  <p>
+Out of 1.3 Million jobs acquired from Indeed, there are 250K jobs that have word
+"data" in either job title or job description. We filtered "data" related jobs based on the assumption that data science related job will definitely contain word "data". However, based on cursory analysis on the filtered jobs (and multiple iterations of training and validating the model) we found there were too many irrelevant jobs related to office administration, delivery services, care providers etc. which did not fit our expectations.</p>
+<p>&nbsp;</p>
+<p> To filter the noise, we used inclusion and exclusion patterns in the job description and job title. The patterns were based on the research done by Data Science Central team on ~10K LinkedIn professionals with titles related to Data Science and categorized 400 job titles for data scientists. We formed inclusion patterns based on the cleaned job title from the research and also formed exclusion patterns analyzing job titles that clearly did not fell into data science related job titles. After filtering the noise from master job posts database, we have 85K job posts related to data science i.e. approximately 7% of job posts collected so far. </p>
+<h3>Text Normalization</h3>
+<p>After analyzing sample job posts, we observed that companies post job descriptions
+in different formats and varying lengths and different lengths. Most of the job
+descriptions have - company information (40%), job responsibilities (58%),
+qualification (50%) and skills (79%). Length of job posts followed typical zipf
+distribution. We concatenated job title with job description for the entire analysis.</p>
+
+<p>We applied following text normalization techniques before building features:</p>
+<ul>
+<li margin-right=10px >Removed non-alphanumeric characters including punctuations (except +, ., -)</li>
+<li>Text converted to lower case</li>
+<li>Removed URL and email ids</li>
+<li>Removed stop words (used smart list stop words, NLTK stop words and our
+own stop words based on the analysis)</li>
+<li>Stemming (Snowball stemmer) to reduce words to their root form</li>
+</ul>
+<p>&nbsp;</p>
+<p>After applying normalization techniques, size of the relevant job posts data came
+down to 250M from 400M.</p>
+
+<p>We built text pre-processing modules with ability to turn on/off any specific
+normalization technique. Based on multiple iterations and analysis, our current model
+does not apply stemming as some of the keywords were lost during the process.</p>
+</div>
+<div class="container-fluid myDocs container" id="section44">
+  <h1>Job Classification</h1>
+   
+</div>
+<div class="container-fluid myDocs container" id="section45">
+  <h1>Retrieving Job Results</h1>
+   
+</div>
+
+<!--UI-->
+<div class="container-fluid myDocs container" id="section51">
+  <h1>Motivations</h1>
+  <p>Building the interface was challenging since no team members had experience building websites outside of W209.  
+  For the model page, a typical list grouping would have worked, but it was important to us to make the user feel like they were doing something to mold thier future. The resulting page allows users to move tokens to the different priorities.</p> 
+</div>
+<div class="container-fluid myDocs container" id="section52">
+  <h1 style="margin-bottom: 40px">Tools/Libraries</h1>
+  <div class="col-sm-12">
+  <div class="col-sm-4">
+  <a href="http://mcpants.github.io/jquery.shapeshift/" target="_blank"><h3>jquery.shapeshift</h3><img src="images/shapeshift.PNG" height = "100" width="80" align="left" hspace="10" vspace="6"></a></div>
+
+  <div class="col-sm-4"><a href="http://getbootstrap.com/" target="_blank"><h3>bootstrap</h3><img src="https://pbs.twimg.com/profile_images/378800000195279414/f8404a9d719c7ffce1478ba1a50036f9.png" align="left" hspace="10" vspace="6" width="100" height="100"></a> </div>
+
+  <div class="col-sm-4"><a href="https://d3js.org"><h3>d3</h3><img src="https://d3js.org/logo.svg" align="left" hspace="100" vspace="6"  width="100" height="100"></a></div>
+  </div>
+  <div>
+  
+  <p>The layouts were based on styles in the bootstrap package. The graphs are created using D3. Jquery.shapeshift was used to give users a feeling like they were physically manipulating the model. </p>
+  </div> 
+</div>
+
+</div>
+</body>
+</html>
