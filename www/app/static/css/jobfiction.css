@@ -1,5 +1,15 @@
+	@font-face {
+		font-family: "Lato";
+		font-style: normal;
+		src: 
+		local("Lato Regular"), 
+		url("http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2") 
+		format("woff2");
+	}
+
 	* {
-		font-family: avenir, Helvetica, Arial;
+		font-family: Lato, Avenir, Helvetica, Arial;
+		font-weight: 400;
 	}
 
 	div.modelcontainer {

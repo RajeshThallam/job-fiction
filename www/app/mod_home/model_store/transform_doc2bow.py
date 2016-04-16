@@ -1,4 +1,3 @@
-from app import config as cfg
 from string import punctuation, maketrans, translate
 import nltk
 import gensim

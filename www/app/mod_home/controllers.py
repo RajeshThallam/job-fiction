@@ -4,16 +4,19 @@ from flask import Blueprint, request, render_template, \
                   jsonify
 
 from app import app
-from run_scripts import RunThread
 from extract_keywords import extract_keywords as kw
 from model_talking import model_talking as mdl
+from model_store import model_store as store
 import json
-import ast
 
 
 # Define the blueprint: 'home', set its url prefix: app.url/home
 mod_home = Blueprint('home', __name__, url_prefix='/home')
 
+
+@mod_home.before_request
+def make_session_permanent():
+    session.permanent = True
 
 # Set the route and accepted methods
 # home page
@@ -64,3 +67,14 @@ def get_results():
     results = model.get_job_recommendations(job_query_json)
 
     return jsonify(jobs=results)
+
+# this is utility app to insert model results into Elasticearch
+@mod_home.route('/storemodel', methods=['GET', 'POST'])
+def store_model_results():
+    jobdesc_fname = app.config['STORE_JOBDESC_FILE']
+    jobtitle_fname = app.config['STORE_JOBTITLE_FILE']
+
+    es_results = store.ModelStore(jobdesc_fname, jobtitle_fname)
+    return_code = es_results.store_results()
+
+    return "Completed storing model results and keywords!!"

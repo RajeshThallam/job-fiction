@@ -53,12 +53,15 @@ class ExtractKeywords(object):
         doc = ""
         init = 0
 
-        p = Popen(["java", "-jar", "-Xmx1024m", self.maui_home,
-            "test", "-l", path_to_test, "-m", path_to_model,
-            "-v", app.config['ACM_EXTENDED_DICT'], 
-            "-f","skos","-n",str(num_keywords)], 
-            stdout=PIPE, stderr=STDOUT
+        cmd = [ "java", "-Xmx1024m", "-jar", self.maui_home,
+                "test", "-l", path_to_test, "-m", path_to_model,
+                "-v", app.config['ACM_EXTENDED_DICT'],
+                "-f", "skos", "-n", str(num_keywords)]
+
+        p = Popen(cmd, stdout=PIPE, stderr=STDOUT
             )
+
+        print ' '.join(cmd)
 
         gen=(line for line in p.stdout if line.find("MauiTopicExtractor")<>-1 )
 
@@ -116,13 +119,14 @@ class ExtractKeywords(object):
         
         # generate pretty results
         results={}
-        for k,v in response.iteritems():
+        for k, v in response.iteritems():
             key = k.split(".txt")[0]
 
             mustHave = {}
             niceHave = {}
             exclude = {}
             keywords = {}
+            categories = {}
 
             for k2,v2 in v.iteritems():    
                 if float(v2) > thresholds[0]:
@@ -141,16 +145,17 @@ class ExtractKeywords(object):
                 keywords['nice_have'] = {k:v for k, v in srt_nice}
                 keywords['excluded'] = exclude
 
+                all_keys = \
+                    keywords['must_have'].keys() + \
+                    keywords['nice_have'].keys() + \
+                    keywords['excluded'].keys()
+
+                categories = self.get_categories(all_keys)
+
             results[key] = keywords
+            results[key]['categories'] = categories
 
-        # get categories and append to keywords
-        all_keywords = \
-            results['all_jobs']['must_have'].keys() + \
-            results['all_jobs']['nice_have'].keys()
-
-        results['all_jobs']['categories'] = self.get_categories(all_keywords)
-
-        print results
+        #print results
 
         return json.dumps(results)
 
@@ -229,6 +234,7 @@ class ExtractKeywords(object):
                     else:
                         categories[v[0]][v[1]] += 1   
                 except:
-                    print "categories 'Other' encountered"
+                    pass
+                    #print "categories 'Other' encountered"
             
         return categories

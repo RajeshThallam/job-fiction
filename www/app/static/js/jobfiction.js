@@ -40,14 +40,17 @@ $(document).ready(function() {
 		}
 
 		$.extend($.expr[':'], {'containsi': function(elem, i, match, array){
-			return (elem.textContent || elem.innerText || '').toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;}
+			return (elem.textContent || elem.innerText || '').
+				toLowerCase().indexOf((match[3] || "").toLowerCase()) >= 0;}
   		});
     
-		$(".results tbody tr").not(":containsi('" + searchSplit + "')").each(function(e){
+		$(".results tbody tr").not(":containsi('" + searchSplit + "')").each(
+			function(e){
 			$(this).attr('visible','false');
 		});
 
-		$(".results tbody tr:containsi('" + searchSplit + "')").each(function(e){
+		$(".results tbody tr:containsi('" + searchSplit + "')").each(
+			function(e){
 			$(this).attr('visible','true');
 			$(this).next('tr').attr('visible','true');
 		});
@@ -95,17 +98,17 @@ $(document).ready(function() {
 				categories = data.categories
 
 				var current_cat = [];  //temp object
-
 		        var cat_counts = []; //counts for level 1 categories//for immediate graph
 		        var cat_labels = []; //labels for level 1 categories//for immediate graph
 		        var cat1_array = {}; //object for holding all category 1
 		         
-		        for (var cat in categories){  //cat is the category 1 label                           GENERAL
+		        for (var cat in categories){  //cat is the category 1 label
 		            cat_labels.push(cat);//for immediate graph
 		            current_cat = categories[cat];
 		            var obj_cat1 = {}; //object for holding category 1 information
 		            var obj_cat2 = {};  //object for holding category 2 info
-		            for (var c_name in current_cat){                                                     //count,  skill, skill
+		            for (var c_name in current_cat){
+		            	//count,  skill, skill
 		                  if (c_name == 'count'){
 		                    //count is a special category !!
 		                    //add count to cat_counts

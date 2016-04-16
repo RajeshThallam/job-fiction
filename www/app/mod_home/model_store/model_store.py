@@ -1,33 +1,33 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
-# This script stores model results for data science related jobs to 
+# This script stores model results for data science related jobs to
 # elasticsearch store that will be used for retrieving recommended results.
 # Master job store on MongoDB stores all the jobs. However for this script we
-# are interested only in data science related jobs. A pre-processor script 
-# filters non data science related jobs based on exclusion and inclusion 
+# are interested only in data science related jobs. A pre-processor script
+# filters non data science related jobs based on exclusion and inclusion
 # patterns.
 
-import config as cfg
+from app.mod_home.extract_keywords import extract_keywords as kw
+from gensim.models.ldamodel import LdaModel
 from elasticsearch import Elasticsearch
 from elasticsearch import helpers
-from hashlib import sha1
-from datetime import datetime as dt
-import math
 import transform_doc2bow as d2b
-from gensim.models.ldamodel import LdaModel
+import config as cfg
+from app import app
 import pandas as pd
+import json
 import sys
+
 
 class ModelStore(object):
     def __init__(self, jobdesc_fname, jobtitle_fname):
         self.es = Elasticsearch([{'host': cfg.ES_HOST, 'port': 9200}])
         self.model = LdaModel.load(cfg.RCMDR_LDA_MODEL)
-        self.job_labels = { 
-            int(k):v 
-            for k, v in (line.split("=") 
-                for line in open(cfg.RCMDR_JOB_LABELS)
-                .read().strip().split('\n')) 
+        self.job_labels = {
+            int(k):v
+            for k, v in (line.split("=") for line in open(cfg.RCMDR_JOB_LABELS)
+                    .read().strip().split('\n'))
             }
         self.jobdesc_fname = jobdesc_fname
         self.jobtitle_fname = jobtitle_fname
@@ -42,6 +42,7 @@ class ModelStore(object):
                    skiprows=0)
         job_df.fillna("", inplace=True)
         job_df["topic_labels"] = ""
+        job_df["keywords"] = ""
 
         # get topic labels
         doc2bow = d2b.JobPreprocess(
@@ -50,10 +51,21 @@ class ModelStore(object):
         # get probable job topics fitting the model
         doc_topics = self.model[doc2bow]
 
+
+        job_desc_text = { str(doc_id):line
+            for doc_id, line in enumerate(open(self.jobdesc_fname)
+            .read().strip().split('\n'))
+        }
+
+        maui = kw.ExtractKeywords()
+        keywords = json.loads(maui.find_keywords(job_desc_text))
+
         # get top N topics
         n = cfg.TOPN_JOB_CLASSES
 
         topics_labels = []
+        docs_keywords = []
+
         for doc_id, doc_topic in enumerate(doc_topics):
             topics = sorted(doc_topic, key=lambda t: t[1], reverse = True)[:n]
 
@@ -66,9 +78,11 @@ class ModelStore(object):
                     'label': label, 
                     'score': score}))
 
+            docs_keywords.append(keywords[str(doc_id)])
             topics_labels.append(topic_labels)
 
         job_df['topic_labels'] = topics_labels
+        job_df['keywords'] = docs_keywords
 
         print "Formed labels and details " + str(len(job_df))
         return job_df
@@ -118,6 +132,9 @@ class ModelStore(object):
         for row in job_df.itertuples():
             idx += 1
 
+            if idx == 1:
+                print row[10]
+
             newpage = {
                 '_index': es_index,
                 '_type': es_index_type,
@@ -127,15 +144,16 @@ class ModelStore(object):
                     'company': row[3],
                     'url': row[4],
                     'full_location': row[5],
-                    'location': row[7] + "," + row[6],
+                    'location': str(row[7]) + "," + str(row[6]),
                     'posted_date': row[8],
                     'job_class': row[9],
-                    'keywords': {}
+                    'keywords': row[10]
                     }
                 }
             pages.append(newpage)
 
             if (idx % 1000 == 0):
+                print "Inserting record #" + str(idx) + "into Elasticsearch"
                 helpers.bulk(self.es, pages, True)
                 pages = []
 
