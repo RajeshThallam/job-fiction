@@ -177,13 +177,13 @@ $(document).ready(function() {
 
 function addNewToken(target, token, type) {
   	var newelement = d3.select(target)
-  		.append("div")
+		.append("div")
 		.attr("data-ss-colspan", 2)
 		.attr("class", "ss-active-child " + type)
 		.attr("id", token);
 
     newelement.append("p")
-		.attr("style","text-align:center; color: cornflowerblue;")
+		.attr("style","text-align:center; color: black;")
 		.attr("word-wrap", "normal")
 		.text(token);
 
