@@ -12,7 +12,7 @@ from app.mod_home.extract_keywords import extract_keywords as kw
 from gensim.models.ldamodel import LdaModel
 from elasticsearch import Elasticsearch
 from elasticsearch import helpers
-import transform_doc2bow as d2b
+    import transform_doc2bow as d2b
 #import config as cfg
 from app import app
 import pandas as pd
@@ -57,8 +57,10 @@ class ModelStore(object):
             .read().strip().split('\n'))
         }
 
+        print "Extracting keywords"
         maui = kw.ExtractKeywords()
         keywords = json.loads(maui.find_keywords(job_desc_text))
+        print "Keyword extraction completed!!"
 
         # get top N topics
         n = app.config['TOPN_JOB_CLASSES']
@@ -66,6 +68,7 @@ class ModelStore(object):
         topics_labels = []
         docs_keywords = []
 
+        print "Preparing jobs data frame"
         for doc_id, doc_topic in enumerate(doc_topics):
             topics = sorted(doc_topic, key=lambda t: t[1], reverse = True)[:n]
 
@@ -90,6 +93,8 @@ class ModelStore(object):
     def store_results(self):
         print "Getting topic labels"
         job_df = self.get_doc_topic_details()
+
+        print "Elasticsearch bulk load starts"
 
         # ignore 400 cause by IndexAlreadyExistsException when creating an index
         es_index = app.config['ES_IDX_RESULT']
@@ -140,10 +145,10 @@ class ModelStore(object):
                 '_type': es_index_type,
                 '_id': row[1],
                 '_source': {
-                    'job_title': row[2],
-                    'company': row[3],
+                    'job_title': row[2].decode('latin1'),
+                    'company': row[3].decode('latin1'),
                     'url': row[4],
-                    'full_location': row[5],
+                    'full_location': row[5].decode('latin1'),
                     'location': str(row[7]) + "," + str(row[6]),
                     'posted_date': row[8],
                     'job_class': row[9],
@@ -158,6 +163,7 @@ class ModelStore(object):
                 pages = []
 
         helpers.bulk(self.es, pages, True)
+        print "Elasticsearch bulk load completed!!"
         return 0
 
 if __name__ == "__main__":
