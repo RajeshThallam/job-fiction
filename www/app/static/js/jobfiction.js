@@ -360,7 +360,7 @@ function loadResults(results){
 		current_job_id = job_prefix + current_idx;  //so we can consistently use this.
 		current_job = results[job]._source;
 
-		console.log(current_job)
+		//console.log(results[job])
 
 		var row = tb.insertRow(current_idx);
 		row.id=current_job_id;
