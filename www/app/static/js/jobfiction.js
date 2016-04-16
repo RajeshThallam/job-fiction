@@ -183,7 +183,7 @@ function addNewToken(target, token, type) {
 		.attr("id", token);
 
     newelement.append("p")
-		.attr("style","text-align:center")
+		.attr("style","text-align:center; color: cornflowerblue;")
 		.attr("word-wrap", "normal")
 		.text(token);
 
@@ -375,7 +375,7 @@ function loadResults(results){
 		var cell = row.insertCell(1);
 		cell.innerHTML = current_job.company;
 		var cell = row.insertCell(2);
-		cell.innerHTML = current_job.full_location;
+		cell.innerHTML = current_job.full_location.replace(/\d+$/g, '');
 		var cell  = row.insertCell(3);
 		cell.innerHTML = current_job.job_class[0]['label'];
 		var cell  = row.insertCell(4);
