@@ -65,8 +65,8 @@ $(document).ready(function() {
 	// collect user submited job posts and get key words
 	$("#btn-collect-job-posts").click(function() {
 		$("#description_graph").css("display", "none");
-
-		var bar = new ProgressBar.Line(progressbar, {
+		var bar = "";
+		bar = new ProgressBar.Line(progressbar, {
 		  strokeWidth: 4,
 		  easing: 'easeInOut',
 		  duration: 10000,
@@ -117,8 +117,8 @@ $(document).ready(function() {
 			data = JSON.stringify(job_posts), 
 			function(data) {
 				console.log(data);
-				$("#progressbar").css("display", "none");
 				bar.destroy();
+				$("#progressbar").css("display", "none");
 
 				// remove all existing tokens
 				$('.ss-active-child').remove();

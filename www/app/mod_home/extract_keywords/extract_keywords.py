@@ -1,3 +1,4 @@
+from nltk.stem.snowball import SnowballStemmer
 from subprocess import Popen, PIPE, STDOUT
 from app import app
 import operator as op
@@ -88,6 +89,21 @@ class ExtractKeywords(object):
 
         return json.dumps(results)
 
+    def sort_keywords(self, keywords, stemmer):
+        stem_keywords = {}
+        stem_dict = {}
+
+        for word, score in keywords.iteritems():
+            stemmed = stemmer.stem(word)
+            stem_keywords[score] = stemmed
+            stem_dict[stemmed] = word
+
+        srt_keywords = sorted(stem_keywords.items(),
+            key=op.itemgetter(0))[:app.config['TOPN_MUST_KEYWORDS']]
+        
+        top_keywords = {stem_dict[k]: v for v, k in srt_keywords}
+
+        return top_keywords
 
     # Function takes a JSON, save it into a directory and call the testMaui function.
     # Query should be in the form of {"jobID1":"summary","jobID2":"summary2",...}
@@ -118,6 +134,9 @@ class ExtractKeywords(object):
         # remove the working directory
         shutil.rmtree(maui_workbench)
         
+        # create stemmer of class SnowballStemmer
+        stemmer = SnowballStemmer("english")
+
         # generate pretty results
         results={}
         for k, v in response.iteritems():
@@ -137,13 +156,8 @@ class ExtractKeywords(object):
                 else:
                     exclude[k2] = float(v2)
 
-                srt_must = sorted(mustHave.items(),
-                    key=op.itemgetter(1))[:app.config['TOPN_MUST_KEYWORDS']]
-                srt_nice = sorted(niceHave.items(),
-                    key=op.itemgetter(1))[:app.config['TOPN_NICE_KEYWORDS']]
-
-                keywords['must_have'] = {k:v for k, v in srt_must}
-                keywords['nice_have'] = {k:v for k, v in srt_nice}
+                keywords['must_have'] = self.sort_keywords(mustHave, stemmer)
+                keywords['nice_have'] = self.sort_keywords(niceHave, stemmer)
                 keywords['excluded'] = exclude
 
                 all_keys = \
