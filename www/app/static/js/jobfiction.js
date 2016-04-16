@@ -360,7 +360,7 @@ function loadResults(results){
 		current_job_id = job_prefix + current_idx;  //so we can consistently use this.
 		current_job = results[job]._source;
 
-		console.log(results[job])
+		console.log(current_job)
 
 		var row = tb.insertRow(current_idx);
 		row.id=current_job_id;
@@ -371,7 +371,7 @@ function loadResults(results){
 
 		//row information
 		var title = row.insertCell(0);
-		title.innerHTML = '<strong>' + current_job.job_title + "</strong>";
+		title.innerHTML = '<strong>' + current_job.job_title + '</strong>';
 		var cell = row.insertCell(1);
 		cell.innerHTML = current_job.company;
 		var cell = row.insertCell(2);
@@ -397,9 +397,9 @@ function loadResults(results){
 		section.id="result"+ job_count;
 
 		//Job Description
-		var job_desc = document.createElement("p");
-		job_desc.appendChild(document.createTextNode(current_job.job_description));
-		section.appendChild(job_desc);
+		//var job_desc = document.createElement("p");
+		//job_desc.appendChild(document.createTextNode(current_job.job_description));
+		//section.appendChild(job_desc);
 
 		//Link
 		var link = document.createElement("a");
@@ -421,12 +421,12 @@ function loadResults(results){
 		skilltable.className = "table table-condensed";
 		//skill table rows
 
-		if ( 'skill_match' in current_job) {
+		if ( 'keywords' in current_job) {
 			skillrow = skilltable.insertRow();
 			skillcell = skillrow.insertCell();
 			skillcell.innerHTML = "Must Have";
 			skillcell = skillrow.insertCell();
-			var cellvalue = current_job.skill_match.must_have;
+			var cellvalue = Object.keys(current_job.keywords.must_have).length;
 			if (cellvalue < 0){
 				cellvalue = 0;
 			}
@@ -436,7 +436,7 @@ function loadResults(results){
 			skillcell = skillrow.insertCell();
 			skillcell.innerHTML = "Nice to Have";
 			skillcell = skillrow.insertCell();
-			var cellvalue = current_job.skill_match.nice_to_have;
+			var cellvalue = Object.keys(current_job.keywords.nice_have).length;
 			if (cellvalue < 0){
 				cellvalue = 0;
 			}
@@ -464,8 +464,8 @@ function loadResults(results){
 
 		//************-----graph----
 		
-		if ( 'skill_match' in current_job) {
-	        var categories = current_job.categories;  //get just the categories object
+		if ( 'keywords' in current_job) {
+	        var categories = current_job.keywords.categories;  //get just the categories object
 
 	        var current_cat = [];  //temp object
 
@@ -475,7 +475,7 @@ function loadResults(results){
 	         
 	        for (var cat in categories){  //cat is the category 1 label                           GENERAL
 	            cat_labels.push(cat);//for immediate graph
-	            current_cat = current_job.categories[cat];
+	            current_cat = current_job.keywords.categories[cat];
 	            var obj_cat1 = {}; //object for holding category 1 information
 	            var obj_cat2 = {};  //object for holding category 2 info
 	            for (var c_name in current_cat){                                                     //count,  skill, skill
@@ -483,12 +483,12 @@ function loadResults(results){
 	                    //count is a special category !!
 	                    //add count to cat_counts
 	                    //add count to object for category 1
-	                    cat_counts.push(current_job.categories[cat][c_name]); //for immediate graph
-	                    obj_cat1["count"] = current_job.categories[cat][c_name];
+	                    cat_counts.push(current_job.keywords.categories[cat][c_name]); //for immediate graph
+	                    obj_cat1["count"] = current_job.keywords.categories[cat][c_name];
 	                  } else{
 	                    //put values into some sort of structure that has the category 2 stuff.
 	                    //c_name is the category2 name.
-	                    obj_cat2[c_name] = current_job.categories[cat][c_name];
+	                    obj_cat2[c_name] = current_job.keywords.categories[cat][c_name];
 	                  }
 	            }
 	            //after loop, add category2 object to cat 2 array
