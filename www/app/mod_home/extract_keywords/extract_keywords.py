@@ -148,6 +148,8 @@ class ExtractKeywords(object):
         results={}
         for k, v in response.iteritems():
             key = k.split(".txt")[0]
+            stsFile = open(os.path.join(app.config['LOG_PATH'], "keyword_formatting_progress"), 'w')
+            stsFile.write(k)
 
             mustHave = {}
             niceHave = {}
@@ -180,6 +182,7 @@ class ExtractKeywords(object):
         #print results
 
         self.status('keyword_formatting_completed')
+        stsFile.close()
         return json.dumps(results)
 
     # ACM Taxonomy converter
