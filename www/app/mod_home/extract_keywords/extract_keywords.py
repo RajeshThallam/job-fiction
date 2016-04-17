@@ -212,9 +212,11 @@ class ExtractKeywords(object):
 
             try:
                 items = []
+
                 for k, v in self.all_categories.items():
                     if len(re.findall('\\b' + i + '\\b', k, flags=re.IGNORECASE)) > 0:
                         items.append(v)
+                        break
 
                 kwPaths[i] = items[0]
             except:
