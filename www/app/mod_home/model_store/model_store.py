@@ -17,12 +17,13 @@ import transform_doc2bow as d2b
 from app import app
 import pandas as pd
 import json
+import os
 import sys
 
 
 class ModelStore(object):
     def __init__(self, jobdesc_fname, jobtitle_fname):
-        self.es = Elasticsearch([{'host': app.config['ES_HOST'], 'port': 9200}])
+        self.es = Elasticsearch([{'host': app.config['ES_HOST'], 'port': 9200, 'timeout': 120}])
         self.model = LdaModel.load(app.config['RCMDR_LDA_MODEL'])
         self.job_labels = {
             int(k):v
@@ -31,11 +32,6 @@ class ModelStore(object):
             }
         self.jobdesc_fname = jobdesc_fname
         self.jobtitle_fname = jobtitle_fname
-
-    def status(self, status):
-        with open(os.path.join(app.config['LOG_PATH'], status), 'w') as stsFile:
-            stsFile.write(status)
-        stsFile.close()
 
     def get_doc_topic_details(self):
         # get job title details
@@ -62,12 +58,10 @@ class ModelStore(object):
             .read().strip().split('\n'))
         }
 
-        self.status('Keyword_extraction_starts')
         print "Extracting keywords"
         maui = kw.ExtractKeywords()
         keywords = json.loads(maui.find_keywords(job_desc_text))
         print "Keyword extraction completed!!"
-        self.status('Keyword_extraction_completed')
 
         # get top N topics
         n = app.config['TOPN_JOB_CLASSES']
@@ -75,7 +69,6 @@ class ModelStore(object):
         topics_labels = []
         docs_keywords = []
 
-        self.status('preparing_data_frame')
         print "Preparing jobs data frame"
         for doc_id, doc_topic in enumerate(doc_topics):
             topics = sorted(doc_topic, key=lambda t: t[1], reverse = True)[:n]
@@ -92,20 +85,22 @@ class ModelStore(object):
             docs_keywords.append(keywords[str(doc_id)])
             topics_labels.append(topic_labels)
 
-        self.status('updated_data_frame')
         print "Updating jobs data frame"
         job_df['topic_labels'] = topics_labels
         job_df['keywords'] = docs_keywords
 
         print "Formed labels and details " + str(len(job_df))
-        self.status('labels_formed')
         return job_df
 
     def store_results(self):
         print "Getting topic labels"
-        job_df = self.get_doc_topic_details()
 
-        self.status('elasticsearch_bulk_load_starts')
+        if (os.path.isfile(app.config['STORE_MODEL_FILE'])):
+            job_df = pd.read_pickle(app.config['STORE_MODEL_FILE'])
+        else:
+            job_df = self.get_doc_topic_details()
+            job_df.to_pickle(app.config['STORE_MODEL_FILE'])
+
         print "Elasticsearch bulk load starts"
 
         # ignore 400 cause by IndexAlreadyExistsException when creating an index
@@ -174,9 +169,8 @@ class ModelStore(object):
                 helpers.bulk(self.es, pages, True)
                 pages = []
 
-        helpers.bulk(self.es, pages, True)
+        helpers.bulk(self.es, pages, True, timeout=120)
         print "Elasticsearch bulk load completed!!"
-        self.status('elasticsearch_bulk_load_completed')
         return 0
 
 if __name__ == "__main__":

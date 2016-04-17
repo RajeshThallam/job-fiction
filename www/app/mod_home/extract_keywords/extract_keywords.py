@@ -5,6 +5,7 @@ import operator as op
 import shutil
 import json
 import uuid
+import time
 import re
 import os
 
@@ -105,11 +106,6 @@ class ExtractKeywords(object):
 
         return top_keywords
 
-    def status(self, status):
-        with open(os.path.join(app.config['LOG_PATH'], status), 'w') as stsFile:
-            stsFile.write(status)
-        stsFile.close()
-
     # Function takes a JSON, save it into a directory and call the testMaui function.
     # Query should be in the form of {"jobID1":"summary","jobID2":"summary2",...}
 
@@ -131,12 +127,11 @@ class ExtractKeywords(object):
                 recFile.write(v)
 
         # call the Maui wrapper on these files
-        print "Running MAUI test @" + maui_workbench
+        print time.strftime("%c") + " Running MAUI test @" + maui_workbench
         response= json.loads(
             self.test_maui(maui_workbench, app.config['MODEL_KEYWORDS_ID'], 40)
             )
-        print "Completed MAUI test @" + maui_workbench
-        self.status('keyword_extracted')
+        print time.strftime("%c") + " Completed MAUI test @" + maui_workbench
         # remove the working directory
         shutil.rmtree(maui_workbench)
         
@@ -144,12 +139,14 @@ class ExtractKeywords(object):
         stemmer = SnowballStemmer("english")
 
         # generate pretty results
-        self.status('keyword_formatting_started')
         results={}
+        counter = 0
         for k, v in response.iteritems():
             key = k.split(".txt")[0]
-            stsFile = open(os.path.join(app.config['LOG_PATH'], "keyword_formatting_progress"), 'w')
-            stsFile.write(k)
+            
+            counter += 1
+            if counter % 1000 == 0:
+                print "Extracted keywords for " + counter
 
             mustHave = {}
             niceHave = {}
@@ -165,24 +162,21 @@ class ExtractKeywords(object):
                 else:
                     exclude[k2] = float(v2)
 
-                keywords['must_have'] = self.sort_keywords(mustHave, stemmer)
-                keywords['nice_have'] = self.sort_keywords(niceHave, stemmer)
-                keywords['excluded'] = exclude
+            keywords['must_have'] = self.sort_keywords(mustHave, stemmer)
+            keywords['nice_have'] = self.sort_keywords(niceHave, stemmer)
+            keywords['excluded'] = exclude
 
-                all_keys = \
-                    keywords['must_have'].keys() + \
-                    keywords['nice_have'].keys() + \
-                    keywords['excluded'].keys()
+            all_keys = \
+                keywords['must_have'].keys() + \
+                keywords['nice_have'].keys() + \
+                keywords['excluded'].keys()
 
-                categories = self.get_categories(all_keys)
+            categories = self.get_categories(all_keys)
 
             results[key] = keywords
             results[key]['categories'] = categories
 
         #print results
-
-        self.status('keyword_formatting_completed')
-        stsFile.close()
         return json.dumps(results)
 
     # ACM Taxonomy converter
@@ -235,19 +229,19 @@ class ExtractKeywords(object):
         for i in keywords:
             i=i.strip()
 
-            if i not in kwPaths.keys():
-                try:
-                    items = []
+            try:
+                if i not in kwPaths.keys():
+                    category = ""
 
                     for k, v in self.all_categories.items():
                         if  (i.lower() == k.lower() or 
-                            len(re.findall('\\b' + i + '\\b', k, flags=re.IGNORECASE)) > 0):
-                            items.append(v)
+                            re.search('\\b' + i + '\\b', k, flags=re.IGNORECASE)):
+                            category = v
                             break
 
-                    kwPaths[i] = items[0]
-                except:
-                    kwPaths[i] = ["Others", i]
+                    kwPaths[i] = category
+            except:
+                kwPaths[i] = ["Others", i]
 
         # for all keywords, compute the total level 1 and level 2 categories
         categories = {}

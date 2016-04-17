@@ -16,6 +16,7 @@ THREADS_PER_PAGE = 2
 
 # Secret key for signing cookies
 SECRET_KEY = "j0bf1ct10n"
+PERMANENT_SESSION_LIFETIME = 100000000
 
 # Keyword Extraction Variables
 EXTRACT_KEYWORDS_DIR = os.path.join(BASE_DIR, "app", "mod_home", "extract_keywords")
@@ -43,9 +44,10 @@ TOPN_JOB_CLASSES = 5
 TOPN_RCMND_JOBS = 100
 
 # Model Store Variables
-STORE_JOBDESC_FILE = os.path.join("/root", "wrk", "jobs", "data", "train.txt")
-STORE_JOBTITLE_FILE = os.path.join("/root", "wrk", "jobs", "data", "get_train_results.sorted.txt")
+STORE_JOBDESC_FILE = os.path.join("/home/rt", "wrk", "jobs", "data", "train.txt")
+STORE_JOBTITLE_FILE = os.path.join("/home/rt", "wrk", "jobs", "data", "get_train_results.sorted.txt")
+STORE_MODEL_FILE = os.path.join("/home/rt", "wrk", "jobs", "data", "model_results.txt")
 ES_HOST = "50.97.254.20"
 ES_IDX_RESULT = 'jobfiction'
 ES_IDX_TYPE_RESULT = 'results'
-LOG_PATH = os.path.join("/root", "wrk", "jobs", "data")
+LOG_PATH = os.path.join("/home/rt", "wrk", "jobs", "data")
