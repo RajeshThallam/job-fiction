@@ -1969,7 +1969,73 @@ BI/Data Visualization
 @#!Tableau software
 @#!ThreatMatrix software
 @#!TIBCO Spotfire
-@#!ACI Appraiser's Choice
+@#!Actuate DocBook
+@#!Adobe Systems Adobe Cold Fusion
+@#!Adobe Systems Adobe Contribute
+@#!Adobe Systems Adobe Dreamweaver
+@#!Adobe Systems Adobe Flash Player
+@#!Adobe Systems Adobe Macromedia HomeSite
+@#!Adobe Systems Adobe Macromedia software
+@#!Atomix Productions VirtualDJ
+@#!Bare Bones Software BBEdit
+@#!Blogger
+@#!Blogging software
+@#!Brightcove
+@#!CCI Newsgate
+@#!Center for Computer-Assisted Legal Instruction CALI Classcaster
+@#!CoffeeCup software
+@#!Content management system CMS software
+@#!Content management systems CMS software
+@#!ExactTarget software
+@#!eXe
+@#!Google Video
+@#!Google Webmaster Tools
+@#!HP Autonomy TeamSite
+@#!IMPACT software
+@#!Instagram
+@#!IXL Learning Quia Web
+@#!JustSystems XMetaL
+@#!Linspire Nvu
+@#!Macromedia Cold Fusion
+@#!MediaVue software
+@#!MediaWiki
+@#!Microsoft Front Page
+@#!Microsoft FrontPage
+@#!Microsoft Office FrontPage
+@#!MySpace
+@#!Nvu
+@#!Orbius
+@#!Plug-in file software
+@#!Podcasting software
+@#!Pulse Train Bellview Web
+@#!Quadralay WebWorks ePublisher
+@#!Quark Immedia
+@#!Really Simple Syndication RSS
+@#!Red Sweater MarsEdit
+@#!RefWorks RefShare
+@#!SAFARI Video Networks eZediaQTI
+@#!SeaMonkey
+@#!Social computing tools
+@#!Social media sites
+@#!Social media software
+@#!Social networking platforms
+@#!Social networking software
+@#!SurveyWiz
+@#!Tumblr
+@#!Vine
+@#!Web content management system CMS software
+@#!Web design software
+@#!Web editing software
+@#!Web page creation and editing software
+@#!Web page design and editing software
+@#!Web page design software
+@#!Website creation software
+@#!Website development software
+@#!Website management software
+@#!Wiki software
+@#!WordPress
+@#!Yahoo Flickr
+Business Software
 @#!Adobe Systems Adobe Distiller
 @#!Adobe Systems Adobe FrameMaker
 @#!Adobe Systems Adobe InDesign
@@ -2224,581 +2290,6 @@ BI/Data Visualization
 @#!Wrike
 @#!Yield management systems
 @#!Zoho Projects
-@#!ABET, Inc.
-@#!Accenture
-@#!ActiveX
-@#!Ada language
-@#!Ada Lovelace
-@#!Adobe Systems Incorporated
-@#!Advanced Information Systems
-@#!Agere Systems, Inc.
-@#!Agilent Technologies
-@#!Ajax
-@#!Alan Cooper
-@#!Alan Curtis Kay 
-@#!Alan J. Perlis
-@#!Alan Mathison Turing
-@#!Alcatel-Lucent
-@#!Allen Kent
-@#!Allen Newell
-@#!American Mathematical Society
-@#!American National Standards Institute 
-@#!American Statistical Association
-@#!Ames Research Center
-@#!An'an Wang
-@#!Andrew S. Grove
-@#!ANSI C
-@#!AOL, Inc.
-@#!Apache Software Foundation
-@#!Apple, Inc.
-@#!AppleScript
-@#!Argonne National Laboratory
-@#!Association for Computing Machinery
-@#!Association for Information Systems
-@#!AT&T
-@#!AutoCAD
-@#!A. van Wijngaarden
-@#!BAE Systems
-@#!Barbara Liskov
-@#!Barry W. Boehm
-@#!BASIC
-@#!BEA Systems, Inc.
-@#!Bell Labs
-@#!Bill Gates
-@#!Bill Joy
-@#!Bill Millard
-@#!Bjarne Stroustrup
-@#!Blaise Pascal
-@#!Blizzard Entertainment
-@#!Blue Sky Studios
-@#!Bluetooth
-@#!Borland Software Corporation
-@#!Brazilian Computer Society
-@#!British Computer Society
-@#!Bruce Schneier
-@#!Business Process Execution Language
-@#!Cable & Wireless Worldwide
-@#!Cadence Design Systems
-@#!C. A. R. Hoare
-@#!CA Technologies
-@#!CDMA systems
-@#!CD-ROMs
-@#!Cell Broadband Engine
-@#!Charles Babbage Institute
-@#!Charles Babbage
-@#!Charles Tandy
-@#!China Telecom Corporation Limited
-@#!Chrome
-@#!Cisco Systems, Inc.
-@#!Citrix Systems, Inc.
-@#!Claude Elwood Shannon
-@#!Clay Mathematics Institute
-@#!Clive Sinclair
-@#!CMOS
-@#!Commerce One
-@#!Companies
-@#!Compaq Computer Corporation
-@#!Computer History Museum
-@#!Computer Press Association
-@#!Computer Science Teachers Association
-@#!Computing Accreditation Commission
-@#!Computing Community Consortium
-@#!Computing Research Association
-@#!Computing Technology Industry Association
-@#!CORBA
-@#!Corel Corporation
-@#!Courant Institute of Mathematical Sciences
-@#!CSAB
-@#!Cyril W. Cleverdon
-@#!Datalog
-@#!David Hilbert
-@#!David Patterson
-@#!David Sarnoff
-@#!DB2
-@#!Defense Advanced Research Projects Agency
-@#!Dell Computer Corporation
-@#!DiamondCluster International, Inc.
-@#!Digital Equipment Corporation
-@#!DNS (Domain Name System)
-@#!Donald Ervin Knuth
-@#!DOS
-@#!Douglas R. Hofstadter
-@#!Dreamweaver
-@#!DSL
-@#!DSM
-@#!DVDs
-@#!eBay Inc.
-@#!Eclipse Foundation
-@#!Eclipse
-@#!Edmund Callis Berkeley
-@#!Edvard Scheutz 
-@#!EIS, Inc.
-@#!Electronic Frontier Foundation
-@#!Electronic  Visualization Laboratory
-@#!Elliot Irving Organick
-@#!EMC Corporation
-@#!Ericsson
-@#!Ernst & Young
-@#!Ethernet
-@#!European Network and Information Security Agency
-@#!European Telecommunications Standards Institute
-@#!Excel
-@#!Facebook
-@#!Federal Communications Commission
-@#!Firefox
-@#!Flickr
-@#!Forrester Research
-@#!Fortran
-@#!FreeBSD
-@#!Free Software Foundation
-@#!Gartner Group
-@#!Gary McGraw
-@#!Gene H. Golub
-@#!General Dynamics
-@#!General Electric
-@#!Georg Scheutz
-@#!Gmail
-@#!Google Earth
-@#!Google Inc.
-@#!Google Maps
-@#!Google Scholar
-@#!Gordon Bell
-@#!Grace Murray Hopper
-@#!GSM
-@#!Harry H. Goode
-@#!Harvey M. Deitel
-@#!H. D. Goode
-@#!HDTV
-@#!Herbert A. Simon
-@#!Herbert R. J. Grosch
-@#!Herman H. Goldstine
-@#!Herman Hollerith
-@#!Hewlett-Packard Company
-@#!HP Labs
-@#!HP-UX
-@#!Human Factors and Ergonomics Society
-@#!IBM Almaden Research Center
-@#!IEEE Computer Society
-@#!Infineon Technologies
-@#!InfiniBand
-@#!Infusion
-@#!Intel Corporation
-@#!International Business Machines Corporation
-@#!International Computer Music Association
-@#!International Data Corporation (IDC)
-@#!International Game Developers Association
-@#!International Organization for Standardization
-@#!International Software Benchmarking Standards Group Limited
-@#!Internet Corporation for Assigned Names and Numbers
-@#!Internet Explorer
-@#!Iona Technologies
-@#!iPad
-@#!iPhone
-@#!IP Multimedia Subsystem
-@#!iPod
-@#!IPTV
-@#!IPv6
-@#!Isaac Newton Institute for Mathematical Sciences
-@#!ITSS, Inc.
-@#!ITU
-@#!Ivar Jacobson
-@#!Jakob Nielsen
-@#!James Gosling 
-@#!JAVA ME
-@#!JavaScript
-@#!Jay Wright Forrester
-@#!Jet Propulsion Laboratory
-@#!J. H. Wilkinson
-@#!Jim Blinn
-@#!Jim Gray
-@#!JISC
-@#!John Cocke
-@#!John McCarthy
-@#!John R. Pasta
-@#!John Sculley
-@#!John Vincent Atanasoff
-@#!John Von Neumann
-@#!John W. Mauchly
-@#!Joint Photographic Experts Group
-@#!Jon Kleinberg 
-@#!JPEG
-@#!J. Presper Eckert
-@#!J. Richard Buchi
-@#!JSP
-@#!Juniper Networks
-@#!Kazimierz Kuratowski
-@#!Kent Beck
-@#!Konrad Zuse
-@#!Kurt Godel
-@#!Langley Research Center
-@#!Lawrence Berkeley National Laboratory
-@#!Lawrence Livermore National Laboratory
-@#!Linus Torvalds
-@#!Linux Professional Institute
-@#!Lockheed Martin Corporation
-@#!London Mathematical Society
-@#!Los Alamos National Laboratory
-@#!Lotus Notes
-@#!Macintosh OS
-@#!Macintosh
-@#!Macromedia
-@#!Marian Smoluchowski
-@#!Mark D. Weiser
-@#!Martin Fowler
-@#!Marvin Lee Minsky
-@#!Massachusetts Institute of Technology
-@#!Mathematica
-@#!MATLAB
-@#!Maurice V. Wilkes
-@#!Max Planck Institutes
-@#!McKinsey & Company
-@#!Microsoft Corporation
-@#!MIMO Systems
-@#!MIT Media Lab
-@#!Mobile IP
-@#!MODIS
-@#!Motorola, Inc.
-@#!Motorola Mobility, Inc.
-@#!Motorola Solutions, Inc.
-@#!Moving Picture Experts Group
-@#!Mozilla Corporation
-@#!Mozilla Foundation
-@#!MP3
-@#!MS-DOS
-@#!MSN (portal)
-@#!Myspace
-@#!MySQL
-@#!National Academy of Engineering
-@#!National Academy of Sciences
-@#!National Center for Education Statistics
-@#!National Institute of Standards and Technology
-@#!National Institutes of Health
-@#!National Instruments Corporation
-@#!National Research Council
-@#!National Science Foundation
-@#!NetWare
-@#!Nokia Corporation
-@#!Nortel Networks Corporation
-@#!Novell, Inc.
-@#!NVIDIA Corporation 
-@#!NXP Semiconductors
-@#!Oak Ridge National Laboratory
-@#!Object Management Group
-@#!OFDM System
-@#!Office
-@#!Open Knowledge Society
-@#!OpenMP
-@#!Open Network Laboratory
-@#!Open Source Initiative
-@#!Operational Research Society
-@#!Oracle Corporation
-@#!Organizations
-@#!OSGi Alliance
-@#!Outlook
-@#!Pacific Northwest National Laboratory
-@#!PARC
-@#!Patent and Trademark Office
-@#!PDF
-@#!Pentium
-@#!People in computing
-@#!Personal Robots Group
-@#!Peter J. Denning
-@#!Peter Norton
-@#!Philips Semiconductors
-@#!Photoshop
-@#!Pixar Animation Studios
-@#!PlanetLab
-@#!Pocket PC
-@#!PowerPC
-@#!PowerPoint
-@#!Quest Software, Inc.
-@#!QuickBooks
-@#!Quicken
-@#!QuickTime
-@#!Rational Software Corporation
-@#!Research in Motion Limited
-@#!Richard M. Karp
-@#!RISC processors
-@#!R. Milner
-@#!Robert R. Everett
-@#!Royal Statistical Society
-@#!RSA
-@#!Ruby on Rails
-@#!Samba
-@#!Sandia National Laboratories
-@#!San Diego Supercomputer Center
-@#!SANS Institute
-@#!SAS Institute, Inc.
-@#!Secure Sockets Layer
-@#!Sega Corporation
-@#!SELinux
-@#!Semiconductor Industry Association
-@#!Seymour Papert
-@#!SharePoint
-@#!Short Message Service
-@#!Siemens AG
-@#!Silicon Graphics, Inc.
-@#!SIMD architectures
-@#!Simulink
-@#!Skype
-@#!SLAC National Accelerator Laboratory
-@#!SNMP
-@#!Software Engineering Institute
-@#!Solaris
-@#!SONET
-@#!Sony Corporation
-@#!SPARC
-@#!SQL Server
-@#!SRI International
-@#!Standard Performance Evaluation Corporation
-@#!Stefan Banach
-@#!Steve Jobs
-@#!Sun Microsystems
-@#!Systems Research Center
-@#!Taiwan Semiconductor Manufacturing Company, Limited
-@#!TDWI
-@#!Technologies
-@#!Telcordia Technologies
-@#!Test Technology Technical Council
-@#!Texas Instruments Inc.
-@#!The IBM Toronto Software Lab
-@#!The Open Group
-@#!The Standish Group International, Inc.
-@#!Thomas J. Watson
-@#!Thomas Watson, Jr.
-@#!TMS320C
-@#!Toshiba Corporation
-@#!Transaction Processing Performance Council
-@#!Transport Layer Security
-@#!TREC
-@#!Trusted Computing Group
-@#!Twitter
-@#!UMTS
-@#!Unicode
-@#!Usenet
-@#!UWB
-@#!Vannevar Bush
-@#!VHDL 
-@#!Viewpoints Research Institute
-@#!Virage Logic
-@#!Virtual University Enterprises
-@#!Visual Basic
-@#!VMware
-@#!VoiceXML
-@#!VRML
-@#!Wifi
-@#!Wikimedia Foundation, Inc.
-@#!Wikipedia
-@#!William C. Norris
-@#!WiMAX
-@#!Windows environment
-@#!Windows
-@#!WordNet
-@#!World Intellectual Property Organization
-@#!World Wide Web Consortium
-@#!X3D
-@#!Xerox Corporation
-@#!XILINX
-@#!X-Window
-@#!Yahoo! Inc.
-@#!Yahoo! (portal)
-@#!YouTube
-@#!ZigBee
-@#!Zilog, Inc.
-@#!Acceptable use policy restrictions
-@#!Accreditation
-@#!Adolescents
-@#!Adult education
-@#!Age-based restrictions
-@#!Age
-@#!Antitrust and competition
-@#!Assistive technologies
-@#!Automation
-@#!Broadband access
-@#!Censoring filters
-@#!Censorship
-@#!Centralization / decentralization
-@#!Children
-@#!Codes of ethics
-@#!Commerce policy
-@#!Computational science and engineering education
-@#!Computational thinking
-@#!Computer and information systems training
-@#!Computer crime
-@#!Computer engineering education
-@#!Computer manufacturing
-@#!Computer science education
-@#!Computing and business
-@#!Computing education programs
-@#!Computing education
-@#!Computing equipment management
-@#!Computing industry
-@#!Computing literacy
-@#!Computing occupations
-@#!Computing organizations
-@#!Computing profession
-@#!Computing / technology policy
-@#!Consumer products policy
-@#!Copyrights
-@#!Corporate surveillance
-@#!CS1
-@#!Cultural characteristics
-@#!Database protection laws
-@#!Economic impact
-@#!Employment issues
-@#!File systems management
-@#!Financial crime
-@#!Funding
-@#!Gender
-@#!Genetic information
-@#!Geographic characteristics
-@#!Governmental regulations
-@#!Governmental surveillance
-@#!Government technology policy
-@#!Hardware selection
-@#!Hate speech
-@#!Health information exchanges
-@#!Historical people
-@#!History of computing
-@#!History of computing theory
-@#!History of hardware
-@#!History of programming languages
-@#!History of software
-@#!Identity theft
-@#!Implementation management
-@#!Import / export controls
-@#!Industry statistics
-@#!Informal education
-@#!Information science education
-@#!Information system economics
-@#!Information systems education
-@#!Information technology education
-@#!Intellectual property
-@#!Internet governance / domain names
-@#!K-12 education
-@#!Licensing
-@#!Malware / spyware crime
-@#!Management of computing and information systems
-@#!Medical information policy
-@#!Medical records
-@#!Medical technologies
-@#!Men
-@#!Model curricula
-@#!Net neutrality
-@#!Network access control
-@#!Network access restrictions
-@#!Network operations
-@#!Offshoring
-@#!Online auctions policy
-@#!Patents
-@#!Patient privacy
-@#!People with disabilities
-@#!Personal health records
-@#!Political speech
-@#!Pornography
-@#!Pricing and resource allocation
-@#!Privacy policies
-@#!Professional topics
-@#!Project and people management
-@#!Project management techniques
-@#!Project staffing
-@#!Quality assurance
-@#!Race and ethnicity
-@#!Reengineering
-@#!Religious orientation
-@#!Remote medicine
-@#!Secondary liability
-@#!Seniors
-@#!Sexual orientation
-@#!Socio-technical systems
-@#!Soft intellectual property
-@#!Software engineering education
-@#!Software maintenance
-@#!Software management
-@#!Software selection and adaptation
-@#!Student assessment
-@#!Surveillance
-@#!Sustainability
-@#!System management
-@#!Systems analysis and design
-@#!Systems development
-@#!Systems planning
-@#!Taxation
-@#!Technology and censorship
-@#!Technology audits
-@#!Testing, certification and licensing
-@#!Trademarks
-@#!Transborder data flow
-@#!Treaties
-@#!Universal access
-@#!User characteristics
-@#!Women
-@#!Actuate DocBook
-@#!Adobe Systems Adobe Cold Fusion
-@#!Adobe Systems Adobe Contribute
-@#!Adobe Systems Adobe Dreamweaver
-@#!Adobe Systems Adobe Flash Player
-@#!Adobe Systems Adobe Macromedia HomeSite
-@#!Adobe Systems Adobe Macromedia software
-@#!Atomix Productions VirtualDJ
-@#!Bare Bones Software BBEdit
-@#!Blogger
-@#!Blogging software
-@#!Brightcove
-@#!CCI Newsgate
-@#!Center for Computer-Assisted Legal Instruction CALI Classcaster
-@#!CoffeeCup software
-@#!Content management system CMS software
-@#!Content management systems CMS software
-@#!ExactTarget software
-@#!eXe
-@#!Google Video
-@#!Google Webmaster Tools
-@#!HP Autonomy TeamSite
-@#!IMPACT software
-@#!Instagram
-@#!IXL Learning Quia Web
-@#!JustSystems XMetaL
-@#!Linspire Nvu
-@#!Macromedia Cold Fusion
-@#!MediaVue software
-@#!MediaWiki
-@#!Microsoft Front Page
-@#!Microsoft FrontPage
-@#!Microsoft Office FrontPage
-@#!MySpace
-@#!Nvu
-@#!Orbius
-@#!Plug-in file software
-@#!Podcasting software
-@#!Pulse Train Bellview Web
-@#!Quadralay WebWorks ePublisher
-@#!Quark Immedia
-@#!Really Simple Syndication RSS
-@#!Red Sweater MarsEdit
-@#!RefWorks RefShare
-@#!SAFARI Video Networks eZediaQTI
-@#!SeaMonkey
-@#!Social computing tools
-@#!Social media sites
-@#!Social media software
-@#!Social networking platforms
-@#!Social networking software
-@#!SurveyWiz
-@#!Tumblr
-@#!Vine
-@#!Web content management system CMS software
-@#!Web design software
-@#!Web editing software
-@#!Web page creation and editing software
-@#!Web page design and editing software
-@#!Web page design software
-@#!Website creation software
-@#!Website development software
-@#!Website management software
-@#!Wiki software
-@#!WordPress
-@#!Yahoo Flickr
 Computer Infrastructure
 @#!Automated installation software
 @#!Configuration management software
@@ -6722,6 +6213,515 @@ Security and privacy
 @#!Vulnerability management
 @#!Vulnerability scanners
 @#!Web application security
+Social and professional topics
+@#!Accenture
+@#!ActiveX
+@#!Ada language
+@#!Ada Lovelace
+@#!Adobe Systems Incorporated
+@#!Advanced Information Systems
+@#!Agere Systems, Inc.
+@#!Agilent Technologies
+@#!Ajax
+@#!Alan Cooper
+@#!Alan Curtis Kay 
+@#!Alan J. Perlis
+@#!Alan Mathison Turing
+@#!Alcatel-Lucent
+@#!Allen Kent
+@#!Allen Newell
+@#!American Mathematical Society
+@#!American National Standards Institute 
+@#!American Statistical Association
+@#!Ames Research Center
+@#!An'an Wang
+@#!Andrew S. Grove
+@#!ANSI C
+@#!AOL, Inc.
+@#!Apache Software Foundation
+@#!Apple, Inc.
+@#!AppleScript
+@#!Argonne National Laboratory
+@#!Association for Computing Machinery
+@#!Association for Information Systems
+@#!AT&T
+@#!AutoCAD
+@#!A. van Wijngaarden
+@#!BAE Systems
+@#!Barbara Liskov
+@#!Barry W. Boehm
+@#!BASIC
+@#!BEA Systems, Inc.
+@#!Bell Labs
+@#!Bill Gates
+@#!Bill Joy
+@#!Bill Millard
+@#!Bjarne Stroustrup
+@#!Blaise Pascal
+@#!Blizzard Entertainment
+@#!Blue Sky Studios
+@#!Bluetooth
+@#!Borland Software Corporation
+@#!Brazilian Computer Society
+@#!British Computer Society
+@#!Bruce Schneier
+@#!Business Process Execution Language
+@#!Cable & Wireless Worldwide
+@#!Cadence Design Systems
+@#!C. A. R. Hoare
+@#!CA Technologies
+@#!CDMA systems
+@#!CD-ROMs
+@#!Cell Broadband Engine
+@#!Charles Babbage Institute
+@#!Charles Babbage
+@#!Charles Tandy
+@#!China Telecom Corporation Limited
+@#!Chrome
+@#!Cisco Systems, Inc.
+@#!Citrix Systems, Inc.
+@#!Claude Elwood Shannon
+@#!Clay Mathematics Institute
+@#!Clive Sinclair
+@#!CMOS
+@#!Commerce One
+@#!Companies
+@#!Compaq Computer Corporation
+@#!Computer History Museum
+@#!Computer Press Association
+@#!Computer Science Teachers Association
+@#!Computing Accreditation Commission
+@#!Computing Community Consortium
+@#!Computing Research Association
+@#!Computing Technology Industry Association
+@#!CORBA
+@#!Corel Corporation
+@#!Courant Institute of Mathematical Sciences
+@#!CSAB
+@#!Cyril W. Cleverdon
+@#!Datalog
+@#!David Hilbert
+@#!David Patterson
+@#!David Sarnoff
+@#!DB2
+@#!Defense Advanced Research Projects Agency
+@#!Dell Computer Corporation
+@#!DiamondCluster International, Inc.
+@#!Digital Equipment Corporation
+@#!DNS (Domain Name System)
+@#!Donald Ervin Knuth
+@#!DOS
+@#!Douglas R. Hofstadter
+@#!Dreamweaver
+@#!DSL
+@#!DSM
+@#!DVDs
+@#!eBay Inc.
+@#!Eclipse Foundation
+@#!Eclipse
+@#!Edmund Callis Berkeley
+@#!Edvard Scheutz 
+@#!EIS, Inc.
+@#!Electronic Frontier Foundation
+@#!Electronic  Visualization Laboratory
+@#!Elliot Irving Organick
+@#!EMC Corporation
+@#!Ericsson
+@#!Ernst & Young
+@#!Ethernet
+@#!European Network and Information Security Agency
+@#!European Telecommunications Standards Institute
+@#!Excel
+@#!Facebook
+@#!Federal Communications Commission
+@#!Firefox
+@#!Flickr
+@#!Forrester Research
+@#!Fortran
+@#!FreeBSD
+@#!Free Software Foundation
+@#!Gartner Group
+@#!Gary McGraw
+@#!Gene H. Golub
+@#!General Dynamics
+@#!General Electric
+@#!Georg Scheutz
+@#!Gmail
+@#!Google Earth
+@#!Google Inc.
+@#!Google Maps
+@#!Google Scholar
+@#!Gordon Bell
+@#!Grace Murray Hopper
+@#!GSM
+@#!Harry H. Goode
+@#!Harvey M. Deitel
+@#!H. D. Goode
+@#!HDTV
+@#!Herbert A. Simon
+@#!Herbert R. J. Grosch
+@#!Herman H. Goldstine
+@#!Herman Hollerith
+@#!Hewlett-Packard Company
+@#!HP Labs
+@#!HP-UX
+@#!Human Factors and Ergonomics Society
+@#!IBM Almaden Research Center
+@#!IEEE Computer Society
+@#!Infineon Technologies
+@#!InfiniBand
+@#!Infusion
+@#!Intel Corporation
+@#!International Business Machines Corporation
+@#!International Computer Music Association
+@#!International Data Corporation (IDC)
+@#!International Game Developers Association
+@#!International Organization for Standardization
+@#!International Software Benchmarking Standards Group Limited
+@#!Internet Corporation for Assigned Names and Numbers
+@#!Internet Explorer
+@#!Iona Technologies
+@#!iPad
+@#!iPhone
+@#!IP Multimedia Subsystem
+@#!iPod
+@#!IPTV
+@#!IPv6
+@#!Isaac Newton Institute for Mathematical Sciences
+@#!ITSS, Inc.
+@#!ITU
+@#!Ivar Jacobson
+@#!Jakob Nielsen
+@#!James Gosling 
+@#!JAVA ME
+@#!JavaScript
+@#!Jay Wright Forrester
+@#!Jet Propulsion Laboratory
+@#!J. H. Wilkinson
+@#!Jim Blinn
+@#!Jim Gray
+@#!JISC
+@#!John Cocke
+@#!John McCarthy
+@#!John R. Pasta
+@#!John Sculley
+@#!John Vincent Atanasoff
+@#!John Von Neumann
+@#!John W. Mauchly
+@#!Joint Photographic Experts Group
+@#!Jon Kleinberg 
+@#!JPEG
+@#!J. Presper Eckert
+@#!J. Richard Buchi
+@#!JSP
+@#!Juniper Networks
+@#!Kazimierz Kuratowski
+@#!Kent Beck
+@#!Konrad Zuse
+@#!Kurt Godel
+@#!Langley Research Center
+@#!Lawrence Berkeley National Laboratory
+@#!Lawrence Livermore National Laboratory
+@#!Linus Torvalds
+@#!Linux Professional Institute
+@#!Lockheed Martin Corporation
+@#!London Mathematical Society
+@#!Los Alamos National Laboratory
+@#!Lotus Notes
+@#!Macintosh OS
+@#!Macintosh
+@#!Macromedia
+@#!Marian Smoluchowski
+@#!Mark D. Weiser
+@#!Martin Fowler
+@#!Marvin Lee Minsky
+@#!Massachusetts Institute of Technology
+@#!Mathematica
+@#!MATLAB
+@#!Maurice V. Wilkes
+@#!Max Planck Institutes
+@#!McKinsey & Company
+@#!Microsoft Corporation
+@#!MIMO Systems
+@#!MIT Media Lab
+@#!Mobile IP
+@#!MODIS
+@#!Motorola, Inc.
+@#!Motorola Mobility, Inc.
+@#!Motorola Solutions, Inc.
+@#!Moving Picture Experts Group
+@#!Mozilla Corporation
+@#!Mozilla Foundation
+@#!MP3
+@#!MS-DOS
+@#!MSN (portal)
+@#!Myspace
+@#!MySQL
+@#!National Academy of Engineering
+@#!National Academy of Sciences
+@#!National Center for Education Statistics
+@#!National Institute of Standards and Technology
+@#!National Institutes of Health
+@#!National Instruments Corporation
+@#!National Research Council
+@#!National Science Foundation
+@#!NetWare
+@#!Nokia Corporation
+@#!Nortel Networks Corporation
+@#!Novell, Inc.
+@#!NVIDIA Corporation 
+@#!NXP Semiconductors
+@#!Oak Ridge National Laboratory
+@#!Object Management Group
+@#!OFDM System
+@#!Office
+@#!Open Knowledge Society
+@#!OpenMP
+@#!Open Network Laboratory
+@#!Open Source Initiative
+@#!Operational Research Society
+@#!Oracle Corporation
+@#!Organizations
+@#!OSGi Alliance
+@#!Outlook
+@#!Pacific Northwest National Laboratory
+@#!PARC
+@#!Patent and Trademark Office
+@#!PDF
+@#!Pentium
+@#!People in computing
+@#!Personal Robots Group
+@#!Peter J. Denning
+@#!Peter Norton
+@#!Philips Semiconductors
+@#!Photoshop
+@#!Pixar Animation Studios
+@#!PlanetLab
+@#!Pocket PC
+@#!PowerPC
+@#!PowerPoint
+@#!Quest Software, Inc.
+@#!QuickBooks
+@#!Quicken
+@#!QuickTime
+@#!Rational Software Corporation
+@#!Research in Motion Limited
+@#!Richard M. Karp
+@#!RISC processors
+@#!R. Milner
+@#!Robert R. Everett
+@#!Royal Statistical Society
+@#!RSA
+@#!Ruby on Rails
+@#!Samba
+@#!Sandia National Laboratories
+@#!San Diego Supercomputer Center
+@#!SANS Institute
+@#!SAS Institute, Inc.
+@#!Secure Sockets Layer
+@#!Sega Corporation
+@#!SELinux
+@#!Semiconductor Industry Association
+@#!Seymour Papert
+@#!SharePoint
+@#!Short Message Service
+@#!Siemens AG
+@#!Silicon Graphics, Inc.
+@#!SIMD architectures
+@#!Simulink
+@#!Skype
+@#!SLAC National Accelerator Laboratory
+@#!SNMP
+@#!Software Engineering Institute
+@#!Solaris
+@#!SONET
+@#!Sony Corporation
+@#!SPARC
+@#!SQL Server
+@#!SRI International
+@#!Standard Performance Evaluation Corporation
+@#!Stefan Banach
+@#!Steve Jobs
+@#!Sun Microsystems
+@#!Systems Research Center
+@#!Taiwan Semiconductor Manufacturing Company, Limited
+@#!TDWI
+@#!Technologies
+@#!Telcordia Technologies
+@#!Test Technology Technical Council
+@#!Texas Instruments Inc.
+@#!The IBM Toronto Software Lab
+@#!The Open Group
+@#!The Standish Group International, Inc.
+@#!Thomas J. Watson
+@#!Thomas Watson, Jr.
+@#!TMS320C
+@#!Toshiba Corporation
+@#!Transaction Processing Performance Council
+@#!Transport Layer Security
+@#!TREC
+@#!Trusted Computing Group
+@#!Twitter
+@#!UMTS
+@#!Unicode
+@#!Usenet
+@#!UWB
+@#!Vannevar Bush
+@#!VHDL 
+@#!Viewpoints Research Institute
+@#!Virage Logic
+@#!Virtual University Enterprises
+@#!Visual Basic
+@#!VMware
+@#!VoiceXML
+@#!VRML
+@#!Wifi
+@#!Wikimedia Foundation, Inc.
+@#!Wikipedia
+@#!William C. Norris
+@#!WiMAX
+@#!Windows environment
+@#!Windows
+@#!WordNet
+@#!World Intellectual Property Organization
+@#!World Wide Web Consortium
+@#!X3D
+@#!Xerox Corporation
+@#!XILINX
+@#!X-Window
+@#!Yahoo! Inc.
+@#!Yahoo! (portal)
+@#!YouTube
+@#!ZigBee
+@#!Zilog, Inc.
+@#!Acceptable use policy restrictions
+@#!Accreditation
+@#!Adolescents
+@#!Adult education
+@#!Age-based restrictions
+@#!Age
+@#!Antitrust and competition
+@#!Assistive technologies
+@#!Automation
+@#!Broadband access
+@#!Censoring filters
+@#!Censorship
+@#!Centralization / decentralization
+@#!Children
+@#!Codes of ethics
+@#!Commerce policy
+@#!Computational science and engineering education
+@#!Computational thinking
+@#!Computer and information systems training
+@#!Computer crime
+@#!Computer engineering education
+@#!Computer manufacturing
+@#!Computer science education
+@#!Computing and business
+@#!Computing education programs
+@#!Computing education
+@#!Computing equipment management
+@#!Computing industry
+@#!Computing literacy
+@#!Computing occupations
+@#!Computing organizations
+@#!Computing profession
+@#!Computing / technology policy
+@#!Consumer products policy
+@#!Copyrights
+@#!Corporate surveillance
+@#!CS1
+@#!Cultural characteristics
+@#!Database protection laws
+@#!Economic impact
+@#!Employment issues
+@#!File systems management
+@#!Financial crime
+@#!Funding
+@#!Gender
+@#!Genetic information
+@#!Geographic characteristics
+@#!Governmental regulations
+@#!Governmental surveillance
+@#!Government technology policy
+@#!Hardware selection
+@#!Hate speech
+@#!Health information exchanges
+@#!Historical people
+@#!History of computing
+@#!History of computing theory
+@#!History of hardware
+@#!History of programming languages
+@#!History of software
+@#!Identity theft
+@#!Implementation management
+@#!Import / export controls
+@#!Industry statistics
+@#!Informal education
+@#!Information science education
+@#!Information system economics
+@#!Information systems education
+@#!Information technology education
+@#!Intellectual property
+@#!Internet governance / domain names
+@#!K-12 education
+@#!Licensing
+@#!Malware / spyware crime
+@#!Management of computing and information systems
+@#!Medical information policy
+@#!Medical records
+@#!Medical technologies
+@#!Men
+@#!Model curricula
+@#!Net neutrality
+@#!Network access control
+@#!Network access restrictions
+@#!Network operations
+@#!Offshoring
+@#!Online auctions policy
+@#!Patents
+@#!Patient privacy
+@#!People with disabilities
+@#!Personal health records
+@#!Political speech
+@#!Pornography
+@#!Pricing and resource allocation
+@#!Privacy policies
+@#!Professional topics
+@#!Project and people management
+@#!Project management techniques
+@#!Project staffing
+@#!Quality assurance
+@#!Race and ethnicity
+@#!Reengineering
+@#!Religious orientation
+@#!Remote medicine
+@#!Secondary liability
+@#!Seniors
+@#!Sexual orientation
+@#!Socio-technical systems
+@#!Soft intellectual property
+@#!Software engineering education
+@#!Software maintenance
+@#!Software management
+@#!Software selection and adaptation
+@#!Student assessment
+@#!Surveillance
+@#!Sustainability
+@#!System management
+@#!Systems analysis and design
+@#!Systems development
+@#!Systems planning
+@#!Taxation
+@#!Technology and censorship
+@#!Technology audits
+@#!Testing, certification and licensing
+@#!Trademarks
+@#!Transborder data flow
+@#!Treaties
+@#!Universal access
+@#!User characteristics
+@#!Women
 Theory of computation
 @#!Abstract machines
 @#!Action semantics
