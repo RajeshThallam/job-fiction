@@ -295,11 +295,11 @@ function collectModelInputs(){
 	return strJSON;
 }
 
-function getResultsES(results){
-	//var results = JSON.parse(results_str);
+function getResultsES(match_jobs){
+	var scores = {}
+	match_jobs['jobs'].map(function(job) { scores[job[0]] = parseFloat(job[1]); });
 
-	// get job_ids to be queried on ElasticSearch
-	job_ids = Object.keys(results['jobs'])
+	var job_ids = Object.keys(scores);
 	//job_ids = [ "indeed_4da5859d10426dab", "indeed_8e1f2f2909654316" ]
 
 	// prepare ES query call
@@ -308,7 +308,7 @@ function getResultsES(results){
 		', "query": {"filtered" : {"filter" : {"terms": {"_id":["' + 
 		job_ids.join('", "') + 
 		'"]}}}}}'
-	console.log(es_call)
+	//console.log(es_call)
 
 	// REST API to query ES and get results
 	$.post(
@@ -336,7 +336,7 @@ function getResultsES(results){
 			});
 
 			// call function to display results
-            loadResults(srt_results);
+            loadResults(srt_results, scores);
         },
         dataType = 'json'
     );
@@ -345,7 +345,7 @@ function getResultsES(results){
 }
 
 //this function loads the results
-function loadResults(results){
+function loadResults(results, match_rates){
 	//var results = JSON.parse(results_str);
 	var parent = document.getElementById("JobResults");
 	var table = document.getElementById("tableSearchResults");
@@ -364,6 +364,7 @@ function loadResults(results){
 			var current_idx = job_count++;
 			current_job_id = job_prefix + current_idx;  //so we can consistently use this.
 			current_job = results[job]._source;
+			job_id = results[job]._id;
 
 			var row = tb.insertRow(current_idx);
 			row.id=current_job_id;
@@ -384,6 +385,8 @@ function loadResults(results){
 			var cell  = row.insertCell(4);
 			cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
 			var cell = row.insertCell(5);
+			cell.innerHTML = (	match_rates[job_id]*100).toFixed(2);
+			var cell = row.insertCell(6);
 			cell.innerHTML='<i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>';
 
 			//insert hidden row
@@ -706,12 +709,6 @@ function drilldown_chart(source, id){
 
 
 function horizontal_graph(labels, values, target_div, title, input_width, input_height, job_id){
-
-	console.log(labels);
-	console.log(values);
-	console.log(target_div);
-	console.log(title);
-
 	Array.prototype.max = function() {
       return Math.max.apply(null, this);
     };

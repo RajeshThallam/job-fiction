@@ -1,12 +1,12 @@
 # gensim corpus and models
-from app import app
-import job_preprocess as jp
-import gensim
-from gensim import utils
-from gensim import corpora, models
+
+from gensim import corpora
 from gensim.similarities import Similarity
 from gensim.corpora import Dictionary
 from gensim.models.ldamodel import LdaModel
+import job_preprocess as jp
+import operator as op
+from app import app
 import json
 
 class ModelTalking(object):
@@ -21,6 +21,14 @@ class ModelTalking(object):
                 for line in open(app.config['RCMDR_JOB_LABELS'])
                 .read().strip().split('\n')) 
             }
+
+    def sort_dict(self, dict, orderby, reversed=False):
+        print orderby, reversed
+        srt_list = sorted(dict.items(), key=op.itemgetter(orderby), reverse=reversed)
+        print srt_list
+        srt_dict = [(k, str(v)) for k, v in srt_list]
+        print srt_dict
+        return srt_dict
 
     def get_job_recommendations(self, query):
         results = {}
@@ -62,10 +70,13 @@ class ModelTalking(object):
 
             sim_job_ids = {}
             for job_id, score in sim_jobs:
-                sim_job_ids[all_job_ids[job_id]] = str(score)
+                sim_job_ids[all_job_ids[job_id]] = score
 
             # return results
-            results = sim_job_ids
+            print sim_job_ids
+            results = self.sort_dict(sim_job_ids, 1, True)
+            print results
+            #results = {k:str(v) for k, v in results}
             return results
         else:
             return json.dumps({'error': 'invalid_query_string'})
