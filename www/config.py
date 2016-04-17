@@ -48,3 +48,4 @@ STORE_JOBTITLE_FILE = os.path.join("/root", "wrk", "jobs", "data", "get_train_re
 ES_HOST = "50.97.254.20"
 ES_IDX_RESULT = 'jobfiction'
 ES_IDX_TYPE_RESULT = 'results'
+LOG_PATH = os.path.join("/root", "wrk", "jobs", "data")

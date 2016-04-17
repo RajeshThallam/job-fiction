@@ -105,6 +105,10 @@ class ExtractKeywords(object):
 
         return top_keywords
 
+    def status(self, status):
+        with open(os.path.join(app.config['LOG_PATH'], status), 'w') as stsFile:
+            stsFile.write(status)
+        stsFile.close()
 
     # Function takes a JSON, save it into a directory and call the testMaui function.
     # Query should be in the form of {"jobID1":"summary","jobID2":"summary2",...}
@@ -132,6 +136,7 @@ class ExtractKeywords(object):
             self.test_maui(maui_workbench, app.config['MODEL_KEYWORDS_ID'], 40)
             )
         print "Completed MAUI test @" + maui_workbench
+        self.status('keyword_extracted')
         # remove the working directory
         shutil.rmtree(maui_workbench)
         
@@ -139,6 +144,7 @@ class ExtractKeywords(object):
         stemmer = SnowballStemmer("english")
 
         # generate pretty results
+        self.status('keyword_formatting_started')
         results={}
         for k, v in response.iteritems():
             key = k.split(".txt")[0]
@@ -173,6 +179,7 @@ class ExtractKeywords(object):
 
         #print results
 
+        self.status('keyword_formatting_completed')
         return json.dumps(results)
 
     # ACM Taxonomy converter

@@ -32,6 +32,11 @@ class ModelStore(object):
         self.jobdesc_fname = jobdesc_fname
         self.jobtitle_fname = jobtitle_fname
 
+    def status(self, status):
+        with open(os.path.join(app.config['LOG_PATH'], status), 'w') as stsFile:
+            stsFile.write(status)
+        stsFile.close()
+
     def get_doc_topic_details(self):
         # get job title details
         col_names = [
@@ -57,10 +62,12 @@ class ModelStore(object):
             .read().strip().split('\n'))
         }
 
+        self.status('Keyword_extraction_starts')
         print "Extracting keywords"
         maui = kw.ExtractKeywords()
         keywords = json.loads(maui.find_keywords(job_desc_text))
         print "Keyword extraction completed!!"
+        self.status('Keyword_extraction_completed')
 
         # get top N topics
         n = app.config['TOPN_JOB_CLASSES']
@@ -68,6 +75,7 @@ class ModelStore(object):
         topics_labels = []
         docs_keywords = []
 
+        self.status('preparing_data_frame')
         print "Preparing jobs data frame"
         for doc_id, doc_topic in enumerate(doc_topics):
             topics = sorted(doc_topic, key=lambda t: t[1], reverse = True)[:n]
@@ -84,17 +92,20 @@ class ModelStore(object):
             docs_keywords.append(keywords[str(doc_id)])
             topics_labels.append(topic_labels)
 
+        self.status('updated_data_frame')
         print "Updating jobs data frame"
         job_df['topic_labels'] = topics_labels
         job_df['keywords'] = docs_keywords
 
         print "Formed labels and details " + str(len(job_df))
+        self.status('labels_formed')
         return job_df
 
     def store_results(self):
         print "Getting topic labels"
         job_df = self.get_doc_topic_details()
 
+        self.status('elasticsearch_bulk_load_starts')
         print "Elasticsearch bulk load starts"
 
         # ignore 400 cause by IndexAlreadyExistsException when creating an index
@@ -165,6 +176,7 @@ class ModelStore(object):
 
         helpers.bulk(self.es, pages, True)
         print "Elasticsearch bulk load completed!!"
+        self.status('elasticsearch_bulk_load_completed')
         return 0
 
 if __name__ == "__main__":
