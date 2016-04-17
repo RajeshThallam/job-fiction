@@ -20,7 +20,7 @@ from app.mod_home.controllers import mod_home as auth_home
 app.register_blueprint(auth_home)
 
 # Import a module / component using its blueprint handler variable (mod_auth)
-from app.mod_about.controllers import mod_landing as auth_landing
+from app.mod_about.controllers import mod_about as auth_about
 
 # Register blueprint(s)
-app.register_blueprint(auth_landing)
+app.register_blueprint(auth_about)

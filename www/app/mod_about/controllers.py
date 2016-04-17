@@ -6,11 +6,16 @@ from flask import Blueprint, request, render_template, \
 from app import app
 
 # Define the blueprint: 'home', set its url prefix: app.url/home
-mod_landing = Blueprint('landing', __name__, url_prefix='/landing')
+mod_about = Blueprint('about', __name__, url_prefix='/about')
 
 
 # Set the route and accepted methods
 # home page
-@mod_landing.route('/', methods=['GET', 'POST'])
-def landing_page():
-    return render_template("landing/index.html")
+@mod_about.route('/', methods=['GET', 'POST'])
+def about_page():
+    return render_template("about/index.html")
+
+# documentation
+@mod_about.route('/docs', methods=['GET', 'POST'])
+def documentation_page():
+    return render_template("about/documentation2.html")

@@ -1,3 +1,8 @@
+* {
+	font-family: Lato, Avenir, Helvetica, Arial;
+	font-weight: 400;
+}
+
 html, body {
 	height: 100%;
 }
@@ -5,11 +10,11 @@ html, body {
 body {
 	margin: 0px;
 	padding: 0px;
-	background: #A80154;
+	background: cornflowerblue;
 	font-family: 'Chivo', sans-serif;
-	font-size: 12pt;
+	font-size: 16pt;
 	font-weight: 300;
-	color: #363636;
+	color: steelblue;
 }
 
 
@@ -18,15 +23,15 @@ h1, h2, h3 {
 	padding: 0;
 }
 
-p, ol, ul {
+p, ol, ul, li {
 	margin-top: 0px;
+	font-size: 18px;
 }
 
 p {
 	line-height: 190%;
-}
 
-strong {
+	
 }
 
 a {
@@ -187,7 +192,7 @@ hr {
 	{
 		font-weight: 400;
 		font-size: 2em;
-		color: #B10058;
+		color: cornflowerblue;
 	}
 	
 	.title .byline
@@ -199,10 +204,15 @@ hr {
 		color: #6F6F6F;
 	}
 
+	.bio
+	{
+		min-height: 280px
+	}
+
 /** WRAPPER */
 
 #wrapper {
-	background: #FFFFFF url(images/bg01.png) repeat;
+	background-color: steelblue ;
 }
 
 #footer-wrapper
@@ -221,7 +231,7 @@ hr {
 
 
 /*********************************************************************************/
-/* Wrappers                                                                      */
+/* Wrappers    THIS IS THE TITLE                                                                  */
 /*********************************************************************************/
 
 #header-wrapper
@@ -229,7 +239,7 @@ hr {
 	overflow: hidden;
 	background-size: 100%;
 	padding: 6em 0em 2em 0em;
-	background: #333333;
+	background: #01579B;
 }
 
 
@@ -296,7 +306,7 @@ hr {
 
 #menu-wrapper
 {
-	background: #B10058;
+	background: cornflowerblue;
 }
 
 #menu {
@@ -334,7 +344,7 @@ hr {
 }
 
 #menu .current_page_item a {
-	background: #C0005F;
+	background: steelblue;
 }
 
 /** PAGE */
@@ -344,7 +354,10 @@ hr {
 	position: relative;
 	overflow: hidden;
 	padding: 6em 0em 5em 0em;
+	
 }
+
+
 
 /** CONTENT */
 
@@ -382,8 +395,9 @@ hr {
 	#copyright
 	{
 		overflow: hidden;
-		padding: 5em 0em;
+		padding: 1em 0em;
 		text-align: center;
+		background-color: lightslategray;
 	}
 	
 	#copyright p
@@ -392,13 +406,13 @@ hr {
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 0.80em;
-		color: rgba(255,255,255,.5);
+		color: white;
 	}
 	
 	#copyright a
 	{
 		text-decoration: none;
-		color: rgba(255,255,255,.7);
+		color: white;
 	}
 
 /*********************************************************************************/
@@ -442,7 +456,7 @@ hr {
 
 	#portfolio-wrapper
 	{
-		background: rgba(0,0,0,.04);
+		background: cornflowerblue;
 		padding: 6em 0em;
 		color: rgba(255,255,255,.7);
 	}
@@ -498,7 +512,7 @@ hr {
 		display: inline-block;
 		margin-top: 1.5em;
 		padding: 0.50em 3em 0.50em 2em;
-		background: #BB005D;
+		background: steelblue;
 		letter-spacing: 0.20em;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -526,7 +540,7 @@ hr {
 	{
 		overflow: hidden;
 		padding: 5em 0em;
-		background: #1E1B1A;
+		background: steelblue;
 	}
 
 	#footer
@@ -582,9 +596,121 @@ hr {
 
 
 
+/************NEW STUFF******************/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1600px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.mySlides{
+	padding: 50px; 
+	min-height: 700px;
+	background-color: #01579B;
+	color: #fff;
+}
 
 
 
+.myDocs{
+	padding: 50px; 
+	
+	min-height: 600px;
+	background-color: white;
+	color: black;
+	opacity: 0.75;
+	margin-bottom: 50px;
+	margin-left:20px; 
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .slprev, .slnext,.text {font-size: 11px}
+}
 
 
 
