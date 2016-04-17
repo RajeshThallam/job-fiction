@@ -2463,3 +2463,6893 @@ Proper nouns: People, technologies and companies
 @#!@#!Yahoo! (portal)
 @#!@#!YouTube
 @#!@#!ZigBee
+Analytical or scientific software
+@#!3dMapper
+@#!3D motion analysis software
+@#!3D Static Strength Prediction Program 3DSSPP software
+@#!ABAQUS software
+@#!Absorption process simulation software
+@#!AcaClone pDRAW32
+@#!AcaStat software
+@#!Accelerated life testing software
+@#!Accelrys Cerius2
+@#!Accelrys DeCipher
+@#!Accelrys FELIX
+@#!Accelrys Materials Studio
+@#!Accelrys Pipeline Pilot
+@#!Accelrys QAUNTA
+@#!ACL Audit Exchange
+@#!ACT WorkKeys
+@#!Adaptive conjoint analysis ACA software
+@#!Adaptive optics AO simulation software
+@#!ADAPT-Modeler
+@#!Adept Scientific GRAMS
+@#!ADMS pollution modeling software
+@#!Advanced Chemistry Development ACD/1D nuclear magnetic resonance NMR processor
+@#!Advanced Chemistry Development Analytical Laboratory
+@#!Advanced Dimensional Management 3D-GD&T
+@#!Advanced numerical software
+@#!AEMC DataView
+@#!AERONET calculator
+@#!AGCO GTA Software Suite
+@#!Age progression software
+@#!Agilent CGH Analytics
+@#!Agilent ChemStation
+@#!Agilent Technologies GeneSpring GX
+@#!Agronomic modeling software
+@#!Aipotu
+@#!Air dispersion modeling software
+@#!AIRMaster+
+@#!Air quality modeling software
+@#!a la mode Pocket TOTAL
+@#!a la mode WinTOTAL
+@#!Alara CRystalView
+@#!A Large Outdoor Fire plume Trajectory model Flat Terrain ALOFT-FT software
+@#!Algae
+@#!Algorithmic software
+@#!ALGOR software
+@#!Alstom ESARAD
+@#!Alstom ESATAN
+@#!Altair Engineering MotionSolve
+@#!Altera MAX
+@#!Altera Quartus II
+@#!A mathematical programming language AMPL
+@#!AMPL
+@#!Anadigm software
+@#!Analyse-it
+@#!Analyse-it Software
+@#!Analysis and building software
+@#!Analysis and Visualization of Time Sequences AVTS
+@#!Analysis of Smoke Control Systems ASCOS software
+@#!Analytical Graphics STK Expert Edition
+@#!Analytical software
+@#!Analyz
+@#!AndersonBell Abstat
+@#!Aninoquisi MesoTRAC
+@#!ANISN dose assessment computer code
+@#!Anisotropic Crystalline Etch Simulation ACES software
+@#!Ansoft HFSS
+@#!Ansoft Simplorer
+@#!ANSYS AQWA
+@#!ANSYS ASAS
+@#!ANSYS Fluent
+@#!ANSYS FLUENT
+@#!ANSYS LS-DYNA
+@#!ANSYS Mechanical
+@#!ANSYS Multiphysics
+@#!ANSYS software
+@#!ApE A Plasmid Editor
+@#!Apfloat
+@#!APLAC Solutions Corporation software
+@#!Application-specific integrated circuit ASIC logic synthesis software
+@#!Applied Biosystems GeneMapper
+@#!Applied Flow Technology AFT Arrow
+@#!Applied Flow Technology AFT Fathom
+@#!Aptech Systems GAUSS software
+@#!Aquatic Plant Information Retrieval System APIRS
+@#!Aquifer test software
+@#!Arbutus Analyzer
+@#!Architectural Energy Corporation ENFORMA Building Diagnostics
+@#!Architectural Energy Corporation REM/Rate
+@#!Architectural Energy Corporation VisualDOE
+@#!ArenaSoft Estimating
+@#!ARfit
+@#!Argus ONE Open Numerical Environments
+@#!Argus Perceptual Mapper
+@#!Arkenstone Atlas Speaks
+@#!Armchair Machinist software
+@#!Askia Analyse
+@#!Aspect Loss Prevention Aspect EliteLP
+@#!ASPEN PLUS
+@#!AspenTech aspenONE for Chemicals
+@#!AspenTech HYSYS
+@#!Assessment software
+@#!Assessment Systems Corporation XCALIBRE
+@#!ASSET JTAG ScanWorks
+@#!Assisi Software Assisi Compiler
+@#!Assisi Software Assisi Resource
+@#!Assisi Software Forest
+@#!Assistant Software for Antimicrobial Susceptibility Interpretation ASASI
+@#!Assisted model building with energy refinement AMBER software
+@#!Astronomical Image Processing for Windows AIP4WIN
+@#!Astronomical Image Processing System AIPS
+@#!Astronomical information processing system AIPS++
+@#!ATLAS.ti
+@#!Atria smoke management engineering tools ASMET software
+@#!Audio calibration software
+@#!Augmint
+@#!Aurora FoodPro
+@#!Auto3DEM
+@#!AUTO
+@#!Autodesk Algor Simulation
+@#!Autodesk Ecotect Analysis
+@#!Autodesk ECOTECT
+@#!Automated Geospatial Watershed Assessment AGWA
+@#!Automated material handling software
+@#!Automatic dynamic incremental nonlinear analysis ADINA software
+@#!Automatic Forecasting Systems Autobox
+@#!Automatic test program generation ATPG software
+@#!Automation Studio
+@#!AutoPIPE software
+@#!Avaaz Innovations Computerized Speech Research Environment CSRE
+@#!Availability prediction modeling software
+@#!Available Safe Egress Time ASET software
+@#!Avionics system testing software
+@#!AVL AVL CRUISE
+@#!Axxya Systems Nutritionist Pro
+@#!Axxya Systems Nutritionist Pro software
+@#!Aztec
+@#!Baron Services FasTrac
+@#!Baron Volumetric Imaging and Processing of Integrated Radar VIPIR
+@#!Basic Local Alignment Search Tool BLAST
+@#!BD Biosciences CellQuest
+@#!BD Biosciences CloneCyt
+@#!BeamChek software
+@#!BehavePlus
+@#!Beige Bag Software B2 Spice
+@#!Benfield ReMetrica
+@#!Bentley StormCAD
+@#!Berkeley Algorithm for Breaking Window Glass in a Compartment Fire BREAK1 software
+@#!BERMUDA nuclear transport computer codes
+@#!Best Linear Unbiased Prediction BLUP software
+@#!BetaPLUS software
+@#!Bilko software
+@#!BioArray Software Environment BASE software
+@#!Bioconductor
+@#!Biodegration flow and transport modeling BIO F&T software
+@#!BioDiscovery ImaGene
+@#!BioKin PlateKi
+@#!Biomatters Geneious
+@#!Biomechanical imaging software
+@#!Biomechanical injury risk analysis software
+@#!Biomechanical modeling software
+@#!BioPerl
+@#!Biostatistical software
+@#!Bit Debris Solutions Usability Activity Log
+@#!Bite analysis software
+@#!Blaster's Tool and Supply Company Blaster's Calculator software
+@#!Blast Output Browser BOB
+@#!BLAT
+@#!Blue Ridge Numerics CFDesign
+@#!Blue Streak Electronics Buell Diagnostic
+@#!Blue Tractor Software DNADynamo
+@#!Boeing SoftPlotter
+@#!Boundary scan insertion software
+@#!Bowtie
+@#!BOXSHADE software
+@#!BPM_CAD
+@#!Bruker AXS EVA
+@#!Bruker AXS LEPTOS
+@#!Bruker AXS TOPAS
+@#!Bruker BioSpin TopSpin
+@#!Bruker Optics OPUS
+@#!BSVC
+@#!BtB Software Mycobacteriology Lab
+@#!Building Research Establishment BRE Jasmine
+@#!Built-in self-test BIST debugging software
+@#!Burrows-Wheeler Aligner BWA
+@#!Business analysis software
+@#!BWA
+@#!Cadence Dracula
+@#!Cadence Incisive Enterprise Specman Elite Testbench
+@#!Cadence Incisive software
+@#!Cadence OrCAD PSpice
+@#!Cadence PSpice
+@#!Cadence Virtuoso Spectre Circuit Simulator
+@#!CADRE Analytic
+@#!Calculating optimum maintenance parameters COMPARE software
+@#!Calculator software
+@#!Calibration software
+@#!Camfit Data Limited Microfit
+@#!CAP88-PC software
+@#!CAPSYS Capture
+@#!Career Dimensions Focus 2
+@#!CARIS HIPS
+@#!CARIS SIPS
+@#!Carlson Simplicity "Sight" Survey
+@#!Carlson SurvCE
+@#!Carrier Hourly Analysis Program HAP
+@#!Carrier-mediated transport software
+@#!Case analysis software
+@#!CaseBank SpotLight
+@#!Cave5D
+@#!CAzM
+@#!CCP4
+@#!CDI Electronics M.E.D.S.
+@#!Cedaron Dexter Evaluation & Impairment Rating
+@#!Cedrus SuperLab Pro
+@#!Celera Assembler
+@#!Cell Bioscience Automated Image Capture
+@#!Centers for Disease Control and Prevention Epi Info
+@#!Centre for Multilevel Modeling MLwiN software
+@#!CERC EMIT
+@#!Cerebro CerebroMix
+@#!CERN Physics Analysis Workstation PAW
+@#!CERN ROOT
+@#!CESARE Risk software
+@#!CE Surveyor III software
+@#!CGG Hampson-Russell software
+@#!Chang Bioscience ToolKit
+@#!ChefDesk Chef's Calculators
+@#!ChefTec software
+@#!Chem2Pac software
+@#!Chemical kinetics software
+@#!ChemicaLogic SteamTab
+@#!Chemicals and Irrigation CANDI software
+@#!Chemistry at Harvard Molecular Mechanics CHARMm software
+@#!Chempute Software Engineer's Aide SINET
+@#!Chempute Software HSC Chemistry
+@#!Chempute Software SuperPro Designer
+@#!Chempute Software VisiMix
+@#!Chemstations CHEMCAD
+@#!ChemStat software
+@#!ChemSW Calibration Pro
+@#!ChemSW Mass Spec Tools
+@#!ChemSW Uncertainty Pro
+@#!Chilled Water System Analysis Tool CWSAT
+@#!Circle Systems Stat/Transfer
+@#!Circuit evaluation software
+@#!Circuit simulation software
+@#!Citilabs Cube
+@#!Citilabs TRANPLAN
+@#!Claritas PRIZM NE
+@#!Claritas software
+@#!Clark Labs IDRISI Selva
+@#!Client assessment software
+@#!ClimateMaster GeoDesigner
+@#!CliniTrend software
+@#!Clover Technology GALENA
+@#!ClustalW
+@#!CMT CogoCAD
+@#!CNC Consulting Machinists' Calculator
+@#!COADE CAESAR II
+@#!CODA Engine Analysis System
+@#!Codon Usage Database
+@#!Collier Research HyperSizer
+@#!Collision damage estimation software
+@#!Collision damage measurement software
+@#!Combined Heat and Power Application Tool CHP
+@#!Common cause failure assessment software
+@#!Common MASINT Exploitation Tool COMET
+@#!Community Climate System Model CCSM
+@#!Commutator profiling software
+@#!Compass Municipal Services CAMAlot
+@#!Compass software
+@#!Compass Software
+@#!Comprehensive Affect Testing System CATS
+@#!Compu-Cal Nutrition Assistant
+@#!Computational fluid dynamics CFD software
+@#!Computational modeling software
+@#!Computational statistics software
+@#!Computer-aided engineering CAE software
+@#!Computer Algebra System for Algebraic Geometry CASA
+@#!Computer assisted mass appraisal CAMA software
+@#!Computer diagnostic software
+@#!Computerized diagnostic programs
+@#!Computerized diagnostic software
+@#!Computerized statistical packages
+@#!Computerized testing programs
+@#!Computer modeling software
+@#!Computer Modelling Group CMG STARS
+@#!Computer simulation software
+@#!Computing Solutions LabSoft LIMS
+@#!Computing Solutions LabSoft LIMS Micro
+@#!COMSOL Multiphysics
+@#!ConEst Electrical Formulas
+@#!Consolidated compartment fire model CCFM software
+@#!Consolidated fire and smoke transport model CFAST
+@#!Consolidated Model of Fire and Smoke Transport CFAST
+@#!Construction Management Software ProEst
+@#!Construction Master Pro software
+@#!Control Station ENGINEER
+@#!Conversion tools software
+@#!Convex FactLogic
+@#!Cool Roof Calculator
+@#!Coordinate geometry COGO software
+@#!Core Informatics Laboratory Information Management System LIMS software
+@#!Corpscon
+@#!CORSIM
+@#!Counseling software
+@#!Coventor ARCHITECT3D
+@#!Coventor CoventorWare
+@#!Cowculator
+@#!COWGAME
+@#!CP2K
+@#!CPMD
+@#!Crash Mapping Analysis Tool CMAT
+@#!Creative System GHS
+@#!CRI-MAP
+@#!Criss Software XRF11
+@#!Criticality analysis software
+@#!CropSyst Suite
+@#!Crows Dynamics Simulex
+@#!Crystallographic software
+@#!Crystallography & NMR System CNS software
+@#!Crystallography software
+@#!Crystal Maker software
+@#!CrystalMaker software
+@#!CSC Elmer software
+@#!Cubic
+@#!Cufflinks
+@#!Cullimore & Ring Technologies SINDA/FLUINT
+@#!Cullimore & Ring Technologies Thermal Desktop
+@#!CustomCAMA software
+@#!CynapSys Virtual DER
+@#!Cytel Egret
+@#!Cytel LogXact
+@#!Cytel StatXact
+@#!Dartfish ProSuite
+@#!Dassault Systemes Abaqus
+@#!Dassault Systemes Dymola
+@#!Dassault Systemes Simulia Abaqus FEA
+@#!Data acquisition software
+@#!Data acquisition systems
+@#!Data analysis software
+@#!Database for Inventory, Monitoring and Assessment DIMA
+@#!Data Description Data Desk software
+@#!Dataflight Concordance
+@#!Data logger software
+@#!Datalog with guidance DLWG software
+@#!Datamine software
+@#!DataMystic TextPipe Pro
+@#!Data reduction software
+@#!Datasurge GEOPRO
+@#!Data Translation quickDAQ
+@#!Datavis DBS Designer
+@#!Data visualization software
+@#!Dataxiom StatMost
+@#!Dataxiom Xpro
+@#!dbSNP
+@#!Decisioneering Crystal Ball
+@#!DeerDays software
+@#!Definiens Developer
+@#!Delft GeoSystems MStab
+@#!Delila
+@#!Density functional theory DFT software
+@#!Deoxyribonucleic acid DNA sequence analysis software
+@#!Derive
+@#!DesignBuilder Software DesignBuilder
+@#!Design-for-testability DFT insertion software
+@#!Design of experiments DOE software
+@#!Design Safety Engineering Designsafe
+@#!Design Science MathType
+@#!Detector Actuation Quasi Steady DETACT-QS
+@#!DetNet ViewShot
+@#!DHI MIKE URBAN
+@#!DHI Water and Environment MIKE SHE
+@#!Diacom software
+@#!Diagnostic scanner software
+@#!DifEqu
+@#!Diffraction Limited MaxIm DL
+@#!Digital elevation model DEM software
+@#!Digital image correlation DIC software
+@#!Digital karyotyping software
+@#!Digital timing diagram editing software
+@#!DIgSILENT PowerFactory
+@#!Direct Hit Systems THREADS
+@#!Discrete Dynamics Lab DDLab
+@#!Discrete event simulation software
+@#!Discrete Fourier transform DFT analysis software
+@#!Discrete ordinates DORT dose assessment computer codes
+@#!Disease Mapping and Analysis Program DMAP
+@#!DL_POLY
+@#!DNA sequence analysis software
+@#!DNA sequencing software
+@#!Docking and ligand binding software
+@#!DOE-2
+@#!Dolphin Integration SMASH
+@#!Dose modeling software
+@#!Dowling Associates TRAFFIX
+@#!DQO ELIPGRID-PC
+@#!DQO-PRO
+@#!DSP Development DADiSP
+@#!DxCG RiskSmart
+@#!Dyadem FMEA Pro-6
+@#!Dynamic modeling software
+@#!Dynamic object-oriented requirements system DOORS
+@#!Dynamic positioning DP software
+@#!Earthvision modeling software
+@#!EarthWorks Downhole Explorer
+@#!Earthworks MaxiPit
+@#!EasySolve Software SizePerm
+@#!Eaton Fleet Advisor
+@#!ECHIP software
+@#!Echo sounder software
+@#!Ecological risk assessment software
+@#!Econometric Software LIMDEP
+@#!Economic Input-Output Life Cycle Assessment EIO-LCA
+@#!Econport
+@#!Ecotech WinCollect
+@#!EditCNC software
+@#!EffTec EffTrack
+@#!Egress Allsafe
+@#!Egress EVACS
+@#!Egress EXITT
+@#!Electric Rain Swift 3D software
+@#!Electromagnetic analysis software
+@#!Electromechanical testing analysis software
+@#!Electronic data capture EDC software
+@#!Electronic discovery software
+@#!Electronic engineering calculator
+@#!Electronic Systems of Wisconsin Motor Test System software
+@#!Electrosoft FlashWorks
+@#!EleSoft Research software
+@#!Elevator Controls INTERACT
+@#!Elevator evacuation ELVAC software
+@#!Elite Software DPIPE
+@#!Elite Software E-Coord
+@#!Elite Software Energy Audit
+@#!Elite Software FIRE
+@#!Elite Software HSYM
+@#!Elite Software Inpoint
+@#!Elite Software Outpoint
+@#!Elite Software Short
+@#!Elite Software Spipe
+@#!Elite Software VDROP
+@#!Embedded systems testing software
+@#!EMBOSS
+@#!EMC Captiva software
+@#!EMD International WindPRO
+@#!Emerson FIRSTVUE Value Sizing
+@#!Empirisoft DirectRT
+@#!Empirisoft MediaLab
+@#!Enercom Energy Depot for Business
+@#!Enercom Energy Depot for Homes
+@#!Energy-10
+@#!Energy analysis software
+@#!Energy auditing software
+@#!Energy cost evaluation software
+@#!Energy Efficient Rehab Advisor
+@#!Energy expenditure prediction EEP software
+@#!EnergyPlus
+@#!EnergySoft EnergyPro
+@#!Enggist & Grandjean EGS CALCMENU software
+@#!Engine analysis software
+@#!Engine diagnostic scanners
+@#!Enigma software
+@#!ENSEMBL
+@#!Environmental Knowledge and Assessment Tool EKAT
+@#!Environmental Research Services RAOB
+@#!Environmental Software and Services SUTRA
+@#!EnzymeX
+@#!EPA Storm Water Management Model SWMM
+@#!EPCON International CHEMPRO Engineering Suite
+@#!EPCON International SiNET
+@#!EPCON International SYSTEM 7 Process Explorer
+@#!Epicenter Software Epilog
+@#!EPIC GIS
+@#!Epicor Retail Loss Prevention software
+@#!EpiData Analysis
+@#!Epidemiological software
+@#!eProduction Solutions PanSystem
+@#!Equilibrate software
+@#!Equitas EEOStat
+@#!Erosion Productivity Impact Calculator EPIC
+@#!ESA MOSAICS
+@#!ESHA Research The Food Processor
+@#!ESI Group AutoSEA2
+@#!ESM Software CrystalMaker
+@#!ESRI ArcExplorer
+@#!ESRI ArcGIS (analytical or scientific feature)
+@#!ESRI ArcGIS Geostatistical Analyst
+@#!ESRI ArcGIS software (analytical or scientific feature)
+@#!ESRI ArcGIS Spatial Analyst
+@#!ESRI ArcToolbox
+@#!ESRI What if?
+@#!ESSA Technologies Path Landscape Model
+@#!ESSA TechnologiesTool for Exploratory Landscape Scenario Analyses TELSA
+@#!Estima RATS
+@#!Estima Regression Analysis of Time Series RATS
+@#!Estimates Delivery System EDS
+@#!ETA Dynaform
+@#!ETAP software
+@#!European Soil Erosion Model EUROSEM
+@#!European Southern Observatory Munich Image Data Analysis System ESO-MIDAS
+@#!Evacuation modeling software
+@#!Evergreen Technology Total Faux
+@#!Excavator
+@#!Experimental Physics and Industrial Control System EPICS
+@#!Expert Health Data Programming Vitalnet
+@#!Expression DNA and protein sequence software
+@#!Facility Energy Decision Systems FEDS
+@#!FactSage
+@#!Failure analysis software
+@#!Failure mode and effects analysis FMEA software
+@#!Failure mode effects and criticality analysis FMECA software
+@#!Failure modes analysis software
+@#!Failure modes and effects analysis FMEA software
+@#!Failure rate data in perspective FARADIP software
+@#!Failure reporting analysis and corrective action FRACAS software
+@#!Fakopp Enterprise Resonance Log Grader software
+@#!Fan System Assessment Tool FSAT
+@#!Farm Works Site Pro
+@#!FARSITE
+@#!FASTA
+@#!Fast Fourier transform FFT analysis software
+@#!FASTLINK
+@#!Fatigue analysis software
+@#!Fault detection isolation and recovery FDIR software
+@#!Fault modeling software
+@#!Fault tree analysis FTA software
+@#!FEAR
+@#!FEAT/Firemon integrated FFI
+@#!Federal Renewable Energy Screening Assistant FRESA
+@#!FEEDLOT CALC
+@#!Ferret
+@#!Field Data Recorder software
+@#!Fielding Data Labs OptoMizer
+@#!Field Operations and Records Management System (FORMS) II Lite
+@#!Field programmable gate array FPGA logic synthesis software
+@#!FindTarget
+@#!FinEng Solutions software
+@#!Finite difference time domain FDTD software
+@#!Finite element analysis FEA software
+@#!Finite element analysis software
+@#!Finite element method FEM software
+@#!Fire behavior modeling software
+@#!FIRECALC fire zone modeling software
+@#!Fire dynamics simulators
+@#!Fire Dynamics Software FDS
+@#!Fire Protection Engineering Tools FPETool software
+@#!Fire Response of Structures Thermal FIRES-T software
+@#!Fire Simulation Technique FIRST software
+@#!Fire Spread Probability FSPro
+@#!FishXing software
+@#!Fitts Geosolutions TWODAN
+@#!FlamMap
+@#!FlapX software
+@#!Fleet Asset Management and Optimization Solutions FAMOS PEPSE
+@#!Flexible dynamics modeling software
+@#!Flood modeling software
+@#!FLorida Object Oriented Design Simulator FLOODS
+@#!FLorida Object Oriented Process Simulator FLOOPS
+@#!Flow Analysis Software Toolkit FAST
+@#!FlowJo
+@#!Flowmaster software
+@#!Fluent FloWizard
+@#!Fluke ClearSight Analyzer
+@#!Fluke Corporation FlukeView Forms
+@#!Fluke Networks TechAdvisor Field Access System
+@#!FoldX
+@#!Food Software.com IPro Restaurant Inventory, Recipe & Menu Software
+@#!Force platform software
+@#!Force sensitive applications FSA software
+@#!Foresoft CDS Cogo
+@#!Foresoft CDS Model
+@#!Forest Vegetation Simulator FVS
+@#!Forest vegetation simulators
+@#!Forest yield software
+@#!Formlink HydroGEN
+@#!Fourier transform infrared FTIR software
+@#!Fractal Concept SoftScan
+@#!FramePlot
+@#!Fred's Tip Cartridge Picker
+@#!FreeSurfer
+@#!Freight Rail Crew Optimization Scheduling FRCOS software
+@#!Ftree
+@#!Fuel Characteristic Classification System FCCS
+@#!Fujitsu BioMedCache
+@#!Fujitsu MOPAC
+@#!Fully Integrated Environmental Location Decision Support FIELDS
+@#!Functional hazard analysis software
+@#!Functional modeling software
+@#!Functional verification software
+@#!Fundamental Objects foAudits
+@#!Future Information Research Management Confirmit
+@#!GAMESS-US
+@#!Gamma Technologies GT-SUITE
+@#!Gamma waste assay system GWAS software
+@#!Gas chromatograph GS software
+@#!Gas dispersion model software
+@#!Gateway to Logic
+@#!Gaussian GaussView
+@#!Gaussian software
+@#!Gazebo
+@#!Geant4
+@#!GE Energy GateCycle
+@#!GE Energy Positive Sequence Load Flow Software PSLF
+@#!Gemcom GEMS
+@#!Gemcom PCBC
+@#!Gemcom Surpac
+@#!Gemcom Whittle
+@#!GenBank
+@#!Gene Codes Sequencher
+@#!Genedata Expressionist
+@#!Gene Finder
+@#!GenePattern
+@#!General algebraic modeling system GAMS
+@#!General Atomic and Molecular Electronic Structure System GAMESS
+@#!General Structural Analysis System GSAS
+@#!Gene Recognition and Assembly Internet Link GRAIL
+@#!Gene recognition software
+@#!GeneRunner software
+@#!Genetic algorithm software
+@#!Genetics computer group GSG software
+@#!Genetix CytoVision
+@#!Genie Interactive
+@#!Geniel Genetics iGene
+@#!Genome Analysis Toolkit GATK
+@#!Genome Analysis ToolKit GATK
+@#!Genotyping software
+@#!GENSCAN
+@#!GeoCenter SeisUP
+@#!Geocomp Systems GeoCalc
+@#!Geocomp Systems GeoNav
+@#!GeoCue Corporation GeoCue software
+@#!GeoCue Corporation PointVue LE
+@#!GeoDa
+@#!Geodetic software
+@#!GEOEAS
+@#!GeoGraphix software
+@#!Geo-Logic Systems LithoTect Interpreter
+@#!Geomechanical stress analysis software
+@#!Geometric dimensioning and tolerancing software
+@#!GeoModel software
+@#!Geomview
+@#!GEO-SLOPE GeoStudio
+@#!GEO-SLOPE SEEP/W
+@#!Geospiza GeneSifter
+@#!Geostatistical modeling GSTAT software
+@#!Geostatistics software GS+
+@#!Geothermal Properties Measurement Tool
+@#!Gepasi software
+@#!GE Sensing & Inspection Technologies Rhythm UT
+@#!GFA2D
+@#!gINT software
+@#!GIPSY-OASIS
+@#!Global Insight AREMOS
+@#!GNOME Gnutrition
+@#!GNU Octave
+@#!Gnuplot
+@#!Gnutrition
+@#!Golden Software Strater
+@#!Good Steward Software EnergyCAP
+@#!Google Analytics
+@#!G&P Engineering Software EngVert
+@#!G&P Engineering Software PipeDrop
+@#!Graphics Programming Environment GRAPE
+@#!GraphPad Software GraphPad Prism
+@#!GRASPIT!
+@#!Gravitation software
+@#!Gregg Software Gregg Rock-It
+@#!Gresens 92
+@#!Grid analysis and display system GrADS
+@#!Grid generation software
+@#!GRL Engineers Wave Equation Analysis Program GRLWEAP
+@#!Groundwater modeling system GMS software
+@#!Groundwater Software QuickCross/Fence
+@#!Groundwater Software QuickLog
+@#!Groundwater Vistas software
+@#!GSLIB
+@#!Gstat
+@#!Guidance Software EnCase Enterprise
+@#!Halliburton ProMAX
+@#!Hansen CAMA
+@#!Hardware-in-the-loop HIL simulation software
+@#!Harmoni ESPRI
+@#!Harmoni software
+@#!Harris Tech BassBox software
+@#!Harris Tech X.over Pro
+@#!Harvard Thermal TAS
+@#!HARVEST
+@#!HATPRO
+@#!Hazard assessment software
+@#!Heat loss calculation software
+@#!HEC-1
+@#!HEC-2
+@#!HEC-GeoRAS
+@#!HEC-HMS
+@#!HEC RAS
+@#!HEC-RAS
+@#!Hellman & Schofield MP3
+@#!Herbert Software Solutions HECSALV
+@#!Hewlett-Packard HP Semiconductor Parameter Analyzer
+@#!Hewlett-Packard HP TCM software
+@#!Hierarchical simulation program with integrated circuit emphasis HSPICE
+@#!HIPERPAV
+@#!HiroSoft EPICURE
+@#!Hodgkin-Huxley Model software
+@#!Home rating software
+@#!HOMER Micropower Optimization Model
+@#!Horwath Software Magique
+@#!HotFlo! Die-Shot Monitor
+@#!Hotspot
+@#!HRS Quickscore
+@#!Human modeling software
+@#!Humidity and vapor drive calculation software
+@#!Hunter WinAlign
+@#!Hydesoft Computing DPlot
+@#!Hydraulic analysis software
+@#!Hydraulic modeling software
+@#!HydroComp NavCad
+@#!Hydrogeology Basin2
+@#!Hydrological modeling software
+@#!Hydrologic simulation program fortan HSPF software
+@#!HydroSOLVE AQTESOLV software
+@#!HYDRUS-2D
+@#!HYPACK HYSWEEP
+@#!HYPACK MAX
+@#!Hyperion Solutions Hyperion Intelligence
+@#!IBM ILOG CPLEX/Dispatcher
+@#!iGrafx software
+@#!IHRSR++
+@#!IHS Energy PowerTools
+@#!IHS Kingdom software
+@#!IHS Petra
+@#!IHS PETRA
+@#!Ikon Science RokDoc
+@#!Illumina Laboratory Information Management System LIMS
+@#!Illumina Laboratory Information Management System LIMS software
+@#!ILOG CPLEX
+@#!ILOG OPL-CPLEX Development System
+@#!Image analysis software
+@#!Image analysis systems
+@#!Image capture and analysis software
+@#!Image capture software
+@#!Image processors
+@#!Imagine That Extend OR
+@#!IMSure Solutions SHIPflex
+@#!Industrial job assessment software
+@#!IndySoft Gage InSite Enterprise
+@#!InferMed MACRO Electronic Data Capture
+@#!Infobright Community Edition ICE
+@#!Ingenuity Systems Ingenuity Pathways Analysis
+@#!Injury Sciences EDR InSight
+@#!Inlet Technologies Semaphore
+@#!Insightful S-PLUS
+@#!Insurance claims fraud detection software
+@#!Integrated circuit simulation software
+@#!Integrated Decision Support Match Advice
+@#!Integrated Decision Support Netwise Enterprise
+@#!Integrated Decision Support Netwise Frontline
+@#!Intelligen SuperPro Designer
+@#!Intellisense Intellisuite
+@#!Intel Math Kernel Library
+@#!Interactive Mathematical Proof System IMPS
+@#!Interactive radar analysis software IRAS
+@#!Interconsult Brann G-JET
+@#!InterEnergy Software Building Energy Analyzer PRO
+@#!Interpex IXID
+@#!Interstudio Geo-Tec B
+@#!Intusoft ICAP
+@#!IRIS Seismic Processing Workshop
+@#!IRSIM
+@#!Isograph FaultTree
+@#!Isograph Markov
+@#!ITEM Software ITEM ToolKit
+@#!ITEM Software Spare Cost
+@#!Iteris Turbo Architecture
+@#!Itron Enterprise Energy Management EEM Suite
+@#!ITT Exelis Visual Information Solutions ENVI
+@#!IWR-PLAN
+@#!JACAL
+@#!JAMAR Technologies PETRAPro
+@#!JaMBW
+@#!JET
+@#!JKGRAPH
+@#!JMP software
+@#!JMS Software RCM WorkSaver
+@#!Jobber Computer Plus
+@#!John Hesselberth and Ron Roy GlazeMaster
+@#!Joint Prediction of Operons JPOP
+@#!Joint test action group JTAG software
+@#!JudgeIt II
+@#!Kant
+@#!KAPES software
+@#!KARIO
+@#!Katsura Shareware KS Strobe Tuner
+@#!Katsura Shareware ProLevel
+@#!Katsura Shareware SoundFrames
+@#!Kentech Kipware TB
+@#!Kentech Trig Kalculator
+@#!Keypoint DataDesk
+@#!K&K Associates Thermal Analysis Kit TAK
+@#!KLA-Tencor PROLITH
+@#!Klear Estimator
+@#!KMR software
+@#!Kork digital mapping system KDMS software
+@#!KSEG
+@#!KYPipe
+@#!Lablite Laboratory Information Management Systems LIMS software
+@#!Laboratory information management system LIMS software
+@#!Labvantage Solutions LIMS
+@#!LabWare LIMS
+@#!Lakes Environmental EcoRisk View
+@#!Lakes Environmental ISC-AERMOD View
+@#!Lakes Environmental SLAB View
+@#!Lakes Environmental Software WRPLOT View
+@#!LAMMPS Molecular Dynamics Simulator
+@#!Landfill gas analysis software
+@#!Landmark GeoProbe software
+@#!Landmark Graphics GeoGraphix software
+@#!Landmark SeisWorks
+@#!Landmark VIP
+@#!Landscape Management System LMS
+@#!Land & Sea DYNO-MAX
+@#!LandSerf
+@#!Landtec System Software LFG Pro
+@#!Language analysis software
+@#!Large eddy simulation LES software
+@#!Laser imaging detection and ranging LIDAR system software
+@#!LexisNexis Applied Discovery
+@#!LexisNexis CourtLink Strategic Profiles
+@#!Life cycle assessment LCA software
+@#!Life cycle cost software
+@#!Life Technologies Ion Reporter Software
+@#!Life Technologies SOLiD
+@#!Life Technologies Vector NTI
+@#!Lighting calculation software
+@#!LINDO Systems LINDO API
+@#!LINDO Systems LINGO
+@#!LINDO Systems software
+@#!LinearTeam WinISD
+@#!Linear Technology LTSpice
+@#!Link actuated vents LAVENT software
+@#!Link analysis software
+@#!Link Microtek software
+@#!Litigation management software
+@#!Litigation support software
+@#!LMS Imagine.Lab AMESim
+@#!Load-bearing analysis software
+@#!Load simulators
+@#!Location allocation decision support system LADSS software
+@#!Logger data manager LDM software
+@#!LoggerPC software
+@#!Logic Design RoboLogix
+@#!Logic simulators
+@#!LogicSphere Firstmix software
+@#!Logic synthesis software
+@#!LogicVision icBIST
+@#!Logistics Cost Estimating Tool
+@#!LogIT Systems software
+@#!Logplot software
+@#!LOGSA COMPASS
+@#!LOGSA SYSPARS
+@#!Low-level driver LLD software
+@#!Lucia CGH
+@#!Lucia Comet Assay
+@#!Lucia FISH
+@#!Lucia Karyo
+@#!Lucia Metaphase Finder
+@#!Lucia MFISH
+@#!Lyris HQ Web-Analytics Solution
+@#!MacKichan Software Scientific Notebook
+@#!MacKichan Software Scientific WorkPlace
+@#!Macroscopic diffusion software
+@#!MacVector
+@#!Madison Technical Software Chempak Plus
+@#!Madison Technical Software Enviropak
+@#!Madison Technical Software Steampak
+@#!MAGIC
+@#!Magma
+@#!Magma Design Automation Blast Create
+@#!Magma Design Automation Blast FPGA
+@#!MAGMA MAGMASOFT
+@#!Magnify Predictive Targeting System
+@#!Maintainability prediction software
+@#!Manatron ProVal Plus
+@#!Mangold INTERACT
+@#!Mangold LogSquare
+@#!Mangold Soundalyzer
+@#!Manitoba HVDC Research Centre PSCAD
+@#!Maplesoft Maple
+@#!Maplesoft MapleSim
+@#!MapShots EASi Suite
+@#!Maptek Vulcan
+@#!Mass appraisal records system MARS software
+@#!Mass Flux Toolkit
+@#!Master Ration Calculator
+@#!Materials Data Incorporated Jade
+@#!Materials testing software
+@#!Mathematical simulation software
+@#!Mathematical software
+@#!Mathsoft Mathcad
+@#!Matrix calculation software
+@#!Maui Solar Energy Software Corporation PV-DesignPro software
+@#!Maxima
+@#!Maximal Software MPL Modeling System
+@#!MAYA I-DEAS
+@#!MAYA Nastran
+@#!MCNP dose assessment computer code
+@#!McTrans HCS+
+@#!McTrans TRANSYT-7F
+@#!McTrans TSIS-CORSIM
+@#!MDS Analytical Technologies GenePix Pro
+@#!Mean time between failures MBTF software
+@#!Mean time to failure MTTF software
+@#!Mediamix software
+@#!Media Professional software
+@#!Medical Scientists HybridAI
+@#!Medical Scientists MediSave
+@#!Medical surveillance software
+@#!Memphis Survey Explorer
+@#!Mendel
+@#!Mensurix Audio
+@#!Mentor Graphics BSDArchitect
+@#!Mentor Graphics Calibre
+@#!Mentor Graphics LeonardoSpectrum
+@#!Mentor Graphics ModelSim
+@#!Mentor Graphics Precision RTL
+@#!Mentor software
+@#!MERCURE dose assessment computer codes
+@#!Merlinco MERLIN
+@#!Mesh generation software
+@#!Mesoscale modeling software
+@#!Mesquite Software CSIM
+@#!Meta-analysis with interactive explanations MIX
+@#!MetaSystems Isis Color Karyotyping
+@#!Meyer Instruments Optimas
+@#!Michigan State University MSU ProFlex
+@#!Microarchitecture simulation software
+@#!Microelectromechanical systems MEMS simulation software
+@#!Micro Estimating FabPlan
+@#!Microscope imaging software
+@#!Microscopic image capturing software
+@#!Microsoft Office Document Imaging
+@#!MicroSolve CAMA
+@#!MicroSurvey FieldGenius
+@#!MicroSurvey OfficeSync
+@#!Microtab XP software
+@#!Microwave circuit simulation software
+@#!Microwind Dsch
+@#!Millisecond Software Inquisit
+@#!Minitab
+@#!Minitab software
+@#!Mintec MineSight software
+@#!MIT OASES
+@#!Mitre Software GSLOPE
+@#!Mixed integer optimizer MINTO
+@#!MLPU software
+@#!Modal analysis software
+@#!Modeling software
+@#!ModelKinetix ModelMaker
+@#!MODPATH
+@#!Modular arrangement of predetermined time standards software MODAPTS
+@#!Modular Mining Systems DISPATCH software
+@#!Molecular Devices Softmax Pro
+@#!Molecular simulation software
+@#!Molecular visualization software
+@#!Monitoring and Remediation Optimization System MAROS
+@#!Monte Carlo software
+@#!MORSE-CG dose assessment computer code
+@#!Mosby's Nutritrac
+@#!Mosflm
+@#!Motion analysis software
+@#!MotorMaster+
+@#!Motor testing software
+@#!MSB Software Astroart
+@#!MSC Software Adams
+@#!MSC Software Fatigue
+@#!MSC Software Nastran
+@#!MSC Software Patran
+@#!MSI Insight/Discover software
+@#!M-Sim
+@#!MTI Systems Costimator JS
+@#!Multichannel microelectrode analyzer MMA software
+@#!Multi-functional calculators
+@#!Multipath Corporation Fast Matrix Solver FMS
+@#!Multipurpose Interactive Image Processing System MIIPS
+@#!Multisensory data representation software
+@#!Multivariate Software EQS
+@#!Multivariate statistical program MVSP software
+@#!Muthen & Muthen Mplus
+@#!Muthen & Muthen MPlus
+@#!MWH Soft H2ONET MSX
+@#!MWH Soft InfoSWMM
+@#!NAMD
+@#!National Geodetic Survey NGS Geodetic Toolkit
+@#!National Geodetic Survey NGS VERTCON
+@#!National Geophysical Data Center GEODAS
+@#!National Institute for Occupational Safety and Health Analysis of Longwall Pillar Stability ALPS
+@#!National Institute for Occupational Safety and Health Analysis of Roof Bolt Systems ARBS
+@#!National Institute for Occupational Safety and Health LaModel
+@#!National Institute for Occupational Safety and Health NIOSH Life Table Analysis System
+@#!National Instruments Compact FieldPoint System
+@#!National Instruments DAQ Assistant
+@#!National Instruments NI Vision Builder for Automated Inspection AI
+@#!National Resources Conservation Service Grazing Spatial Analysis Tool
+@#!NCBI RefSeq
+@#!NCSS Power Analysis and Sample Size PASS
+@#!NCSS software
+@#!Nedstat Sitestat
+@#!Neotec WELLFLO
+@#!NetEpi
+@#!NetLims AutoLims
+@#!NetPrimer
+@#!Network Analysis SINDA-G
+@#!Network Science IR Mentor Pro
+@#!Neural network modeling software
+@#!NeuralWare software
+@#!Nexiq Tech HDS Suite for Palm
+@#!ngspice
+@#!Nielsen Arianna
+@#!Nielsen Marketbreaks
+@#!NIWA Tideda
+@#!Noldus Information Technology FaceReader
+@#!Noldus Information Technology The Observer
+@#!Noldus Information Technology The Observer XT
+@#!Noldus Information Technology uLog Pro
+@#!North American Insulation Manufacturers Association NAIMA 3E Plus
+@#!Numerical analysis software
+@#!Numeritek NUMERICA
+@#!Nutrient analysis software
+@#!NutriGenie Optimal Nutrition
+@#!Nutrition analysis software
+@#!Nutrition Balance Analyzer NUTBAL
+@#!NWChem
+@#!OctTools
+@#!Office Gemini Diamond Vision
+@#!Ohio Automation Integrated Computer Aided Mine Planning System ICAMPS
+@#!Olympus analysis software
+@#!OMICRON Test Universe
+@#!Omnitracs Performance Monitoring
+@#!Online advertising reporting software
+@#!Onset Computer Corporation HOBOware
+@#!OpendTect
+@#!OpenEpi
+@#!Ophthalmic imaging software
+@#!Optical Physics Technologies SUN_CHART
+@#!Opticks
+@#!Optimization software
+@#!Oracle Remote Data Capture
+@#!Organic synthesis planning software
+@#!OriginLab Origin
+@#!Outboard engine diagnostic software
+@#!Overland Conveyor Belt Analyst
+@#!Ovo Studios Ovo Logger
+@#!Paint mixing and matching software
+@#!PaleoMag
+@#!Paleontological Statistics PAST
+@#!PaleoTax software
+@#!Palisade Evolver
+@#!Palisade StatTools
+@#!PANalytical X'Pert Data Collector
+@#!PANalytical X'Pert Epitaxy
+@#!Pan American Health Organization SIGEpi
+@#!Parallel Geoscience SPW software
+@#!Parameter Estimation PEST
+@#!Parbat
+@#!PARI/GP
+@#!Partek Incorporated Partek Genomics Suite
+@#!Pathogen Modeling Program PMP
+@#!Patient satisfaction assessment software
+@#!Pattern recognition software
+@#!Pattern searching software
+@#!PCI Geomatics software
+@#!PC-Progress HYDRUS
+@#!PC Weather Products HURRTRAK
+@#!Pd' Programming Intersection Magic
+@#!Pearson Education PHStat2
+@#!Pedigree drawing and management software
+@#!PE INTERNATIONAL GaBi software
+@#!PE INTERNATIONAL SoFi software
+@#!Penzar TopSPICE
+@#!Peopleclick PayStat
+@#!Perceptive Software ImageNow
+@#!Performance Systems Development TREAT
+@#!PerkinElmer ChemOffice Chem3D
+@#!PerkinElmer ChemOffice ChemDraw
+@#!PerkinElmer ChemOffice Suite
+@#!PerkinElmer Turbochrom
+@#!PerkinElmer TurboMass
+@#!Personal digital assistants PDA diagnostic software
+@#!Petroleum Software Technologies software
+@#!petroWEB software
+@#!Phoenix Integration ModelCenter
+@#!Photon Design FIMMPROP
+@#!Photon Design PICWave
+@#!Phrap
+@#!Phred
+@#!PHYLIP
+@#!PIBWin
+@#!PICS DietMate Professional
+@#!Pile Dynamics Case Pile Wave Analysis Program CAPWAP
+@#!Pile Dynamics Pile Driving Analyzer PDA software
+@#!Pilot Navigator Software Load Balance
+@#!Pipepro Pipefitting software
+@#!PISCES IIB
+@#!Platte River Associates BasinMod
+@#!PLOS Computational Biology
+@#!Plume modeling software
+@#!pMatlab
+@#!PMC KanbanSIM
+@#!poLCA
+@#!Polhemus Fasttrack System
+@#!PolyBayes software
+@#!PolyMap software
+@#!Polymath Software POLYMATH
+@#!Power analysis software
+@#!Power & Precision software
+@#!Powersim PSIM
+@#!Power system modeling software
+@#!PowerWorld Corporation PowerWorld Simulator
+@#!PowerWorld software
+@#!PQ Systems SQCpack
+@#!PRe Consultants SimaPro
+@#!Predictive toxicology software
+@#!PredictProtein
+@#!PREMIER Biosoft Array Designer
+@#!Preventive maintenance software
+@#!Primer3
+@#!Primer3 software
+@#!PRINCE software
+@#!Probabilistic risk assessment PRA software
+@#!Process Heating Assessment and Survey Tool PHAST
+@#!Process simulation software
+@#!Prode PD-Plus
+@#!Production Flow Analysis and Simplification Toolkit PFAST
+@#!Production flow analysis software
+@#!ProEst Software ProEst Estimating
+@#!Program for Energy Analysis of Residences PEAR
+@#!Promium Element DataSystem LIMS
+@#!ProModel software
+@#!Proportional integral derivative control PID software
+@#!Proscan
+@#!Protein databases
+@#!Protein Explorer
+@#!Proteus Engineering FastShip
+@#!ProtScale
+@#!Provalis Research Simstat
+@#!P-STAT software
+@#!Psychology Software Tools E-Prime
+@#!Psychology Software Tools MRI Simulator
+@#!Psychometric testing software
+@#!Psychophysics Toolbox
+@#!Psychrometric chart software
+@#!PsyScope
+@#!PsyScript
+@#!PTC Mathcad
+@#!PTV VISUM
+@#!Public genomic databases
+@#!Pulsar software
+@#!PV Optics
+@#!PVsyst
+@#!PWscf
+@#!Python Experimental Economics Toolkit PEET
+@#!QAD shielding computer code
+@#!Qaulis Research The Ethonograph
+@#!Q-Chem software
+@#!QSM SLIM
+@#!Quadstone Paramics
+@#!QUALCOMM eXtensible Diagnostic Monitor QxDM
+@#!QUALCOMM QTRACS
+@#!QUALCOMM ViaWeb
+@#!Qualitative analysis software
+@#!Quality Plans & Software HVAC Calculator
+@#!Quality Positioning Services Fledermaus
+@#!Quality Systems International WinLIMS
+@#!Qualtrics Research Suite
+@#!Quantitative analysis software
+@#!Quantitative Micro Software EViews
+@#!QuantumWise Atomistix ToolKit
+@#!Question interchange profile QUIP software
+@#!Questionmark Perception
+@#!QuestionPro software
+@#!QuickCogo software
+@#!Quick Plant Energy Profiler
+@#!Quote Software QuoteExpress
+@#!Radar software
+@#!Radiation dose calculation software
+@#!Radiological assessment display and control system RADACS
+@#!Rad Pro Calculator software
+@#!RandomForest software
+@#!Rapid Assessment Tools R.A.T.
+@#!RasMol
+@#!Rate calculation software
+@#!RAT-STATS
+@#!Reactor excursion and release analysis program RELAP
+@#!RealData REIA
+@#!Red Rock DeltaGraph
+@#!REDUCE
+@#!Regional Energy Deployment System ReEDS
+@#!Relative Values for Physicians software
+@#!Relex FMEA
+@#!Relex Weibull
+@#!Reliability analysis software
+@#!Reliability centered maintenance RCM software
+@#!ReliaSoft Alta 6 Pro
+@#!ReliaSoft BlockSim
+@#!ReliaSoft RCM++
+@#!ReliaSoft Weibull++ 6
+@#!ReliaSoft XFMEA
+@#!Reliass EAGLE
+@#!Remote sensing software
+@#!RepeatMasker
+@#!ReSoft WindFarm
+@#!Resources Calculations Incorporated SoftCost
+@#!Respondus software
+@#!RESRAD
+@#!Retrofit Energy Savings Estimation Model RESEM
+@#!RETScreen Clean Energy Project Analysis Software
+@#!Revised universal soil loss equation RUSLE software
+@#!Reyburn CyberTuner
+@#!Rice Simulator for ILP Multiprocessors RSIM
+@#!Ride simulators
+@#!RIETAN
+@#!Rinda Technologies DIACOM Marine
+@#!Risk analysis software
+@#!Risk management software
+@#!Risoe National Laboratory Wind Atlas Analysis and Application Program WAsP
+@#!RNA sequencing software
+@#!Road simulators
+@#!Robotic simulation software
+@#!Roche 454 Life Sciences GS Data Analysis
+@#!RockWare ChemFlux
+@#!Rockware CrossLog
+@#!RockWare DepthCon2000
+@#!RockWare Erupt
+@#!RockWare FIRSTPIX
+@#!RockWare Geochemist's Workbench GWB
+@#!RockWare GeoTrig
+@#!RockWare GRADIX
+@#!RockWare Grav2Dc
+@#!RockWare Jlog
+@#!RockWare MicroMODEL
+@#!RockWare MODFLOW
+@#!RockWare Plan
+@#!RockWare Potent
+@#!RockWare QuickSyn
+@#!RockWare RockPack III
+@#!RockWare RockWorks
+@#!RockWare VEGO
+@#!RockWare Visual STUNT
+@#!RockWare WinSism
+@#!Rockwell Automation Arena
+@#!Rogue Wave Software IMSL Numerical Libraries
+@#!Roof Calculator software
+@#!Root cause analysis software
+@#!Roundabout Delay RODEL
+@#!RSA RadCalc
+@#!RSI ENVI
+@#!RSI interactive data language IDL software
+@#!RTI International SUDAAN
+@#!Runge XPAC software
+@#!Safe Software FME
+@#!S.A.G.E.
+@#!SAGE
+@#!Salford Systems TreeNet
+@#!Salix Applied Earthcare Erosion Draw
+@#!SAP APO
+@#!SAS/Genetics
+@#!SAS JMP
+@#!SAS software
+@#!SaTScan
+@#!SatView
+@#!Sawtooth Choice-Base Conjoint CBS
+@#!Sawtooth Composite Product Mapping CPM
+@#!SCALE ORIGEN-S point depletion and decay code
+@#!Schlumberger E&P software
+@#!Schlumberger GeoFrame software
+@#!Schlumberger Information Solutions ECLIPSE Reservoir Engineering Software
+@#!Schlumberger Petrel
+@#!Schlumberger Petrel software
+@#!Schlumberger PIPESIM
+@#!Schlumberger PVTi
+@#!Schneider Electric Direct Coordination
+@#!Scientech Safety Monitor
+@#!Scientech WinNUPRA
+@#!Scientific analysis software
+@#!Scientific Software Group AQUA3D
+@#!Scientific Software Group AquaDyn
+@#!Scientific Software Group AQUASEA
+@#!Scientific Software Group Aquifer win32
+@#!Scientific Software Group AQUIPACK
+@#!Scientific Software Group AT123D
+@#!Scientific Software Group BIO1D
+@#!Scientific Software Group BIOF&T
+@#!Scientific Software Group BIOSLURP
+@#!Scientific Software Group BioTrends
+@#!Scientific Software Group CHASM
+@#!Scientific Software Group EnviroScape
+@#!Scientific Software Group FEFLOW
+@#!Scientific Software Group Filter Drain FD
+@#!Scientific Software Group GFLOW
+@#!Scientific Software Group HydroGeo Analyst
+@#!Scientific Software Group HYDROGEOCHEM
+@#!Scientific Software Group Infinite Extent
+@#!Scientific Software Group MARS 2-D/3-D
+@#!Scientific Software Group MIDUSS
+@#!Scientific Software Group MIGRATE
+@#!Scientific Software Group MINTEQA2
+@#!Scientific Software Group MOCDENSE
+@#!Scientific Software Group MODFLOWT
+@#!Scientific Software Group MODPUMP
+@#!Scientific Software Group MODRET
+@#!Scientific Software Group ModTech
+@#!Scientific Software Group MOFAT
+@#!Scientific Software Group MohrView
+@#!Scientific Software Group MOVER
+@#!Scientific Software Group MS-VMS
+@#!Scientific Software Group MT3D99
+@#!Scientific Software Group OILVOL
+@#!Scientific Software Group POLLUTE
+@#!Scientific Software Group QHM
+@#!Scientific Software Group QuickSoil
+@#!Scientific Software Group RISC WorkBench
+@#!Scientific Software Group SEQUENCE
+@#!Scientific Software Group SESOIL
+@#!Scientific Software Group SLAEM/MLAEM
+@#!Scientific Software Group SOILPARA
+@#!Scientific Software Group Soil Vapor Extraction BioSVE
+@#!Scientific Software Group SOLUTRANS
+@#!Scientific Software Group StepMaster
+@#!Scientific Software Group SVFlux
+@#!Scientific Software Group SVHeat
+@#!Scientific Software Group TUFLOW
+@#!Scientific Software Group VAM2D
+@#!Scientific Software GroupWinFence
+@#!Scientific Software Group WinFlow
+@#!Scientific Software Group WinTran
+@#!Scientific Software International BILOG-MG
+@#!Scientific Software International HLM
+@#!Scientific Software International LISREL
+@#!Scientific Software International MULTILOG
+@#!Scientific Software International PARSCALE
+@#!Scientific Software International SSI Hierarchical Linear and Non-Linear Modeling HLM
+@#!Scientific Software International SSI LISREL
+@#!Scientific Software International TESTFACT
+@#!SciGraphica
+@#!SciLab
+@#!SciQuest PE TurboChrom
+@#!Scribe
+@#!SDA Survey
+@#!Seasafe Marine Software Seasafe
+@#!SEA software
+@#!SeeByte SeeTrack
+@#!Seismic interpretation software
+@#!Seismic Micro-Technology KINGDOM
+@#!Seismic visualization software
+@#!SEMC-2D
+@#!Semichem AMPAC
+@#!Sensory Computer Systems SIMS
+@#!SequentiX TreeMe
+@#!S-GeMS
+@#!Shape software
+@#!SHAZAM
+@#!Shilstone seeMIX
+@#!Shrodinger Jaguar
+@#!SIDRA INTERSECTION
+@#!Siemens PLM software
+@#!Siemens PSS Product Suite
+@#!Siemens SHELXTL
+@#!Sigmetrix CETOL 6 Sigma
+@#!Signal analysis software
+@#!Signal detection software
+@#!Signal integrity simulation software
+@#!Signal synthesizers
+@#!SIL International The Linguist's Shoebox
+@#!sim4
+@#!Simple Model of the Atmospheric Radiative Transfer of Sunshine SMARTS
+@#!Simulation and modeling software
+@#!Simulation of fires in enclosures SOFIE software
+@#!Simulation program with integrated circuit emphasis SPICE
+@#!Simulation software
+@#!SimWindows
+@#!Site remediation management software
+@#!SKM Systems Analysis Power Tools
+@#!SNOINO RCM Pro
+@#!SNOINO Ttree
+@#!Social network analysis software
+@#!Socorro Scientific Software Refract2K
+@#!SoftEmpire Electrical Calculations
+@#!SoftICE
+@#!SoftLab PHEdesign
+@#!Software Bisque CCDSoft
+@#!SoftZymics VisualEnzymics
+@#!SoilVision Systems SVGrainsize
+@#!Sokkia G2
+@#!Sokkia Spectrum Survey Suite
+@#!SOLAR-2
+@#!Solar Advisor Model
+@#!Solar analysis software
+@#!Solar and Wind Energy Resource Assessment SWERA
+@#!SolidWorks COSMOSWorks
+@#!SolTrace
+@#!Solvcalv
+@#!SoMat eDAQ
+@#!SoundPlan software
+@#!Sound pressure analysis equipment
+@#!Southwest Research Institute NASGRO
+@#!Spartan software
+@#!Spatial Analysis and Decision Assistance SADA
+@#!SPAW
+@#!Spectral Dynamics STARAcoustics
+@#!Spectral Dynamics STAR
+@#!Spectral Dynamics STARModal
+@#!Spectrophotometer analysis software
+@#!Spectroscopy software
+@#!Spectrum Software Micro-Cap
+@#!Speech analysis software
+@#!SPLAT!
+@#!SPMLab
+@#!SPSS Amos
+@#!SPSS
+@#!SPSS AnswerTree
+@#!SPSS software
+@#!SPX/OTC Genisys ConnecTech PC
+@#!SST Development Group SSToolbox
+@#!Stage
+@#!Stanford Business Software MINOS
+@#!Stanford Business Software SNOPT
+@#!Starcal
+@#!StarData software
+@#!STARLIMS
+@#!STARLIMS software
+@#!Starpint Software Super Slug
+@#!StataCorp Stata
+@#!Stat-Ease Design-Ease
+@#!Stat-Ease Design-Expert
+@#!StatGraphics software
+@#!Static strength prediction software
+@#!Statistical analysis software
+@#!Statistical energy analysis SEA software
+@#!Statistical processing software
+@#!Statistical software
+@#!Statistical Solutions BMDP
+@#!Statistical Solutions SOLAS
+@#!Statistics software
+@#!StatPac software
+@#!StatPoint software
+@#!StatPoint STATGRAPHICS Centurion
+@#!StatSoft STATISTICA software
+@#!Steam System Tool Suite
+@#!Stellar Processes EZ Sim
+@#!Stewart Computational Chemistry MOPAC
+@#!Stochastic modeling software
+@#!Stormwater runoff modeling software
+@#!Strain Sim software
+@#!Strand7
+@#!Stratasys FDM MedModeler
+@#!Strat-Tech Deer Hunting Expert
+@#!Stress analysis software
+@#!Strong Concepts TEAPAC
+@#!Structure prediction software
+@#!Studio of Analytical Models STANMOD
+@#!Substance Flow Analysis STAN
+@#!SumQuest software
+@#!Sunrise Software CropSave
+@#!SuperANOVA
+@#!SUPREM
+@#!Surface modeling software
+@#!Surface water modeling system SMS software
+@#!SURFDriver Software WinSURF
+@#!Survey software
+@#!Sustainable Management Approaches and Revitalization Tools SMARTe
+@#!SVRPLOT
+@#!Swan River Estimiser Pro
+@#!Sweep analysis software
+@#!SweetWARE nutraCoster
+@#!SweetWARE nutraCoster Professional
+@#!Syborg Systems MicroTec
+@#!Symmetrica
+@#!Synergy Software KaleidaGraph
+@#!Synopsis Design Compiler
+@#!Synopsys Design Compiler
+@#!Synopsys Hercules
+@#!Synopsys HSIM
+@#!Synopsys HSPICE
+@#!Synopsys PrimeTime
+@#!Synopsys Saber
+@#!Synopsys software
+@#!Synopsys Taurus Medici
+@#!Synopsys TetraMax ATPG
+@#!Synplicity Synplify
+@#!Synthematix StructureSearch
+@#!Systat Software
+@#!Systat Software Lisa.lims
+@#!Systat Software SigmaPlot
+@#!Systat Software SigmaStat
+@#!Systat Software Table Curve
+@#!Systems analysis programs for hands on integrated reliability evaluation software SAPHIRE
+@#!TANKS
+@#!Tanner EDA T-SPICE
+@#!TapRooT
+@#!Task analysis software
+@#!TEAM Engineering FEMAP
+@#!TECHBASE software
+@#!Techsia Techlog
+@#!Tecplot Focus
+@#!Tecplot software
+@#!Tektronix EZ-TEST
+@#!Telelogic System Architect
+@#!Telephone analysis software
+@#!Tension Technology International OPTIMOOR
+@#!TERRASCIENCES TerraStation
+@#!TerraSeer ClusterSeer
+@#!Terrasolid TerraScan
+@#!Test automation software
+@#!Test data generator software
+@#!Testing software
+@#!Test interpretation software
+@#!Texas Transportation Institute TTI Progression Analysis and Signal System Evaluation Routine PASSER
+@#!TeXShop
+@#!Textco BioSoftware Gene Inspector
+@#!The Gene Explorer
+@#!The MathWizards MathViews
+@#!The Mathworks Control System Toolbox
+@#!The Mathworks Data Acquisition Toolbox
+@#!The Mathworks Embedded Target software
+@#!The MathWorks MATLAB
+@#!The MathWorks Real-Time Workshop
+@#!The MathWorks Signal Processing Toolbox
+@#!The Mathworks SimBiology
+@#!The MathWorks SimBiology
+@#!The MathWorks Simulink
+@#!The MathWorks Simulink DSP Blockset
+@#!The MathWorks Simulink Fixed-Point Blockset
+@#!The MathWorks Stateflow
+@#!The MathWorks Symbolic Math Toolbox
+@#!The MathWorks Wavelet Toolbox
+@#!The Nutrition Company FoodWorks
+@#!The Protein Investigator
+@#!Thermal analysis software
+@#!Thermal Analysis Systems The Energy Analyst
+@#!Thermal Dynamics Ground Loop Design GLD
+@#!Thermal indoor climate simulation software
+@#!Thermal Radiation Analysis System TRASYS
+@#!Thermal Synthesizer System TSS
+@#!Thermo Fisher Scientific Laboratory Information Management Systems (LIMS) software
+@#!Thermo ToxLab
+@#!The University of Tennessee FORDISC
+@#!The Virtual Genetics Lab
+@#!The Weatherization Assistant
+@#!Thought Technology BioGraph Infiniti
+@#!Three-dimensional motion capture software
+@#!Three-dimensional simulation translation software
+@#!Tibco S-PLUS
+@#!TIBCO Spotfire S+
+@#!Tidepool Scientific Software ToxCalc
+@#!TiltSoft software
+@#!Timberlake Consultants OxMetrics
+@#!Time and motion analysis software
+@#!Time series modeling TSM software
+@#!Timing analysis software
+@#!TNS MarketWhys
+@#!TNS Miriad
+@#!Tolerance analysis software
+@#!TopHat
+@#!Top View software
+@#!TPNassist software
+@#!Tradesman&apos;s Software Master Estimator
+@#!Trafficware SynchroGreen
+@#!Trane System Analyzer
+@#!Trane TRACE
+@#!Transas Group PISCES2
+@#!Transient reactor analysis code TRAC
+@#!Transmission line simulators
+@#!Transportation planning software
+@#!TRC Consultants PHDWin
+@#!TreeAge Software TreeAge Pro
+@#!TreeView
+@#!Triangle Research Collaborative Observational Coding System OCS Tools Software
+@#!Trimble Geomatics Office
+@#!Trimble GPS Pathfinder
+@#!Trimble Total Control
+@#!Triple G ULTRA Laboratory Information System
+@#!Tripod Data Systems software
+@#!Tripos SYBYL
+@#!Triton Elics International Isis
+@#!Triton Elics International SeaClass
+@#!TRL Software TRANSYT
+@#!Troubleshooting software
+@#!True Audio WinSpeakerz
+@#!TTP LabTech comPOUND
+@#!TuneLab software
+@#!Tunic OnlyPure
+@#!TURBO Spring-Stat
+@#!UGS Jack
+@#!Underhill Geomatics Copan
+@#!Unidata Gempak Analysis and Rendering Program GARP
+@#!Unidata GEMPAK
+@#!Unidata Integrated Data Viewer IDV
+@#!Unidata McIDAS-X
+@#!Uniscribe software
+@#!UNISTAT Statistical Package
+@#!Unit conversion software
+@#!United Nations Food and Agriculture Organization Livestock and Environment Toolbox LEAD
+@#!Universal Technical Systems TK Solver
+@#!University of Arizona RangeView
+@#!UNSATFLOW
+@#!USDA Comet
+@#!USDA SamplePoint
+@#!U.S. Department of Agriculture USDA Forest Vegetation Simulator FVS
+@#!U.S. Department of Agriculture USDA WinSRM
+@#!UTQUANT
+@#!Value Analysis
+@#!VAMP/VASP
+@#!Variogram Estimation and Spatial Prediction plus Error Vesper
+@#!VASP Data Viewer
+@#!VayTek VoxBlast
+@#!Vector CANalyzer
+@#!Vector Fields OPERA-3d
+@#!Velvet
+@#!Ventsim
+@#!VERBI MAXQDA
+@#!Verification software
+@#!Veritune Verituner
+@#!Verity Software House ModFit LT
+@#!VersaDyne small engine testing software
+@#!Very high speed integrated circuit VHSIC hardware description language VHDL simulation software
+@#!Vibration analysis software
+@#!Video analysis software
+@#!Vienna Ab-Initio Simulation Package VASP
+@#!Vieux & Associates Vflow
+@#!Viper Tools
+@#!Virtual Battlespace 2 VBS2
+@#!Virtual interaction simulator software
+@#!Vis5d+
+@#!Visualization Sciences Group VSG Avizo Fire
+@#!Visual MODFLOW Pro
+@#!Visual Molecular Dynamics VMD
+@#!Visual Numerics PV-WAVE
+@#!Visual Numerics TS-WAVE
+@#!Visual OTTHYMO
+@#!Visual Solutions VisSIM
+@#!Vogel Scientific Software Group CALACO
+@#!Voltage-gated ion channels software
+@#!VorTek Site Assessment of Tornado Threat SATT
+@#!Voxco PRONTO
+@#!Voxco StatXP
+@#!VSNi ASReml
+@#!VSNi GenStat
+@#!VSN International GenStat
+@#!Wallingford Software InfoSewer
+@#!Wallingford Software InfoWater
+@#!Wallingford Software InfoWorks CS
+@#!Wallingford Software InfoWorks WS
+@#!WAM software
+@#!Ward Systems Group GeneHunter
+@#!Ward Systems Group NeuralShell Predictor
+@#!Waste management software
+@#!Water Erosion Prediction Project WEPP
+@#!Water flow modeling software
+@#!WaterFurnace International Ground Loop Design PREMIER
+@#!Waterloo Hydrogeologic AquaChem
+@#!Waterloo Hydrogeologic AquiferTest Pro
+@#!Waterloo Hydrogeologic FlowPath II
+@#!Waterloo Hydrogeologic RBC Tier 2 Analyzer
+@#!Waters Empower Chromatography Data Software
+@#!Watershed modeling system WMS software
+@#!Waters MassLynx
+@#!Waters Millennium32
+@#!Water Soil and Hydro-Environmental Decision Support System WATERSHEDSS
+@#!Waters Q-DIS/QM LIMS
+@#!Water surface pressure gradient WSPG software
+@#!Watter Hammer Software Hytran
+@#!Wavefunction Spartan
+@#!Wavefunction Spartan software
+@#!Wavefunction Titan
+@#!WaveMetrics IGOR Pro
+@#!WebTrends Analytics
+@#!Well Flow Dynamics Wellflow
+@#!Well logging software
+@#!Wilcox Associates PC-DMIS
+@#!Wilson's Computer Applications RealEasy Appraisals
+@#!WinBUGS
+@#!Winchester Ammunition Ballistics Calculator
+@#!WinCross software
+@#!Wind flow modeling software
+@#!Windflow modeling software
+@#!WindSim
+@#!Windward Technologies GRG2
+@#!WinEPIC
+@#!WinEstimator WinEst
+@#!WinGap software
+@#!WINGRIDDS
+@#!WinSpice
+@#!Winstats
+@#!Winsteps
+@#!WinTR-55
+@#!WizSoft WizRule
+@#!W-NOMINATE
+@#!Wolfel IMMI
+@#!Wolfram Research Mathematica
+@#!Workcell simulation software
+@#!WORLD Electronics Freedomware
+@#!World Health Organization HealthMapper
+@#!WSI Titan
+@#!WSI TrueView Professional
+@#!XGobi
+@#!Xilinx Synthesis Technology XST
+@#!XLISP-STAT
+@#!XP Software XPSWMM
+@#!Yardage Bible software
+@#!Yet another scientific artificial reality application YASARA software
+@#!yieldWerx Semiconductor software
+@#!Zocalo
+@#!Zoho WebNMS Cell Tower Manager
+@!#Zone modeling software
+Analytical or scientific software
+@#!Adobe Spindle
+@#!Apache Kiji
+@#!Apache Nutch
+@#!Apache OODT
+@#!Apache Tika
+@#!Domino
+@#!Eclipse BIRT
+@#!Eventhub
+@#!HIPI Library
+@#!Hunk
+@#!MADlib
+@#!PivotalR
+@#!Qubole
+@#!Sense
+@#!Snowplow
+@#!SparkR
+@!#Splunk
+Applications
+@#!Aerospace
+@#!Agriculture
+@#!Annotation
+@#!Anthropology
+@#!Archaeology
+@#!Architecture (buildings)
+@#!Arts and humanities
+@#!Astronomy
+@#!Avionics
+@#!Bioinformatics
+@#!Biological networks
+@#!Business intelligence
+@#!Business-IT alignment
+@#!Business process management
+@#!Business process management systems
+@#!Business process modeling
+@#!Business process monitoring
+@#!Business rules
+@#!Cartography
+@#!Chemistry
+@#!Collaborative learning
+@#!Command and control
+@#!Computational biology
+@#!Computational genomics
+@#!Computational proteomics
+@#!Computational transcriptomics
+@#!Computer-aided design
+@#!Computer-aided manufacturing
+@#!Computer-assisted instruction
+@#!Computer forensics
+@#!Computer games
+@#!Computer-managed instruction
+@#!Computers in other domains
+@#!Computing in government
+@#!Consumer health
+@#!Consumer products
+@#!Cross-organizational business processes
+@#!Cyberwarfare
+@#!Data centers
+@#!Data recovery
+@#!Decision analysis
+@#!Digital cash
+@#!Digital libraries and archives
+@#!Distance learning
+@#!Document analysis
+@#!Document capture
+@#!Document management and text processing
+@#!Document management
+@#!Document metadata
+@#!Document preparation
+@#!Document scanning
+@#!Document scripting languages
+@#!Document searching
+@#!Earth and atmospheric sciences
+@#!E-commerce infrastructure
+@#!Economics
+@#!Education
+@#!E-government
+@#!E-learning
+@#!Electronic commerce
+@#!Electronic data interchange
+@#!Electronic funds transfer
+@#!Electronics
+@#!Engineering
+@#!Enterprise application integration
+@#!Enterprise applications
+@#!Enterprise architecture frameworks
+@#!Enterprise architecture management
+@#!Enterprise architecture modeling
+@#!Enterprise architectures
+@#!Enterprise computing
+@#!Enterprise computing infrastructures
+@#!Enterprise data management
+@#!Enterprise information systems
+@#!Enterprise interoperability
+@#!Enterprise modeling
+@#!Enterprise ontologies, taxonomies and vocabularies
+@#!Enterprise resource planning
+@#!Environmental sciences
+@#!Ethnography
+@#!Event-driven architectures
+@#!Evidence collection, storage and analysis
+@#!Extensible Markup Language (XML)
+@#!Extranets
+@#!Fine arts
+@#!Forecasting
+@#!Format and notation
+@#!Genetics
+@#!Genomics
+@#!Graphics recognition and interpretation
+@#!Health care information systems
+@#!Health informatics
+@#!Hypertext / hypermedia creation
+@#!Hypertext languages
+@#!Image composition
+@#!Imaging
+@#!Industry and manufacturing
+@#!Information integration and interoperability
+@#!Interactive learning environments
+@#!Internet telephony
+@#!Intranets
+@#!Investigation techniques
+@#!IT architectures
+@#!IT governance
+@#!Language translation
+@#!Law
+@#!Law, social and behavioral sciences
+@#!Learning management systems
+@#!Life and medical sciences
+@#!Marketing
+@#!Markup languages
+@#!Mathematics and statistics
+@#!Media arts
+@#!Metabolomics / metabonomics
+@#!Microcomputers
+@#!Military
+@#!Molecular evolution
+@#!Molecular sequence analysis
+@#!Molecular structural biology
+@#!Multi / mixed media creation
+@#!Network forensics
+@#!Online auctions
+@#!Online banking
+@#!Online handwriting recognition
+@#!Online shopping
+@#!Operations research
+@#!Optical character recognition
+@#!Performing arts
+@#!Personal computers and PC applications
+@#!Physical sciences and engineering
+@#!Physics
+@#!Population genetics
+@#!Proteomics
+@#!Psychology
+@#!Publishing
+@#!Recognition of genes and regulatory elements
+@#!Reference models
+@#!Secure online transactions
+@#!Sequencing and genotyping technologies
+@#!Service-oriented architectures
+@#!Sociology
+@#!Sound and music computing
+@#!Spreadsheets
+@#!Supply chain management
+@#!Surveillance mechanisms
+@#!System forensics
+@#!Systems biology
+@#!Telecommunications
+@#!Text editing
+@#!Transcriptomics
+@#!Transportation
+@#!Version control
+@!#Voting / election technologies
+Applied computing
+@#!Apache Hadoop Benchmarking
+@#!Berkeley SWIM Benchmark
+@#!Big-Bench
+@#!Hive-benchmarks
+@#!Hive-testbench
+@#!Intel HiBench
+@#!Mesosaurus
+@#!Netflix Inviso
+@!#PUMA Benchmarking
+Benchmarking
+@#!ActivePivot
+@#!Adatao
+@#!Apama analytics
+@#!Atigeo xPatterns
+@#!BIME Analytics
+@#!Chartio
+@#!Datapine
+@#!Jaspersoft
+@#!Jedox Palo
+@#!Lavastorm Analytics
+@#!LinkedIn GoSpeed
+@#!Map-D
+@#!Microsoft
+@#!Microstrategy
+@#!Pentaho
+@#!Qlik
+@#!SpagoBI
+@#!Spotfire
+@#!Tableau
+@#!Teradata Aster
+@#!Tessera
+@!#Zeppelin
+Business Intelligence
+@#!Actuate software
+@#!Atlas Search
+@#!Business intelligence software
+@#!Business intelligence system software
+@#!Conductor Searchlight
+@#!DataSwell
+@#!Google DoubleClick
+@#!Guardian Analytics FraudMAP software
+@#!IBM Cognos Business Intelligence
+@#!IBM Cognos Impromptu
+@#!IBM Cognos software
+@#!IBM Coremetrics software
+@#!IBM Digital Analytics
+@#!Illusions Online Illusions OnDemand
+@#!Jaspersoft Business Intelligence Suite
+@#!Micosoft SQL Server Analysis Services SSAS
+@#!MicroStrategy software
+@#!MICROS XBR Loss Prevention
+@#!Oracle Business Intelligence Enterprise Edition
+@#!Qlik Tech QlikView
+@#!Search engine optimization SEO software
+@#!Searchmetrics Suite
+@#!Tableau software
+@!#ThreatMatrix software
+Business intelligence and data analysis software
+@#!Aster Data nCluster
+@#!Clustering software
+@#!Clustermatic
+@#!Cluster server software
+@!#Oracle Real Application Cluster RAC
+Clustering software
+@#!Amazon RedShift
+@#!C-Store
+@#!Google BigQuery
+@#!Google Dremel
+@#!MonetDB
+@#!Parquet
+@!#Pivotal Greenplum
+Columnar Databases
+@#!Analog computers
+@#!Architectures
+@#!Availability
+@#!Cellular architectures
+@#!Client-server architectures
+@#!Cloud computing
+@#!Complex instruction set computing
+@#!Data flow architectures
+@#!Dependable and fault-tolerant systems and networks
+@#!Distributed architectures
+@#!Embedded and cyber-physical systems
+@#!Embedded hardware
+@#!Embedded software
+@#!Embedded systems
+@#!External interfaces for robotics
+@#!Fault-tolerant network topologies
+@#!Firmware
+@#!Grid computing
+@#!Heterogeneous (hybrid) systems
+@#!High-level language architectures
+@#!Interconnection architectures
+@#!Maintainability and maintenance
+@#!Molecular computing
+@#!Multicore architectures
+@#!Multiple instruction, multiple data
+@#!Multiple instruction, single data
+@#!Neural networks
+@#!n-tier architectures
+@#!Optical computing
+@#!Other architectures
+@#!Parallel architectures
+@#!Peer-to-peer architectures
+@#!Pipeline computing
+@#!Processors and memory architectures
+@#!Quantum computing
+@#!Real-time languages
+@#!Real-time operating systems
+@#!Real-time system architecture
+@#!Real-time systems
+@#!Real-time system specification
+@#!Reconfigurable computing
+@#!Reduced instruction set computing
+@#!Redundancy
+@#!Reliability
+@#!Robotic autonomy
+@#!Robotic components
+@#!Robotic control
+@#!Robotics
+@#!Secondary storage organization
+@#!Self-organizing autonomic computing
+@#!Sensor networks
+@#!Sensors and actuators
+@#!Serial architectures
+@#!Single instruction, multiple data
+@#!Special purpose systems
+@#!Stack machines
+@#!Superscalar architectures
+@#!System on a chip
+@!#Systolic arrays
+Computer systems organization
+@#!3D imaging
+@#!Abstraction and micro-operators
+@#!Active learning settings
+@#!Active vision
+@#!Activity recognition and understanding
+@#!Adversarial learning
+@#!Agent / discrete models
+@#!Algebraic algorithms
+@#!Animation
+@#!Anomaly detection
+@#!Antialiasing
+@#!Appearance and texture representations
+@#!Apprenticeship learning
+@#!Approximate dynamic programming methods
+@#!Artificial intelligence
+@#!Bagging
+@#!Batch learning
+@#!Bayesian network models
+@#!Biometrics
+@#!Boolean algebra algorithms
+@#!Boosting
+@#!Camera calibration
+@#!Canonical correlation analysis
+@#!Causal reasoning and diagnostics
+@#!Classification and regression trees
+@#!Cluster analysis
+@#!Cognitive robotics
+@#!Cognitive science
+@#!Collision detection
+@#!Combinatorial algorithms
+@#!Computational control theory
+@#!Computational photography
+@#!Computer algebra systems
+@#!Computer graphics
+@#!Computer vision
+@#!Computer vision problems
+@#!Computer vision representations
+@#!Computer vision tasks
+@#!Concurrent algorithms
+@#!Concurrent computing methodologies
+@#!Concurrent programming languages
+@#!Continuous models
+@#!Continuous simulation
+@#!Continuous space search
+@#!Control methods
+@#!Cooperation and coordination
+@#!Cost-sensitive learning
+@#!Cross-validation
+@#!Data assimilation
+@#!Deep belief networks
+@#!Description logics
+@#!Dimensionality reduction and manifold learning
+@#!Discourse, dialogue and pragmatics
+@#!Discrete calculus algorithms
+@#!Discrete-event simulation
+@#!Discrete space search
+@#!Distributed algorithms
+@#!Distributed artificial intelligence
+@#!Distributed computing methodologies
+@#!Distributed programming languages
+@#!Distributed simulation
+@#!Dynamic programming for Markov decision processes
+@#!Ensemble methods
+@#!Epipolar geometry
+@#!Equation and inequality solving algorithms
+@#!Exact arithmetic algorithms
+@#!Factor analysis
+@#!Factorization methods
+@#!Feature selection
+@#!Game tree search
+@#!Gaussian processes
+@#!Graphics file formats
+@#!Graphics input devices
+@#!Graphics processors
+@#!Graphics systems and interfaces
+@#!Heuristic function construction
+@#!Hierarchical representations
+@#!Hybrid symbolic-numeric methods
+@#!Hyperspectral imaging
+@#!Image and video acquisition
+@#!Image-based rendering
+@#!Image compression
+@#!Image manipulation
+@#!Image processing
+@#!Image representations
+@#!Image segmentation
+@#!Inductive logic learning
+@#!Information extraction
+@#!Instance-based learning
+@#!Intelligent agents
+@#!Interactive simulation
+@#!Interest point and salient region detections
+@#!Inverse reinforcement learning
+@#!Kernel methods
+@#!Knowledge representation and reasoning
+@#!Language resources
+@#!Latent Dirichlet allocation
+@#!Latent variable models
+@#!Learning from critiques
+@#!Learning from demonstrations
+@#!Learning from implicit feedback
+@#!Learning in probabilistic graphical models
+@#!Learning latent representations
+@#!Learning linear models
+@#!Learning paradigms
+@#!Learning settings
+@#!Learning to rank
+@#!Learning under covariate shift
+@#!Lexical semantics
+@#!Lifelong machine learning
+@#!Linear algebra algorithms
+@#!Logical and relational learning
+@#!Logic programming and answer set programming
+@#!Machine learning algorithms
+@#!Machine learning approaches
+@#!Machine learning
+@#!Machine translation
+@#!MapReduce algorithms
+@#!Markov decision processes
+@#!Massively parallel algorithms
+@#!Massively parallel and high-performance simulations
+@#!Matching
+@#!Maximum a posteriori modeling
+@#!Maximum entropy modeling
+@#!Maximum likelihood modeling
+@#!Mesh geometry models
+@#!Mesh models
+@#!Mixed / augmented reality
+@#!Mixture modeling
+@#!Mixture models
+@#!Mobile agents
+@#!Model development and analysis
+@#!Modeling and simulation
+@#!Modeling methodologies
+@#!Model verification and validation
+@#!Molecular simulation
+@#!Motif discovery
+@#!Motion capture
+@#!Motion path planning
+@#!Motion processing
+@#!Multi-agent planning
+@#!Multi-agent reinforcement learning
+@#!Multi-agent systems
+@#!Multiscale systems
+@#!Multi-task learning
+@#!Natural language generation
+@#!Natural language processing
+@#!Network science
+@#!Nonalgebraic algorithms
+@#!Nonmonotonic, default reasoning and belief revision
+@#!Non-negative matrix factorization
+@#!Non-photorealistic rendering
+@#!Number theory algorithms
+@#!Object detection
+@#!Object identification
+@#!Object recognition
+@#!Online learning settings
+@#!Ontology engineering
+@#!Optimization algorithms
+@#!Parallel algorithms
+@#!Parallel computing methodologies
+@#!Parallel programming languages
+@#!Parametric curve and surface models
+@#!Partially-observable Markov decision processes
+@#!Perception
+@#!Perceptron algorithm
+@#!Philosophical/theoretical foundations of artificial intelligence
+@#!Phonology / morphology
+@#!Physical simulation
+@#!Planning and scheduling
+@#!Planning for deterministic actions
+@#!Planning under uncertainty
+@#!Planning with abstraction and generalization
+@#!Point-based models
+@#!Policy iteration
+@#!Principal component analysis
+@#!Probabilistic reasoning
+@#!Procedural animation
+@#!Q-learning
+@#!Quantum mechanic simulation
+@#!Randomized search
+@#!Ranking
+@#!Rare-event simulation
+@#!Rasterization
+@#!Ray tracing
+@#!Real-time simulation
+@#!Reasoning about belief and knowledge
+@#!Reconstruction
+@#!Reflectance modeling
+@#!Regularization
+@#!Reinforcement learning
+@#!Rendering
+@#!Representation of Boolean functions
+@#!Representation of exact numbers
+@#!Representation of mathematical functions
+@#!Representation of mathematical objects
+@#!Representation of polynomials
+@#!Robotic planning
+@#!Rule learning
+@#!Scene anomaly detection
+@#!Scene understanding
+@#!Scientific visualization
+@#!Search methodologies
+@#!Search with partial observations
+@#!Self-organization
+@#!Semantic networks
+@#!Semi-supervised learning settings
+@#!Sequential decision making
+@#!Shape analysis
+@#!Shape inference
+@#!Shape modeling
+@#!Shape representations
+@#!Shared memory algorithms
+@#!Simulation by animation
+@#!Simulation environments
+@#!Simulation evaluation
+@#!Simulation languages
+@#!Simulation support systems
+@#!Simulation theory
+@#!Simulation tools
+@#!Simulation types and techniques
+@#!Source separation
+@#!Spatial and physical reasoning
+@#!Special-purpose algebraic systems
+@#!Spectral methods
+@#!Speech recognition
+@#!Statistical relational learning
+@#!Stochastic games
+@#!Structured outputs
+@#!Supervised learning by classification
+@#!Supervised learning by regression
+@#!Supervised learning
+@#!Support vector machines
+@#!Symbolic and algebraic algorithms
+@#!Symbolic and algebraic manipulation
+@#!Symbolic calculus algorithms
+@#!Systems theory
+@#!Temporal difference learning
+@#!Temporal reasoning
+@#!Texturing
+@#!Theorem proving algorithms
+@#!Theory of mind
+@#!Topic modeling
+@#!Tracking
+@#!Transfer learning
+@#!Uncertainty quantification
+@#!Unsupervised learning
+@#!Vagueness and fuzzy logic
+@#!Value iteration
+@#!Vector / streaming algorithms
+@#!Video segmentation
+@#!Video summarization
+@#!Virtual reality
+@#!Visibility
+@#!Vision for robotics
+@#!Visual analytics
+@#!Visual content-based indexing and retrieval
+@!#Visual inspection
+Computing methodologies
+@#!Application management software
+@#!Automated installation software
+@#!Configuration management software
+@#!Deployment software
+@#!EMC Ionix Network Configuration Manager
+@#!HyperSpace software
+@#!IBM Rational Apex
+@#!IBM Rational Build Forge
+@#!IBM Rational ClearCase
+@#!IBM Software Configuration and Library Manager SCLM
+@#!InstallShield software
+@#!Logical partition LPAR software
+@#!Microsoft Windows Sysprep
+@#!Patch and update management software
+@#!Patch management software
+@#!Perforce Helix software
+@#!Perforce Software Configuration Management System
+@#!Puppet
+@#!Revision control software
+@#!Software distribution software
+@#!Symantec Altiris Deployment Solution
+@#!Systems and application deployment and migration software
+@#!Visible Razor
+@#!VMWare software
+@!#Wise Solutions software
+Configuration management software
+@#!Amazon EC2 Container Service
+@#!Docker
+@#!Fig
+@#!Google Container Engine
+@!#Kubernetes
+Container Manager
+@#!Apache Zeppelin
+@#!Datameer
+@#!Ibis
+@#!LinkedIn Pinot
+@#!Microsoft Cortana Analytics
+@#!Myria
+@#!Periscope
+@!#Pinalytics
+Data Analysis
+@#!AlphaFour software
+@#!Apache Cassandra
+@#!Apache Hadoop
+@#!Apache Pig
+@#!Apache Solr
+@#!Bare Bones Software BBEdit 10 software
+@#!BMC Software Change Manager
+@#!CA IDMS
+@#!CAST SQL Builder
+@#!Catalog navigation software
+@#!CodeFutures dbShards
+@#!Computer Associates integrated data management system CA-IDMS
+@#!Concurrency control software
+@#!Corrections housing software
+@#!Database design software
+@#!Database management software
+@#!Database management systems
+@#!Database management system software
+@#!Data definition language DDL
+@#!Data manipulation language DML
+@#!Data transformation services DTS software
+@#!DBTools Software DBManager Professional
+@#!Distributed database management software
+@#!Embarcadero Technologies DBArtisan
+@#!Greenplum Database
+@#!IBM Infosphere Information Server
+@#!IDM Computer Solutions UltraEdit software
+@#!Index tuning software
+@#!Informatica Big Data
+@#!InterMine
+@#!Kalido Information Engine
+@#!Microsoft SQL Server Compact
+@#!Microsoft SQL Server
+@#!Microsoft SQL Server software
+@#!Microsoft transact-structural query language T-SQL
+@#!MongoDB
+@#!Multidimensional Expressions MDX
+@#!MySQL software
+@#!NoSQL
+@#!NoSQL software
+@#!Oracle DBMS
+@#!Oracle Enterprise Manager
+@#!Oracle Golden Gate
+@#!Oracle Migration Workbench
+@#!Oracle PL/SQL
+@#!Oracle procedural language/structured query language PL/SQL
+@#!Oracle software
+@#!ParAccel Analytic Database
+@#!Pick software
+@#!Progress OpenEdge Fathom Replication software
+@#!Quest Central
+@#!Relational database management software
+@#!Relational database management software RDBMS
+@#!Relational database management system RDMS
+@#!Relational database management system software
+@#!SAND
+@#!SAP Sybase Adaptive Server Enterprise
+@#!SAP Sybase IQ
+@#!SAP Sybase Replication Server
+@#!SQLite
+@#!Structured Query Report SQR
+@#!Sybase Replication Server
+@#!Sybase software
+@#!Sybase SQL Server
+@!#Talendforge
+Data base management system software
+@#!Actuate Eclipse BIRT
+@#!ADP Super Report Writer
+@#!AdRelevance software
+@#!Corporate Systems ClaimsPro
+@#!Data base reporting software
+@#!Database reporting software
+@#!Data Technologies Summit
+@#!DataVision software
+@#!Genisys Fast Fixes
+@#!Hyperion software
+@#!IBM Netezza TwinFin
+@#!iKorb Real Estate
+@#!InetSoft software
+@#!Information Builders WebFOCUS
+@#!Internet based MLS database software
+@#!Locomotive distribution software
+@#!Meter reading software
+@#!Mi-Co Mi-Forms software
+@#!Mi-Co software
+@#!Microsoft Proclarity
+@#!Microsoft SQL Server Reporting Services
+@#!Mobile building inspection software
+@#!National Association of Realtors Online Database
+@#!Network reporting software
+@#!Oracle Business Intelligence Discoverer
+@#!Oracle Business Intelligence Suite
+@#!Oracle Reports
+@#!Oracle SQL Loader
+@#!Oracle SQL Plus
+@#!Panorama NovaView
+@#!Pathfinder software
+@#!ReCrystallize Crystal Reports
+@#!Reporting software
+@#!Resource and patient management system RPMS patient registration software
+@#!SalesInSync software
+@#!SAP BEx Report Designer
+@#!SAP Business Intelligence
+@#!SAP BusinessObjects Crystal Reports
+@#!SAP BusinessObjects software
+@#!SAP Crystal Reports
+@#!SAP Crystal Solutions Software
+@#!SiSense Prism
+@#!SoftMed ChartRelease
+@#!Software AG software
+@#!Strategic Reporting Systems ReportSmith
+@!#Survey Starnet Software
+Data base reporting software
+@#!3M Electronic Monitoring software
+@#!5AM Glassbox Translational Research
+@#!911 system information databases
+@#!Abacus Data Systems AbacusLaw
+@#!AbbottSoft QuickFix
+@#!Abilis CORIS Offender Management System
+@#!Abraxas Energy Consulting Metrix
+@#!Acarda ForbiddenCalls
+@#!Acclaim Legal Acclaim DepoManage
+@#!ACT Discover
+@#!Actsoft Comet software
+@#!ADC Legal Systems Perfect Practice
+@#!Address Management System AMS
+@#!ADERANT Expert Matter Center
+@#!Adlib Information Systems Adlib Archive
+@#!ADO.NET
+@#!ADP Workforce Now
+@#!AdSense Tracker
+@#!Advanced Technologies Class Act
+@#!AdvantageLaw WinVantage
+@#!Advantos Systems DataTrust Enterprise
+@#!AESDirect
+@#!Affiliated Computer Services ACS FIREHOUSE
+@#!Ag Connections Land.db
+@#!AgencyPro Software
+@#!Ag Leader Technology SMS Advanced
+@#!AgTerra Technologies AgTrac
+@#!Aircraft noise monitoring system software
+@#!Aircraft regulation databases
+@#!Airline Global Distribution System GDS software
+@#!Airline Pilots Daily Aviation Log PPC
+@#!Airline Pilots Daily Aviation Logs PPC
+@#!AirSmith FlightPrompt
+@#!Aknaf ADVANTAGE Salon Software and Spa Software
+@#!Alcestis
+@#!Alpha Software Alpha Five
+@#!Alua Software Paddock Pro
+@#!Amadeus Altea Reservation
+@#!American Sign Language Browser
+@#!AMTdirect
+@#!Animal Shelter Manager
+@#!Anthropometric databases
+@#!Apian SurveyPro
+@#!APPCA Personal Chef Office
+@#!AppFolio Property Manager
+@#!Archeological Sites Management Information System ASMIS
+@#!Archivists' Toolkit
+@#!Archon
+@#!ARCOM Masterspec
+@#!Argosy Legal Systems Power Closer
+@#!ARK Software Ark Shelter Software
+@#!Arrival Departure Information System ADIS
+@#!ArtScope.net eArtist
+@#!Artsystems Collections
+@#!AS/400 Database
+@#!Ascend Property Assessment
+@#!Askia Design
+@#!Askia Face
+@#!Askia Vista
+@#!Askia Voice
+@#!Askia Web
+@#!askSam Systems SurfSaver
+@#!Aspen
+@#!Assisi Software Assisi Manager
+@#!Assisi Software Compiler
+@#!Association for Computing Machinery Digital Library
+@#!Assured Software JPP
+@#!Attendance tracking software
+@#!Atterbury Consultants SuperAce
+@#!At Your Service Software At Your Service Repair software
+@#!At Your Service Software CostGuard
+@#!Auburn Software Debit Square
+@#!Author-it
+@#!Autodesk Buzzsaw
+@#!Autodesk Topobase
+@#!Autodesk World
+@#!Automated Biometric Identification System ABIS
+@#!Automated commercial environment software ACE
+@#!Automated Data Collection System ADCS
+@#!Automated information system software
+@#!Automated Manifest System AMS
+@#!Automated manifest system software
+@#!Automated National Catalog System ANCS
+@#!Automated Targeting System ATS
+@#!Automate the Schools ATS
+@#!Automation Centre Personnel Tracker
+@#!Autopsy information databases
+@#!AutoZone ALLDATA
+@#!AV8 software
+@#!Avenista software
+@#!Aya Associates Comp-U-Floor
+@#!AZZ CardFile software
+@#!Barrington Software CookenPro Commercial
+@#!Barrington Software CookenPro
+@#!BCL Landview Systems WinCrop
+@#!BCS Woodlands Systems The Logger Tracker
+@#!Bechtel Software SETROUTE
+@#!Bella Solutions Auto Detailing Service Software
+@#!Belmar & Associates Mortware
+@#!Bentley Transportation Data Manager
+@#!Best Software CPAPayroll
+@#!Bing
+@#!BioEx Systems Exercise Expert
+@#!Bioinformatics databases
+@#!BIO-key FireRMS
+@#!Biometric Storage System BSS
+@#!Bizlink Salon Manager
+@#!Blackboard software
+@#!Booker Software SpaBooker
+@#!Bookitlive
+@#!Bostonpost Technology Property Manager
+@#!Brady Lockout Pro
+@#!Brainworks software
+@#!Breedtrak
+@#!Bridgeway eCounsel
+@#!BrioQuery
+@#!Bruno Realty eNeighboorhoods
+@#!Business management software
+@#!Business Management Systems Municipal Geographic Management System MGMS
+@#!CADAFIS Roofing software
+@#!CambridgeSoft ChemOffice Ultra
+@#!Camp Software Art Licensing Manager
+@#!Canonical Launchpad
+@#!Canyon Solutions Jcats software
+@#!Career Cruising
+@#!Career decision-making programs
+@#!Career management systems CMS
+@#!Career Zone
+@#!Carpet Dealer Management System CDMS
+@#!Case management software
+@#!Case management system software
+@#!Catchlog Trading Catchlog
+@#!CatchTheWeb
+@#!CaterPro Software
+@#!Cattlesoft CattleMax
+@#!CBORD Foodservice Suite
+@#!CBORD FoodService Suite
+@#!CBORD NetRecipe
+@#!CBORD Nutrition Service Suite
+@#!CCS Computing Services FIRST Flooring Software
+@#!CEEJS The Pet Groomer's Secretary
+@#!Centers for Disease Control and Prevention CDC WONDER
+@#!Centris Group IEP Direct
+@#!Centris Group RTIm Direct
+@#!Certain software
+@#!Chalkware Education Solutions IEPPro
+@#!Chase Software Solutions Court Reporting Software
+@#!Chemical management tracking software
+@#!Chempute Software E-Notebook
+@#!ChemSW Buffer Maker
+@#!Chesapeake Interlink Needles
+@#!CISCO Software ACS Animal Control System
+@#!Cision CisionPoint
+@#!Claim processing system software
+@#!Claims processing administration and management software
+@#!Clayton Wallis CompGeo Online Professional Forecast Library
+@#!ClearEDGE software
+@#!ClearTrial
+@#!Client databases
+@#!Client information databases
+@#!Client Profiles Case Management
+@#!ClienTrak! Spa and Salon Software
+@#!Clinical data management system CDMS software
+@#!Clinical trial management software
+@#!Clinical trials database software
+@#!CMSN FieldPAK
+@#!CobbleStone Systems software
+@#!Code database software
+@#!Coin Educational Products Climb K-5 Online
+@#!Coin Educational Products Coin Jr.
+@#!Collection Point Management System CPMS
+@#!College Central Network Career Services Central
+@#!Combined DNA Index System CODIS
+@#!Command Systems ComServe
+@#!Commercial driver's license information system CDLIS
+@#!Complus Data Innovations FastTrack
+@#!Comput-Ability Mechanical Insulation Key Estimator
+@#!Computer-assisted career guidance software
+@#!Computer-assisted testing software
+@#!Computer Linked Application Information Management System CLAIMS
+@#!Computer records systems
+@#!Computer reservation system CRS software
+@#!Computer Sciences Corporation Legal Solutions Suite
+@#!CompuWeigh GMS
+@#!Consular Consolidated Database CCD
+@#!Cooking e-books
+@#!CoPilot Flight Planning & E6B
+@#!CoreLogic DebtorTrace
+@#!Corel Paradox
+@#!Corporate Information Factory CIF
+@#!Corporatek EnAct Platinum
+@#!Corporate Legal Solutions Case&Point software
+@#!CostGuard software
+@#!Courtpages
+@#!Court records databases
+@#!CQ Press Political Reference Suite
+@#!Cradoc fotoBiz
+@#!Creative Data Solutions DuProcess
+@#!Creative Research Survey System
+@#!CrimeCog Technologies E*Justice
+@#!CRIMPERS Management Software CRIMPERS Salon Software
+@#!Crocodile Consulting Traffic Control
+@#!CroPMan
+@#!CSI Software Spa Management
+@#!CSR Consultants Cemetery Management SC
+@#!Cuadra Associates STAR/Museums
+@#!Culinary Software Services ChefTec
+@#!Curtis Management Resources Training Management System
+@#!Custom Data Systems Sterling Enterprise Management Software
+@#!Customer database software
+@#!Customer information databases
+@#!Customer service knowledge generation software
+@#!Customs records databases
+@#!CyberDyne Industries CaseWizard
+@#!CyberSoft NutriBase software
+@#!DAGRIS
+@#!Daptiv PPM
+@#!Database application software
+@#!Database software
+@#!Databox software
+@#!Data entry software
+@#!Data input software
+@#!Data logging software
+@#!Datalogging software
+@#!Data management software
+@#!DataPipe software
+@#!Data Trace Title IQ
+@#!DataWorks Plus Digital CrimeScene
+@#!DaySmart Software 123Pet
+@#!DaySmart Software Salon Iris
+@#!dBASE
+@#!dBASE Plus
+@#!ddlsoftware.com drivers daily log program DDL
+@#!DealerTrax ShopOrder
+@#!Dean Evans & Associates EMS Professional
+@#!Deep Forest Systems OnCite
+@#!De Novo Systems De Novo CaseMgr
+@#!Dental Common Access System DENCAS
+@#!Deoxyribonucleic acid DNA libraries
+@#!dESCO ESC software
+@#!Design specification database software
+@#!Diarymaster
+@#!DietMaster Systems Clinical Nutrition
+@#!DietMaster Systems DietMaster
+@#!Digital Coach AthleticTrainer
+@#!DiMeMa CONTENTdm
+@#!Directory software
+@#!Diving logbook software
+@#!Diving table software
+@#!Domestic Animal Diversity Information Service DAD-IS
+@#!Domin-8 Enterprise Solutions RentRight
+@#!Domin-8 Enterprise Solutions Tenant Pro
+@#!Douglas Associates Forensic Filer
+@#!doXstor Flight Level Logbook
+@#!DPS Software General Litigation
+@#!Drillingsoftware Tubular Database
+@#!Drug compatibility software
+@#!DuPont ColorNet
+@#!DuPont Spies Hecker Wizard
+@#!Dyadem software
+@#!DZS Software Solutions ClinPlus
+@#!EAD Systems software
+@#!EAG Economic Analysis Group CaseTrack
+@#!EarthSoft EQuIS Geology
+@#!EarthWon software
+@#!Easy Solutions Easy Lab
+@#!Easy Trucker software
+@#!Eclipse Legal Systems Proclaim
+@#!EcoLogic Systems ADAM Indoor Air Quality Management Software
+@#!Economic Analysis Group CaseTrack
+@#!EDExpress
+@#!Edgewell Trac
+@#!EGS CALCMENU software
+@#!eLawSoftware
+@#!Electronic aircraft information databases
+@#!Electronic train management system software
+@#!Elite Software Elite Salon & Spa Management
+@#!ELM Resources ELM
+@#!Emergency Managers Weather Information Network EMWIN
+@#!EMT Applications CounselorMax
+@#!End of Run Report EOR
+@#!EndoSoft software
+@#!Energy use ratings databases
+@#!Enforcement Case Tracking System ENFORCE
+@#!eNotebook software
+@#!Enterprise Software Systems CRE Sync
+@#!Entity software
+@#!EnviroData Solutions software
+@#!Envision Pet Grooming Software
+@#!Envision Salon Software
+@#!ePharmaSolutions eMVR
+@#!Equipment management information software
+@#!eSense software
+@#!ESRI ArcCatalog
+@#!ESRI ArcEditor
+@#!ESRI Personal Geodatabase
+@#!eTrac software
+@#!E-Verify
+@#!Exact Software JobBOSS
+@#!Ex Libris Group Aleph
+@#!Ex Libris Group DigiTool
+@#!Explorer Engineer
+@#!EZ-Zone Optizone Enterprise
+@#!Facility database software
+@#!Facility use software
+@#!FacTS software
+@#!Failure rate database software
+@#!Fair Isaac Claims Advisor
+@#!Farm Business Software Systems Smart Feeder
+@#!Farm Files Crops
+@#!Farm Files Livestock
+@#!FarmLogic FarmPAD
+@#!Farm Works Software Trac
+@#!Fast Track Systems software
+@#!FBS Data Systems Flexmls
+@#!Federal Emergency Management Information System FEMIS
+@#!FedStats
+@#!FEMA EMMIE
+@#!Feng Office Collaboration Platform
+@#!FileMaker Bento
+@#!FileMaker Pro software
+@#!Financial aid management system FAM software
+@#!Fingerprint databases
+@#!Fire incident reporting systems
+@#!First American CoreLogic RealQuest Pro
+@#!First American Data Tree Parcel IQ
+@#!Fiserv software
+@#!Fish stocking databases
+@#!Flooring Technologies Qfloors
+@#!Flooring Technologies QFloors
+@#!Floydware Rosy Salon Software
+@#!Focus Floor Covering Software
+@#!Fog Line Software Truckn2004
+@#!Forest EcoSurvey
+@#!Fortress Medical Clindex
+@#!Foundatino Directory Online (FDO)
+@#!Fox Meadows ChartingPlus
+@#!FPA Software MACCS
+@#!Front Desk software
+@#!FullHouse Software Investment Property Manager
+@#!FundCount Web
+@#!Gale Cengage Learning Associations Unlimited
+@#!Galileo 360 Fares
+@#!Gallery Systems EmbARK
+@#!Gallery Systems The Museum System
+@#!Galor Travel Booster
+@#!Gamma Associates mTab
+@#!Gavel & Gown Software Amicus Attorney software
+@#!GCS Property Assessment and Tax Billing
+@#!Gem identification databases
+@#!Genealogy software
+@#!Genetic database software
+@#!Genial Genetics iPassport QMS
+@#!Genial Genetics Shire
+@#!Geographic information system GIS marketing software
+@#!GeoPLUS Petra
+@#!Geosoft DAP server
+@#!Gift registry software
+@#!GijimaAst Mining Solutions International Mine2-4D
+@#!GIS/Key software
+@#!Global distribution system GDS software
+@#!Global Education Technologies EXCENT
+@#!GMI NET-MR
+@#!Google
+@#!Google+
+@#!Govern Software GovMap
+@#!G&P Engineering Software PhysProps
+@#!Gravic Principia Remark
+@#!Green Cloud KleanTRAC
+@#!Groomsoft
+@#!Ground transportation management system software
+@#!Groundwater Software Visual Site Manager
+@#!Guardian RFID Correction System software
+@#!GuestBridge Reserve
+@#!GuestServe
+@#!Gutenberg-e
+@#!GYST software
+@#!HapMap
+@#!Harland Financial Solutions DepositPro
+@#!Harrington Group caWeb software
+@#!Hatchery database systems
+@#!Health information database software
+@#!Healthprolink MedAtlas
+@#!Hewlett Packard HP Project Portfolio Management Solution
+@#!HindSight InView
+@#!HiPerSoft Practice Information Powertool
+@#!HMIS Advantage
+@#!HTTrack
+@#!IBM Check Processing Control System CPSC
+@#!IBM DB2
+@#!IBM i2 Analyst's Notebook
+@#!IBM IMS
+@#!IBM Informix
+@#!IBM Judicial Enforcement Management System JEMS
+@#!IBM Lotus Approach
+@#!ICTraining
+@#!Ideal Computer Systems Ideal OPE
+@#!IDEAS Software & Training IDEAS Property Clerk
+@#!IDEXX Laboratories IDEXX VPM
+@#!IDX Systems software
+@#!IEA Software Emerald
+@#!Image databases
+@#!ImageWave MSDSFinder
+@#!Incident tracking software
+@#!Individualized Educational Program IEP software
+@#!Infor Global Solutions eSITE
+@#!Information Services Inc. CCC Pathways Appraisal Solution
+@#!InforSense InforSense
+@#!Infostat RIMBase
+@#!Ingenuware CoronerBase
+@#!Injury tracking software
+@#!Inmagic TextWorks
+@#!Innovative Business Computer Solutions Spa/Salon Manager
+@#!Insight Direct ServiceCEO
+@#!Inspection Selection System ISS
+@#!Installogy software
+@#!Insurance Technology Consultants WOW
+@#!Intac International Wintac
+@#!Integrated Automated Fingerprint Identification System IAFIS
+@#!Integrated construction management software
+@#!Integrated Parking Solutions MApp software
+@#!InteLext Past Masters
+@#!intelligenz Solutions intelliSpa
+@#!Intellimed software
+@#!International Centre for Diffraction Data ICDD DDView
+@#!Interuniversity Consortium for Political and Social Research (ICPSR) database
+@#!Interviewer software
+@#!Intuit MRI Residential
+@#!Intuit QuickBase
+@#!Intuit Quicken Rental Property Manager
+@#!Inventrix Labtrac
+@#!Invivo Data EPX ePRO Management System
+@#!IPro software
+@#!iRealty Manager
+@#!ISS Construction Manager
+@#!Issue tracking system software
+@#!iView Systems software
+@#!Jail management software
+@#!JDA Arthur KnowledgeBase database
+@#!Jenark Business Systems software
+@#!Jenmar International DL-Plus
+@#!John Deere Apex Farm Management
+@#!JRP Consulting Plant Wizard
+@#!JRP Consulting Survey Wizard
+@#!Juris
+@#!Justice Systems FullCourt Enterprise
+@#!Just So Software The Property Manager
+@#!K9 Bytes K9 Koordinator
+@#!Kanoodle
+@#!Keffer Development Services Athletic Trainer System ATS
+@#!KELTEC Systems HerdMaster
+@#!Kennel Link
+@#!KE Software EMu
+@#!Key Survey software
+@#!KIKA Veracity
+@#!KinTraks
+@#!KNMI TurboWin
+@#!Kongsberg Maritime K-Log Deck Logbook
+@#!Kongsberg Maritime K-LOG Electronic Logbooks
+@#!Kuder Navigator
+@#!Labelmaster Software REG-Trieve
+@#!LabMagic
+@#!Laboratory Systems Group Lab Manager
+@#!LabTrack Electronic Lab Notebook
+@#!Lakes Environmental Emissions View
+@#!LandlordMax
+@#!Land management databases
+@#!Landmark Graphics TOW/cs
+@#!Landport Systems Landport
+@#!Landtitle USA Title Plant software
+@#!Langlais Computer Consultants CalMan
+@#!Law enforcement database software
+@#!Law enforcement information databases
+@#!Lawex TrialWorks software
+@#!LawLogix Edge
+@#!Lease Cost Solutions LseMod
+@#!LegalEdge Law Firm Suite
+@#!Legislative Automative Workflow System LAWS
+@#!Lenos software
+@#!Leprechaun Spa and Salon Software
+@#!LexisNexis Accurint
+@#!LexisNexis CaseMap
+@#!LexisNexis CodeMaster
+@#!LexisNexis Lexis Front Office
+@#!LexisNexis Time Matters software
+@#!Library of Congress E-resources Online Catalog
+@#!Light Blue Software Light Blue
+@#!LinkedIn
+@#!Lion Edge Technologies Ranch Manager software
+@#!LJI Technologies Lumberjack
+@#!Log book software
+@#!Logger software
+@#!LogicalBit Eimas
+@#!Lombardi Teamworks
+@#!London Computer Systems Rent Manager
+@#!L-Systems X-ONE
+@#!LT Online Corporation LAWTRAC
+@#!Lucid IQ CMP
+@#!Lucid IQ
+@#!Macropool Web Research
+@#!Mainstreet Systems & Software DentaLab/PC II
+@#!Maintenance planning and control software
+@#!ManageMySpa
+@#!MantisBT
+@#!Marathon Data Systems PestPac
+@#!Marathon Data Systems ServiceCEO
+@#!Martens Farms Farm Trac
+@#!Master Cook Deluxe Professional Cook
+@#!MealMaster software
+@#!Meals Plus software
+@#!Medgate Occupational Health and Safety Software
+@#!MediaNet Solutions e-IEP PRO
+@#!MemberClicks COMPLETE
+@#!Membership databases
+@#!Menu and nutrition database software
+@#!Menu planning software
+@#!Merge Healthcare eTrials
+@#!Meridian Technologies SurePoint
+@#!Merlin Information Services databases
+@#!Metis Systems MainTrack
+@#!Mi-Co Mi-Forms Client
+@#!MicroBlast Recipe Wizard for Windows
+@#!MicroFit HealthWizard
+@#!Microsoft Access
+@#!Microsoft Bing
+@#!Microsoft Marketing Pilot software
+@#!Microsoft Onfolio
+@#!Microsoft Total Quality Control Management
+@#!MICROS Systems OPERA Property Management System PMS
+@#!MIKAL Salon & Spa Software
+@#!Milano Spa Software
+@#!Mileage logging software
+@#!Millennium SpaSalon
+@#!Mincom MineScape
+@#!MINDBODY spa management software
+@#!Minemax iGantt
+@#!MINISIS MINT
+@#!MJICCS PilotLog
+@#!MJ Systems Logsleuth
+@#!MobileToys MAIDXL
+@#!MobiTech Systems Route Sales Trakker
+@#!Modellium PariTOP
+@#!Molsearch Pro
+@#!Mortware Professional
+@#!MSR Visual Exporter
+@#!MTS Testworks
+@#!Multiple listing service software
+@#!Multiple Options Animal Shelter Management System
+@#!Music databases
+@#!Music Director Pro
+@#!Mxi Technologies Maintenix
+@#!National Crime Information Center NCIC database
+@#!National Crime Information Center NCIC
+@#!National Driver Register NDR
+@#!National Fire Incident Reporting System NFIRS
+@#!National Integrated Ballistics Information Network NIBIN
+@#!National Land Cover Database NLCD
+@#!National Law Enforcement Telecommunications System NLETS
+@#!National Library of Medicine Medline
+@#!National Resources Conservation Service Ecological Site Information System ESIS
+@#!National Resources Conservation Service NRCS PEDON Description Program PDP
+@#!National Resources Conservation Service NRCS Soils Explorer
+@#!National Resources Conservation Service Web Soil Survey WSS
+@#!National Soil Information System NASIS
+@#!Naviance Succeed
+@#!Neill Technologies SpaBiz
+@#!New Dawn Technologies JustWare software
+@#!Nimblefeet Technologies Captain's Keeper
+@#!Nolij Corporation Nolij Transfer
+@#!Nolo Quicken Legal Business Pro
+@#!Novariant AutoFarm AF Viewer
+@#!NSF Hospitality Rendezvous Events
+@#!Oasys software
+@#!Objective Decision Contactizer Pro
+@#!O'Brien Grasso RE Software Property Master
+@#!O-HEAP software
+@#!OLRAC Electronic Logbook Software Solution
+@#!OMTI ReporterBase
+@#!O*NET OnLine
+@#!On line analytical processing OLAP software
+@#!Online databases
+@#!Online data collection systems
+@#!Online informational database software
+@#!Online Mendelian Inheritance in Animals OMIA
+@#!Online registration software
+@#!OpenClinica
+@#!OpenTable software
+@#!Operating log software
+@#!Operation respond emergency information system OREISTM software
+@#!Oracle Clinical
+@#!Oracle
+@#!Oracle Essbase
+@#!Oracle JDBC
+@#!Orbitz Worldwide Orbitz for Agents
+@#!Orion Law Management Systems Orion
+@#!Palantir Intelligence
+@#!PaloAlto Advertising Plan Pro
+@#!Parking access revenue control system software
+@#!PAR Technology SpaSoft
+@#!Parts classification databases
+@#!Parts database software
+@#!Pason WellView Field Solution
+@#!Past Inspection Query PIQ
+@#!PastPerfect Software PastPerfect
+@#!PathogenTracker
+@#!Patient monitoring systems
+@#!Patient tracking software
+@#!Pear Technology Fieldman Farmer
+@#!Pedal Powered Software Bicycle Repair Man
+@#!PedonCE
+@#!PEDYN P2000
+@#!Penchant Software dispatchOffice
+@#!Pentagon 2000SQL
+@#!PercipEnz Technologies OnCore-Clinical Research Management OnCore-CRM
+@#!PerfectLaw All-in-One Suite
+@#!Performance database software
+@#!Pharmaceutical Care Network software
+@#!Phase Forward Clintrial
+@#!Phase Forward InForm GTM
+@#!Philosopher's Information Center The Philosopher's Index
+@#!PhoenixPRO Forest Activity Tracking
+@#!Picis CareSuite Dietary Manager
+@#!PigCHAMP Care 3000
+@#!Planisware
+@#!Plant information data entry software
+@#!Point-of-View QWriter
+@#!Polaris Microsystems AeroLog Pro
+@#!Polaris Microsystems CharterLog
+@#!Policy issuance system software
+@#!Postal tracking software
+@#!PowerSchool Group PowerSchool SIS
+@#!PowerSchool SIS
+@#!PPD eLoader
+@#!PPD Patient Profiles
+@#!Practice management software PMS
+@#!Premier Software Simtrak Mobility
+@#!PREMIS
+@#!PricePoint software
+@#!Printers Software Inc. Presidio
+@#!Printing management system software
+@#!Process safety management software
+@#!ProducePak Mobile Farm Management
+@#!Product producer databases
+@#!Program logging software
+@#!PropertyBoss Solutions PropertyBoss
+@#!Property Boulevard
+@#!Property Insight TitlePoint
+@#!Property management system PMS software
+@#!Property records databases
+@#!Property Solutions International ResidentPortal
+@#!PropertyThree
+@#!PropertyView Solutions Remanage
+@#!Propertyware
+@#!ProSolutions Software Transcend
+@#!Psychiatric information databases
+@#!Psychsoft !Observe
+@#!PT Software Solutions PT Rental Assistant
+@#!PTS Solutions WinJuris Court Solutions
+@#!Pulse Train Bellview CAPTI
+@#!Pulse Train Bellview TCI
+@#!Pulse Train Visual QSL
+@#!Purkinje Dossier
+@#!QMC CM4D
+@#!QPSMR Limited CATI
+@#!QPSMR Limited Input
+@#!QPSMR Limited Insight
+@#!QSM SLIM Suite
+@#!QSR International NVivo
+@#!Qualitica RentBoss
+@#!Quality Systems Incorporated Safety Tagging System
+@#!Questor Systems ARGUS
+@#!Questor Systems QScan32
+@#!Quorum PGAS
+@#!RAE Systems HazRAE
+@#!Railyard management software RMS
+@#!Raosoft SURVEYWin
+@#!Rapid Medical Examiners System
+@#!RazorSync software
+@#!Real estate and tax software
+@#!Real estate listing databases
+@#!RealPage OneSite
+@#!RebarWin
+@#!Recipe software
+@#!Recordkeeping software
+@#!Re:discovery Software Proficio
+@#!Redrock Software TutorTrac
+@#!Reference management software
+@#!Refugee, Asylum and Parole System RAPS
+@#!RefWorks
+@#!Regulussoft Route Accounting
+@#!Relational database software
+@#!Reliability information software
+@#!ReliaSoft Prism
+@#!Remedy Interactive iMitigate
+@#!Remote operated vehicle ROV dive log software
+@#!Repair Traq
+@#!RepairTRAX
+@#!RescueConnection Software ShelterConntection
+@#!Research Spectrum Survent CATI
+@#!Reservation software
+@#!ReServe Interactive Table Management Software
+@#!Resolve service management software
+@#!Retail management software
+@#!Reudink Software ZooEasy
+@#!Rezopia
+@#!River Lake Altimetry Product
+@#!RMS Technology Flitesoft
+@#!RockWare Stratbugs
+@#!Rogers Software Development SuperSalon
+@#!RoofLogic software
+@#!Roof Pro Estimate Software Roof Pro
+@#!RoseRush Services Shelter Pro Software
+@#!RV Damage Repair Estimator
+@#!Sabre Airline Solutions SabreSonic Ticket
+@#!Sacramento Sky Ranch Mechanic's Toolbox
+@#!Safety Software OSHALOG 300
+@#!Safety Status Measurement System SafeStat
+@#!Saga Practice Manager
+@#!Sage 100 Contractor
+@#!Sage 300 Construction and Real Estate
+@#!Sage 50 Accounting
+@#!Salary.com
+@#!Saora Keepoint
+@#!SAP BusinessObjects Desktop Intelligence
+@#!Satellite database software
+@#!Satellite image databases
+@#!Savant MobileRanger
+@#!Scadex Technologies MAESTRO
+@#!Scantron Technologies eListen
+@#!Scheduling databases
+@#!School Attendance Keeper
+@#!Scientific Software Group ChemGraph
+@#!Scientific Software Group ChemPoint/ChemStat
+@#!Scientific Software Group Enviro-Base Pro
+@#!Scientific Software Group RiverMorph
+@#!Scientific Software Group RIVERMorph
+@#!Scientific Software GroupWHI UnSAT Suite
+@#!Search engine results pages SERP software
+@#!Selectica Contract Performance Management
+@#!Sequence database software
+@#!ServiceMax software
+@#!Shafer Service Systems software
+@#!Sharepoint Portal Server
+@#!ShootQ
+@#!ShootZilla
+@#!Shortcuts Software Shortcuts Spa
+@#!Showing Suite
+@#!Showing Suite HomeFeedback
+@#!Showing Suite HomeFollowup
+@#!Sierra Scientific Software CRIS
+@#!Simplifi pixifi
+@#!Simply Studio System
+@#!SiteMaster SiteSmart
+@#!Skylog Services Skylog Pro
+@#!Sky Scheduler software
+@#!SMART
+@#!Smart Data Solutions RS Solutions
+@#!Smart Equipment Repair
+@#!Smart Solutions IEP Anywhere
+@#!Snap Survey Software
+@#!Social Solutions ETO
+@#!Soft Essentials Vending Essentials
+@#!Softree Technical Systems Terrain Tools
+@#!SoftRisk Technologies SoftRisk SQL
+@#!Software asset management SAM software
+@#!Software Technology PracticeMaster software
+@#!Soil information databases
+@#!Soil Survey Geographic SSURGO
+@#!SoilVision Systems SoilVision software
+@#!Solution Specialties TRACKER
+@#!SpaGuru
+@#!Spa management software
+@#!Special Education Student Information System SESIS
+@#!Spectroscopy databases
+@#!Spectrum K12 School Solutions Encore
+@#!SpED Forms
+@#!Spillman Technologies Records Management
+@#!SpiritWorks Software Development Rental Property Tracker Plus
+@#!SPSS ShowCase Suite
+@#!SS&C Technologies Skyline Property Management
+@#!SST Development Group Stratus
+@#!Stamps.com
+@#!State crime information databases
+@#!State Soil Geographic STATSGO Database
+@#!Statistics databases
+@#!Stenco Technologies Farm Trends
+@#!St. Paul Travelers e-CARMA
+@#!Street address databases
+@#!Structured data entry software
+@#!Structured query language SQL
+@#!Structure query language SQL
+@#!Student and Exchange Visitor Information System SEVIS
+@#!Student information systems SIS
+@#!Student record software
+@#!StudioCloud
+@#!StudioPlus Spectra software
+@#!StudyManager Sponsor Edition
+@#!Style guide databases
+@#!SuccessWare
+@#!SunGard Higher Education Banner Financial Aid
+@#!Sungard Higher Education PowerFAIDS
+@#!SunGard Pentamation IEPplus
+@#!Survey Said software
+@#!SUSTAIN Justice Edition
+@#!Sybase SQL Anywhere
+@#!SyMetric Sciences SyMetric
+@#!Synaptec LawBase Case Management
+@#!Synergy International Systems Synergy CaseTrack
+@#!Syntec Business Systems Insight Salon and Spa Software
+@#!Talisma Knowledgebase
+@#!TapLogic FarmLogic
+@#!Tariff databases
+@#!Tave Studio Manager
+@#!TCG Technologies i-CAM
+@#!Technical Perspectives CLASS IEP Program
+@#!Teledyne Odom Hydrographic ODOM eChart
+@#!Telephone records software
+@#!Teradata Active Enterprise Data Warehouse
+@#!Teradata BTEQ
+@#!Teradata Enterprise Data Warehouse
+@#!Textile Management Systems RollMaster
+@#!The Groomer's Write Hand
+@#!The Nature Conservancy Weed Information Management System WIMS
+@#!Thomson Elite ProLaw
+@#!Thomson Elite ProLaw READY
+@#!Thomson EndNote
+@#!Thomson Reuters CLEAR
+@#!Thomson Reuters EndNote
+@#!Thomson Scientific Dialog
+@#!Ticket issuing software
+@#!Tidepool Scientific Software Comprehensive Environmental Toxicity Information System CETIS
+@#!TOPAZ Enterprise Software Suite
+@#!TopDogLegal
+@#!Topline Software Solutions Topline Service Manager
+@#!Total Turnkey Solutions E-Vision
+@#!TourCMS
+@#!TourWriter
+@#!Toxicology databases
+@#!Tracks Software
+@#!TRACKUM Repair Manager
+@#!Traffic record databases
+@#!Transaction processing software
+@#!Transact-SQL
+@#!TranspoLink BidLeads
+@#!TranWare Enterprise Suite
+@#!Travel Agent CMS
+@#!TravelCarma
+@#!Travii
+@#!TRAX Animal Control Officer Software
+@#!Treasury Enforcement Communications System TECS
+@#!Trimble Farm Works software
+@#!Trimble TerraSync
+@#!TriZetto QNXT
+@#!TRMI Airport AVI
+@#!Tropics Claims Reserve Management
+@#!Truckers Helper software
+@#!Tucows ChemBase
+@#!Twin Tiers Technologies CIMS
+@#!Twin Tiers Technologies MIMS
+@#!Twin Tier Technologies MIMS
+@#!Two Step Software CorporateFocus software
+@#!UDA Technologies ConstructionSuite
+@#!Unique Identification UID system databases
+@#!Upside Software UpsideContract
+@#!USDA ARS Database for Inventory, Monitoring and Assessment DIMA
+@#!USDA Child Nutrition Database
+@#!USDA NRCS VegSpec
+@#!U.S. Department of Agriculture USDA National Nutrient Database
+@#!Valley Agricultural Software DairyCOMP 305
+@#!ValuSoft MasterCook
+@#!Vehicle identification number VIN database software
+@#!Vehicle information databases
+@#!Vehicle inspection databases
+@#!Vehicle management software
+@#!Vernon Systems Limited Vernon CMS
+@#!Vertafore ImageRight
+@#!Viking software
+@#!Vision Management Consulting IEP PlaNET
+@#!Visual Lease
+@#!Visual PAMSPro
+@#!WatchWare Repair Shop
+@#!Water resources databases
+@#!Waters eLab Notebook
+@#!Waters Empower 2
+@#!WealthEngine Findwealth
+@#!Web-administered databases
+@#!Web-based information systems
+@#!Web Box Activity Tracing System WebBATS
+@#!WebEx WebOffice
+@#!W G Software Tenant File
+@#!WheelShop Automation.com Wheel Shop Management Suite
+@#!WHONET
+@#!WH Software InstaCode
+@#!Wildland Fire Assessment System WFAS
+@#!Willoughby Associates MIMSY XG
+@#!Winners Programs BirdStud
+@#!Winners Programs Uni-Stud
+@#!Wintac Pro Software
+@#!Woll2Woll InfoPower Studio
+@#!WordWeb
+@#!Work order software
+@#!Worldspan Go! Reservation System software
+@#!WorthMORE Software CaseWORTH
+@#!Xactware Xactimate
+@#!Xperts iep.online
+@#!Xplanner
+@#!xQuery
+@#!Yardi Systems Yardi Enterprise
+@#!Yardi Systems Yardi Voyager Commercial
+@#!Yardi Systems Yardi Voyager Condo, Co-op, and HOA
+@#!Yardi Systems Yardi Voyager Residential
+@!#Zoller software
+Data base user interface and query software
+@#!Amazon Kinesis
+@#!Apache BookKeeper
+@#!Apache Chukwa
+@#!Apache Flume
+@#!Apache Samza
+@#!Apache Sqoop
+@#!Apache UIMA
+@#!Cloudera Morphlines
+@#!Facebook Scribe
+@#!Fluentd
+@#!Google Photon
+@#!Heka
+@#!HIHO
+@#!LinkedIn Camus
+@#!LinkedIn Databus
+@#!LinkedIn Gobblin
+@#!LinkedIn Kamikaze
+@#!Linkedin Lumos
+@#!LinkedIn White Elephant
+@#!Logstash
+@#!Netflix Ribbon
+@#!Netflix Suro
+@#!Pinterest Secor
+@#!Record Breaker
+@#!TIBCO Enterprise Message Service
+@!#Twitter Zipkin
+Data Ingestion
+@#!ETL
+@#!Angoss KnowledgeSEEKER
+@#!ClarityBlue software
+@#!ContextMiner
+@#!Cytel Software XLMiner
+@#!Data extraction software
+@#!Data mining software
+@#!Data warehouse software
+@#!Datawatch Monarch
+@#!eGrabber ListGrabber
+@#!Golden Helix ChemTree
+@#!Golden Helix HelixTree
+@#!IBM InfoSphere Warehouse
+@#!IBM Intelligent Miner
+@#!Informatica Data Explorer
+@#!NCR Teradata Warehouse Miner
+@#!Oracle Darwin
+@#!Rapid-I RapidMiner
+@#!Salford Systems CART
+@#!SAP NetWeaver Business Warehouse
+@#!SAS Enterprise Miner
+@#!Teradata FastLoad
+@#!Teradata Parallel Transporter
+@#!Teradata Tpump
+@#!Text mining software
+@!#TokenX
+Data mining software
+@#!Arbor
+@#!C3
+@#!CartoDB
+@#!Chartist.js
+@#!Chart.js
+@#!Crossfilter
+@#!Cubism
+@#!Cytoscape
+@#!D3
+@#!DC.js
+@#!Envisionjs
+@#!FnordMetric ChartSQL
+@#!Freeboard
+@#!Gephi
+@#!Google Charts
+@#!Grafana
+@#!Graphistry
+@#!Graphite
+@#!Highcharts
+@#!IPython
+@#!Keylines
+@#!Kibana
+@#!Matplotlib
+@#!NVD3
+@#!Peity
+@#!Plot.ly
+@#!Recline
+@#!Redash
+@#!Sigma.js
+@!#Square Cubism.js
+Data Visualization
+@#!Google Mesa
+@#!IBM BigInsights
+@#!IBM dashDB
+@!#Microsoft Azure SQL Data Warehouse
+Data Warehouse
+@#!ACI Appraiser's Choice
+@#!Adobe Systems Adobe Distiller
+@#!Adobe Systems Adobe FrameMaker
+@#!Adobe Systems Adobe InDesign
+@#!Adobe Systems Adobe PageMaker
+@#!Antenna House software
+@#!AT&T Troff
+@#!Avid Technology Sibelius
+@#!Blumberg Drafting Libaries
+@#!Campaign Monitor
+@#!Contract Central software
+@#!Corel Ventura
+@#!Corporate Montage CADScript
+@#!Dataflight Opticon
+@#!Desktop publishing software
+@#!Digital Contracts software
+@#!Document publishing software
+@#!Enfocus PitStop Pro
+@#!Esko ArtPro
+@#!EZ Forms software
+@#!GrassHopper PageStream
+@#!Ioxphere software
+@#!LaTeX software
+@#!LogiXML Ad-HOC
+@#!MakeMusic Finale software
+@#!MicroPress VTeX software
+@#!Microsoft Publisher
+@#!Objectif Lune PlanetPress.Suite
+@#!PagePlus SE software
+@#!Passepartout software
+@#!Pattern Stream software
+@#!Performance Technology Associates DocuTools
+@#!ProForce Paralegal Pro-Pack
+@#!PTC Arbortext
+@#!Quark software
+@#!Quark Xpress
+@#!QuarkXpress
+@#!QuarkXPress
+@#!QuarkXpress Passport
+@#!Rocket/Folio NXT
+@#!Sawtooth SSI Web
+@#!Scribus software
+@#!SoftCafe MenuPro
+@#!SoftCafe software
+@!#Sure Will Writer
+Desktop publishing software
+@#!ABB RobotStudio
+@#!ABC Compiler
+@#!ABC programming language
+@#!Abstraction plus reference plus synthesis A++
+@#!ActionScript
+@#!Ada
+@#!Adeptia ETL Suite
+@#!Adobe Systems Adobe ActionScript
+@#!Adobe Systems Adobe AIR
+@#!Adobe Systems Adobe Creative Suite software
+@#!Adobe Systems Adobe PostScript
+@#!Advanced boolean expression language ABEL
+@#!Advanced business application programming ABAP
+@#!Advanced computer simulation language ACSL
+@#!Algorithmic language ALGOL
+@#!Altera hardware description language AHDL
+@#!American National Standards Institute ANSI C
+@#!Analog Devices VisualDSP++
+@#!AnthillPro
+@#!Aonix Software Through Pictures
+@#!Apache Ant
+@#!Apache Continuum
+@#!Apache Gump
+@#!Apache Maven
+@#!A programming language APL
+@#!Artisan Studio
+@#!Assembler
+@#!Autodesk Scaleform
+@#!Automated document generation software
+@#!AWK
+@#!Beginner's all-purpose symbolic instruction code BASIC
+@#!Bigloo Scheme
+@#!B-Method
+@#!Borland VisiBroker
+@#!Boundary scan description language BSDL
+@#!Business Objects Data Integrator
+@#!Cadence Opus
+@#!Call-processing language CPL
+@#!C
+@#!C for Graphics cg
+@#!Clipper
+@#!CloverETL
+@#!CMAKE
+@#!Code libraries
+@#!Code munger software
+@#!Common business oriented language COBOL
+@#!Component libraries
+@#!Computer On-line Real-time Applications Language CORAL 66
+@#!CruiseControl
+@#!Crytek CryEngine
+@#!Darwin information typing architecture DITA
+@#!Digital Equipment Corporation DIGITAL Fortran 90
+@#!Doxygen
+@#!DX Studio
+@#!easyCIS
+@#!Eclipse IDE software
+@#!Eclipse software
+@#!ElectricCloud ElectricCommander
+@#!Embarcadero JBuilder
+@#!Embedded systems development software
+@#!Encoded Archival System EAD
+@#!Event-driven State-machines Programming
+@#!eXtensible Business Reporting Language XBRL
+@#!FFTPACK
+@#!FFTW
+@#!FinalBuilder
+@#!Fog Creek Software FogBugz
+@#!FOLLOW code
+@#!Formula translation/translator FORTRAN
+@#!Forth
+@#!Freescale CodeWarrior Tools
+@#!Gambit Scheme
+@#!GE Fanuc Automation VersaPro
+@#!Hardware description and verification language
+@#!Hardware description language HDL
+@#!Haskell
+@#!Hewlett-Packard HP Graphics Language HPGL
+@#!High-performance software libraries
+@#!HP InfoTech CodeVisionAVR
+@#!IBM Rational Application Developer
+@#!IBM Rational Build Forge Enterprise
+@#!IBM Rational ClearQuest
+@#!IBM Rational Rose
+@#!IBM Rational Rose XDE Developer D93
+@#!IBM Rational Rose XDE Developer
+@#!IBM Rational software
+@#!ICON programming language
+@#!INCORE code
+@#!Integrated development environment IDE software
+@#!Intel Integrated Performance Primitives
+@#!Interface definition language IDL
+@#!Interstate connection ICON
+@#!IONA Orbix
+@#!J
+@#!JetBrains IntelliJ IDEA
+@#!JetBrains Team City
+@#!K2 Business Process Automation
+@#!Ladder Logic
+@#!LAPACK
+@#!List processing language LISP
+@#!Logo
+@#!LuntBuild
+@#!MaxScript
+@#!Maya Embedded Language MEL
+@#!Microchip MPLAB Integrated Development Environment
+@#!Microchip MPLAB Integrated Development Environment IDE
+@#!Microsoft ESP SDK
+@#!Microsoft Extensible Application Markup Language (XAML)
+@#!Microsoft High Level Shader Language HLSL
+@#!Microsoft .NET Framework
+@#!Microsoft Visual Basic
+@#!Microsoft Visual Basic for Applications VBA
+@#!Microsoft Visual Basic Scripting Edition VBScript
+@#!Microsoft Visual J++
+@#!Microsoft Visual SourceSafe
+@#!Microsoft Visual Studio
+@#!Microsoft Visual Studio.NET
+@#!Microsoft Visual Studio Team Foundation Server
+@#!Microsoft Windows SDK
+@#!Motorola Digital Signal Processing DSP Assembler
+@#!MUMPS M
+@#!National Instruments LabVIEW
+@#!National Instruments TestStand
+@#!NCAR Command Language NCL
+@#!OpenMake Software Meister
+@#!OpenMake Software Mojo
+@#!Oracle Java 2 Platform Enterprise Edition J2EE
+@#!Oracle Java EE
+@#!Oracle Jdeveloper
+@#!Oracle SQL Developer
+@#!Pascal
+@#!PhoneGap
+@#!plotutils
+@#!PLplot
+@#!pm ase QuickBuild
+@#!Programmed logic controller PLC code generation software
+@#!Programming language one PL/I
+@#!Programming languages
+@#!Progress OpenEdge ABL
+@#!Prolog
+@#!Quest SQL Optimizer for Oracle
+@#!Register transfer language RTL
+@#!Restructured extended executor REXX
+@#!Rockwell Software
+@#!Ruby
+@#!Scalable vector graphics SVG
+@#!Scheme
+@#!Scheme programming language
+@#!Simple DirectMedia Layer SDL
+@#!SmartBear Software Automated Build Studio
+@#!Software development tools
+@#!Software libraries
+@#!Source code management SCM software
+@#!Source code migration software
+@#!Standard generalized markup language SGML
+@#!Standardized general markup language SGML
+@#!String oriented symbolic language SNOBOL
+@#!Subversion
+@#!Sun Microsystems Java 2 Platform Enterprise Edition J2EE
+@#!Symantec Visual Cafe
+@#!Systems and applications migration software
+@#!SystemVerilog
+@#!Texas Instruments Code Composer Studio CCStudio
+@#!Tier generator software
+@#!Tigris Cabie
+@#!ToadSoft Toad
+@#!Tool command language Tcl
+@#!TOTE code
+@#!Unidata Network common data form NetCDF
+@#!Unity Technologies Unity
+@#!Unreal Technology Unreal Engine
+@#!Vector CANoe
+@#!Verilog
+@#!Very high speed integrated circuit VHSIC hardware definition language VHDL
+@#!Very high speed integrated circuit VHSIC hardware description language VHDL
+@#!Very high-speed integrated circuit VHSIC hardware description language VHDL
+@#!VHSIC hardware description language VHDL
+@#!Web service definition language WDSL
+@#!Wind River Systems C/C++ Compiler Suite
+@#!Woodward MotoTron Control Solutions MotoHawk
+@#!Xerces2 Java Parser
+@!#XML Path Language XPATH
+Development environment software
+@#!Amazon Elastic File System
+@#!Amazon Simple Storage Service
+@#!Apache HDFS
+@#!BeeGFS
+@#!Ceph Filesystem
+@#!Disco DDFS
+@#!Facebook Haystack
+@#!Google Colossus
+@#!Google GFS
+@#!Google Megastore
+@#!GridGain
+@#!HDSF-DU
+@#!Lustre file system
+@#!MapR-FS
+@#!Microsoft Azure Data Lake
+@#!Netflix S3mper
+@#!Quantcast File System QFS
+@!#Red Hat GlusterFS
+Distributed Filesystem
+@#!AddThis Hydra
+@#!Akela
+@#!Amazon Lambda
+@#!AMPLab SIMR
+@#!AMPLab Succinct
+@#!Apache Crunch
+@#!Apache DataFu
+@#!Apache Flink
+@#!Apache Gora
+@#!Apache Hama
+@#!Apache MapReduce
+@#!Apache S4
+@#!Apache Spark
+@#!Apache Spark Streaming
+@#!Apache Storm
+@#!Apache Tez
+@#!Apache Twill
+@#!Blaze
+@#!Cascalog
+@#!Cheetah
+@#!Concurrent Cascading
+@#!Damballa Parkour
+@#!Datasalt Pangool
+@#!DataTorrent StrAM
+@#!DistributedR
+@#!Drools
+@#!eBay Oink
+@#!Esper
+@#!Facebook Corona
+@#!Facebook Peregrine
+@#!Facebook Scuba
+@#!GearPump
+@#!Geotrellis
+@#!GetStream Stream Framework
+@#!GIS Tools for Hadoop
+@#!Google Dataflow
+@#!Google MapReduce
+@#!Google MillWheel
+@#!GraphLab Dato
+@#!Hazelcast
+@#!HParser
+@#!IBM Streams
+@#!JAQL
+@#!Kite
+@#!Kryo
+@#!LinkedIn Cubert
+@#!Lipstick
+@#!Metamarkers Druid
+@#!Microsoft Azure Stream Analytics
+@#!Microsoft Orleans
+@#!Microsoft Project Orleans
+@#!Microsoft Trill
+@#!Netflix Aegisthus
+@#!Netflix Lipstick
+@#!Netflix Mantis
+@#!Netflix PigPen
+@#!Netflix STAASH
+@#!Netflix Surus
+@#!Netflix Zeno
+@#!Nextflow
+@#!Nokia Disco
+@#!Oryx
+@#!Parsely Streamparse
+@#!PigPen
+@#!Pinterest Pinlater
+@#!Pubnub
+@#!Pydoop
+@#!ScaleOut hServer
+@#!SeqPig
+@#!SigmoidAnalytics Spork
+@#!SNAP
+@#!spark-dataflow
+@#!SpatialHadoop
+@#!Spring for Apache Hadoop
+@#!SQLStream Blaze
+@#!Stratio Streaming
+@#!Stratosphere
+@#!Streamdrill
+@#!Sumo Logic
+@#!Teradata QueryGrid
+@#!TIBCO ActiveSpaces
+@#!Tigon
+@#!Torch
+@#!Trident
+@#!Twitter Crane
+@#!Twitter Gizzard
+@#!Twitter Heron
+@#!Twitter Scalding
+@!#Twitter Summingbird
+Distributed Programming
+@#!Actian Versant
+@#!Amazon SimpleDB
+@#!Clusterpoint
+@#!Crate Data
+@#!Facebook Apollo
+@#!jumboDB
+@#!LinkedIn Espresso
+@#!MarkLogic
+@#!Microsoft DocumentDB
+@#!Microsoft StorSimple
+@#!RavenDB
+@#!RethinkDB
+@!#Terrastore
+Document Data Model
+@#!Actian PSQL
+@#!BerkeleyDB
+@#!eXtreme DB
+@#!FairCom c-treeACE
+@#!Google Firebase
+@#!HamsterDB
+@#!HanoiDB
+@#!LevelDB
+@#!LMDB
+@#!RocksDB
+@!#TokioCabinet
+Embedded Databases
+@#!Atlassian Bamboo
+@#!Common gateway interface CGI
+@#!Electronic data interchange EDI software
+@#!Electronic Data Interchange EDI systems
+@#!Enterprise application integration EAI software
+@#!Extensible markup language XML
+@#!Extensible Markup Language XML
+@#!Extensible stylesheet language XSL
+@#!IBM InfoSphere DataStage
+@#!IBM Websphere
+@#!IBM WebSphere
+@#!IBM WebSphere MQ
+@#!Jenkins CI
+@#!Jitterbit
+@#!Microsoft SQL Server Integration Services SSIS
+@#!MSR Visual Exporter Enterprise Integrator
+@#!Oracle Data Integrator
+@#!Oracle Fusion Middleware
+@#!Progress Sonic ESB
+@#!Rapid application development RAD software
+@#!SAP BusinessObjects Data Integrator
+@#!SAP Netweaver BW
+@#!SAP NetWeaver BW
+@#!SAP Netweaver
+@#!SAP NetWeaver
+@#!SAP R/3 software
+@#!SAS/CONNECT
+@#!SAS Data Integration Studio
+@#!SMSi Twister Data Integrator
+@#!Systems integration software
+@#!Talend Open Studio
+@!#WebFOCUS software
+Enterprise application integration software
+@#!Ab Initio software
+@#!Accela KIVA DMS
+@#!Accountants Templates JAZZ-It!
+@#!Acculaw Court Reporters Billing Scheduling Job Management System ABSMS
+@#!Accutech Systems Corporation AccuFarm-MGR
+@#!AcornSystems Corporate Performance Management
+@#!ACS Technologies HeadMaster
+@#!Adaptive Planning
+@#!ADERANT Expert Back Office, Powered by Keystone
+@#!Adexa eGPS Suite
+@#!Advanced Management Systems (AMS) Winery Software
+@#!Advanced Veterinary Services Ranch Vision
+@#!Advantage Information Systems The Agency Advantage
+@#!Afcom Datasafe Computer Services FlexiBake
+@#!Agency management software
+@#!Agency Master
+@#!Agency Software AgencyPro
+@#!Agevo Farm Manager
+@#!Agile Product Lifecyle Management PLM
+@#!AgriSoft/CMC AgriSoft/ERP
+@#!AMS Services AMS 360
+@#!AMS Services AMS Sagitta
+@#!Anodas Software Limited Phoenix
+@#!Applied Systems The Agency Manager
+@#!Aprimo Marketing
+@#!Argos Software ABECAS Insight Nursery and Greenhouse Management software
+@#!Autotask
+@#!BCS Woodlands Software Woodlands Tracker
+@#!B&I Computer Consultants Childcare Sage
+@#!Biztrak Business Solutions Biztrak
+@#!Blackbaud The Education Edge
+@#!Bowen & Groves M1 ERP
+@#!Brihzon Solutions SMART Dairy Resource Planning
+@#!Budgeting, forecasting, and planning software
+@#!Business continuity software
+@#!Business performance management BPM software
+@#!Business process management BPM software
+@#!CA Clarity PPM
+@#!Capital Codeworks MenuMax
+@#!Capterra Enterprise Resource Planning
+@#!Cartesis ES Magnitude
+@#!Caterpillar Cat MineStar System
+@#!CattleWorks
+@#!CCC Pathways Appraisal Quality Solution
+@#!Cirrus Group Daycare Works
+@#!Clarity Systems IBM Clarity
+@#!Collaborative application lifecycle management ALM software
+@#!Computer Resources MMS
+@#!Consilience Software Maven Insurance Automation Suite
+@#!COOP Systems myCOOP
+@#!CoVirt VirtGate
+@#!CSC nbAccelerator
+@#!Custom Software Group CSG AgroSys
+@#!Cybersoft Primero Software Suite
+@#!Dalet Digital Media Systems Dalet Media Life
+@#!Datatel Colleague
+@#!DCI iCore
+@#!Deacom ERP software
+@#!Delivery operations information system DOIS
+@#!Delivery Operations Information System DOIS
+@#!Deltek software
+@#!Deltek Vision
+@#!DORIS FILESERVERonline
+@#!eChurch.com SchoolPerfect
+@#!eDistrict Internet Solutions eDistrict Unified
+@#!Effexoft EASI
+@#!Electronics for Imaging EFI Monarch
+@#!Electronics for Imaging EFI Pace
+@#!Ellucian Colleague
+@#!EMC RSA Archer Business Continuity Management
+@#!Emerging Technologies Office Center
+@#!Encompix ERP
+@#!Enterprise resource planning ERP software
+@#!Enterprise Resource Planning ERP software
+@#!Enterprise resource planning ERP system software
+@#!Enterprise risk management software ERMS
+@#!Epicor Vantage
+@#!Epicor Vantage ERP
+@#!Epicor Vista ERP
+@#!ERP software
+@#!eTritionWare software
+@#!Everest Software Advanced
+@#!Exact MAX
+@#!Exact Software Macola ERP
+@#!Exact Software Macola ES
+@#!Extensity MPC
+@#!EZFacility Trainer Management System
+@#!EZ-Ranch Cattle Management Software
+@#!Fair Isaac Enterprise Decision Management for Insurance
+@#!Farm Management Software Hay and Crop Manager
+@#!FINEOS Insure
+@#!FRx Software Microsoft Forecaster
+@#!G2X Agility:Insurance
+@#!GBS Agency Expert
+@#!Geac MPC Production
+@#!Giraffe Production Systems software
+@#!Hyperion Solutions Hyperion System 9 Bi+
+@#!Hyperion Solutions System 9 Planning
+@#!i.Agri LandMark Farm
+@#!IBM BPM Blueprint
+@#!IBM Clarity Systems Clarity
+@#!IBM Cognos Planning
+@#!IBM Cognos ReportNet
+@#!IBM Maximo Asset Management
+@#!IBM Sterling Configure, Price, Quote
+@#!Infor ERP Baan
+@#!Infor ERP SyteLine
+@#!Infor ERP Visual
+@#!Infor Industrial Essentials
+@#!Informatica Corporation PowerCenter
+@#!Infor XA
+@#!Innovative Software Solutions Picas
+@#!InPhase Technologies Group InPhase Concept
+@#!Insurance Technologies Corporation InsurancePro
+@#!Intacct ERP software
+@#!Integrated Management Systems Food Connex Cloud
+@#!International Response Technologies CowChip - Ranch House
+@#!Intuit QuickBooks Enterprise Solutions software
+@#!IPro Series 40 Restaurant Inventory, Recipe & Menu Software
+@#!irs-aims MARS
+@#!Jack Henry & Associates Vertex
+@#!Jackrabbit Technologies Jackrabbit Care
+@#!JDA Software Group Advanced Warehouse Replenishment by E3
+@#!JDA Software Group Assortment Planning by Arthur
+@#!Jenzabar EX
+@#!Jenzabar software
+@#!Kressa Software SchoolLeader
+@#!Kronos Enterprise Workforce Management
+@#!Lawson software
+@#!Learn.com LearnCenter Talent Management Suite
+@#!LegacyUSA BakeSmart
+@#!LIDP Consulting Services The Administrator
+@#!Lilly Software Associates VISUAL Enterprise
+@#!LunchByte Systems NUTRIKIDS
+@#!Made2Manage software
+@#!Made2Manage Systems M2M ERP
+@#!MAGGEY software
+@#!Maintenance software
+@#!Management information systems MIS software
+@#!Manufacturing resource planning MRP software
+@#!Masters Software CakeBoss
+@#!Maynard PlanStaff Manager
+@#!MI-Assistant MI Management System
+@#!Microsoft Axapta
+@#!Microsoft Business Intelligence BI
+@#!Microsoft Dynamics AX
+@#!Microsoft Dynamics ERP
+@#!Microsoft Dynamics GP 10
+@#!Microsoft Dynamics GP
+@#!Microsoft Dynamics NAV
+@#!Microsoft Dynamics SL
+@#!Microsoft Dynamics software
+@#!Microsoft Great Plains software
+@#!MicroStrategy Desktop
+@#!MicroStrategy Report Services
+@#!Midwest MicroSystems Cow Sense
+@#!Mount Taylor Programs Private Advantage
+@#!Municipal geographic management software
+@#!NaviSys Front Office
+@#!NetSuite NetERP
+@#!North American Software Associates Eclipse
+@#!OnCare Advantage
+@#!ONE Software KidsONE
+@#!Online Database Solutions Agent Intelligence
+@#!Open Systems TRAVERSE software
+@#!Oracle Agile Product Lifecycle Management PLM
+@#!Oracle Business Intelligence Publisher
+@#!Oracle E-Business Suite
+@#!Oracle Hyperion software
+@#!Oracle JD Edwards EnterpriseOne
+@#!Oracle PeopleSoft
+@#!Oracle PeopleSoft Enterprise software
+@#!Oracle PeopleSoft Financials
+@#!Oracle PeopleSoft Human Capital Management
+@#!Oracle PeopleSoft software
+@#!Oracle Primavera Enterprise Project Portfolio Management
+@#!Orgmation iCare
+@#!OutlookSoft
+@#!Pearson PowerSchool
+@#!Pegasystems SmartBPM
+@#!people@work
+@#!Personalized Software Childcare Manager
+@#!Pharmacy management software
+@#!Plant maintenance software
+@#!Planview Process Builder
+@#!Plex Systems Plex Manufacturing Cloud
+@#!PraxiPower PraxiSchool
+@#!Principle Data Systems School Management Software
+@#!ProcessPro Premier
+@#!Product development management software
+@#!Product lifecycle management PLM software
+@#!Professional Solutions ProCare
+@#!Project.net
+@#!Project portfolio management PPM software
+@#!PRONTO Xi
+@#!QAD MFG/PRO
+@#!QualCorp FormsPlus
+@#!QuickQuote QuickFile Agency Management System
+@#!Radiant Systems CounterPoint
+@#!RamQuest Total Solution
+@#!RecordKeeper Software School RecordKeeper
+@#!RecoveryPlanner RPX
+@#!Rediker Software School Office Suite
+@#!ReporterWorks
+@#!Resource planning software
+@#!Results International Systems Artius Suite
+@#!Retain Resource Planning
+@#!Revelwood Business Performance Management software
+@#!Robust Software Overseer Suite
+@#!Sabre Central Command
+@#!Sage 100 ERP
+@#!Sage Active Planner
+@#!Sage ERP Accpac
+@#!Sage MAS 200
+@#!Sage MAS 200 ERP
+@#!Sage MAS 90
+@#!Sage MAS 90 ERP
+@#!Sage MAS software
+@#!Sage Platinum for Windows PFW
+@#!SAP Business Objects software
+@#!SAP Business One
+@#!SAP ERP
+@#!SAP ERP Financials
+@#!SAP ERP Human Capital Management
+@#!SAP ERP Operations
+@#!SAP Maintenance
+@#!SAP software
+@#!ScholarCare
+@#!SchoolDESX
+@#!SDS Software Solutions DayCare Information Systems PRO
+@#!Seasia Consulting School Wizard
+@#!Second Foundation NaviMeat
+@#!SIS SEMCI PARTNER
+@#!Skyward School Management System
+@#!Skywire Software InsBridge
+@#!Skywire Software Policyware
+@#!SoftBrands Fourth Shift Edition
+@#!SoftCare CenterCare
+@#!SofterWare EZ-CARE2
+@#!Solomon Software
+@#!Special Agent
+@#!Specialized Data Systems School Office
+@#!SSA Global BPCS
+@#!SSA Global Infinium Financial Management
+@#!Strategic BCP ResilienceONE
+@#!Sungard Assurance
+@#!SunGard Assurance
+@#!SunGard Higher Education Banner Unified Digital Campus
+@#!SunGard Public Sector IFAS
+@#!SweetWARE SmallPICS
+@#!SYSPRO software
+@#!Technology Group International Enterprise 21 ERP
+@#!Terrace Consulting AgencyInsight
+@#!Tessitura Network Tessitura Software
+@#!The Gallagher Group DataCare
+@#!Thinc Technologies Virtual School
+@#!TMW PowerSuite
+@#!Tracware AeroTrac
+@#!Trade Bindery Software Bindery Management System
+@#!Transtek Compass ERP
+@#!Trimble Cengea Software
+@#!Tritech Financial Systems General Insurance Management System GIMS
+@#!TwinPeaks Software Visual Z-Bake
+@#!Tyler Technologies MUNIS
+@#!United Systems and Software Individual Life and Health Administration System
+@#!Virtual Corporation Sustainable Planner
+@#!Vitria M3O Operational Intelligence
+@#!Vulcan Solutions Vulcan Insurance
+@#!Wilcomp Software RenWeb
+@!#Workforce management system software
+Enterprise resource planning ERP software
+@#!ArcSight Enterprise Threat and Risk Management
+@#!IBM Power Systems software
+@#!Kforge
+@#!Microsoft System Center
+@!#Microsoft Systems Management Server
+Enterprise system management software
+@#!Apache Subversion
+@#!Concurrent Versions Systems
+@#!Continuous integration software
+@#!Git
+@!#Version control software
+File versioning software
+@#!Biographies
+@#!Computing standards, RFCs and guidelines
+@#!Cross-computing tools and techniques
+@#!Design
+@#!Document types
+@#!Empirical studies
+@#!Estimation
+@#!Evaluation
+@#!Experimentation
+@#!General conference proceedings
+@#!General literature
+@#!Measurement
+@#!Metrics
+@#!Performance
+@#!Reference works
+@#!Surveys and overviews
+@!#Validation
+General and reference
+@#!Apache Giraph
+@#!Apache Spark Bagel
+@#!ArangoDB
+@#!Doradus
+@#!Facebook TAO
+@#!Faunus
+@#!Google Cayley
+@#!Google Pregel
+@#!GraphLab PowerGraph
+@#!GraphX
+@#!Gremlin
+@#!HyperGraphDB
+@#!InfiniteGraph
+@#!Infovore
+@#!Intel GraphBuilder
+@#!MapGraph
+@#!Mazerunner for Neo4j
+@#!Neo4j
+@#!OrientDB
+@#!Phoebus
+@#!Pinterest Zen
+@#!Sparksee
+@#!Stardog
+@!#Titan
+Graph Data Model
+@#!3D integrated circuits
+@#!Aging of circuits and systems
+@#!Analog and mixed-signal circuit optimization
+@#!Analog and mixed-signal circuits
+@#!Analog and mixed-signal circuit synthesis
+@#!Analog, mixed-signal and radio frequency test
+@#!Analysis and design of emerging devices and systems
+@#!Application specific instruction set processors
+@#!Application specific integrated circuits
+@#!Application specific processors
+@#!Application-specific VLSI designs
+@#!Arithmetic and datapath circuits
+@#!Assertion checking
+@#!Asynchronous circuits
+@#!Batteries
+@#!Beamforming
+@#!Best practices for EDA
+@#!Bio-embedded electronics
+@#!Biology-related information processing
+@#!Board- and system-level test
+@#!Bug detection, localization and diagnosis
+@#!Bug fixing (hardware)
+@#!Built-in self-test
+@#!Buses and high-speed links
+@#!Carbon based electronics
+@#!Cellular neural networks
+@#!Chip-level power issues
+@#!Circuit hardening
+@#!Circuit optimization
+@#!Circuits power issues
+@#!Circuit substrates
+@#!Clock generation and timing
+@#!Clock-network synthesis
+@#!Combinational circuits
+@#!Combinational synthesis
+@#!Communication hardware, interfaces and storage
+@#!Compact delay models
+@#!Coverage metrics
+@#!Data conversion
+@#!Datapath optimization
+@#!Defect-based test
+@#!Design databases for EDA
+@#!Design for debug
+@#!Design for manufacturability
+@#!Design for testability
+@#!Design modules and hierarchy
+@#!Design reuse and communication-based design
+@#!Design rule checking
+@#!Design rules
+@#!Die and wafer stacking
+@#!Digital signal processing
+@#!Digital switches
+@#!Displays and imagers
+@#!Dynamic memory
+@#!Early-life failures and infant mortality
+@#!Economics of chip design and manufacturing
+@#!Electrical-level simulation
+@#!Electromagnetic interference and compatibility
+@#!Electro-mechanical devices
+@#!Electromechanical systems
+@#!Electronic design automation
+@#!Emerging architectures
+@#!Emerging interfaces
+@#!Emerging languages and compilers
+@#!Emerging optical and photonic technologies
+@#!Emerging simulation
+@#!Emerging technologies
+@#!Emerging tools and methodologies
+@#!Energy distribution
+@#!Energy generation and storage
+@#!Energy metering
+@#!Enterprise level and data centers power issues
+@#!Equivalence checking
+@#!Error detection and error correction
+@#!External storage
+@#!Failure prediction
+@#!Failure recovery, maintenance and self-repair
+@#!Fault models and test metrics
+@#!Fault tolerance
+@#!Finite state machines
+@#!Flexible and printable circuits
+@#!Fuel-based energy
+@#!Full-custom circuits
+@#!Functional verification
+@#!Haptic devices
+@#!Hard and soft IP
+@#!Hardware accelerators
+@#!Hardware description languages and compilation
+@#!Hardware reliability
+@#!Hardware reliability screening
+@#!Hardware-software codesign
+@#!Hardware test
+@#!Hardware validation
+@#!High-level and register-transfer level synthesis
+@#!High-speed input / output
+@#!III-V compounds
+@#!Impact on the environment
+@#!Input / output circuits
+@#!Input / output styles
+@#!Integrated circuits
+@#!Interconnect
+@#!Interconnect power issues
+@#!Layout-versus-schematics
+@#!Logic circuits
+@#!Logic families
+@#!Logic synthesis
+@#!Memory and dense storage
+@#!Memory test and repair
+@#!Metallic interconnect
+@#!Methodologies for EDA
+@#!Microelectromechanical systems
+@#!Model checking
+@#!Modeling and parameter extraction
+@#!Model-order reduction
+@#!Multi-chip modules
+@#!Nanoelectromechanical systems
+@#!Networking hardware
+@#!Network on chip
+@#!Neural systems
+@#!Noise reduction
+@#!Non-volatile memory
+@#!On-chip resource management
+@#!On-chip sensors
+@#!Online test and diagnostics
+@#!Operations scheduling
+@#!Package-level interconnect
+@#!Packaging
+@#!Partitioning and floorplanning
+@#!PCB design and layout
+@#!Photonic and optical interconnect
+@#!Physical design (EDA)
+@#!Physical synthesis
+@#!Physical verification
+@#!Placement
+@#!Plasmonics
+@#!Platform-based design
+@#!Platform power issues
+@#!Post-manufacture validation and debug
+@#!Power and energy
+@#!Power and thermal analysis
+@#!Power conversion
+@#!Power estimation and optimization
+@#!Power grid design
+@#!Power networks
+@#!Printed circuit boards
+@#!Printers
+@#!Process variations
+@#!Process, voltage and temperature variations
+@#!Programmable interconnect
+@#!Programmable logic elements
+@#!Quantum communication and cryptography
+@#!Quantum computation
+@#!Quantum dots and cellular automata
+@#!Quantum error correction and fault tolerance
+@#!Quantum technologies
+@#!Radio frequency and wireless circuits
+@#!Radio frequency and wireless interconnect
+@#!Read-only memory
+@#!Reconfigurable logic and FPGAs
+@#!Reconfigurable logic applications
+@#!Renewable energy
+@#!Resource binding and sharing
+@#!Reusable energy storage
+@#!Reversible logic
+@#!Robustness
+@#!Safety critical systems
+@#!Scanners
+@#!Self-checking mechanisms
+@#!Semiconductor memory
+@#!Semi-formal verification
+@#!Sensor applications and deployments
+@#!Sensor devices and platforms
+@#!Sequential circuits
+@#!Sequential synthesis
+@#!Signal integrity and noise analysis
+@#!Signal processing systems
+@#!Simulation and emulation
+@#!Single electron devices
+@#!Smart grid
+@#!Software tools for EDA
+@#!Sound-based input / output
+@#!Spintronics and magnetic technologies
+@#!Standard cell libraries
+@#!Static memory
+@#!Static timing analysis
+@#!Statistical timing analysis
+@#!Superconducting circuits
+@#!Switching devices power issues
+@#!System-level fault tolerance
+@#!Tactile and hand-based interfaces
+@#!Technology-mapping
+@#!Temperature control
+@#!Temperature monitoring
+@#!Temperature optimization
+@#!Temperature simulation and estimation
+@#!Test data compression
+@#!Testing with distributed and parallel systems
+@#!Test-pattern generation and fault simulation
+@#!Theorem proving and SAT solving
+@#!Thermal issues
+@#!Timing analysis and sign-off
+@#!Timing analysis
+@#!Touch screens
+@#!Transaction-level verification
+@#!Transient errors and upsets
+@#!Transistor-level synthesis
+@#!Transistors
+@#!Transition-based timing analysis
+@#!Tunneling devices
+@#!Very large scale integration design
+@#!VLSI design manufacturing considerations
+@#!VLSI packaging
+@#!VLSI system specification and constraints
+@#!Wireless devices
+@#!Wireless integrated network sensors
+@#!Wireline communication
+@#!Wire routing
+@!#Yield and cost modeling
+Hardware
+@#!Accessibility design and evaluation methods
+@#!Accessibility
+@#!Accessibility systems and tools
+@#!Accessibility technologies
+@#!Accessibility theory, concepts and paradigms
+@#!Activity centered design
+@#!Ambient intelligence
+@#!Asynchronous editors
+@#!Auditory feedback
+@#!Blogs
+@#!Cladograms
+@#!Collaborative and social computing design and evaluation methods
+@#!Collaborative and social computing devices
+@#!Collaborative and social computing
+@#!Collaborative and social computing systems and tools
+@#!Collaborative and social computing theory, concepts and paradigms
+@#!Collaborative content creation
+@#!Collaborative filtering
+@#!Collaborative interaction
+@#!Command line interfaces
+@#!Computer supported cooperative work
+@#!Contextual design
+@#!Dendrograms
+@#!E-book readers
+@#!Empirical studies in accessibility
+@#!Empirical studies in collaborative and social computing
+@#!Empirical studies in HCI
+@#!Empirical studies in interaction design
+@#!Empirical studies in ubiquitous and mobile computing
+@#!Empirical studies in visualization
+@#!Ethnographic studies
+@#!Field studies
+@#!Geographic visualization
+@#!Gestural input
+@#!Graph drawings
+@#!Graphical user interfaces
+@#!Handheld game consoles
+@#!HCI design and evaluation methods
+@#!HCI theory, concepts and models
+@#!Heat maps
+@#!Heuristic evaluations
+@#!Human computer interaction (HCI)
+@#!Hyperbolic trees
+@#!Hypertext / hypermedia
+@#!Information visualization
+@#!Interaction design
+@#!Interaction design process and methods
+@#!Interaction design theory, concepts and paradigms
+@#!Interaction devices
+@#!Interaction paradigms
+@#!Interaction techniques
+@#!Interactive systems and tools
+@#!Interactive whiteboards
+@#!Interface design prototyping
+@#!Keyboards
+@#!Laboratory experiments
+@#!Mobile computing
+@#!Mobile devices
+@#!Mobile phones
+@#!Natural language interfaces
+@#!Open source software
+@#!Participatory design
+@#!Personal digital assistants
+@#!Pointing devices
+@#!Pointing
+@#!Portable media players
+@#!Reputation systems
+@#!Scenario-based design
+@#!Smartphones
+@#!Social content sharing
+@#!Social engineering (social sciences)
+@#!Social media
+@#!Social navigation
+@#!Social network analysis
+@#!Social networking sites
+@#!Social networks
+@#!Social recommendation
+@#!Social tagging
+@#!Social tagging systems
+@#!Synchronous editors
+@#!Systems and tools for interaction design
+@#!Tablet computers
+@#!Text input
+@#!Treemaps
+@#!Ubiquitous and mobile computing design and evaluation methods
+@#!Ubiquitous and mobile computing
+@#!Ubiquitous and mobile computing systems and tools
+@#!Ubiquitous and mobile computing theory, concepts and paradigms
+@#!Ubiquitous and mobile devices
+@#!Ubiquitous computing
+@#!Usability testing
+@#!User centered design
+@#!User interface design
+@#!User interface management systems
+@#!User interface programming
+@#!User interface toolkits
+@#!User models
+@#!User studies
+@#!Visualization application domains
+@#!Visualization design and evaluation methods
+@#!Visualization
+@#!Visualization systems and tools
+@#!Visualization techniques
+@#!Visualization theory, concepts and paradigms
+@#!Visualization toolkits
+@#!Walkthrough evaluations
+@#!Web-based interaction
+@!#Wikis
+Human-centered computing
+@#!ACT Contractors Forms software
+@#!AeroPlanner
+@#!American Association of Critical Care Nurses AACN Medicopeia
+@#!American LegalNet USCourtForms
+@#!Archival databases
+@#!ArchiveGrid
+@#!Archives Wiki
+@#!CGI-AMS BureauLink Enterprise
+@#!Classification Web
+@#!Coding database software
+@#!ComBase
+@#!Computerized aircraft log manager CALM software
+@#!dailyVest Investment Personalization Platform
+@#!Data validation software
+@#!Dialog DialogLink
+@#!Digital databases
+@#!Digital image collections
+@#!Digital image databases
+@#!DOC Cop
+@#!Drug guide software
+@#!Drug reference software
+@#!dtSearch software
+@#!EBSCO Publishing Academic Search Premier
+@#!EBSCO Publishing Political Science Complete
+@#!Epocrates software
+@#!Europa World Plus
+@#!Factiva
+@#!Fastcase
+@#!FedBizOps
+@#!FindForms
+@#!FindLaw Code of Federal Regulations CFR
+@#!Gale Expanded Academic ASAP PLUS
+@#!Google Books NGram Viewer
+@#!HyperTox
+@#!Information systems integration software
+@#!Informed EMS Field Guide
+@#!Internet search engine software
+@#!iParadigms Turnitin
+@#!Iterum eMedic software
+@#!JSTOR database
+@#!Kentech PROTALK
+@#!Legal research software
+@#!LexisNexis Banko
+@#!LexisNexis Company Analyzer
+@#!LexisNexis Lexis Advance
+@#!LexisNexis Shepard's Citations Service
+@#!LexisNexis Smartlinx
+@#!LexisNexis SmartLinx
+@#!LexisNexis software
+@#!Library of Congress digital collections
+@#!Master Seafloor Digital Database
+@#!Medical information databases
+@#!Medical reference software
+@#!Medical terminology databases
+@#!Medical Wizards ER & ICU ToolBox
+@#!Medical Wizards ER Suite
+@#!Medical Wizards Paramedics ToolBox
+@#!Medstat/INFORUM
+@#!Mintel Reports
+@#!Molecular Networks GmbH Biochemical Pathways
+@#!Mosby's Drug Consult software
+@#!National Archives online databases
+@#!National Union Catalog of Manuscript Collections (NUCMC)
+@#!Neoforma Healthcare Products Information Services HPIS Market Intelligence
+@#!North American Regional Climate Change Assessment Program NARCCAP data tables
+@#!Notam Development Group Airport Insight
+@#!Online database search and retrieval software
+@#!Online image and graphics database software
+@#!Online library databases
+@#!Online medical databases
+@#!Online public records search software
+@#!Online reference databases
+@#!Online service manual database software
+@#!Online title search and property report software
+@#!Ovid SilverPlatter WebSPIRS
+@#!Oxford Reference Online
+@#!Palmtree EMS Field Reference Guide
+@#!Palmtree Pocket EKG
+@#!PEPID EMS
+@#!PEPID RN Critical Care RNCC
+@#!Personal digital assistants PDA medical reference software
+@#!Pinterest
+@#!ProQuest Archive Finder
+@#!ProQuest Public Affairs Information Service (PAIS) database
+@#!ProQuest Worldwide Political Science Abstracts
+@#!Public Access to Court Electronic Records (PACER)
+@#!Rand McNally World Digital Database
+@#!Renaissance MasterCarpenter
+@#!Sage Reference Online
+@#!Searchable online catalogs
+@#!Skyscape Rosen and Barkin's 5-Minute Emergency Medicine Consult
+@#!Skyscape software
+@#!Smithsonian Institution digital archives
+@#!Standard & Poor's Capital IQ Compustat
+@#!Standard & Poor's Capital IQ software
+@#!TCI XML Credit Interface
+@#!Technical manual database software
+@#!TechOnSoftware HazMatCE Pro
+@#!THOMAS Global Register
+@#!Thomson Financial Investext
+@#!Thomson Reuters Westlaw
+@#!Thomson Reuters WestLaw
+@#!Thomson Reuters WestlawNext
+@#!Thomson Saegis
+@#!Thomson West FindLaw
+@#!Thomson West WestlawPRO
+@#!Thomson West Westlaw software
+@#!Topographic database software
+@#!TradeTools Financial Market Databases
+@#!TradeTools Monthly U.S. Economic Database
+@#!Verispan Patient Parameters
+@#!Video retrieval systems
+@#!W3 Data BatchAppend411
+@#!Walmart Retail Link
+@#!Ward Systems Group NeuroShell Trader
+@#!Westlaw
+@#!Westlaw Real Property Deed Images
+@!#Wolters Kluwer Loislaw
+Information retrieval or search software
+@#!Adversarial retrieval
+@#!Answer ranking
+@#!Application servers
+@#!Association rules
+@#!Autonomous database administration
+@#!Block / page strategies
+@#!Browsers
+@#!B-trees
+@#!Call level interfaces
+@#!Chat
+@#!Chemical and biochemical retrieval
+@#!Cloud based storage
+@#!Clustering and classification
+@#!Clustering
+@#!Collaborative search
+@#!Column based storage
+@#!Combination, fusion and federated search
+@#!Compression strategies
+@#!Computational advertising
+@#!Computing platforms
+@#!Content analysis and feature selection
+@#!Content match advertising
+@#!Content ranking
+@#!Crowdsourcing
+@#!Data access methods
+@#!Data analytics
+@#!Database administration
+@#!Database design and models
+@#!Database management system engines
+@#!Database performance evaluation
+@#!Database query processing
+@#!Database recovery
+@#!Database transaction processing
+@#!Database utilities and tools
+@#!Database views
+@#!Database web servers
+@#!Data cleaning
+@#!Data compression
+@#!Data dictionaries
+@#!Data encoding and canonicalization
+@#!Data encryption
+@#!Data exchange
+@#!Data extraction and integration
+@#!Data federation tools
+@#!Data layout
+@#!Data locking
+@#!Data management systems
+@#!Data mining
+@#!Data model extensions
+@#!Data provenance
+@#!Data replication tools
+@#!Data scans
+@#!Data streaming
+@#!Data stream mining
+@#!Data streams
+@#!Data structures
+@#!Data warehouses
+@#!DBMS engine architectures
+@#!Deadlocks
+@#!Decision support systems
+@#!Deduplication
+@#!Deep web
+@#!Desktop search
+@#!Dictionaries
+@#!Direct attached storage
+@#!Directory structures
+@#!Disk arrays
+@#!Display advertising
+@#!Distributed database recovery
+@#!Distributed database transactions
+@#!Distributed data locking
+@#!Distributed retrieval
+@#!Distributed storage
+@#!Distributed transaction monitors
+@#!Document collection models
+@#!Document filtering
+@#!Document representation
+@#!Document structure
+@#!Document topic models
+@#!Email
+@#!Enterprise application integration tools
+@#!Enterprise search
+@#!Entity relationship models
+@#!Entity resolution
+@#!Environment-specific retrieval
+@#!Evaluation of retrieval results
+@#!Expert search
+@#!Expert systems
+@#!Extent-based file structures
+@#!Extraction, transformation and loading
+@#!Federated databases
+@#!Fixed length attributes
+@#!Flash memory
+@#!Geographic information systems
+@#!Global positioning systems
+@#!Graph-based database models
+@#!Hashed file organization
+@#!Heap (data structure)
+@#!Hierarchical data models
+@#!Hierarchical storage management
+@#!Horizontal partitioning
+@#!Hybrid storage layouts
+@#!Image search
+@#!Incentive schemes
+@#!Incomplete data
+@#!Inconsistent data
+@#!Indexed file organization
+@#!Information integration
+@#!Information lifecycle management
+@#!Information retrieval diversity
+@#!Information retrieval
+@#!Information retrieval query processing
+@#!Information storage systems
+@#!Information storage technologies
+@#!Information systems applications
+@#!Inodes
+@#!Integrity checking
+@#!Internet communications tools
+@#!Interpage free-space management
+@#!Intrapage space management
+@#!Join algorithms
+@#!Key-value stores
+@#!Language models
+@#!Link and co-citation analysis
+@#!Linked lists
+@#!Location based services
+@#!Magnetic disks
+@#!Magnetic tapes
+@#!Main memory engines
+@#!MapReduce-based systems
+@#!MapReduce languages
+@#!Mashups
+@#!Massively multiplayer online games
+@#!Mathematics retrieval
+@#!Mediators and data integration
+@#!Message queues
+@#!Middleware business process managers
+@#!Middleware for databases
+@#!Mirroring
+@#!Mobile information processing systems
+@#!Multidimensional range search
+@#!Multilingual and cross-lingual retrieval
+@#!Multimedia and multimodal retrieval
+@#!Multimedia content creation
+@#!Multimedia databases
+@#!Multimedia information systems
+@#!Multimedia streaming
+@#!Music retrieval
+@#!Near-duplicate and plagiarism detection
+@#!Nearest-neighbor search
+@#!Network attached storage
+@#!Network data models
+@#!Novelty in information retrieval
+@#!Null values in records
+@#!Object-relational mapping facilities
+@#!Online advertising
+@#!Online analytical processing engines
+@#!Online analytical processing
+@#!Ontologies
+@#!Optical / magneto-optical disks
+@#!Page and site ranking
+@#!Parallel and distributed DBMSs
+@#!Peer-to-peer retrieval
+@#!Personalization
+@#!Phase change memory
+@#!Physical data models
+@#!Point-in-time copies
+@#!Point lookups
+@#!Presentation of retrieval results
+@#!Probabilistic retrieval models
+@#!Process control systems
+@#!Proximity search
+@#!Query intent
+@#!Query languages for non-relational engines
+@#!Query languages
+@#!Query log analysis
+@#!Query operators
+@#!Query optimization
+@#!Query planning
+@#!Query reformulation
+@#!Query representation
+@#!Query suggestion
+@#!Question answering
+@#!RAID
+@#!Rank aggregation
+@#!Recommender systems
+@#!Record and block layout
+@#!Record and buffer management
+@#!Record layout alternatives
+@#!Record storage alternatives
+@#!Record storage systems
+@#!Relational database model
+@#!Relational database query languages
+@#!Relational parallel and distributed DBMSs
+@#!Relational storage
+@#!Relevance assessment
+@#!Remote replication
+@#!Resource Description Framework (RDF)
+@#!RESTful web services
+@#!Retrieval effectiveness
+@#!Retrieval efficiency
+@#!Retrieval models and ranking
+@#!Retrieval on mobile devices
+@#!Retrieval tasks and goals
+@#!Search engine architectures and scalability
+@#!Search engine indexing
+@#!Search index compression
+@#!Searching with auxiliary databases
+@#!Search interfaces
+@#!Search results deduplication
+@#!Semantic web description languages
+@#!Semi-structured data
+@#!Sentiment analysis
+@#!Service buses
+@#!Service discovery and interfaces
+@#!Similarity measures
+@#!Simple Object Access Protocol (SOAP)
+@#!Site wrapping
+@#!Slotted pages
+@#!Social advertising
+@#!Spam detection
+@#!Spatial-temporal systems
+@#!Specialized information retrieval
+@#!Speech / audio search
+@#!Sponsored search advertising
+@#!Storage architectures
+@#!Storage area networks
+@#!Storage class memory
+@#!Storage management
+@#!Storage network architectures
+@#!Storage power management
+@#!Storage recovery strategies
+@#!Storage replication
+@#!Storage virtualization
+@#!Stream management
+@#!Structure and multilingual text search
+@#!Structured Query Language
+@#!Structured text search
+@#!Summarization
+@#!Surfacing
+@#!Tape libraries
+@#!Task models
+@#!Temporal data
+@#!Test collections
+@#!Texting
+@#!Thesauri
+@#!Thin provisioning
+@#!Top-k retrieval in databases
+@#!Traffic analysis
+@#!Transaction logging
+@#!Triggers and rules
+@#!Trust
+@#!Uncertainty
+@#!Unidimensional range search
+@#!Universal Description Discovery and Integration (UDDI)
+@#!Users and interactive retrieval
+@#!Variable length attributes
+@#!Version management
+@#!Vertical partitioning
+@#!Video search
+@#!Vnodes
+@#!Web and social media search
+@#!Web applications
+@#!Web conferencing
+@#!Web crawling
+@#!Web data description languages
+@#!Web indexing
+@#!Web interfaces
+@#!Web log analysis
+@#!Web mining
+@#!Web Ontology Language (OWL)
+@#!Web search engines
+@#!Web searching and information discovery
+@#!Web Services Description Language (WSDL)
+@#!Web services
+@#!World Wide Web
+@#!Wrappers (data mining)
+@#!XML query languages
+@!#XPath
+Information systems
+Integrated Development Environments
+@#!2lemetry
+@!#Evrything
+Internet of Things
+@#!Actian Vector
+@#!Apache Accumulo
+@#!Apache HBase
+@#!Facebook HydraBase
+@#!Google BigTable
+@#!Google Cloud Datastore
+@#!Hypertable
+@#!InfiniDB
+@#!MapR-DB
+@#!Netflix Priam
+@#!OhmData C5
+@#!Palantir AtalsDB
+@#!Sqrrl
+@!#Tephra
+Key-Map Data Model
+@#!Aerospike
+@#!Amazon DynamoDB
+@#!Couchbase ForestDB
+@#!Edis
+@#!ElephantDB
+@#!EventStore
+@#!Exasolution
+@#!HyperDex
+@#!KAI
+@#!LinkedIn Krati
+@#!Linkedin Voldemort
+@#!MemcacheDB
+@#!Netflix Dynomite
+@#!Oracle NoSQL Database
+@#!QDB
+@#!RAMCloud
+@#!RebornDB
+@#!Redis Cluster
+@#!Redis
+@#!Redis Sentinel
+@#!Riak
+@#!Scalaris
+@#!Storehaus
+@#!Tarantool
+@!#TreodeDB
+Key-value Data Model
+@#!Amazon Machine Learning
+@#!Apache Mahout
+@#!Ayasdi Core
+@#!brain
+@#!Caffe
+@#!Cloudera Oryx
+@#!Concurrent Pattern
+@#!convnetjs
+@#!cuDNN
+@#!Decider
+@#!DeepCL
+@#!etcML
+@#!Etsy Conjecture
+@#!fbcunn
+@#!Google Sibyl
+@#!H2O
+@#!IBM Watson
+@#!KeystoneML
+@#!LinkedIn FeatureFu
+@#!LinkedIn ml-ease
+@#!Microsoft Azure Machine Learning
+@#!MLbase
+@#!MLPNeuralNet
+@#!Neon
+@#!nupic
+@#!PredictionIO
+@#!scikit-learn
+@#!Seldon
+@#!Sparkling Water
+@#!Spark MLlib
+@#!Theano
+@#!Thunder
+@#!Vahara
+@#!Velox
+@#!Viv
+@#!Vowpal Wabbit
+@#!WEKA
+@#!Wit
+@!#Wolfram Alpha
+Machine Learning
+@#!Algebraic topology
+@#!Approximation algorithms
+@#!Approximation
+@#!Arbitrary-precision arithmetic
+@#!Automatic differentiation
+@#!Bayesian computation
+@#!Bayesian networks
+@#!Bayesian nonparametric models
+@#!Bootstrapping
+@#!Calculus
+@#!Causal networks
+@#!Coding theory
+@#!Combinatorial optimization
+@#!Combinatoric problems
+@#!Combinatorics
+@#!Combinatorics on words
+@#!Computation of transforms
+@#!Computations in finite fields
+@#!Computations on matrices
+@#!Computations on polynomials
+@#!Computing most probable explanation
+@#!Contingency table analysis
+@#!Continuous functions
+@#!Continuous mathematics
+@#!Continuous optimization
+@#!Convex optimization
+@#!Decision diagrams
+@#!Density estimation
+@#!Differential algebraic equations
+@#!Differential calculus
+@#!Differential equations
+@#!Differential variational inequalities
+@#!Dimensionality reduction
+@#!Discrete mathematics
+@#!Discrete optimization
+@#!Discretization
+@#!Distribution functions
+@#!Enumeration
+@#!Equational models
+@#!Expectation maximization
+@#!Exploratory data analysis
+@#!Extremal graph theory
+@#!Factor graphs
+@#!Functional analysis
+@#!Generating functions
+@#!Geometric topology
+@#!Gibbs sampling
+@#!Graph algorithms
+@#!Graph coloring
+@#!Graph enumeration
+@#!Graphs and surfaces
+@#!Graph theory
+@#!Gröbner bases and other special bases
+@#!Hypergraphs
+@#!Hypothesis testing and confidence interval computation
+@#!Information theory
+@#!Integer programming
+@#!Integral calculus
+@#!Integral equations
+@#!Interpolation
+@#!Interval arithmetic
+@#!Jackknifing
+@#!Kalman filters and hidden Markov models
+@#!Kernel density estimators
+@#!Lambda calculus
+@#!Linear programming
+@#!Loopy belief propagation
+@#!Markov-chain Monte Carlo convergence measures
+@#!Markov-chain Monte Carlo methods
+@#!Markov networks
+@#!Markov processes
+@#!Matchings and factors
+@#!Mathematical analysis
+@#!Mathematical optimization
+@#!Mathematical software performance
+@#!Matroids and greedoids
+@#!Maximum likelihood estimation
+@#!Max marginal computation
+@#!Mesh generation
+@#!Metropolis-Hastings algorithm
+@#!Mixed discrete-continuous optimization
+@#!Multivariate statistics
+@#!Network flows
+@#!Network optimization
+@#!Nonconvex optimization
+@#!Nonlinear equations
+@#!Nonparametric representations
+@#!Nonparametric statistics
+@#!Number-theoretic computations
+@#!Numerical analysis
+@#!Numerical differentiation
+@#!Ordinary differential equations
+@#!Partial differential equations
+@#!Paths and connectivity problems
+@#!Permutations and combinations
+@#!Point-set topology
+@#!Probabilistic algorithms
+@#!Probabilistic inference problems
+@#!Probabilistic reasoning algorithms
+@#!Probabilistic representations
+@#!Probability and statistics
+@#!Quadratic programming
+@#!Quadrature
+@#!Quantile regression
+@#!Quasiconvex programming and unimodality
+@#!Queueing theory
+@#!Random graphs
+@#!Random number generation
+@#!Regression analysis
+@#!Renewal theory
+@#!Resampling methods
+@#!Robust regression
+@#!Semidefinite programming
+@#!Sequential Monte Carlo methods
+@#!Simulated annealing
+@#!Solvers
+@#!Spectra of graphs
+@#!Spline models
+@#!Statistical graphics
+@#!Statistical paradigms
+@#!Stochastic control and optimization
+@#!Stochastic differential equations
+@#!Stochastic processes
+@#!Submodular optimization and polymatroids
+@#!Survival analysis
+@#!Time series analysis
+@#!Topology
+@#!Trees
+@!#Variable elimination
+Mathematics of computing
+@#!Box Tron
+@#!Facebook McDipper
+@#!Facebook Mcrouter
+@#!Facebook Memcached
+@#!Twemproxy
+@!#Twitter Fatcache
+Memcached forks and evolutions
+@#!ActiveMQ
+@#!Amazon Simple Queue Service
+@#!Apache Kafka
+@#!Apache Qpid
+@#!Apcera NATS
+@#!Apollo
+@#!Azure Event Hubs
+@#!Beanstalkd
+@#!Bit.ly NSQ
+@#!Celery
+@#!Crossroads I/O
+@#!Darner
+@#!Facebook Iris
+@#!Gearman
+@#!Google Cloud Pub/Sub
+@#!Google Pub/Sub
+@#!HornetQ
+@#!IronMQ
+@#!Kestrel
+@#!Marconi
+@#!RabbitMQ
+@#!RestMQ
+@#!RQ
+@!#Sidekiq
+Message-oriented middleware
+@#!Adaptive Metadata Manager
+@#!Altova MapForce
+@#!Apatar
+@#!CA Erwin Data Modeler
+@#!CA Technologies ERWin Data Modeler
+@#!Coglin Mill RODIN
+@#!Data dictionary software
+@#!Data mapping software
+@#!Data modeling software
+@#!Embarcadero ER/Studio XE
+@#!Flat File Checker
+@#!HiT Software Allora
+@#!IBM Rational Data Architect
+@#!IBM Rational System Architect
+@#!Informatica PowerCenter
+@#!Interface Computers Data Loader
+@#!Oracle Master Data Management MDM Suite
+@#!Oracle Warehouse Builder
+@#!Pentaho Kettle
+@#!Perforce software
+@#!SAP Master Data Management MDM
+@#!SAP Sybase PowerDesigner
+@#!SAS Data Integration Server
+@#!Scriptella
+@!#Visual Paradigm DB Visual ARCHITECT
+Metadata management software
+@#!Amazon Aurora
+@#!Amazon RDS
+@#!BigObject
+@#!Drizzle
+@#!Galera Cluster
+@#!Google Cloud SQL
+@#!Hive
+@#!MariaDB
+@#!MySQL Cluster
+@#!Percona Server
+@#!ProxySQL
+@#!TokuDB
+@!#WebScaleSQL
+MySQL forks and evolutions
+@#!Ad hoc networks
+@#!Application layer protocols
+@#!Bridges and switches
+@#!Bus networks
+@#!Cognitive radios
+@#!Control path algorithms
+@#!Cross-layer protocols
+@#!Cyber-physical networks
+@#!Data center networks
+@#!Data path algorithms
+@#!Deep packet inspection
+@#!Denial-of-service attacks
+@#!End nodes
+@#!Fiber distributed data interface (FDDI)
+@#!Firewalls
+@#!Formal specifications
+@#!Home networks
+@#!Hybrid networks
+@#!In-network processing
+@#!Intermediate nodes
+@#!Layering
+@#!Link-layer protocols
+@#!Local area networks
+@#!Logical nodes
+@#!Logical / virtual topologies
+@#!Mesh networks
+@#!Metropolitan area networks
+@#!Middle boxes / network appliances
+@#!Mobile ad hoc networks
+@#!Mobile and wireless security
+@#!Mobile networks
+@#!Naming and addressing
+@#!Network adapters
+@#!Network algorithms
+@#!Network architectures
+@#!Network components
+@#!Network control algorithms
+@#!Network design and planning algorithms
+@#!Network design principles
+@#!Network domains
+@#!Network dynamics
+@#!Network economics
+@#!Network experimentation
+@#!Network File System (NFS) protocol
+@#!Network layer protocols
+@#!Network manageability
+@#!Network management
+@#!Network measurement
+@#!Network mobility
+@#!Network monitoring
+@#!Network performance analysis
+@#!Network performance evaluation
+@#!Network performance modeling
+@#!Network policy
+@#!Network privacy and anonymity
+@#!Network properties
+@#!Network protocol design
+@#!Network protocols
+@#!Network range
+@#!Network reliability
+@#!Network resources allocation
+@#!Network security
+@#!Network servers
+@#!Network services
+@#!Network simulations
+@#!Network structure
+@#!Network topology types
+@#!Network types
+@#!OAM protocols
+@#!Online social networks
+@#!Overlay and other logical network structures
+@#!Packet classification
+@#!Packet scheduling
+@#!Packet-switching networks
+@#!Peer-to-peer networks
+@#!Peer-to-peer protocols
+@#!Physical links
+@#!Physical topologies
+@#!Point-to-point networks
+@#!Presentation protocols
+@#!Programmable networks
+@#!Programming interfaces
+@#!Protocol correctness
+@#!Protocol testing and verification
+@#!Public Internet
+@#!Repeaters
+@#!Ring networks
+@#!Routers
+@#!Routing protocols
+@#!Security protocols
+@#!Session protocols
+@#!Short-range networks
+@#!Signaling protocols
+@#!Social media networks
+@#!Star networks
+@#!Time synchronization protocols
+@#!Token ring networks
+@#!Topology analysis and generation
+@#!Traffic engineering algorithms
+@#!Transport protocols
+@#!Very long-range networks
+@#!Web protocol security
+@#!Wide area networks
+@#!Wired access networks
+@#!Wireless access networks
+@#!Wireless access points, base stations and infrastructure
+@#!Wireless local area networks
+@#!Wireless mesh networks
+@!#Wireless personal area networks
+Networks
+@#!Actian Ingres
+@#!BayesDB
+@#!Cockroach
+@#!Datomic
+@#!FoundationDB
+@#!Google F1
+@#!Google Spanner
+@#!HandlerSocket
+@#!H-Store
+@#!InfiniSQL
+@#!MemSQL
+@#!NuoDB
+@#!Oracle Database
+@#!Oracle TimesTen in-Memory Database
+@#!Pivotal GemFire XD
+@#!SAP HANA
+@#!Segment SQL
+@#!SenseiDB
+@#!Sky
+@!#SymmetricDS
+NewSQL Databases
+@#!ABC: the AspectBench Compiler for AspectJ
+@#!Acresso InstallAnywhere
+@#!Apple Cocoa
+@#!Borland Paradox
+@#!Charm++
+@#!C#
+@#!C++
+@#!Collaborative Application Markup Language CAML
+@#!Common Lisp Object System CLOS
+@#!Component-based Scalable Logical Architecture CSLA
+@#!Component object model COM software
+@#!Computer aided software engineering CASE tools
+@#!Distributed component object model DCOM software
+@#!Document Object Model DOM Scripting
+@#!Eiffel
+@#!Embarcadero Delphi
+@#!E++ pattern language
+@#!G code
+@#!G-code
+@#!Greatis Object Inspector
+@#!ILOG Rules software
+@#!JHDL
+@#!jQuery
+@#!Lua
+@#!M code
+@#!M-code
+@#!Microsoft ActiveX
+@#!Microsoft SQL Server Reporting Services SSRS
+@#!Microsoft Visual Basic.NET Compact Framework CF
+@#!Microsoft Visual Basic.NET
+@#!Microsoft Visual C# .NET
+@#!Microsoft Visual C#
+@#!Microsoft Visual C++
+@#!Modelica
+@#!Modula
+@#!Oberon
+@#!Objective Caml
+@#!Objective C
+@#!Objective-C
+@#!Object-oriented development environment software
+@#!Object-oriented programming languages
+@#!Oracle Java
+@#!PowerSoft PowerBuilder
+@#!Practical extraction and reporting language Perl
+@#!Practical extraction and reporting language PERL
+@#!Python
+@#!Rapide
+@#!R
+@#!SAP Sybase PowerBuilder
+@#!Self
+@#!Simple API for XML SAX
+@#!SKILL
+@#!Smalltalk
+@#!Spring
+@#!Sun Microsystems Java
+@#!Sun Microsystems Java Servlet API
+@!#Sybase PowerBuilder
+Object or component oriented development software
+@#!Database management system DBMS software
+@#!Hibernate ORM
+@#!Microsoft Visual FoxPro
+@#!Object database management system ODBMS software
+@!#Object oriented programming software
+Object oriented data base management software
+@#!Android
+@#!Apple AppleScript
+@#!Apple Macintosh OS
+@#!Apple Macintosh OS/X
+@#!Bash
+@#!BlackBerry Enterprise Server
+@#!BMC Software Control-M software
+@#!BMC Software CONTROL-O
+@#!Bourne Shell
+@#!CA 11 Workload Automation Restart and Tracking
+@#!CA 7 Workload Automation
+@#!CA Automation Point
+@#!CA Unicenter TNG
+@#!Cisco IOS
+@#!Cisco Systems IOS
+@#!Cisco Systems IOS software
+@#!Computer operating systems
+@#!C shell
+@#!Cygwin
+@#!Disk operating system DOS software
+@#!DOS shell script
+@#!Emulators
+@#!Event log monitor software
+@#!Handheld computer device software
+@#!Hewlett-Packard HP OpenVMS
+@#!Hewlett Packard HP-UX
+@#!IBM AIX
+@#!IBM i
+@#!IBM MVS
+@#!IBM Tivoli Workload Scheduler
+@#!Job control language JCL
+@#!Kornshell
+@#!KornShell
+@#!Linux
+@#!Mac OS X
+@#!Magellan Firmware
+@#!Microsoft Hyper-V Server
+@#!Microsoft operating system software
+@#!Microsoft Windows Mobile
+@#!Microsoft Windows
+@#!Microsoft Windows PowerShell
+@#!Microsoft Windows Pre-installation Environment
+@#!Microsoft Windows Server
+@#!Microsoft Windows Vista Business
+@#!Microsoft Windows Vista software
+@#!Microsoft Windows XP
+@#!Microsoft Windows XP Professional
+@#!MVS software
+@#!Operating system monitoring software
+@#!Operating system shells
+@#!Operating system software
+@#!Oracle Solaris
+@#!Oralce Java Enterprise System
+@#!Palm OS
+@#!Perl shell
+@#!QNX software
+@#!Real time operating system RTOS software
+@#!Red Hat Enterprise Linux
+@#!Shell script
+@#!Silicon Graphics IRIX
+@#!Simple mail transfer protocol SMTP
+@#!Sun Microsystems Solaris
+@#!UNIX
+@#!VME PowerPC VxWorks
+@#!VMWare Workstation
+@#!VxWorks software
+@!#Win CE
+Operating system software
+@#!HadoopDB
+@#!IBM Netezza
+@#!Postgres-XL
+@#!RecDB
+@!#Stado
+PostgreSQL forks and evolutions
+@#!Abbot
+@#!Borland SilkTest
+@#!Bugzilla
+@#!Code profilers
+@#!Compatibility testing software
+@#!Computer Associates Log Analyzer
+@#!Computer system diagnostics software
+@#!Conformance and validation testing software
+@#!CppUnit
+@#!Database testing software
+@#!Debuggers
+@#!Debugging software
+@#!Debugview
+@#!Defect tracking software
+@#!Dynamic analysis software
+@#!ej-technologies JProfiler
+@#!Fault testing software
+@#!FileMon
+@#!FitNesse
+@#!Framework for integrated test FIT
+@#!Functional testing software
+@#!Hewlett-Packard HP QuickTest Professional
+@#!Hewlett-Packard HP TestDirector for Quality Center
+@#!Hewlett-Packard HP WinRunner
+@#!Hewlett Packard LoadRunner
+@#!Hewlett Packard QuickTest Professional
+@#!IBM Rational Functional Tester
+@#!IBM Rational PurifyPlus
+@#!IBM Rational Robot
+@#!Integration testing software
+@#!Interoperability testing software
+@#!JUnit
+@#!Load testing software
+@#!Logic programming software
+@#!Low-level debugger software
+@#!Micro Focus TestPartner
+@#!Microsoft Visual Studio Test Professional
+@#!Migration testing software
+@#!Mutation testing software
+@#!Nunit
+@#!Parasoft SOAtest
+@#!Personal computer diagnostic software
+@#!Profilers
+@#!Recovery testing software
+@#!RegMon
+@#!Regression testing software
+@#!Robot Framework
+@#!Rockwell RSLogix
+@#!Security testing software
+@#!Segue SilkPerformer
+@#!SeleniumHQ
+@#!SmartBear Software AutomatedQA TestComplete
+@#!Source code editor software
+@#!Static analysis software
+@#!Stress testing software
+@#!Symbolic debugger software
+@#!System testing software
+@#!TechSmith Morae
+@#!Test design software
+@#!Test implementation software
+@#!TestNG
+@#!Unit testing software
+@#!Usability testing software
+@#!User interface design software
+@#!Vector Software VectorCast
+@#!Watir
+@!#Windows kernel debuggers
+Program testing software
+@#!24SevenOffice Project
+@#!37signals Basecamp
+@#!37Signals Basecamp
+@#!ACI TaskTracker
+@#!Actano Rplan
+@#!Active Network EventRegister
+@#!AEC Software FastTrack Schedule for Windows
+@#!Alert Technologies OpsCenter
+@#!American Glazing Software AGS WindowPricer
+@#!AMS REALTIME Projects
+@#!Application Software SHEAR
+@#!Applied Systems Associates aSa Rebar
+@#!App Software Associations AppTrak.net
+@#!AquaSoft Farm Manager
+@#!Ascensio Systems TeamLab
+@#!Assembla
+@#!Atlassian JIRA
+@#!AtTask
+@#!Automation Centre TrackerSuite.Net
+@#!Bentley ProjectWise
+@#!Bentley Systems ProjectWise
+@#!Bid Master software
+@#!BioEx Systems Fitness Maker
+@#!bMobile Technology Route Manager
+@#!bMobile Technology Sales
+@#!Bosch Punch List
+@#!BrightWork pmPoint
+@#!CA Technologies CA Clarity PPM for IT Governance
+@#!CBS ProLog Manager
+@#!Central Desktop
+@#!Clarizen
+@#!ClassApps SelectSurveyASP
+@#!Coeus
+@#!ComputerEase software
+@#!Computer estimation software
+@#!ConEst BidTrac
+@#!ConEst JobTrac
+@#!ConferenceEdge software
+@#!Constellation Justice Systems DAMION software
+@#!Construction Software Center EasyEst
+@#!Contract management software
+@#!Convention Industry Council CIC APEX Toolbox
+@#!Cost estimating software
+@#!Countersoft Gemini
+@#!CPR Software FloorCOST Estimator for Excel
+@#!CPR Visual Estimator
+@#!Craftsman CD Estimator
+@#!Creative Research Systems The Survey System
+@#!Crones & Associations Project Tracker Pro
+@#!CS Odessa ConceptDraw Project
+@#!Customer Expressions i-Sight software
+@#!Daystar iStructural.com
+@#!Depiction Software Deco-Con Estimating Software
+@#!Desktop Technologies NewsBoss
+@#!DevWave Estimate Works
+@#!Dexter + Cheney Spectrum Construction Software
+@#!Digital Crew Teamwork Project Manager
+@#!Disarea 5pm
+@#!dotProject
+@#!Element Software Copper
+@#!Ellucian Degree Works
+@#!Eloquent Systems software
+@#!Emergency Services Integrators ESi WebEOC
+@#!Enabl-u Technologies APIS
+@#!Endeavour Agile ALM
+@#!Estimating software
+@#!eTakeoff
+@#!etouches
+@#!Evergreen Technology Eagle Bid Estimating
+@#!Experience in Software Project KickStart
+@#!Experience in Software Webplanner
+@#!FastEST FastPipe
+@#!FastEST software
+@#!FieldSoft AIMSonScene
+@#!FIRST Flooring software
+@#!FloorCOST Estimator for Excel
+@#!FloorRight software
+@#!FluidSurveys
+@#!Forum One Communications ProjectSpaces
+@#!FuneralKiosk
+@#!Galorath SEER-SEM
+@#!Galorath SEER software
+@#!GanttProject
+@#!Glasscubes
+@#!GrenSoft WorkTracer
+@#!Hard Dollar HD Project Estimating
+@#!HCSS HeavyBid
+@#!HCSS HeavyJob
+@#!HyperOffice Collaboration Suite
+@#!i-lign
+@#!Incident command system ICS software
+@#!InLoox
+@#!Intellisys Project Desktop
+@#!Intland Software codeBeamer
+@#!Investigation management software
+@#!Job tracking software
+@#!Kentech Kipware software
+@#!Khameleon Software Project Management Software
+@#!Kidasa Milestones Professional
+@#!KOffice.org Kplato
+@#!KommandCore
+@#!Legal Files software
+@#!Legal Files Software
+@#!LiquidPlanner
+@#!Logic Software Easy Projects.NET
+@#!Madrigal Soft Tools Delegator
+@#!Maintenance record software
+@#!Mavenlink
+@#!Maxwell Systems American Contractor
+@#!Maxwell Systems Quest Estimator
+@#!McCabe Software TRUEchange
+@#!Measure Square FloorEstimate Pro
+@#!Measure Square software
+@#!Microsoft Project
+@#!Microsoft Sharepoint
+@#!Microsoft SharePoint
+@#!Microsoft SharePoint software
+@#!Microsoft Team Foundation Server
+@#!Mindjet MindManager software
+@#!MinuteMan Systems MinuteMan Project Management Software
+@#!Mitchell International Mitchell WorkCenter
+@#!National Center for Crisis and Continuity Coordination NC4 E Team
+@#!National Concrete & Masonry Estimator
+@#!Nebu Dub InterViewer
+@#!New Dawn Technologies JustWare Court
+@#!Ninian Huddle
+@#!OfficeWork Software TurboProject
+@#!On Center On-Screen Takeoff
+@#!On Center Quick Bid
+@#!Online River Software Personal Trainer Pro
+@#!Open Dynamics Collabtive
+@#!Oracle JD Edwards EnterpriseOne Project Management
+@#!Oracle Primavera Enterprise Project Portfolio Management software
+@#!Oracle Primavera P6 Enterprise Portfolio Project Management
+@#!Oracle Primavera P6 Professional Project Management
+@#!Oracle Primavera Systems software
+@#!Palbridge Ubidesk
+@#!Palm Pal Transana
+@#!Perseus SurveySolutions
+@#!Piping construction costs estimation software
+@#!Planbox
+@#!Planstone software
+@#!PlanSwift software
+@#!Practice Technology Prevail
+@#!Process reengineering software
+@#!Productivity software
+@#!Project analysis and costing software
+@#!Project data integration software
+@#!Project estimation software
+@#!ProjectLibre
+@#!Project management software
+@#!Project Manager Online ProjectManager.com
+@#!Project-Open
+@#!Project planning software
+@#!Project scheduling software
+@#!Projecturf
+@#!PTC Pro/INTRALINK
+@#!Qualtrics Research Suite software
+@#!Quantum Software Solutions Quantum Project Manager
+@#!Realization Streamliner
+@#!Redmine
+@#!ReServe Interactive Catering Software
+@#!Resource Ordering and Statusing System ROSS
+@#!RISA Technologies RISAMasonry
+@#!SaaS SurveyMonkey
+@#!Sage Construction Anywhere
+@#!Saltire Software FloorRight software
+@#!Saltire Software FloorRight Software
+@#!SAP Customs Management
+@#!Sciforma
+@#!Scrum software
+@#!SharedPlan Software SharedPlan Pro
+@#!Siemens Teamcenter
+@#!Smartsheet
+@#!SoftPro ProForm
+@#!SoftPro software
+@#!Software Design Associates Computer Fencing System CFS
+@#!Solera Audatex Estimating
+@#!SolidWorks Enterprise PDM
+@#!Sona Systems Experiment Management System
+@#!Standpipe Studios Vertabase
+@#!Stylite eGroupWare
+@#!Swan River Software Estimiser Pro
+@#!Syscon Court Clerk
+@#!TaskJuggler
+@#!TeamDynamixHE
+@#!Telluride Software Classic Trak-It
+@#!Tenrox Project Workforce Management
+@#!The Gordian Group PROGEN Online
+@#!The Omni Group OmniPlan
+@#!Thomson Reuters Elite ProLaw software
+@#!ThoughtWorks Studio Mingle
+@#!Total quality management TQM software
+@#!Tradesman's Software Master Estimator
+@#!Turtle Creek Software Goldenseal
+@#!Tyler Technologies Odyssey Case Manager
+@#!Unawave
+@#!Upland Consulting Group Repair Traq
+@#!VirtualBoss
+@#!Virtual Case Management VCM software
+@#!Vision InfoSoft Plumbing Bid Manager
+@#!VSCOnline VPMi
+@#!WBS Goplan
+@#!web2project
+@#!Web-Est
+@#!WorkingArtist Systems WorkingArtist
+@#!Wrike
+@!#Yield management systems
+Project management software
+@#!ABET, Inc.
+@#!Accenture
+@#!ActiveX
+@#!Ada language
+@#!Ada Lovelace
+@#!Adobe Systems Incorporated
+@#!Advanced Information Systems
+@#!Agere Systems, Inc.
+@#!Agilent Technologies
+@#!Ajax
+@#!Alan Cooper
+@#!Alan Curtis Kay 
+@#!Alan J. Perlis
+@#!Alan Mathison Turing
+@#!Alcatel-Lucent
+@#!Allen Kent
+@#!Allen Newell
+@#!American Mathematical Society
+@#!American National Standards Institute 
+@#!American Statistical Association
+@#!Ames Research Center
+@#!An'an Wang
+@#!Andrew S. Grove
+@#!ANSI C
+@#!AOL, Inc.
+@#!Apache Software Foundation
+@#!Apple, Inc.
+@#!AppleScript
+@#!Argonne National Laboratory
+@#!Association for Computing Machinery
+@#!Association for Information Systems
+@#!AT&T
+@#!AutoCAD
+@#!A. van Wijngaarden
+@#!BAE Systems
+@#!Barbara Liskov
+@#!Barry W. Boehm
+@#!BASIC
+@#!BEA Systems, Inc.
+@#!Bell Labs
+@#!Bill Gates
+@#!Bill Joy
+@#!Bill Millard
+@#!Bjarne Stroustrup
+@#!Blaise Pascal
+@#!Blizzard Entertainment
+@#!Blue Sky Studios
+@#!Bluetooth
+@#!Borland Software Corporation
+@#!Brazilian Computer Society
+@#!British Computer Society
+@#!Bruce Schneier
+@#!Business Process Execution Language
+@#!Cable & Wireless Worldwide
+@#!Cadence Design Systems
+@#!C. A. R. Hoare
+@#!CA Technologies
+@#!CDMA systems
+@#!CD-ROMs
+@#!Cell Broadband Engine
+@#!Charles Babbage Institute
+@#!Charles Babbage
+@#!Charles Tandy
+@#!China Telecom Corporation Limited
+@#!Chrome
+@#!Cisco Systems, Inc.
+@#!Citrix Systems, Inc.
+@#!Claude Elwood Shannon
+@#!Clay Mathematics Institute
+@#!Clive Sinclair
+@#!CMOS
+@#!Commerce One
+@#!Companies
+@#!Compaq Computer Corporation
+@#!Computer History Museum
+@#!Computer Press Association
+@#!Computer Science Teachers Association
+@#!Computing Accreditation Commission
+@#!Computing Community Consortium
+@#!Computing Research Association
+@#!Computing Technology Industry Association
+@#!CORBA
+@#!Corel Corporation
+@#!Courant Institute of Mathematical Sciences
+@#!CSAB
+@#!Cyril W. Cleverdon
+@#!Datalog
+@#!David Hilbert
+@#!David Patterson
+@#!David Sarnoff
+@#!DB2
+@#!Defense Advanced Research Projects Agency
+@#!Dell Computer Corporation
+@#!DiamondCluster International, Inc.
+@#!Digital Equipment Corporation
+@#!DNS (Domain Name System)
+@#!Donald Ervin Knuth
+@#!DOS
+@#!Douglas R. Hofstadter
+@#!Dreamweaver
+@#!DSL
+@#!DSM
+@#!DVDs
+@#!eBay Inc.
+@#!Eclipse Foundation
+@#!Eclipse
+@#!Edmund Callis Berkeley
+@#!Edvard Scheutz 
+@#!EIS, Inc.
+@#!Electronic Frontier Foundation
+@#!Electronic  Visualization Laboratory
+@#!Elliot Irving Organick
+@#!EMC Corporation
+@#!Ericsson
+@#!Ernst & Young
+@#!Ethernet
+@#!European Network and Information Security Agency
+@#!European Telecommunications Standards Institute
+@#!Excel
+@#!Facebook
+@#!Federal Communications Commission
+@#!Firefox
+@#!Flickr
+@#!Forrester Research
+@#!Fortran
+@#!FreeBSD
+@#!Free Software Foundation
+@#!Gartner Group
+@#!Gary McGraw
+@#!Gene H. Golub
+@#!General Dynamics
+@#!General Electric
+@#!Georg Scheutz
+@#!Gmail
+@#!Google Earth
+@#!Google Inc.
+@#!Google Maps
+@#!Google Scholar
+@#!Gordon Bell
+@#!Grace Murray Hopper
+@#!GSM
+@#!Harry H. Goode
+@#!Harvey M. Deitel
+@#!H. D. Goode
+@#!HDTV
+@#!Herbert A. Simon
+@#!Herbert R. J. Grosch
+@#!Herman H. Goldstine
+@#!Herman Hollerith
+@#!Hewlett-Packard Company
+@#!HP Labs
+@#!HP-UX
+@#!Human Factors and Ergonomics Society
+@#!IBM Almaden Research Center
+@#!IEEE Computer Society
+@#!Infineon Technologies
+@#!InfiniBand
+@#!Infusion
+@#!Intel Corporation
+@#!International Business Machines Corporation
+@#!International Computer Music Association
+@#!International Data Corporation (IDC)
+@#!International Game Developers Association
+@#!International Organization for Standardization
+@#!International Software Benchmarking Standards Group Limited
+@#!Internet Corporation for Assigned Names and Numbers
+@#!Internet Explorer
+@#!Iona Technologies
+@#!iPad
+@#!iPhone
+@#!IP Multimedia Subsystem
+@#!iPod
+@#!IPTV
+@#!IPv6
+@#!Isaac Newton Institute for Mathematical Sciences
+@#!ITSS, Inc.
+@#!ITU
+@#!Ivar Jacobson
+@#!Jakob Nielsen
+@#!James Gosling 
+@#!JAVA ME
+@#!JavaScript
+@#!Jay Wright Forrester
+@#!Jet Propulsion Laboratory
+@#!J. H. Wilkinson
+@#!Jim Blinn
+@#!Jim Gray
+@#!JISC
+@#!John Cocke
+@#!John McCarthy
+@#!John R. Pasta
+@#!John Sculley
+@#!John Vincent Atanasoff
+@#!John Von Neumann
+@#!John W. Mauchly
+@#!Joint Photographic Experts Group
+@#!Jon Kleinberg 
+@#!JPEG
+@#!J. Presper Eckert
+@#!J. Richard Buchi
+@#!JSP
+@#!Juniper Networks
+@#!Kazimierz Kuratowski
+@#!Kent Beck
+@#!Konrad Zuse
+@#!Kurt Godel
+@#!Langley Research Center
+@#!Lawrence Berkeley National Laboratory
+@#!Lawrence Livermore National Laboratory
+@#!Linus Torvalds
+@#!Linux Professional Institute
+@#!Lockheed Martin Corporation
+@#!London Mathematical Society
+@#!Los Alamos National Laboratory
+@#!Lotus Notes
+@#!Macintosh OS
+@#!Macintosh
+@#!Macromedia
+@#!Marian Smoluchowski
+@#!Mark D. Weiser
+@#!Martin Fowler
+@#!Marvin Lee Minsky
+@#!Massachusetts Institute of Technology
+@#!Mathematica
+@#!MATLAB
+@#!Maurice V. Wilkes
+@#!Max Planck Institutes
+@#!McKinsey & Company
+@#!Microsoft Corporation
+@#!MIMO Systems
+@#!MIT Media Lab
+@#!Mobile IP
+@#!MODIS
+@#!Motorola, Inc.
+@#!Motorola Mobility, Inc.
+@#!Motorola Solutions, Inc.
+@#!Moving Picture Experts Group
+@#!Mozilla Corporation
+@#!Mozilla Foundation
+@#!MP3
+@#!MS-DOS
+@#!MSN (portal)
+@#!Myspace
+@#!MySQL
+@#!National Academy of Engineering
+@#!National Academy of Sciences
+@#!National Center for Education Statistics
+@#!National Institute of Standards and Technology
+@#!National Institutes of Health
+@#!National Instruments Corporation
+@#!National Research Council
+@#!National Science Foundation
+@#!NetWare
+@#!Nokia Corporation
+@#!Nortel Networks Corporation
+@#!Novell, Inc.
+@#!NVIDIA Corporation 
+@#!NXP Semiconductors
+@#!Oak Ridge National Laboratory
+@#!Object Management Group
+@#!OFDM System
+@#!Office
+@#!Open Knowledge Society
+@#!OpenMP
+@#!Open Network Laboratory
+@#!Open Source Initiative
+@#!Operational Research Society
+@#!Oracle Corporation
+@#!Organizations
+@#!OSGi Alliance
+@#!Outlook
+@#!Pacific Northwest National Laboratory
+@#!PARC
+@#!Patent and Trademark Office
+@#!PDF
+@#!Pentium
+@#!People in computing
+@#!Personal Robots Group
+@#!Peter J. Denning
+@#!Peter Norton
+@#!Philips Semiconductors
+@#!Photoshop
+@#!Pixar Animation Studios
+@#!PlanetLab
+@#!Pocket PC
+@#!PowerPC
+@#!PowerPoint
+@#!Quest Software, Inc.
+@#!QuickBooks
+@#!Quicken
+@#!QuickTime
+@#!Rational Software Corporation
+@#!Research in Motion Limited
+@#!Richard M. Karp
+@#!RISC processors
+@#!R. Milner
+@#!Robert R. Everett
+@#!Royal Statistical Society
+@#!RSA
+@#!Ruby on Rails
+@#!Samba
+@#!Sandia National Laboratories
+@#!San Diego Supercomputer Center
+@#!SANS Institute
+@#!SAS Institute, Inc.
+@#!Secure Sockets Layer
+@#!Sega Corporation
+@#!SELinux
+@#!Semiconductor Industry Association
+@#!Seymour Papert
+@#!SharePoint
+@#!Short Message Service
+@#!Siemens AG
+@#!Silicon Graphics, Inc.
+@#!SIMD architectures
+@#!Simulink
+@#!Skype
+@#!SLAC National Accelerator Laboratory
+@#!SNMP
+@#!Software Engineering Institute
+@#!Solaris
+@#!SONET
+@#!Sony Corporation
+@#!SPARC
+@#!SQL Server
+@#!SRI International
+@#!Standard Performance Evaluation Corporation
+@#!Stefan Banach
+@#!Steve Jobs
+@#!Sun Microsystems
+@#!Systems Research Center
+@#!Taiwan Semiconductor Manufacturing Company, Limited
+@#!TDWI
+@#!Technologies
+@#!Telcordia Technologies
+@#!Test Technology Technical Council
+@#!Texas Instruments Inc.
+@#!The IBM Toronto Software Lab
+@#!The Open Group
+@#!The Standish Group International, Inc.
+@#!Thomas J. Watson
+@#!Thomas Watson, Jr.
+@#!TMS320C
+@#!Toshiba Corporation
+@#!Transaction Processing Performance Council
+@#!Transport Layer Security
+@#!TREC
+@#!Trusted Computing Group
+@#!Twitter
+@#!UMTS
+@#!Unicode
+@#!Usenet
+@#!UWB
+@#!Vannevar Bush
+@#!VHDL 
+@#!Viewpoints Research Institute
+@#!Virage Logic
+@#!Virtual University Enterprises
+@#!Visual Basic
+@#!VMware
+@#!VoiceXML
+@#!VRML
+@#!Wifi
+@#!Wikimedia Foundation, Inc.
+@#!Wikipedia
+@#!William C. Norris
+@#!WiMAX
+@#!Windows environment
+@#!Windows
+@#!WordNet
+@#!World Intellectual Property Organization
+@#!World Wide Web Consortium
+@#!X3D
+@#!Xerox Corporation
+@#!XILINX
+@#!X-Window
+@#!Yahoo! Inc.
+@#!Yahoo! (portal)
+@#!YouTube
+@!#ZigBee
+Proper nouns: People, technologies and companies
+@#!AirBnB Airflow
+@#!Apache Aurora
+@#!Apache Falcon
+@#!Apache Oozie
+@#!Chronos
+@#!Linkedin Azkaban
+@!#Pinterest Pinball
+Scheduling
+@#!Algolia
+@#!Apache Blur
+@#!Apache Lucene
+@#!Elasticsearch Hadoop
+@#!ElasticSearch
+@#!Enigma.io
+@#!Facebook Unicorn
+@#!Google Caffeine
+@#!Google Percolator
+@#!Haeinsa
+@#!HBase Coprocessor
+@#!hIndex
+@#!Lily HBase Indexer
+@#!LinkedIn Bobo
+@#!LinkedIn Cleo
+@#!LinkedIn Galene
+@#!LinkedIn Zoie
+@#!SF1R Search Engine
+@!#Sphinx Search Server
+Search engine and framework
+@#!Apache Knox Gateway
+@#!Apache Ranger
+@#!Apache Sentry
+@!#PacketPig
+Security
+@#!Access control
+@#!Authentication
+@#!Authorization
+@#!Block and stream ciphers
+@#!Browser security
+@#!Cryptanalysis and other attacks
+@#!Cryptography
+@#!Data anonymization and sanitization
+@#!Database activity monitoring
+@#!Database and storage security
+@#!Digital rights management
+@#!Digital signatures
+@#!Distributed systems security
+@#!Domain-specific security and privacy architectures
+@#!Economics of security and privacy
+@#!Embedded systems security
+@#!File system security
+@#!Formal methods and theory of security
+@#!Formal security models
+@#!Graphical / visual passwords
+@#!Hardware attacks and countermeasures
+@#!Hardware-based security protocols
+@#!Hardware reverse engineering
+@#!Hardware security implementation
+@#!Hash functions and message authentication codes
+@#!Human and societal aspects of security and privacy
+@#!Information accountability and usage control
+@#!Information flow control
+@#!Information-theoretic techniques
+@#!Intrusion/anomaly detection and malware mitigation
+@#!Intrusion detection systems
+@#!Key management
+@#!Logic and verification
+@#!Malicious design modifications
+@#!Malware and its mitigation
+@#!Management and querying of encrypted data
+@#!Mathematical foundations of cryptography
+@#!Mobile platform security
+@#!Multi-factor authentication
+@#!Operating systems security
+@#!Penetration testing
+@#!Phishing
+@#!Privacy-preserving protocols
+@#!Privacy protections
+@#!Pseudonymity, anonymity and untraceability
+@#!Public key (asymmetric) techniques
+@#!Public key encryption
+@#!Security in hardware
+@#!Security requirements
+@#!Security services
+@#!Side-channel analysis and countermeasures
+@#!Social aspects of security and privacy
+@#!Social engineering attacks
+@#!Social network security and privacy
+@#!Software and application security
+@#!Software reverse engineering
+@#!Software security engineering
+@#!Spoofing attacks
+@#!Symmetric cryptography and hash functions
+@#!Systems security
+@#!Tamper-proof and tamper-resistant designs
+@#!Trusted computing
+@#!Trust frameworks
+@#!Usability in security and privacy
+@#!Virtualization and security
+@#!Vulnerability management
+@!#Vulnerability scanners
+Security and privacy
+@#!Akka Toolkit
+@#!Apache Avro
+@#!Apache Curator
+@#!Apache Karaf
+@#!Apache Thrift
+@#!Apache Zookeeper
+@#!Google Chubby
+@#!Linkedin Norbert
+@#!MPICH
+@#!OpenMPI
+@#!Serf
+@#!Spotify Luigi
+@#!Spring XD
+@!#Twitter Elephant Bird
+Service Programming
+@#!Acceptable use policy restrictions
+@#!Accreditation
+@#!Adolescents
+@#!Adult education
+@#!Age-based restrictions
+@#!Age
+@#!Antitrust and competition
+@#!Assistive technologies
+@#!Automation
+@#!Broadband access
+@#!Censoring filters
+@#!Censorship
+@#!Centralization / decentralization
+@#!Children
+@#!Codes of ethics
+@#!Commerce policy
+@#!Computational science and engineering education
+@#!Computational thinking
+@#!Computer and information systems training
+@#!Computer crime
+@#!Computer engineering education
+@#!Computer manufacturing
+@#!Computer science education
+@#!Computing and business
+@#!Computing education programs
+@#!Computing education
+@#!Computing equipment management
+@#!Computing industry
+@#!Computing literacy
+@#!Computing occupations
+@#!Computing organizations
+@#!Computing profession
+@#!Computing / technology policy
+@#!Consumer products policy
+@#!Copyrights
+@#!Corporate surveillance
+@#!CS1
+@#!Cultural characteristics
+@#!Database protection laws
+@#!Economic impact
+@#!Employment issues
+@#!File systems management
+@#!Financial crime
+@#!Funding
+@#!Gender
+@#!Genetic information
+@#!Geographic characteristics
+@#!Governmental regulations
+@#!Governmental surveillance
+@#!Government technology policy
+@#!Hardware selection
+@#!Hate speech
+@#!Health information exchanges
+@#!Historical people
+@#!History of computing
+@#!History of computing theory
+@#!History of hardware
+@#!History of programming languages
+@#!History of software
+@#!Identity theft
+@#!Implementation management
+@#!Import / export controls
+@#!Industry statistics
+@#!Informal education
+@#!Information science education
+@#!Information system economics
+@#!Information systems education
+@#!Information technology education
+@#!Intellectual property
+@#!Internet governance / domain names
+@#!K-12 education
+@#!Licensing
+@#!Malware / spyware crime
+@#!Management of computing and information systems
+@#!Medical information policy
+@#!Medical records
+@#!Medical technologies
+@#!Men
+@#!Model curricula
+@#!Net neutrality
+@#!Network access control
+@#!Network access restrictions
+@#!Network operations
+@#!Offshoring
+@#!Online auctions policy
+@#!Patents
+@#!Patient privacy
+@#!People with disabilities
+@#!Personal health records
+@#!Political speech
+@#!Pornography
+@#!Pricing and resource allocation
+@#!Privacy policies
+@#!Professional topics
+@#!Project and people management
+@#!Project management techniques
+@#!Project staffing
+@#!Quality assurance
+@#!Race and ethnicity
+@#!Reengineering
+@#!Religious orientation
+@#!Remote medicine
+@#!Secondary liability
+@#!Seniors
+@#!Sexual orientation
+@#!Socio-technical systems
+@#!Soft intellectual property
+@#!Software engineering education
+@#!Software maintenance
+@#!Software management
+@#!Software selection and adaptation
+@#!Student assessment
+@#!Surveillance
+@#!Sustainability
+@#!System management
+@#!Systems analysis and design
+@#!Systems development
+@#!Systems planning
+@#!Taxation
+@#!Technology and censorship
+@#!Technology audits
+@#!Testing, certification and licensing
+@#!Trademarks
+@#!Transborder data flow
+@#!Treaties
+@#!Universal access
+@!#User characteristics
+Social and professional topics
+@#!3-tier architectures
+@#!Abstract data types
+@#!Abstraction, modeling and modularity
+@#!Acceptance testing
+@#!Access protection
+@#!Agile software development
+@#!Allocation / deallocation strategies
+@#!API languages
+@#!Application specific development environments
+@#!Architecture description languages
+@#!Assembly languages
+@#!Automated static analysis
+@#!Backup procedures
+@#!Buffering
+@#!Capability Maturity Model
+@#!Checkpoint / restart
+@#!Classes and objects
+@#!Collaboration in software development
+@#!Command and control languages
+@#!Communications management
+@#!Compilers
+@#!Completeness
+@#!Concurrency control
+@#!Concurrent programming structures
+@#!Consistency
+@#!Constraint and logic languages
+@#!Constraints
+@#!Context specific languages
+@#!Contextual software domains
+@#!Control structures
+@#!Cooperating communicating processes
+@#!Coroutines
+@#!Correctness
+@#!Data flow languages
+@#!Data types and structures
+@#!Designing software
+@#!Design languages
+@#!Design patterns
+@#!Development frameworks and environments
+@#!Distributed memory
+@#!Distributed systems organizing principles
+@#!Documentation
+@#!Domain specific languages
+@#!Dynamic analysis
+@#!Dynamic compilers
+@#!Electronic blackboards
+@#!Embedded middleware
+@#!Empirical software validation
+@#!Entity relationship modeling
+@#!Error handling and recovery
+@#!Extensible languages
+@#!Extra-functional properties
+@#!Fault tree analysis
+@#!Feature interaction
+@#!Flowcharts
+@#!Formal language definitions
+@#!Formal methods
+@#!Formal software verification
+@#!Frameworks
+@#!Functionality
+@#!Functional languages
+@#!Garbage collection
+@#!General programming languages
+@#!Graphical user interface languages
+@#!Imperative languages
+@#!Incremental compilers
+@#!Inheritance
+@#!Input / output
+@#!Integrated and visual development environments
+@#!Integration frameworks
+@#!Interactive games
+@#!Interface definition languages
+@#!Interoperability
+@#!Interpreters
+@#!Just-in-time compilers
+@#!Language features
+@#!Language types
+@#!Layered systems
+@#!Macro languages
+@#!Main memory
+@#!Maintaining software
+@#!Massively parallel systems
+@#!Memory management
+@#!Message oriented middleware
+@#!Message passing
+@#!Middleware
+@#!Model-driven software engineering
+@#!Modules / packages
+@#!Monitors
+@#!Multiparadigm languages
+@#!Multiprocessing / multiprogramming / multitasking
+@#!Multithreading
+@#!Mutual exclusion
+@#!Object oriented architectures
+@#!Object oriented development
+@#!Object oriented frameworks
+@#!Object oriented languages
+@#!Open source model
+@#!Operating systems
+@#!Operational analysis
+@#!Orchestration languages
+@#!Organizing principles for web applications
+@#!Pair programming
+@#!Parsers
+@#!Patterns
+@#!Petri nets
+@#!Polymorphism
+@#!Power management
+@#!Preprocessors
+@#!Procedures, functions and subroutines
+@#!Process management
+@#!Process synchronization
+@#!Process validation
+@#!Programming by example
+@#!Programming teams
+@#!Publish-subscribe / event-based architectures
+@#!Rapid application development
+@#!Real-time schedulability
+@#!Real-time systems software
+@#!Recursion
+@#!Reflective middleware
+@#!Requirements analysis
+@#!Retargetable compilers
+@#!Reusability
+@#!Risk management
+@#!Runtime environments
+@#!Scheduling
+@#!Scripting languages
+@#!Secondary storage
+@#!Semantics
+@#!Simulator / interpreter
+@#!Software architectures
+@#!Software as a service orchestration systems
+@#!Software configuration management and version control systems
+@#!Software creation and management
+@#!Software defect analysis
+@#!Software design engineering
+@#!Software design techniques
+@#!Software design tradeoffs
+@#!Software development methods
+@#!Software development process management
+@#!Software development techniques
+@#!Software evolution
+@#!Software fault tolerance
+@#!Software functional properties
+@#!Software implementation planning
+@#!Software infrastructure
+@#!Software libraries and repositories
+@#!Software maintenance tools
+@#!Software notations and tools
+@#!Software organization and properties
+@#!Software performance
+@#!Software post-development issues
+@#!Software product lines
+@#!Software prototyping
+@#!Software reliability
+@#!Software safety
+@#!Software system models
+@#!Software system structures
+@#!Software testing and debugging
+@#!Software usability
+@#!Software verification and validation
+@#!Software verification
+@#!Software version control
+@#!Source code generation
+@#!Space-based architectures
+@#!Specialized application languages
+@#!Specification languages
+@#!Spiral model
+@#!State based definitions
+@#!State systems
+@#!Synchronization
+@#!Syntax
+@#!System administration
+@#!System description languages
+@#!System modeling languages
+@#!Tightly coupled architectures
+@#!Traceability
+@#!Translator writing systems and compiler generators
+@#!Ultra-large-scale systems
+@#!Unified Modeling Language (UML)
+@#!Use cases
+@#!Very high level languages
+@#!Virtual machines
+@#!Virtual memory
+@#!Virtual worlds software
+@#!Virtual worlds training simulations
+@#!Visual languages
+@#!V-model
+@#!Walkthroughs
+@!#Waterfall model
+Software and its engineering
+@#!Actian SQL for Hadoop
+@#!AMPLAB Shark
+@#!Apache Drill
+@#!Apache HCatalog
+@#!Apache Hive
+@#!Apache Optiq
+@#!Apache Phoenix
+@#!BlinkDB
+@#!Brytlyt
+@#!Cloudera Impala
+@#!Concurrent Lingual
+@#!Datasalt Splout SQL
+@#!eBay Kylin
+@#!Facebook PrestoDB
+@#!Hadapt
+@#!JethroData
+@#!Metanautix Quest
+@#!Pivotal HAWQ
+@#!RainstorDB
+@#!Spark Catalyst
+@#!SparkSQL
+@#!Splice Machine
+@#!Stinger
+@!#Tajo
+SQL-like processing
+@#!Ankush
+@#!Apache Ambari
+@#!Apache Bigtop
+@#!Apache Helix
+@#!Apache Mesos
+@#!Apache Slider
+@#!Apache Whirr
+@#!Apache YARN
+@#!Brooklyn
+@#!Buildoop
+@#!Cloudera Director
+@#!Cloudera HUE
+@#!CloudPhysics
+@#!Deimos
+@#!Develoop
+@#!Etsy Sahale
+@#!Facebook Autoscale
+@#!Facebook Prism
+@#!Ganglia Monitoring System
+@#!Genie
+@#!Google Borg
+@#!Google Omega
+@#!Hannibal
+@#!Hortonworks HOYA
+@#!Jumbune
+@#!Marathon
+@#!Minotaur
+@#!Myriad
+@#!Neflix SimianArmy
+@#!Netflix Eureka
+@#!Netflix Hystrix
+@#!Scaling Data
+@!#Tumblr Collins
+System Deployment
+@#!Abstraction
+@#!Abstract machines
+@#!Action semantics
+@#!Active learning
+@#!Adversary models
+@#!Algebraic complexity theory
+@#!Algebraic language theory
+@#!Algebraic semantics
+@#!Algorithm design techniques
+@#!Algorithmic game theory and mechanism design
+@#!Algorithmic game theory
+@#!Algorithmic mechanism design
+@#!Approximation algorithms analysis
+@#!Assertions
+@#!Automata extensions
+@#!Automata over infinite objects
+@#!Automated reasoning
+@#!Axiomatic semantics
+@#!Backtracking
+@#!Bayesian analysis
+@#!Bloom filters and hashing
+@#!Boolean function learning
+@#!Branch-and-bound
+@#!Caching and paging algorithms
+@#!Categorical semantics
+@#!Cell probe models and lower bounds
+@#!Circuit complexity
+@#!Communication complexity
+@#!Complexity classes
+@#!Complexity theory and logic
+@#!Computability
+@#!Computational advertising theory
+@#!Computational complexity and cryptography
+@#!Computational geometry
+@#!Computational pricing and auctions
+@#!Concurrency
+@#!Constraint and logic programming
+@#!Constructive mathematics
+@#!Control primitives
+@#!Convergence and learning in games
+@#!Cryptographic primitives
+@#!Cryptographic protocols
+@#!Database constraints theory
+@#!Database interoperability
+@#!Database query languages (principles)
+@#!Database query processing and optimization (theory)
+@#!Database theory
+@#!Data integration
+@#!Data modeling
+@#!Data structures and algorithms for data management
+@#!Data structures design and analysis
+@#!Denotational semantics
+@#!Design and analysis of algorithms
+@#!Distributed computing models
+@#!Divide and conquer
+@#!Dynamic graph algorithms
+@#!Dynamic programming
+@#!Equational logic and rewriting
+@#!Error-correcting codes
+@#!Exact and approximate computation of equilibria
+@#!Expander graphs and randomness extractors
+@#!Facility location and clustering
+@#!Finite Model Theory
+@#!Fixed parameter tractability
+@#!Formalisms
+@#!Formal languages and automata theory
+@#!Functional constructs
+@#!Generating random combinatorial structures
+@#!Grammars and context-free languages
+@#!Graph algorithms analysis
+@#!Higher order logic
+@#!Hoare logic
+@#!Incomplete, inconsistent, and uncertain databases
+@#!Inductive inference
+@#!Interactive computation
+@#!Interactive proof systems
+@#!Invariants
+@#!K-server algorithms
+@#!Linear logic
+@#!Logic and databases
+@#!Logic
+@#!Lower bounds and information complexity
+@#!Machine learning theory
+@#!Market equilibria
+@#!Modal and temporal logics
+@#!Models of computation
+@#!Models of learning
+@#!Multi-agent learning
+@#!Nearest neighbor algorithms
+@#!Network formation
+@#!Network games
+@#!Numeric approximation algorithms
+@#!Object oriented constructs
+@#!Online algorithms
+@#!Online learning algorithms
+@#!Online learning theory
+@#!Operational semantics
+@#!Oracles and decision trees
+@#!Packing and covering problems
+@#!Parallel computing models
+@#!Parameterized complexity and exact algorithms
+@#!Parsing
+@#!Pattern matching
+@#!Pre- and post-conditions
+@#!Preconditioning
+@#!Predecessor queries
+@#!Probabilistic computation
+@#!Problems, reductions and completeness
+@#!Process calculi
+@#!Program analysis
+@#!Program constructs
+@#!Programming logic
+@#!Program reasoning
+@#!Program schemes
+@#!Program semantics
+@#!Program specifications
+@#!Program verification
+@#!Proof complexity
+@#!Proof theory
+@#!Pseudorandomness and derandomization
+@#!Quality of equilibria
+@#!Quantitative automata
+@#!Quantum communication complexity
+@#!Quantum complexity theory
+@#!Quantum computation theory
+@#!Quantum information theory
+@#!Quantum query complexity
+@#!Query learning
+@#!Randomness, geometry and discrete structures
+@#!Random network models
+@#!Random order and robust communication complexity
+@#!Random projections and metric embeddings
+@#!Random walks and Markov chains
+@#!Recursive functions
+@#!Regret bounds
+@#!Regular languages
+@#!Representations of games and their complexity
+@#!Rewrite systems
+@#!Rounding techniques
+@#!Routing and network design problems
+@#!Sample complexity and generalization bounds
+@#!Scheduling algorithms
+@#!Semantics and reasoning
+@#!Semi-supervised learning
+@#!Separation logic
+@#!Shortest paths
+@#!Sketching and sampling
+@#!Solution concepts in game theory
+@#!Sorting and searching
+@#!Sparsification and spanners
+@#!Stochastic approximation
+@#!Streaming models
+@#!Streaming, sublinear and near linear time algorithms
+@#!Structured prediction
+@#!Theory and algorithms for application domains
+@#!Theory of database privacy and security
+@#!Timed and hybrid models
+@#!Transducers
+@#!Tree languages
+@#!Turing machines
+@#!Type structures
+@#!Type theory
+@#!Unsupervised learning and clustering
+@!#Verification by model checking
+Theory of computation
+@#!Cube
+@#!Etsy StatsD
+@#!InfluxDB
+@#!Kairosdb
+@#!Kairos
+@#!OpenTSDB
+@#!Prometheus
+@!#Square Cube
+Time-Series Databases
+@#!Actuate DocBook
+@#!Adobe Systems Adobe Cold Fusion
+@#!Adobe Systems Adobe Contribute
+@#!Adobe Systems Adobe Dreamweaver
+@#!Adobe Systems Adobe Flash Player
+@#!Adobe Systems Adobe Macromedia HomeSite
+@#!Adobe Systems Adobe Macromedia software
+@#!Atomix Productions VirtualDJ
+@#!Bare Bones Software BBEdit
+@#!Blogger
+@#!Blogging software
+@#!Brightcove
+@#!CCI Newsgate
+@#!Center for Computer-Assisted Legal Instruction CALI Classcaster
+@#!CoffeeCup software
+@#!Content management system CMS software
+@#!Content management systems CMS software
+@#!ExactTarget software
+@#!eXe
+@#!Google Video
+@#!Google Webmaster Tools
+@#!HP Autonomy TeamSite
+@#!IMPACT software
+@#!Instagram
+@#!IXL Learning Quia Web
+@#!JustSystems XMetaL
+@#!Linspire Nvu
+@#!Macromedia Cold Fusion
+@#!MediaVue software
+@#!MediaWiki
+@#!Microsoft Front Page
+@#!Microsoft FrontPage
+@#!Microsoft Office FrontPage
+@#!MySpace
+@#!Nvu
+@#!Orbius
+@#!Plug-in file software
+@#!Podcasting software
+@#!Pulse Train Bellview Web
+@#!Quadralay WebWorks ePublisher
+@#!Quark Immedia
+@#!Really Simple Syndication RSS
+@#!Red Sweater MarsEdit
+@#!RefWorks RefShare
+@#!SAFARI Video Networks eZediaQTI
+@#!SeaMonkey
+@#!Social computing tools
+@#!Social media sites
+@#!Social media software
+@#!Social networking platforms
+@#!Social networking software
+@#!SurveyWiz
+@#!Tumblr
+@#!Vine
+@#!Web content management system CMS software
+@#!Web design software
+@#!Web editing software
+@#!Web page creation and editing software
+@#!Web page design and editing software
+@#!Web page design software
+@#!Website creation software
+@#!Website development software
+@#!Website management software
+@#!Wiki software
+@!#WordPress
+Web page creation and editing software
+@#!Adobe ColdFusion
+@#!Adobe Systems Adobe ColdFusion
+@#!Adobe Systems Adobe Flex
+@#!Adobe Systems Adobe Shockwave Player
+@#!AJAX
+@#!Allaire ColdFusion
+@#!Apache Software Foundation Flex
+@#!Apache Struts
+@#!Apache Tomcat
+@#!ASPX
+@#!Asynchronous JavaScript and XML AJAX
+@#!Autodesk MapGuide software
+@#!BrightEdge software
+@#!BroadVision software
+@#!Cascading style sheets CSS
+@#!Cascading Style Sheets CSS
+@#!Drupal
+@#!Dynamic HTML
+@#!Dynamic hypertext markup language DHTML
+@#!Enterprise JavaBeans
+@#!Extensible Hypertext Markup Language XHTML
+@#!Extensible HyperText Markup Language XHTML
+@#!Extensible stylesheet language transformations XSLT
+@#!Ext JS
+@#!EXT js
+@#!Grails
+@#!Groovy
+@#!Hypertext markup language HTML
+@#!Hypertext Markup Language HTML
+@#!Joomla
+@#!LAMP Stack
+@#!Majestic SEO
+@#!Microsoft Active Server Pages ASP
+@#!Microsoft ASP.NET
+@#!Microsoft Commerce Server
+@#!Microsoft Silverlight
+@#!Microsoft Visual InterDev
+@#!Node.js
+@#!Ontolo software
+@#!Oracle Application Express APEX
+@#!Oracle Designer
+@#!Oracle JavaServer Pages JSP
+@#!PHP: Hypertext preprocessor
+@#!PHP: Hypertext Preprocessor
+@#!Progress WebSpeed Workshop
+@#!RSS
+@#!Screaming Frog SEO Spider
+@#!seoClarity software
+@#!SEOmoz
+@#!Spring Framework
+@#!Springshare LibGuides
+@#!SyCara software
+WoodWing software
+Zend Framework

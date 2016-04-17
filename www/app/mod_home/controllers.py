@@ -78,3 +78,11 @@ def store_model_results():
     return_code = es_results.store_results()
 
     return "Completed storing model results and keywords!!"
+
+# this is utility app to insert model results into Elasticearch
+@mod_home.route('/genkwpaths', methods=['GET', 'POST'])
+def get_keyword_paths():
+    maui = kw.ExtractKeywords()
+    maui.generate_keyword_paths()
+
+    return "Completed generating keyword paths!!"

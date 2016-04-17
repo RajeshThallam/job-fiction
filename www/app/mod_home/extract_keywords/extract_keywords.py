@@ -209,15 +209,22 @@ class ExtractKeywords(object):
         # get the path of each keyword from the file generated previously
         for i in keywords:
             i=i.strip()
+
             try:
-                kwPaths[i] = self.all_categories[i]
+                items = []
+                for k, v in self.all_categories.items():
+                    if len(re.findall('\\b' + i + '\\b', k, flags=re.IGNORECASE)) > 0:
+                        items.append(v)
+
+                kwPaths[i] = items[0]
             except:
-                kwPaths[i] = ["Others", "Others"]
-        
+                kwPaths[i] = ["Others", i]
+
         # for all keywords, compute the total level 1 and level 2 categories
         categories = {}
         
         for k,v in kwPaths.iteritems():
+            print k, v
 
             if len(v) > 0:
                 if v[0] not in categories.keys():
@@ -227,10 +234,15 @@ class ExtractKeywords(object):
                     categories[v[0]]["count"] += 1
 
                 try:
+                    if len(v) == 1 and k not in categories[v[0]].keys():
+                        categories[v[0]][k] = 1
+                    elif len(v) == 1:
+                        categories[v[0]][k] += 1
+
                     if v[1] not in categories[v[0]].keys():
                         categories[v[0]][v[1]] = 1
                     else:
-                        categories[v[0]][v[1]] += 1   
+                        categories[v[0]][v[1]] += 1
                 except:
                     pass
                     #print "categories 'Other' encountered"
