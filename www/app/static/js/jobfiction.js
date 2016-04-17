@@ -69,7 +69,7 @@ $(document).ready(function() {
 		var bar = new ProgressBar.Line(progressbar, {
 		  strokeWidth: 4,
 		  easing: 'easeInOut',
-		  duration: 10000,
+		  duration: 20000,
 		  color: '#337AB7',
 		  trailColor: '#eee',
 		  trailWidth: 1,
