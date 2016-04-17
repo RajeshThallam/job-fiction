@@ -669,8 +669,8 @@ function openModel(source, id){
     
 
     document.getElementById("modal_graph").innerHTML = "";
-    //createBarChart(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 1000, 300, id);
-    horizontal_graph(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 1000, 300, id);
+    //createBarChart(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 800, 300, id);
+    horizontal_graph(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 800, 300, id);
     drilldown_chart(source, id);  //populate the detail
     $('#graphModal').modal('show');  //open the modal
 }
@@ -697,8 +697,8 @@ function drilldown_chart(source, id){
       cat_counts.push(categories[cat]);
     }
     document.getElementById("modal_drilldown").innerHTML = "";
-    //createBarChart(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 1000, 300, id);
-  	horizontal_graph(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 1000, 300, id);
+    //createBarChart(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 800, 300, id);
+  	horizontal_graph(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 800, 300, id);
 }
 
 
