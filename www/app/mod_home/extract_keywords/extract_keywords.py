@@ -225,17 +225,19 @@ class ExtractKeywords(object):
         for i in keywords:
             i=i.strip()
 
-            try:
-                items = []
+            if i not in kwPaths.keys():
+                try:
+                    items = []
 
-                for k, v in self.all_categories.items():
-                    if len(re.findall('\\b' + i + '\\b', k, flags=re.IGNORECASE)) > 0:
-                        items.append(v)
-                        break
+                    for k, v in self.all_categories.items():
+                        if  (i.lower() == k.lower() or 
+                            len(re.findall('\\b' + i + '\\b', k, flags=re.IGNORECASE)) > 0):
+                            items.append(v)
+                            break
 
-                kwPaths[i] = items[0]
-            except:
-                kwPaths[i] = ["Others", i]
+                    kwPaths[i] = items[0]
+                except:
+                    kwPaths[i] = ["Others", i]
 
         # for all keywords, compute the total level 1 and level 2 categories
         categories = {}

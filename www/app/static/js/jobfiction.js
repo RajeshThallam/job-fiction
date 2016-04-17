@@ -193,8 +193,7 @@ function addNewToken(target, token, type) {
 
   	$('.modelcontainer').shapeshift({
   		align:'left',
-  		minColumns: 1,
-  		columns: 1,
+  		minColumns: 3,
   		colWidth: 100
   	});
 };
@@ -336,7 +335,6 @@ function getResultsES(results){
 			    })
 			});
 
-			console.log(srt_results);
 			// call function to display results
             loadResults(srt_results);
         },
@@ -709,32 +707,36 @@ function drilldown_chart(source, id){
 
 function horizontal_graph(labels, values, target_div, title, input_width, input_height, job_id){
 
-        Array.prototype.max = function() {
+	console.log(labels);
+	console.log(values);
+	console.log(target_div);
+	console.log(title);
+
+	Array.prototype.max = function() {
       return Math.max.apply(null, this);
     };
 
-  Array.prototype.longest=function() {
-      return this.sort(
-        function(a,b) {  
-          if (a.length > b.length) return -1;
-          if (a.length < b.length) return 1;
-            return 0
-        }
-      )[0];
-  }
+  	Array.prototype.longest=function() {
+  		return this.sort(
+  			function(a,b) {  
+  				if (a.length > b.length) return -1;
+  				if (a.length < b.length) return 1;
+  				return 0
+  			}
+  			)[0];
+  	}
+
     var tmp_labels = labels.slice();
     var maxLabel = tmp_labels.sort(function (a, b) { return b.length - a.length })[0];
     var maxLabelLength = 45;//maxLabel.length;
     
     var maxValue = [values.max()+5,10].max() +2;
 
-	input_width = document.getElementById(target_div).offsetWidth
-
     var colors = ['#0000b4','#0082ca','#0094ff','#0d4bcf','#0066AE','#074285','#00187B','#285964','#405F83','#416545','#4D7069','#6E9985','#7EBC89','#0283AF','#79BCBF','#99C19E'];
 
     var margin = {top: 40, right: 20, bottom: 30, left: 40},
-      width = input_width - margin.left - margin.right,
-      height = input_height - margin.top - margin.bottom;
+        width = input_width - margin.left - margin.right,
+        height = input_height - margin.top - margin.bottom;
 
     //var width = width;  //target size of div
     //var height = height;  //target height of div
@@ -793,10 +795,6 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
               })
               .style({'stroke':'#adadad','stroke-width':'1px'});
 
-
-
-
-
     //y axis line and labels  
     var yAxis = d3.svg.axis();
       yAxis
@@ -811,7 +809,7 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
               .attr('id','yaxis')
               .call(yAxis);
 
-y_xis.selectAll("text")
+	y_xis.selectAll("text")
       .attr('y', 6);              
 
     //x axis line and labels
@@ -825,8 +823,6 @@ y_xis.selectAll("text")
               .attr("transform", "translate("+transform_x+"," + y2 + ")")
               .attr('id','xaxis')
               .call(xAxis);
-
-
 
     var title = canvas.append("text")
         .attr("x", ((width / 2) + (transform_x/2)))
