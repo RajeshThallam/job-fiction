@@ -241,8 +241,6 @@ class ExtractKeywords(object):
         categories = {}
         
         for k,v in kwPaths.iteritems():
-            print k, v
-
             if len(v) > 0:
                 if v[0] not in categories.keys():
                     categories[v[0]] = {}

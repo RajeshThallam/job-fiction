@@ -64,9 +64,13 @@ $(document).ready(function() {
 
 	// collect user submited job posts and get key words
 	$("#btn-collect-job-posts").click(function() {
-		$("#description_graph").css("display", "none");
+		if ($("#progressbar").css("display") == "block") {
+			return 1;
+		}
 
-		var bar = new ProgressBar.Line(progressbar, {
+		$("#description_graph").css("display", "none");
+		var bar = "";
+		bar = new ProgressBar.Line(progressbar, {
 		  strokeWidth: 4,
 		  easing: 'easeInOut',
 		  duration: 20000,
@@ -117,8 +121,8 @@ $(document).ready(function() {
 			data = JSON.stringify(job_posts), 
 			function(data) {
 				console.log(data);
-				$("#progressbar").css("display", "none");
 				bar.destroy();
+				$("#progressbar").css("display", "none");
 
 				// remove all existing tokens
 				$('.ss-active-child').remove();
@@ -189,7 +193,8 @@ function addNewToken(target, token, type) {
 
   	$('.modelcontainer').shapeshift({
   		align:'left',
-  		minColumns: 3,
+  		minColumns: 1,
+  		columns: 1,
   		colWidth: 100
   	});
 };
@@ -329,10 +334,11 @@ function getResultsES(results){
 			        } else 
 			            return true;
 			    })
-			})
+			});
 
+			console.log(srt_results);
 			// call function to display results
-            loadResults(srt_results)
+            loadResults(srt_results);
         },
         dataType = 'json'
     );
@@ -356,152 +362,151 @@ function loadResults(results){
 
 	//loop through each job:
 	for (var job in results){
-		var current_idx = job_count++;
-		current_job_id = job_prefix + current_idx;  //so we can consistently use this.
-		current_job = results[job]._source;
+		if (job < results.length) {
+			var current_idx = job_count++;
+			current_job_id = job_prefix + current_idx;  //so we can consistently use this.
+			current_job = results[job]._source;
 
-		console.log(current_job)
+			var row = tb.insertRow(current_idx);
+			row.id=current_job_id;
+			row.className = "accordion-toggle"; 
+			row.setAttribute("data-toggle","collapse");
+			row.setAttribute("data-target","#result"+job_count);
+			row.setAttribute("data-parent","#JobResults");
 
-		var row = tb.insertRow(current_idx);
-		row.id=current_job_id;
-		row.className = "accordion-toggle"; 
-		row.setAttribute("data-toggle","collapse");
-		row.setAttribute("data-target","#result"+job_count);
-		row.setAttribute("data-parent","#JobResults");
+			//row information
+			var title = row.insertCell(0);
+			title.innerHTML = '<strong>' + current_job.job_title + '</strong>';
+			var cell = row.insertCell(1);
+			cell.innerHTML = current_job.company;
+			var cell = row.insertCell(2);
+			cell.innerHTML = current_job.full_location.replace(/\d+$/g, '');
+			var cell  = row.insertCell(3);
+			cell.innerHTML = current_job.job_class[0]['label'];
+			var cell  = row.insertCell(4);
+			cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
+			var cell = row.insertCell(5);
+			cell.innerHTML='<i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>';
 
-		//row information
-		var title = row.insertCell(0);
-		title.innerHTML = '<strong>' + current_job.job_title + '</strong>';
-		var cell = row.insertCell(1);
-		cell.innerHTML = current_job.company;
-		var cell = row.insertCell(2);
-		cell.innerHTML = current_job.full_location.replace(/\d+$/g, '');
-		var cell  = row.insertCell(3);
-		cell.innerHTML = current_job.job_class[0]['label'];
-		var cell  = row.insertCell(4);
-		cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
-		var cell = row.insertCell(5);
-		cell.innerHTML='<i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>';
+			//insert hidden row
+			row = table.insertRow(job_count+1);
+			row.className = "expand-child"
+			cell = row.insertCell(0);
+			cell.className = "hiddenRow ";
+			cell.setAttribute("style","padding-bottom:10px;");
+			cell.setAttribute("colspan","6");
 
-		//insert hidden row
-		row = table.insertRow(job_count+1);
-		row.className = "expand-child"
-		cell = row.insertCell(0);
-		cell.className = "hiddenRow ";
-		cell.setAttribute("style","padding-bottom:10px;");
-		cell.setAttribute("colspan","6");
+			//create hidden content
+			var section = document.createElement("div");
+			section.className = "accordion-body collapse";
+			section.id="result"+ job_count;
 
-		//create hidden content
-		var section = document.createElement("div");
-		section.className = "accordion-body collapse";
-		section.id="result"+ job_count;
+			//Job Description
+			//var job_desc = document.createElement("p");
+			//job_desc.appendChild(document.createTextNode(current_job.job_description));
+			//section.appendChild(job_desc);
 
-		//Job Description
-		//var job_desc = document.createElement("p");
-		//job_desc.appendChild(document.createTextNode(current_job.job_description));
-		//section.appendChild(job_desc);
+			//Link
+			var link = document.createElement("a");
+			link.setAttribute("href", current_job.url);
+			link.setAttribute("target","_blank");
+			link.appendChild(document.createTextNode("More Information / Apply"));
+			section.appendChild(link);
+			section.appendChild(document.createElement("br"));
 
-		//Link
-		var link = document.createElement("a");
-		link.setAttribute("href", current_job.url);
-		link.setAttribute("target","_blank");
-		link.appendChild(document.createTextNode("More Information / Apply"));
-		section.appendChild(link);
-		section.appendChild(document.createElement("br"));
+			//*****Info Section******
+			var graphicSection = document.createElement("section");
+			section.appendChild(graphicSection);
+			//-----skill table----
+			var skilldiv = document.createElement("div");
+			graphicSection.appendChild(skilldiv);
+			skilldiv.className = "col-sm-4"
+			var skilltable = document.createElement("table");
+			skilldiv.appendChild(skilltable);
+			skilltable.className = "table table-condensed";
+			//skill table rows
 
-		//*****Info Section******
-		var graphicSection = document.createElement("section");
-		section.appendChild(graphicSection);
-		//-----skill table----
-		var skilldiv = document.createElement("div");
-		graphicSection.appendChild(skilldiv);
-		skilldiv.className = "col-sm-4"
-		var skilltable = document.createElement("table");
-		skilldiv.appendChild(skilltable);
-		skilltable.className = "table table-condensed";
-		//skill table rows
+			if ( 'keywords' in current_job) {
+				skillrow = skilltable.insertRow();
+				skillcell = skillrow.insertCell();
+				skillcell.innerHTML = "Must Have";
+				skillcell = skillrow.insertCell();
+				var cellvalue = Object.keys(current_job.keywords.must_have).length;
+				if (cellvalue < 0){
+					cellvalue = 0;
+				}
+				skillcell.innerHTML = cellvalue;
 
-		if ( 'keywords' in current_job) {
-			skillrow = skilltable.insertRow();
-			skillcell = skillrow.insertCell();
-			skillcell.innerHTML = "Must Have";
-			skillcell = skillrow.insertCell();
-			var cellvalue = Object.keys(current_job.keywords.must_have).length;
-			if (cellvalue < 0){
-				cellvalue = 0;
+				skillrow = skilltable.insertRow();
+				skillcell = skillrow.insertCell();
+				skillcell.innerHTML = "Nice to Have";
+				skillcell = skillrow.insertCell();
+				var cellvalue = Object.keys(current_job.keywords.nice_have).length;
+				if (cellvalue < 0){
+					cellvalue = 0;
+				}
+				skillcell.innerHTML = cellvalue;
+				//skill table header
+				var skillheader = skilltable.createTHead();
+				var skillrow = skillheader.insertRow();
+				var skillcell = document.createElement("th");
+				skillcell.innerHTML = "Skill Category";
+				skillrow.appendChild(skillcell);
+				skillcell = document.createElement("th");
+				skillcell.innerHTML = "Number Matches";
+				skillrow.appendChild(skillcell);
 			}
-			skillcell.innerHTML = cellvalue;
 
-			skillrow = skilltable.insertRow();
-			skillcell = skillrow.insertCell();
-			skillcell.innerHTML = "Nice to Have";
-			skillcell = skillrow.insertCell();
-			var cellvalue = Object.keys(current_job.keywords.nice_have).length;
-			if (cellvalue < 0){
-				cellvalue = 0;
-			}
-			skillcell.innerHTML = cellvalue;
-			//skill table header
-			var skillheader = skilltable.createTHead();
-			var skillrow = skillheader.insertRow();
-			var skillcell = document.createElement("th");
-			skillcell.innerHTML = "Skill Category";
-			skillrow.appendChild(skillcell);
-			skillcell = document.createElement("th");
-			skillcell.innerHTML = "Number Matches";
-			skillrow.appendChild(skillcell);
+			//start of graph part
+			var graphdiv = document.createElement("div");
+			graphicSection.appendChild(graphdiv);
+			graphdiv.id = "skillgraph_" + current_job_id
+			graphdiv.className = "col-sm-8"
+			
+			//take all of this html in section and add it to cell.
+			cell.innerHTML=section.outerHTML;
+			//doing this now, since the graph part is all SVG stuff.
+
+			//************-----graph----
+			
+			if ( 'keywords' in current_job) {
+		        var categories = current_job.keywords.categories;  //get just the categories object
+
+		        var current_cat = [];  //temp object
+
+		        var cat_counts = []; //counts for level 1 categories//for immediate graph
+		        var cat_labels = []; //labels for level 1 categories//for immediate graph
+		        var cat1_array = {}; //object for holding all category 1
+		         
+		        for (var cat in categories){  //cat is the category 1 label                           GENERAL
+		            cat_labels.push(cat);//for immediate graph
+		            current_cat = current_job.keywords.categories[cat];
+		            var obj_cat1 = {}; //object for holding category 1 information
+		            var obj_cat2 = {};  //object for holding category 2 info
+		            for (var c_name in current_cat){                                                     //count,  skill, skill
+		                  if (c_name == 'count'){
+		                    //count is a special category !!
+		                    //add count to cat_counts
+		                    //add count to object for category 1
+		                    cat_counts.push(current_job.keywords.categories[cat][c_name]); //for immediate graph
+		                    obj_cat1["count"] = current_job.keywords.categories[cat][c_name];
+		                  } else{
+		                    //put values into some sort of structure that has the category 2 stuff.
+		                    //c_name is the category2 name.
+		                    obj_cat2[c_name] = current_job.keywords.categories[cat][c_name];
+		                  }
+		            }
+		            //after loop, add category2 object to cat 2 array
+		            obj_cat1["cat2"] = obj_cat2;
+		              
+		            cat1_array[cat] = obj_cat1;
+		        } //end for cat in categories
+
+		        job_graph[current_job_id] = cat1_array;   //job_graph is (and MUST) be global
+
+		        horizontal_graph(cat_labels, cat_counts, graphdiv.id, "Categories of Skills", 900, 250, current_job_id);
+		    }
 		}
-
-		//start of graph part
-		var graphdiv = document.createElement("div");
-		graphicSection.appendChild(graphdiv);
-		graphdiv.id = "skillgraph_" + current_job_id
-		graphdiv.className = "col-sm-8"
-		
-		//take all of this html in section and add it to cell.
-		cell.innerHTML=section.outerHTML;
-		//doing this now, since the graph part is all SVG stuff.
-
-		//************-----graph----
-		
-		if ( 'keywords' in current_job) {
-	        var categories = current_job.keywords.categories;  //get just the categories object
-
-	        var current_cat = [];  //temp object
-
-	        var cat_counts = []; //counts for level 1 categories//for immediate graph
-	        var cat_labels = []; //labels for level 1 categories//for immediate graph
-	        var cat1_array = {}; //object for holding all category 1
-	         
-	        for (var cat in categories){  //cat is the category 1 label                           GENERAL
-	            cat_labels.push(cat);//for immediate graph
-	            current_cat = current_job.keywords.categories[cat];
-	            var obj_cat1 = {}; //object for holding category 1 information
-	            var obj_cat2 = {};  //object for holding category 2 info
-	            for (var c_name in current_cat){                                                     //count,  skill, skill
-	                  if (c_name == 'count'){
-	                    //count is a special category !!
-	                    //add count to cat_counts
-	                    //add count to object for category 1
-	                    cat_counts.push(current_job.keywords.categories[cat][c_name]); //for immediate graph
-	                    obj_cat1["count"] = current_job.keywords.categories[cat][c_name];
-	                  } else{
-	                    //put values into some sort of structure that has the category 2 stuff.
-	                    //c_name is the category2 name.
-	                    obj_cat2[c_name] = current_job.keywords.categories[cat][c_name];
-	                  }
-	            }
-	            //after loop, add category2 object to cat 2 array
-	            obj_cat1["cat2"] = obj_cat2;
-	              
-	            cat1_array[cat] = obj_cat1;
-	        } //end for cat in categories
-
-	        job_graph[current_job_id] = cat1_array;   //job_graph is (and MUST) be global
-
-	        horizontal_graph(cat_labels, cat_counts, graphdiv.id, "Categories of Skills", 900, 250, current_job_id);
-	    }
-
         job_count++; //increment job count
 	} // for (var job in results){
 
@@ -669,7 +674,7 @@ function openModel(source, id){
     
 
     document.getElementById("modal_graph").innerHTML = "";
-    //createBarChart(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 800, 300, id);
+    //createBarChart(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 1000, 300, id);
     horizontal_graph(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 800, 300, id);
     drilldown_chart(source, id);  //populate the detail
     $('#graphModal').modal('show');  //open the modal
@@ -697,7 +702,7 @@ function drilldown_chart(source, id){
       cat_counts.push(categories[cat]);
     }
     document.getElementById("modal_drilldown").innerHTML = "";
-    //createBarChart(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 800, 300, id);
+    //createBarChart(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 1000, 300, id);
   	horizontal_graph(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 800, 300, id);
 }
 
@@ -723,6 +728,7 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
     
     var maxValue = [values.max()+5,10].max() +2;
 
+	input_width = document.getElementById(target_div).offsetWidth
 
     var colors = ['#0000b4','#0082ca','#0094ff','#0d4bcf','#0066AE','#074285','#00187B','#285964','#405F83','#416545','#4D7069','#6E9985','#7EBC89','#0283AF','#79BCBF','#99C19E'];
 
