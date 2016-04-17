@@ -189,7 +189,8 @@ function addNewToken(target, token, type) {
 
   	$('.modelcontainer').shapeshift({
   		align:'left',
-  		minColumns: 3,
+  		minColumns: 1,
+  		columns:1,
   		colWidth: 100
   	});
 };
@@ -669,8 +670,8 @@ function openModel(source, id){
     
 
     document.getElementById("modal_graph").innerHTML = "";
-    //createBarChart(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 1000, 300, id);
-    horizontal_graph(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 1000, 300, id);
+    //createBarChart(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 800, 300, id);
+    horizontal_graph(cat_labels, cat_counts, "modal_graph", "Categories of Skills", 800, 300, id);
     drilldown_chart(source, id);  //populate the detail
     $('#graphModal').modal('show');  //open the modal
 }
@@ -697,8 +698,8 @@ function drilldown_chart(source, id){
       cat_counts.push(categories[cat]);
     }
     document.getElementById("modal_drilldown").innerHTML = "";
-    //createBarChart(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 1000, 300, id);
-  	horizontal_graph(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 1000, 300, id);
+    //createBarChart(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 800, 300, id);
+  	horizontal_graph(cat_labels, cat_counts, "modal_drilldown", "Count of Skills Related to " + source, 800, 300, id);
 }
 
 
@@ -722,6 +723,8 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
     var maxLabelLength = 45;//maxLabel.length;
     
     var maxValue = [values.max()+5,10].max() +2;
+
+    input_width =document.getElementById(target_div).offsetWidth
 
 
     var colors = ['#0000b4','#0082ca','#0094ff','#0d4bcf','#0066AE','#074285','#00187B','#285964','#405F83','#416545','#4D7069','#6E9985','#7EBC89','#0283AF','#79BCBF','#99C19E'];
