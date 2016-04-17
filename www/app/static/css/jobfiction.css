@@ -15,7 +15,7 @@
 	div.modelcontainer {
 		border: 1px dashed grey;
 		position: relative;
-		min-height: 100px;
+		min-height: 400px;
 		width:90%;
 	}
 
