@@ -172,3 +172,9 @@ background-color: #8dbdd8;
   height: 8px;
   position: relative;
 }
+
+.domain {
+  fill: none;
+  stroke: black;
+  stroke-width: 0.5;
+} 
