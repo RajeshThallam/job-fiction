@@ -166,7 +166,7 @@ background-color: #8dbdd8;
 	margin-bottom: 0;
 }
 
-#progressbar {
+#modelprogressbar, #resultsprogressbar {
   margin: 20px;
   width: 400px;
   height: 8px;

@@ -66,13 +66,13 @@ $(document).ready(function() {
 
 	// collect user submited job posts and get key words
 	$("#btn-collect-job-posts").click(function() {
-		if ($("#progressbar").css("display") == "block") {
+		if ($("#modelprogressbar").css("display") == "block") {
 			return 1;
 		}
 
 		$("#description_graph").css("display", "none");
 		var bar = "";
-		bar = new ProgressBar.Line(progressbar, {
+		bar = new ProgressBar.Line(modelprogressbar, {
 		  strokeWidth: 4,
 		  easing: 'easeInOut',
 		  duration: 20000,
@@ -115,7 +115,7 @@ $(document).ready(function() {
 		var job_posts = { title: job_title, desc: job_desc};
 		console.log(job_posts);
 
-		$("#progressbar").css("display", "block");
+		$("#modelprogressbar").css("display", "block");
 		bar.animate(1.0);  // Number from 0.0 to 1.0
 
 		$.post(
@@ -124,7 +124,7 @@ $(document).ready(function() {
 			function(data) {
 				console.log(data);
 				bar.destroy();
-				$("#progressbar").css("display", "none");
+				$("#modelprogressbar").css("display", "none");
 
 				// remove all existing tokens
 				$('.ss-active-child').remove();
@@ -217,6 +217,46 @@ function setOptions(){
 
 //this function just coordinates the retrieval of the job lists.
 function getResults(){
+    if ($("#resultsprogressbar").css("display") == "block") {
+        return 1;
+    }
+
+    $("#tableSearchResults").css("display", "none");
+    var bar = "";
+    bar = new ProgressBar.Line(resultsprogressbar, {
+      strokeWidth: 4,
+      easing: 'easeInOut',
+      duration: 10000,
+      color: '#337AB7',
+      trailColor: '#eee',
+      trailWidth: 1,
+      svgStyle: {width: '100%', height: '100%'},
+      text: {
+        style: {
+          color: '#337AB7',
+          position: 'absolute',
+          right: '0',
+          top: '30px',
+          padding: 0,
+          margin: 0,
+          transform: null,
+          fontFamily: '"Raleway", Helvetica, sans-serif',
+          fontSize: '1.5rem'
+        },
+        autoStyleContainer: false
+      },
+      from: {color: '#337AB7'},
+      to: {color: '#ED6A5A'},
+      step: (state, bar) => {
+        bar.setText('Searching the best... ' + Math.round(bar.value() * 100) + ' %');
+      }
+    });
+
+    console.log(bar);
+
+    $("#modelprogressbar").css("display", "block");
+    bar.animate(1.0);  // Number from 0.0 to 1.0
+
     model_inputs_json = collectModelInputs()
 	$.post(
         url = '/home/getresults', 
@@ -224,6 +264,8 @@ function getResults(){
         function(data) {
             console.log(data);
             getResultsES(data);
+            $("#resultsprogressbar").css("display", "none");
+            $("#tableSearchResults").css("display", "block");
         },
         dataType = 'json'
     );
@@ -390,16 +432,22 @@ function loadResults(results, match_rates){
 
 			//row information
 			var title = row.insertCell(0);
+            title.style.width = '380px';
 			title.innerHTML = '<strong>' + current_job.job_title + '</strong>';
 			var cell = row.insertCell(1);
+            cell.style.width = '380px';
 			cell.innerHTML = current_job.company;
 			var cell = row.insertCell(2);
+            cell.style.width = '190px';
 			cell.innerHTML = current_job.full_location.replace(/\d+$/g, '');
 			var cell  = row.insertCell(3);
+            cell.style.width = '190px';
 			cell.innerHTML = current_job.job_class[0]['label'];
 			var cell  = row.insertCell(4);
+            cell.style.width = '100px';
 			cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
 			var cell = row.insertCell(5);
+            cell.style.width = '100px';
 			cell.innerHTML = (	match_rates[job_id]*100).toFixed(2);
 			var cell = row.insertCell(6);
 			cell.innerHTML='<i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>';
