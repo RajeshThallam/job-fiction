@@ -22,8 +22,10 @@ $(document).ready(function() {
 
 	// add sorter plug-in
 	$('#tableSearchResults').tablesorter({
-		widthFixed: false
+        widthFixed: false
 	});
+
+    $('#tableSearchResults').fixedHeaderTable({ footer: false, cloneHeadToFoot: false, fixedColumn: false });
 
 	// add search on the results table
 	$(".search").on("keyup change", function () {
