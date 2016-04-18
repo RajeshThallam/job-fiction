@@ -23,11 +23,8 @@ class ModelTalking(object):
             }
 
     def sort_dict(self, dict, orderby, reversed=False):
-        print orderby, reversed
         srt_list = sorted(dict.items(), key=op.itemgetter(orderby), reverse=reversed)
-        print srt_list
         srt_dict = [(k, str(v)) for k, v in srt_list]
-        print srt_dict
         return srt_dict
 
     def get_job_recommendations(self, query):
@@ -73,10 +70,7 @@ class ModelTalking(object):
                 sim_job_ids[all_job_ids[job_id]] = score
 
             # return results
-            print sim_job_ids
             results = self.sort_dict(sim_job_ids, 1, True)
-            print results
-            #results = {k:str(v) for k, v in results}
             return results
         else:
             return json.dumps({'error': 'invalid_query_string'})
