@@ -798,8 +798,12 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
   	}
 
     // sort labels alphabetically and respective values
+    orig_labels = labels.slice();
     srt_labels = labels.sort();
-    srt_values = srt_labels.map(function(label) { return values[labels.indexOf(label)] });
+    srt_values = srt_labels.map(function(label) { 
+        return values[orig_labels.indexOf(label)];
+    });
+
     labels = srt_labels;
     values = srt_values;
 
