@@ -358,6 +358,19 @@ function loadResults(results, match_rates){
 	var job_prefix = "job";
 	var current_job;
 
+	var user_must_have = [];
+	var user_nice_have = [];
+
+	// loop through all must have
+	$("#must_have").find("div").each(function() {
+		user_must_have.push($(this).attr('id'));
+	});
+
+	// loop through all nice to have
+	$("#nice_have").find("div").each(function() {
+		user_nice_have.push($(this).attr('id'));
+	});
+
 	//loop through each job:
 	for (var job in results){
 		if (job < results.length) {
@@ -428,11 +441,22 @@ function loadResults(results, match_rates){
 			//skill table rows
 
 			if ( 'keywords' in current_job) {
+				results_skills = Object.keys(current_job.keywords.must_have)
+					.concat(Object.keys(current_job.keywords.nice_have));
+
+				must_have = results_skills.filter(function(n) {
+				    return user_must_have.indexOf(n) != -1;
+				});
+
+				nice_have = results_skills.filter(function(n) {
+				    return user_nice_have.indexOf(n) != -1;
+				});
+
 				skillrow = skilltable.insertRow();
 				skillcell = skillrow.insertCell();
 				skillcell.innerHTML = "Must Have";
 				skillcell = skillrow.insertCell();
-				var cellvalue = Object.keys(current_job.keywords.must_have).length;
+				var cellvalue = must_have.length;
 				if (cellvalue < 0){
 					cellvalue = 0;
 				}
@@ -442,7 +466,7 @@ function loadResults(results, match_rates){
 				skillcell = skillrow.insertCell();
 				skillcell.innerHTML = "Nice to Have";
 				skillcell = skillrow.insertCell();
-				var cellvalue = Object.keys(current_job.keywords.nice_have).length;
+				var cellvalue = nice_have.length;
 				if (cellvalue < 0){
 					cellvalue = 0;
 				}
@@ -604,7 +628,7 @@ function createBarChart(labels, values, target_div, title, input_width, input_he
     //no on-click event  -- this is the drill-down chart that has no functionality
     svg.selectAll(".bar")
         .data(data)
-      .enter().append("rect")
+        .enter().append("rect")
         .attr("class", "bar")
         .attr("id",job_id)
         .attr("x", function(d) {return  x(d.label) + (x.rangeBand() - d3.min([x.rangeBand(), 100]))/2})
@@ -617,7 +641,7 @@ function createBarChart(labels, values, target_div, title, input_width, input_he
     //on-click is a drilldown -- this is the graph at top of modal; must have the functionality for drilling down.
     svg.selectAll(".bar")
         .data(data)
-      .enter().append("rect")
+        .enter().append("rect")
         .attr("class", "bar")
         .attr("id",job_id)
         .attr("x", function(d) {return  x(d.label) + ((x.rangeBand() - d3.min([x.rangeBand(), 100]))/2);})
@@ -634,7 +658,7 @@ function createBarChart(labels, values, target_div, title, input_width, input_he
       //this is just on the main page - click will open modal with chart and drill-down.
       svg.selectAll(".bar")
         .data(data)
-      .enter().append("rect")
+        .enter().append("rect")
         .attr("class", "bar")
         .attr("id",job_id)
         .attr("x", function(d) {return  x(d.label) + (x.rangeBand() - d3.min([x.rangeBand(), 100]))/2})
@@ -723,12 +747,16 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
   			)[0];
   	}
 
+    // sort labels alphabetically and respective values
+    srt_labels = labels.sort();
+    srt_values = srt_labels.map(function(label) { return values[labels.indexOf(label)] });
+    labels = srt_labels;
+    values = srt_values;
+
     var tmp_labels = labels.slice();
     var maxLabel = tmp_labels.sort(function (a, b) { return b.length - a.length })[0];
     var maxLabelLength = 45;//maxLabel.length;
-    
     var maxValue = [values.max()+5,10].max() +2;
-
     var colors = ['#0000b4','#0082ca','#0094ff','#0d4bcf','#0066AE','#074285','#00187B','#285964','#405F83','#416545','#4D7069','#6E9985','#7EBC89','#0283AF','#79BCBF','#99C19E'];
 
     var margin = {top: 40, right: 20, bottom: 30, left: 40},
@@ -770,6 +798,30 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
             .domain([0,labels.length])
             .range(colors);
 
+    var categoryColorScale = d3.scale.category20b()
+            .domain([
+                "Analytical or Scientific Analysis",
+                "Applied computing",
+                "BI/Data Visualization",
+                "Computer Infrastructure",
+                "Data and Information Management",
+                "Data Models",
+                "Data Visualization",
+                "Development Software",
+                "Development Technologies",
+                "Distributed Computing",
+                "ERP Software",
+                "Hardware",
+                "Human-centered computing",
+                "Internet of Things",
+                "Machine Learning",
+                "Math and Statistics",
+                "Quality Assurance",
+                "Security and privacy",
+                "Theory of computation",
+                "Dummy"
+            ]);
+
     var canvas = d3.select('#'+target_div)
             .append('svg')
             .attr({'width':width,'height':height})
@@ -790,7 +842,7 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
                  'x2':function(d,i){ return i*space; },
                  'y2':function(d){ return d.y2; },
               })
-              .style({'stroke':'#adadad','stroke-width':'1px'});
+              .style({'stroke':'#adadad','stroke-width':'0px'});
 
     //y axis line and labels  
     var yAxis = d3.svg.axis();
@@ -858,7 +910,7 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
               .attr('height',bar_height)
               .attr('id',function(d,i){return labels[i] +'|'+ job_id;})
               .attr({'x':0,'y':function(d,i){ return yscale(i)+y_xis_transform_y; }})
-              .style('fill',function(d,i){ return colorScale(i); })
+              .style('fill',function(d,i){ return categoryColorScale(labels[i]); })
               .attr('width',function(d){return d * space; })
               .on('click', function(d){ //update drilldown
               					var tokens = this.id.split("|");
@@ -878,7 +930,7 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
               .attr('height',bar_height)
               .attr('id',function(d,i){return labels[i] +'|'+ job_id;})
               .attr({'x':0,'y':function(d,i){ return yscale(i)+y_xis_transform_y; }})
-              .style('fill',function(d,i){ return colorScale(i); })
+              .style('fill',function(d,i){ return categoryColorScale(labels[i]); })
               .attr('width',function(d){ return d * space; })
               .on('click', function(d){ //open modal
               					var tokens = this.id.split("|");
