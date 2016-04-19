@@ -435,7 +435,8 @@ function loadResults(results, match_rates, statusBar){
 	//loop through each job:
 	for (var job in results){
 		if (job < results.length) {
-			var current_idx = job_count++;
+            job_count += 1
+			var current_idx = job_count;
 			current_job_id = job_prefix + current_idx;  //so we can consistently use this.
 			current_job = results[job]._source;
 			job_id = results[job]._id;
@@ -479,12 +480,12 @@ function loadResults(results, match_rates, statusBar){
 			var cell  = row.insertCell(4);
             cell.style.width = '100px';
 			// cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
-            user_pref_match_score = ((must_have.length * 2) + (nice_have.length * 1) + (exclude.length * -2)); 
-            cell.innerHTML = user_pref_match_score;
-			var cell = row.insertCell(5);
-            cell.style.width = '100px';
+            user_pref_match_score = ((must_have.length * 1.25) + (nice_have.length * 1) + (exclude.length * -2)); 
+            //cell.innerHTML = user_pref_match_score;
+			//var cell = row.insertCell(5);
+            //cell.style.width = '100px';
 			cell.innerHTML = ((match_rates[job_id] + user_pref_match_score*.01)*100).toFixed(2);
-			var cell = row.insertCell(6);
+			var cell = row.insertCell(5);
 			cell.innerHTML='<i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>';
 
 			//insert hidden row
@@ -493,7 +494,7 @@ function loadResults(results, match_rates, statusBar){
 			cell = row.insertCell(0);
 			cell.className = "hiddenRow ";
 			cell.setAttribute("style","padding-bottom:10px;");
-			cell.setAttribute("colspan","6");
+			cell.setAttribute("colspan","5");
 
 			//create hidden content
 			var section = document.createElement("div");
@@ -610,9 +611,8 @@ function loadResults(results, match_rates, statusBar){
 	} // for (var job in results){
 
 	$("#tableSearchResults").trigger("update");
-    var sorting = [[5,1]]; 
+    var sorting = [[4,1]]; 
     $("#tableSearchResults").trigger("sorton",[sorting]);
-    $("#tableSearchResults").trigger("update"); 
 
     //bar = ProgressBar('#resultsprogressbar');
     statusBar.destroy();
