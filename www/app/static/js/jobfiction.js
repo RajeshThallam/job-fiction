@@ -435,8 +435,7 @@ function loadResults(results, match_rates, statusBar){
 	//loop through each job:
 	for (var job in results){
 		if (job < results.length) {
-            job_count += 1
-			var current_idx = job_count;
+            var current_idx = job_count++;
 			current_job_id = job_prefix + current_idx;  //so we can consistently use this.
 			current_job = results[job]._source;
 			job_id = results[job]._id;
@@ -478,7 +477,7 @@ function loadResults(results, match_rates, statusBar){
             cell.style.width = '190px';
 			cell.innerHTML = current_job.job_class[0]['label'];
 			var cell  = row.insertCell(4);
-            cell.style.width = '100px';
+            cell.style.width = '120px';
 			// cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
             user_pref_match_score = ((must_have.length * 1.25) + (nice_have.length * 1) + (exclude.length * -2)); 
             //cell.innerHTML = user_pref_match_score;
@@ -613,6 +612,7 @@ function loadResults(results, match_rates, statusBar){
 	$("#tableSearchResults").trigger("update");
     var sorting = [[4,1]]; 
     $("#tableSearchResults").trigger("sorton",[sorting]);
+    $("#tableSearchResults").trigger("update");
 
     //bar = ProgressBar('#resultsprogressbar');
     statusBar.destroy();
