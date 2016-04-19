@@ -70,6 +70,7 @@ $(document).ready(function() {
         }
         
         $('#tableSearchResults_body').find("tr:gt(0)").remove();
+        $('#tableSearchResults_body').find("tr:eq(0)").hide();
 
 		$("#description_graph").css("display", "none");
 		var bar = "";
@@ -127,6 +128,7 @@ $(document).ready(function() {
 				bar.destroy();
 				$("#modelprogressbar").css("display", "none");
                 $('#tableSearchResults_body').find("tr:gt(0)").remove();
+                $('#tableSearchResults_body').find("tr:eq(0)").hide();
 
 				// remove all existing tokens
 				$('.ss-active-child').remove();
@@ -393,8 +395,9 @@ function loadResults(results, match_rates, statusBar){
 	var parent = document.getElementById("JobResults");
 	var table = document.getElementById("tableSearchResults");
 
-	var tb = document.getElementById('tableSearchResults_body');
-	tb.innerHTML="";
+	// var tb = document.getElementById('tableSearchResults_body');
+	// tb.innerHTML="";
+    $('#tableSearchResults_body').find("tr:gt(0)").remove();
 	
 	var tb = document.getElementById('tableSearchResults').getElementsByTagName('tbody')[0];
 	var job_count = 0;
