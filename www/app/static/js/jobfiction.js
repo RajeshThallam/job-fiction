@@ -611,7 +611,8 @@ function loadResults(results, match_rates, statusBar){
 
 	$("#tableSearchResults").trigger("update");
     var sorting = [[5,1]]; 
-    $("#tableSearchResults").trigger("sorton",[sorting]); 
+    $("#tableSearchResults").trigger("sorton",[sorting]);
+    $("#tableSearchResults").trigger("update"); 
 
     //bar = ProgressBar('#resultsprogressbar');
     statusBar.destroy();
