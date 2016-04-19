@@ -34,20 +34,32 @@ TOPN_NICE_KEYWORDS = 20
 RCMDR_DIR = os.path.join(BASE_DIR, "app", "mod_home", "model_talking")
 RCMDR_MODEL_DIR = os.path.join(RCMDR_DIR, "models")
 RCMDR_DICT_DIR = os.path.join(RCMDR_DIR, "dict")
-RCMDR_LDA_MODEL = os.path.join(RCMDR_MODEL_DIR, 'lda_30_topics.lda')
+# dictionary
 RCMDR_DICT = os.path.join(RCMDR_DICT_DIR, 'train_no_stem.dict')
-RCMDR_CORPUS = os.path.join(RCMDR_DICT_DIR, 'train_no_stem.mm')
-RCMDR_LDA_INDEX = os.path.join(RCMDR_MODEL_DIR, 'lda_30_topics.idx')
 RCMDR_JOB_LABELS = os.path.join(RCMDR_DICT_DIR, 'job_labels.dict')
+# corpus
+RCMDR_CORPUS = os.path.join(RCMDR_DICT_DIR, 'train_no_stem.mm')
+RCMDR_CORPUS_TFIDF = os.path.join(RCMDR_DICT_DIR, 'train_no_stem_tfidf.mm')
+# models
+RCMDR_TFIDF_MODEL = os.path.join(RCMDR_MODEL_DIR, 'tfidf_no_stem.tfidf')
+RCMDR_LDA_MODEL = os.path.join(RCMDR_MODEL_DIR, 'lda_30_topics.lda')
+RCMDR_LSI_MODEL = os.path.join(RCMDR_MODEL_DIR, 'lsi_400_features.lsi')
+# indices
+RCMDR_LDA_INDEX = os.path.join(RCMDR_MODEL_DIR, 'lda_30_topics.idx')
+RCMDR_LSI_INDEX = os.path.join(RCMDR_MODEL_DIR, 'lsi_30_topics.idx')
 TRAIN_DOC_IDX = os.path.join(RCMDR_MODEL_DIR, 'train_documents.idx')
+RCMDR_TRN_TOPIC_DIST = os.path.join(RCMDR_MODEL_DIR, "train_jobs_topics.csv")
+# misc
 TOPN_JOB_CLASSES = 5
 TOPN_RCMND_JOBS = 100
 
 # Model Store Variables
-STORE_JOBDESC_FILE = os.path.join("/home/rt", "wrk", "jobs", "data", "train.txt")
-STORE_JOBTITLE_FILE = os.path.join("/home/rt", "wrk", "jobs", "data", "get_train_results.sorted.txt")
-STORE_MODEL_FILE = os.path.join("/home/rt", "wrk", "jobs", "data", "model_results.txt")
+STORE_DICT = os.path.join(RCMDR_DICT_DIR, 'train_all.dict')
+STORE_LDA_MODEL = os.path.join(RCMDR_MODEL_DIR, 'train_model_all.lda')
+STORE_JOBDESC_FILE = os.path.join("/home/rt", "wrk", "jobs", "data", "train_all_job_desc.txt")
+STORE_JOBTITLE_FILE = os.path.join("/home/rt", "wrk", "jobs", "data", "train_all_job_labels.txt")
+STORE_MODEL_FILE = os.path.join("/home/rt", "wrk", "jobs", "data", "model_all_results.txt")
 ES_HOST = "50.97.254.20"
 ES_IDX_RESULT = 'jobfiction'
-ES_IDX_TYPE_RESULT = 'results'
+ES_IDX_TYPE_RESULT = 'results_store_all'
 LOG_PATH = os.path.join("/home/rt", "wrk", "jobs", "data")

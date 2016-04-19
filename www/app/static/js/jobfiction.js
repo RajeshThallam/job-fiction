@@ -20,12 +20,10 @@ $(document).ready(function() {
 		enableTrash: true
 	});
 
-	// add sorter plug-in
-	$('#tableSearchResults').tablesorter({
+    // add sorter plug-in
+    $('#tableSearchResults').tablesorter({ 
         widthFixed: false
-	});
-
-    $('#tableSearchResults').fixedHeaderTable({ footer: false, cloneHeadToFoot: false, fixedColumn: false, height: 500 });
+    });
 
 	// add search on the results table
 	$(".search").on("keyup change", function () {
@@ -66,13 +64,16 @@ $(document).ready(function() {
 
 	// collect user submited job posts and get key words
 	$("#btn-collect-job-posts").click(function() {
-		if ($("#modelprogressbar").css("display") == "block") {
-			return 1;
-		}
+        if ($("#resultsprogressbar").css("display") == "block" ||
+            $("#modelprogressbar").css("display") == "block" ) {
+            return 1;
+        }
+        
+        $('#tableSearchResults_body').find("tr:gt(0)").remove();
 
 		$("#description_graph").css("display", "none");
 		var bar = "";
-		bar = new ProgressBar.Line(modelprogressbar, {
+		bar = new ProgressBar.Line('#modelprogressbar', {
 		  strokeWidth: 4,
 		  easing: 'easeInOut',
 		  duration: 20000,
@@ -96,7 +97,7 @@ $(document).ready(function() {
 		  },
 		  from: {color: '#337AB7'},
 		  to: {color: '#ED6A5A'},
-		  step: (state, bar) => {
+		  step: function(state, bar) {
 		    bar.setText('Analyzing... ' + Math.round(bar.value() * 100) + ' %');
 		  }
 		});
@@ -125,6 +126,7 @@ $(document).ready(function() {
 				console.log(data);
 				bar.destroy();
 				$("#modelprogressbar").css("display", "none");
+                $('#tableSearchResults_body').find("tr:gt(0)").remove();
 
 				// remove all existing tokens
 				$('.ss-active-child').remove();
@@ -217,16 +219,17 @@ function setOptions(){
 
 //this function just coordinates the retrieval of the job lists.
 function getResults(){
-    if ($("#resultsprogressbar").css("display") == "block") {
+    if ($("#resultsprogressbar").css("display") == "block" ||
+        $("#modelprogressbar").css("display") == "block" ) {
         return 1;
     }
 
-    $("#tableSearchResults").css("display", "none");
+    $("#JobResults").css("display", "none");
     var bar = "";
-    bar = new ProgressBar.Line(resultsprogressbar, {
+    bar = new ProgressBar.Line('#resultsprogressbar', {
       strokeWidth: 4,
       easing: 'easeInOut',
-      duration: 10000,
+      duration: 5000,
       color: '#337AB7',
       trailColor: '#eee',
       trailWidth: 1,
@@ -247,14 +250,12 @@ function getResults(){
       },
       from: {color: '#337AB7'},
       to: {color: '#ED6A5A'},
-      step: (state, bar) => {
+      step: function(state, bar) {
         bar.setText('Searching the best... ' + Math.round(bar.value() * 100) + ' %');
       }
     });
 
-    console.log(bar);
-
-    $("#modelprogressbar").css("display", "block");
+    $("#resultsprogressbar").css("display", "block");
     bar.animate(1.0);  // Number from 0.0 to 1.0
 
     model_inputs_json = collectModelInputs()
@@ -263,9 +264,7 @@ function getResults(){
         data = JSON.stringify(model_inputs_json), 
         function(data) {
             console.log(data);
-            getResultsES(data);
-            $("#resultsprogressbar").css("display", "none");
-            $("#tableSearchResults").css("display", "block");
+            getResultsES(data, bar);
         },
         dataType = 'json'
     );
@@ -339,7 +338,7 @@ function collectModelInputs(){
 	return strJSON;
 }
 
-function getResultsES(match_jobs){
+function getResultsES(match_jobs, bar){
 	var scores = {}
 	match_jobs['jobs'].map(function(job) { scores[job[0]] = parseFloat(job[1]); });
 
@@ -380,7 +379,7 @@ function getResultsES(match_jobs){
 			});
 
 			// call function to display results
-            loadResults(srt_results, scores);
+            loadResults(srt_results, scores, bar);
         },
         dataType = 'json'
     );
@@ -389,7 +388,7 @@ function getResultsES(match_jobs){
 }
 
 //this function loads the results
-function loadResults(results, match_rates){
+function loadResults(results, match_rates, statusBar){
 	//var results = JSON.parse(results_str);
 	var parent = document.getElementById("JobResults");
 	var table = document.getElementById("tableSearchResults");
@@ -401,9 +400,14 @@ function loadResults(results, match_rates){
 	var job_count = 0;
 	var job_prefix = "job";
 	var current_job;
+    var user_pref_match_score = 0.0;
 
 	var user_must_have = [];
-	var user_nice_have = [];
+    var user_nice_have = [];
+    var user_exclude = [];
+    var must_have = [];
+    var nice_have = [];
+    var exclude = [];    
 
 	// loop through all must have
 	$("#must_have").find("div").each(function() {
@@ -414,6 +418,16 @@ function loadResults(results, match_rates){
 	$("#nice_have").find("div").each(function() {
 		user_nice_have.push($(this).attr('id'));
 	});
+    
+	// loop through all exclude
+	$("#exclude").find("div").each(function() {
+		user_exclude.push($(this).attr('id'));
+	});
+    
+    var total_pref = 
+        user_must_have.length +
+        user_nice_have.length +
+        user_exclude.length;
 
 	//loop through each job:
 	for (var job in results){
@@ -430,6 +444,22 @@ function loadResults(results, match_rates){
 			row.setAttribute("data-target","#result"+job_count);
 			row.setAttribute("data-parent","#JobResults");
 
+            // derive skill preference match score
+			results_skills = Object.keys(current_job.keywords.must_have)
+					.concat(Object.keys(current_job.keywords.nice_have));
+
+            must_have = results_skills.filter(function(n) {
+                return user_must_have.indexOf(n) != -1;
+            });
+
+            nice_have = results_skills.filter(function(n) {
+                return user_nice_have.indexOf(n) != -1;
+            });
+            
+            exclude = results_skills.filter(function(n) {
+                return user_exclude.indexOf(n) != -1;
+            });
+
 			//row information
 			var title = row.insertCell(0);
             title.style.width = '380px';
@@ -445,10 +475,12 @@ function loadResults(results, match_rates){
 			cell.innerHTML = current_job.job_class[0]['label'];
 			var cell  = row.insertCell(4);
             cell.style.width = '100px';
-			cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
+			// cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
+            user_pref_match_score = ((must_have.length * 2) + (nice_have.length * 1) + (exclude.length * -2)); 
+            cell.innerHTML = user_pref_match_score;
 			var cell = row.insertCell(5);
             cell.style.width = '100px';
-			cell.innerHTML = (	match_rates[job_id]*100).toFixed(2);
+			cell.innerHTML = ((match_rates[job_id] + user_pref_match_score*.01)*100).toFixed(2);
 			var cell = row.insertCell(6);
 			cell.innerHTML='<i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>';
 
@@ -491,17 +523,6 @@ function loadResults(results, match_rates){
 			//skill table rows
 
 			if ( 'keywords' in current_job) {
-				results_skills = Object.keys(current_job.keywords.must_have)
-					.concat(Object.keys(current_job.keywords.nice_have));
-
-				must_have = results_skills.filter(function(n) {
-				    return user_must_have.indexOf(n) != -1;
-				});
-
-				nice_have = results_skills.filter(function(n) {
-				    return user_nice_have.indexOf(n) != -1;
-				});
-
 				skillrow = skilltable.insertRow();
 				skillcell = skillrow.insertCell();
 				skillcell.innerHTML = "Must Have";
@@ -586,6 +607,14 @@ function loadResults(results, match_rates){
 	} // for (var job in results){
 
 	$("#tableSearchResults").trigger("update");
+    var sorting = [[5,1]]; 
+    $("#tableSearchResults").trigger("sorton",[sorting]); 
+
+    //bar = ProgressBar('#resultsprogressbar');
+    statusBar.destroy();
+    $("#resultsprogressbar").css("display", "none");
+    $("#JobResults").css("display", "block");
+
 }//end loadResults
 
 function createBarChart(labels, values, target_div, title, input_width, input_height, job_id){

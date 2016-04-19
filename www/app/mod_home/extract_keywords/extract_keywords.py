@@ -109,7 +109,7 @@ class ExtractKeywords(object):
     # Function takes a JSON, save it into a directory and call the testMaui function.
     # Query should be in the form of {"jobID1":"summary","jobID2":"summary2",...}
 
-    def find_keywords(self, query, thresholds = [0.6, 0.2]):
+    def find_keywords(self, query, thresholds = [0.8, 0.5]):
         # unique directory for every request
         maui_workbench = os.path.join(os.getcwd(), 
             "workbench", 
