@@ -89,8 +89,7 @@ def whichPath(keywords):
     return categories
     
     
-#print whichPath(['Secure Sockets Layer',"Die and wafer stacking","Anthropology","Semantic networks","Network on chip"
-           ,"System on a chip","Stack machines","Parallel architectures","cookie"])
+#print whichPath(['Secure Sockets Layer',"Die and wafer stacking","Anthropology","Semantic networks","Network on chip","System on a chip","Stack machines","Parallel architectures","cookie"])
 
 
 

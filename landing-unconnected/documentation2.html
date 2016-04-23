@@ -194,7 +194,6 @@
     <ul>
             <li>More than 1,000,000 job ads have been accumulated - that's over 3 Gbs</li>
             <li>Jobs pulled daily and stored in MongoDB</li>
-            <li>Limited to 10000 results, so pulled in batches by zipcode</li>
             <li>No filtering - all jobs from truck driver to CEO is pulled</li>
             <ul><li>Less than 20% of all jobs collected contained the word "data"</li></ul>
             </ul>
@@ -210,8 +209,22 @@
 </div>
 <div class="container-fluid myDocs container" id="section32">
   <h1>Architecture Explained</h1>
-  <p>Data is acquired from the Indeed API. We are limited to the first 10000 first results, leading to our decision to pull by batches based on the zipcode.</p>
-<p>A Cron job runs the acquire script every morning to pull new jobs and store them in MongoDB. The jobs are not filtered; all jobs from truck drivers to data scientists are collected as we do not want to bias the jobs used (this is the problem we want to solve!).</p>
+  <p> Starting from the top left corner, the job data flow from Indeed API is ingested with a CRON job. A simple registration on their website gives programmatic access to millions of jobs. The rows are then stored in a single MongoDB NoSQL database. We run a second job to extract keywords  representing skills from each job summary. This task is handle by <a href="https://github.com/zelandiya/maui">MAUI Indexer</a>, a supervised keyword extraction tool that can leverage a controlled vocabulary of skills. The data is then cleaned for some feature extractions that will serve in the job recommendation model. </p>
+
+<p> The right part of the diagram is where we integrate job description submitted by the user. We also run the keyword extraction on
+those inputs and the calculated keywords are presented back to the users. After users filter and input weights on each skill, those are passed to the recommendation model. </p>
+
+<p>Using the 2 inputs from users - job posts and user preferences - we search for the best job posts that fit contextual to
+the job descriptions and also matches user’s preferences. In the backend our model is built on the features extracted
+from the pre-processed text by removing stop-words, stemming text and finding the best n-grams. Our model uses
+LDA (latent Dirichlet Allocation) for topic modeling and LSI (Latent Semantic Indexing) based similarity indices
+Using the features extracted from the text i.e. TF-IDF, bag-of- words, keywords and best n-grams, we first identify
+clusters where jobs fit in and then find contextually similar jobs within the clusters using topic specific dictionaries
+and keywords. Finally, we arrive at two scores - job context relevancy score and user preference match score which
+are combined as model score presented on the results. This score tells how confident our model thinks a particular
+job post is close to the user’s interests. In term of logistics, model itself is persisted as files on disk and served
+through Flask REST API. The actual job details such as job ids, location, title, keywords are stored on single node
+ElasticSearch instance.</p>
 </div>
 
 <!--MODELLING-->
@@ -239,7 +252,8 @@
 </div>
 <div class="container-fluid myDocs container" id="section42">
   <h1>Token Categories</h1>
-   
+   <p> The categories are directly extracted from the ACM Computing Classification System dictionary. Each categories can contain several sublevels of categories. Our design proposal shows the two first levels. </p>
+
 </div>
 <div class="container-fluid myDocs container" id="section43">
   <h1>Text Pre-Processing</h1>
