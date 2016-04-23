@@ -17,12 +17,13 @@ import transform_doc2bow as d2b
 from app import app
 import pandas as pd
 import json
+import os
 import sys
 
 
 class ModelStore(object):
     def __init__(self, jobdesc_fname, jobtitle_fname):
-        self.es = Elasticsearch([{'host': app.config['ES_HOST'], 'port': 9200}])
+        self.es = Elasticsearch([{'host': app.config['ES_HOST'], 'port': 9200, 'timeout': 120}])
         self.model = LdaModel.load(app.config['RCMDR_LDA_MODEL'])
         self.job_labels = {
             int(k):v
@@ -93,7 +94,12 @@ class ModelStore(object):
 
     def store_results(self):
         print "Getting topic labels"
-        job_df = self.get_doc_topic_details()
+
+        if (os.path.isfile(app.config['STORE_MODEL_FILE'])):
+            job_df = pd.read_pickle(app.config['STORE_MODEL_FILE'])
+        else:
+            job_df = self.get_doc_topic_details()
+            job_df.to_pickle(app.config['STORE_MODEL_FILE'])
 
         print "Elasticsearch bulk load starts"
 
@@ -163,7 +169,7 @@ class ModelStore(object):
                 helpers.bulk(self.es, pages, True)
                 pages = []
 
-        helpers.bulk(self.es, pages, True)
+        helpers.bulk(self.es, pages, True, timeout=120)
         print "Elasticsearch bulk load completed!!"
         return 0
 

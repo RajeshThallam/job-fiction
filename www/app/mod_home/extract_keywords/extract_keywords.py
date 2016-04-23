@@ -5,6 +5,7 @@ import operator as op
 import shutil
 import json
 import uuid
+import time
 import re
 import os
 
@@ -105,11 +106,10 @@ class ExtractKeywords(object):
 
         return top_keywords
 
-
     # Function takes a JSON, save it into a directory and call the testMaui function.
     # Query should be in the form of {"jobID1":"summary","jobID2":"summary2",...}
 
-    def find_keywords(self, query, thresholds = [0.6, 0.2]):
+    def find_keywords(self, query, thresholds = [0.8, 0.5]):
         # unique directory for every request
         maui_workbench = os.path.join(os.getcwd(), 
             "workbench", 
@@ -127,11 +127,11 @@ class ExtractKeywords(object):
                 recFile.write(v)
 
         # call the Maui wrapper on these files
-        print "Running MAUI test @" + maui_workbench
+        print time.strftime("%c") + " Running MAUI test @" + maui_workbench
         response= json.loads(
             self.test_maui(maui_workbench, app.config['MODEL_KEYWORDS_ID'], 40)
             )
-        print "Completed MAUI test @" + maui_workbench
+        print time.strftime("%c") + " Completed MAUI test @" + maui_workbench
         # remove the working directory
         shutil.rmtree(maui_workbench)
         
@@ -140,8 +140,13 @@ class ExtractKeywords(object):
 
         # generate pretty results
         results={}
+        counter = 0
         for k, v in response.iteritems():
             key = k.split(".txt")[0]
+            
+            counter += 1
+            if counter % 1000 == 0:
+                print "Extracted keywords for " + counter
 
             mustHave = {}
             niceHave = {}
@@ -157,22 +162,21 @@ class ExtractKeywords(object):
                 else:
                     exclude[k2] = float(v2)
 
-                keywords['must_have'] = self.sort_keywords(mustHave, stemmer)
-                keywords['nice_have'] = self.sort_keywords(niceHave, stemmer)
-                keywords['excluded'] = exclude
+            keywords['must_have'] = self.sort_keywords(mustHave, stemmer)
+            keywords['nice_have'] = self.sort_keywords(niceHave, stemmer)
+            keywords['excluded'] = exclude
 
-                all_keys = \
-                    keywords['must_have'].keys() + \
-                    keywords['nice_have'].keys() + \
-                    keywords['excluded'].keys()
+            all_keys = \
+                keywords['must_have'].keys() + \
+                keywords['nice_have'].keys() + \
+                keywords['excluded'].keys()
 
-                categories = self.get_categories(all_keys)
+            categories = self.get_categories(all_keys)
 
             results[key] = keywords
             results[key]['categories'] = categories
 
         #print results
-
         return json.dumps(results)
 
     # ACM Taxonomy converter
@@ -226,14 +230,16 @@ class ExtractKeywords(object):
             i=i.strip()
 
             try:
-                items = []
+                if i not in kwPaths.keys():
+                    category = ""
 
-                for k, v in self.all_categories.items():
-                    if len(re.findall('\\b' + i + '\\b', k, flags=re.IGNORECASE)) > 0:
-                        items.append(v)
-                        break
+                    for k, v in self.all_categories.items():
+                        if  (i.lower() == k.lower() or 
+                            re.search('\\b' + i + '\\b', k, flags=re.IGNORECASE)):
+                            category = v
+                            break
 
-                kwPaths[i] = items[0]
+                    kwPaths[i] = category
             except:
                 kwPaths[i] = ["Others", i]
 

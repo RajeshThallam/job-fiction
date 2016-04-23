@@ -20,10 +20,10 @@ $(document).ready(function() {
 		enableTrash: true
 	});
 
-	// add sorter plug-in
-	$('#tableSearchResults').tablesorter({
-		widthFixed: false
-	});
+    // add sorter plug-in
+    $('#tableSearchResults').tablesorter({ 
+        widthFixed: false
+    });
 
 	// add search on the results table
 	$(".search").on("keyup change", function () {
@@ -64,13 +64,17 @@ $(document).ready(function() {
 
 	// collect user submited job posts and get key words
 	$("#btn-collect-job-posts").click(function() {
-		if ($("#progressbar").css("display") == "block") {
-			return 1;
-		}
+        if ($("#resultsprogressbar").css("display") == "block" ||
+            $("#modelprogressbar").css("display") == "block" ) {
+            return 1;
+        }
+        
+        $('#tableSearchResults_body').find("tr:gt(0)").remove();
+        $('#tableSearchResults_body').find("tr:eq(0)").hide();
 
 		$("#description_graph").css("display", "none");
 		var bar = "";
-		bar = new ProgressBar.Line(progressbar, {
+		bar = new ProgressBar.Line('#modelprogressbar', {
 		  strokeWidth: 4,
 		  easing: 'easeInOut',
 		  duration: 20000,
@@ -94,7 +98,7 @@ $(document).ready(function() {
 		  },
 		  from: {color: '#337AB7'},
 		  to: {color: '#ED6A5A'},
-		  step: (state, bar) => {
+		  step: function(state, bar) {
 		    bar.setText('Analyzing... ' + Math.round(bar.value() * 100) + ' %');
 		  }
 		});
@@ -113,7 +117,7 @@ $(document).ready(function() {
 		var job_posts = { title: job_title, desc: job_desc};
 		console.log(job_posts);
 
-		$("#progressbar").css("display", "block");
+		$("#modelprogressbar").css("display", "block");
 		bar.animate(1.0);  // Number from 0.0 to 1.0
 
 		$.post(
@@ -122,7 +126,9 @@ $(document).ready(function() {
 			function(data) {
 				console.log(data);
 				bar.destroy();
-				$("#progressbar").css("display", "none");
+				$("#modelprogressbar").css("display", "none");
+                $('#tableSearchResults_body').find("tr:gt(0)").remove();
+                $('#tableSearchResults_body').find("tr:eq(0)").hide();
 
 				// remove all existing tokens
 				$('.ss-active-child').remove();
@@ -193,8 +199,7 @@ function addNewToken(target, token, type) {
 
   	$('.modelcontainer').shapeshift({
   		align:'left',
-  		minColumns: 1,
-  		columns: 1,
+  		minColumns: 3,
   		colWidth: 100
   	});
 };
@@ -216,13 +221,52 @@ function setOptions(){
 
 //this function just coordinates the retrieval of the job lists.
 function getResults(){
+    if ($("#resultsprogressbar").css("display") == "block" ||
+        $("#modelprogressbar").css("display") == "block" ) {
+        return 1;
+    }
+
+    $("#JobResults").css("display", "none");
+    var bar = "";
+    bar = new ProgressBar.Line('#resultsprogressbar', {
+      strokeWidth: 4,
+      easing: 'easeInOut',
+      duration: 5000,
+      color: '#337AB7',
+      trailColor: '#eee',
+      trailWidth: 1,
+      svgStyle: {width: '100%', height: '100%'},
+      text: {
+        style: {
+          color: '#337AB7',
+          position: 'absolute',
+          right: '0',
+          top: '30px',
+          padding: 0,
+          margin: 0,
+          transform: null,
+          fontFamily: '"Raleway", Helvetica, sans-serif',
+          fontSize: '1.5rem'
+        },
+        autoStyleContainer: false
+      },
+      from: {color: '#337AB7'},
+      to: {color: '#ED6A5A'},
+      step: function(state, bar) {
+        bar.setText('Searching the best... ' + Math.round(bar.value() * 100) + ' %');
+      }
+    });
+
+    $("#resultsprogressbar").css("display", "block");
+    bar.animate(1.0);  // Number from 0.0 to 1.0
+
     model_inputs_json = collectModelInputs()
 	$.post(
         url = '/home/getresults', 
         data = JSON.stringify(model_inputs_json), 
         function(data) {
             console.log(data);
-            getResultsES(data);
+            getResultsES(data, bar);
         },
         dataType = 'json'
     );
@@ -296,11 +340,11 @@ function collectModelInputs(){
 	return strJSON;
 }
 
-function getResultsES(results){
-	//var results = JSON.parse(results_str);
+function getResultsES(match_jobs, bar){
+	var scores = {}
+	match_jobs['jobs'].map(function(job) { scores[job[0]] = parseFloat(job[1]); });
 
-	// get job_ids to be queried on ElasticSearch
-	job_ids = Object.keys(results['jobs'])
+	var job_ids = Object.keys(scores);
 	//job_ids = [ "indeed_4da5859d10426dab", "indeed_8e1f2f2909654316" ]
 
 	// prepare ES query call
@@ -309,7 +353,7 @@ function getResultsES(results){
 		', "query": {"filtered" : {"filter" : {"terms": {"_id":["' + 
 		job_ids.join('", "') + 
 		'"]}}}}}'
-	console.log(es_call)
+	//console.log(es_call)
 
 	// REST API to query ES and get results
 	$.post(
@@ -336,9 +380,8 @@ function getResultsES(results){
 			    })
 			});
 
-			console.log(srt_results);
 			// call function to display results
-            loadResults(srt_results);
+            loadResults(srt_results, scores, bar);
         },
         dataType = 'json'
     );
@@ -347,25 +390,55 @@ function getResultsES(results){
 }
 
 //this function loads the results
-function loadResults(results){
+function loadResults(results, match_rates, statusBar){
 	//var results = JSON.parse(results_str);
 	var parent = document.getElementById("JobResults");
 	var table = document.getElementById("tableSearchResults");
 
-	var tb = document.getElementById('tableSearchResults_body');
-	tb.innerHTML="";
+	// var tb = document.getElementById('tableSearchResults_body');
+	// tb.innerHTML="";
+    $('#tableSearchResults_body').find("tr:gt(0)").remove();
 	
 	var tb = document.getElementById('tableSearchResults').getElementsByTagName('tbody')[0];
 	var job_count = 0;
 	var job_prefix = "job";
 	var current_job;
+    var user_pref_match_score = 0.0;
+
+	var user_must_have = [];
+    var user_nice_have = [];
+    var user_exclude = [];
+    var must_have = [];
+    var nice_have = [];
+    var exclude = [];    
+
+	// loop through all must have
+	$("#must_have").find("div").each(function() {
+		user_must_have.push($(this).attr('id'));
+	});
+
+	// loop through all nice to have
+	$("#nice_have").find("div").each(function() {
+		user_nice_have.push($(this).attr('id'));
+	});
+    
+	// loop through all exclude
+	$("#exclude").find("div").each(function() {
+		user_exclude.push($(this).attr('id'));
+	});
+    
+    var total_pref = 
+        user_must_have.length +
+        user_nice_have.length +
+        user_exclude.length;
 
 	//loop through each job:
 	for (var job in results){
 		if (job < results.length) {
-			var current_idx = job_count++;
+            var current_idx = job_count++;
 			current_job_id = job_prefix + current_idx;  //so we can consistently use this.
 			current_job = results[job]._source;
+			job_id = results[job]._id;
 
 			var row = tb.insertRow(current_idx);
 			row.id=current_job_id;
@@ -374,17 +447,43 @@ function loadResults(results){
 			row.setAttribute("data-target","#result"+job_count);
 			row.setAttribute("data-parent","#JobResults");
 
+            // derive skill preference match score
+			results_skills = Object.keys(current_job.keywords.must_have)
+					.concat(Object.keys(current_job.keywords.nice_have));
+
+            must_have = results_skills.filter(function(n) {
+                return user_must_have.indexOf(n) != -1;
+            });
+
+            nice_have = results_skills.filter(function(n) {
+                return user_nice_have.indexOf(n) != -1;
+            });
+            
+            exclude = results_skills.filter(function(n) {
+                return user_exclude.indexOf(n) != -1;
+            });
+
 			//row information
 			var title = row.insertCell(0);
+            title.style.width = '380px';
 			title.innerHTML = '<strong>' + current_job.job_title + '</strong>';
 			var cell = row.insertCell(1);
+            cell.style.width = '380px';
 			cell.innerHTML = current_job.company;
 			var cell = row.insertCell(2);
+            cell.style.width = '190px';
 			cell.innerHTML = current_job.full_location.replace(/\d+$/g, '');
 			var cell  = row.insertCell(3);
+            cell.style.width = '190px';
 			cell.innerHTML = current_job.job_class[0]['label'];
 			var cell  = row.insertCell(4);
-			cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
+            cell.style.width = '120px';
+			// cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
+            user_pref_match_score = ((must_have.length * 1.25) + (nice_have.length * 1) + (exclude.length * -2)); 
+            //cell.innerHTML = user_pref_match_score;
+			//var cell = row.insertCell(5);
+            //cell.style.width = '100px';
+			cell.innerHTML = ((match_rates[job_id] + user_pref_match_score*.01)*100).toFixed(2);
 			var cell = row.insertCell(5);
 			cell.innerHTML='<i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>';
 
@@ -394,7 +493,7 @@ function loadResults(results){
 			cell = row.insertCell(0);
 			cell.className = "hiddenRow ";
 			cell.setAttribute("style","padding-bottom:10px;");
-			cell.setAttribute("colspan","6");
+			cell.setAttribute("colspan","5");
 
 			//create hidden content
 			var section = document.createElement("div");
@@ -431,7 +530,7 @@ function loadResults(results){
 				skillcell = skillrow.insertCell();
 				skillcell.innerHTML = "Must Have";
 				skillcell = skillrow.insertCell();
-				var cellvalue = Object.keys(current_job.keywords.must_have).length;
+				var cellvalue = must_have.length;
 				if (cellvalue < 0){
 					cellvalue = 0;
 				}
@@ -441,7 +540,7 @@ function loadResults(results){
 				skillcell = skillrow.insertCell();
 				skillcell.innerHTML = "Nice to Have";
 				skillcell = skillrow.insertCell();
-				var cellvalue = Object.keys(current_job.keywords.nice_have).length;
+				var cellvalue = nice_have.length;
 				if (cellvalue < 0){
 					cellvalue = 0;
 				}
@@ -511,6 +610,15 @@ function loadResults(results){
 	} // for (var job in results){
 
 	$("#tableSearchResults").trigger("update");
+    var sorting = [[4,1]]; 
+    $("#tableSearchResults").trigger("sorton",[sorting]);
+    $("#tableSearchResults").trigger("update");
+
+    //bar = ProgressBar('#resultsprogressbar');
+    statusBar.destroy();
+    $("#resultsprogressbar").css("display", "none");
+    $("#JobResults").css("display", "block");
+
 }//end loadResults
 
 function createBarChart(labels, values, target_div, title, input_width, input_height, job_id){
@@ -603,7 +711,7 @@ function createBarChart(labels, values, target_div, title, input_width, input_he
     //no on-click event  -- this is the drill-down chart that has no functionality
     svg.selectAll(".bar")
         .data(data)
-      .enter().append("rect")
+        .enter().append("rect")
         .attr("class", "bar")
         .attr("id",job_id)
         .attr("x", function(d) {return  x(d.label) + (x.rangeBand() - d3.min([x.rangeBand(), 100]))/2})
@@ -616,7 +724,7 @@ function createBarChart(labels, values, target_div, title, input_width, input_he
     //on-click is a drilldown -- this is the graph at top of modal; must have the functionality for drilling down.
     svg.selectAll(".bar")
         .data(data)
-      .enter().append("rect")
+        .enter().append("rect")
         .attr("class", "bar")
         .attr("id",job_id)
         .attr("x", function(d) {return  x(d.label) + ((x.rangeBand() - d3.min([x.rangeBand(), 100]))/2);})
@@ -633,7 +741,7 @@ function createBarChart(labels, values, target_div, title, input_width, input_he
       //this is just on the main page - click will open modal with chart and drill-down.
       svg.selectAll(".bar")
         .data(data)
-      .enter().append("rect")
+        .enter().append("rect")
         .attr("class", "bar")
         .attr("id",job_id)
         .attr("x", function(d) {return  x(d.label) + (x.rangeBand() - d3.min([x.rangeBand(), 100]))/2})
@@ -708,33 +816,39 @@ function drilldown_chart(source, id){
 
 
 function horizontal_graph(labels, values, target_div, title, input_width, input_height, job_id){
-
-        Array.prototype.max = function() {
+	Array.prototype.max = function() {
       return Math.max.apply(null, this);
     };
 
-  Array.prototype.longest=function() {
-      return this.sort(
-        function(a,b) {  
-          if (a.length > b.length) return -1;
-          if (a.length < b.length) return 1;
-            return 0
-        }
-      )[0];
-  }
+  	Array.prototype.longest=function() {
+  		return this.sort(
+  			function(a,b) {  
+  				if (a.length > b.length) return -1;
+  				if (a.length < b.length) return 1;
+  				return 0
+  			}
+  			)[0];
+  	}
+
+    // sort labels alphabetically and respective values
+    orig_labels = labels.slice();
+    srt_labels = labels.sort();
+    srt_values = srt_labels.map(function(label) { 
+        return values[orig_labels.indexOf(label)];
+    });
+
+    labels = srt_labels;
+    values = srt_values;
+
     var tmp_labels = labels.slice();
     var maxLabel = tmp_labels.sort(function (a, b) { return b.length - a.length })[0];
     var maxLabelLength = 45;//maxLabel.length;
-    
     var maxValue = [values.max()+5,10].max() +2;
-
-	input_width = document.getElementById(target_div).offsetWidth
-
     var colors = ['#0000b4','#0082ca','#0094ff','#0d4bcf','#0066AE','#074285','#00187B','#285964','#405F83','#416545','#4D7069','#6E9985','#7EBC89','#0283AF','#79BCBF','#99C19E'];
 
     var margin = {top: 40, right: 20, bottom: 30, left: 40},
-      width = input_width - margin.left - margin.right,
-      height = input_height - margin.top - margin.bottom;
+        width = input_width - margin.left - margin.right,
+        height = input_height - margin.top - margin.bottom;
 
     //var width = width;  //target size of div
     //var height = height;  //target height of div
@@ -771,6 +885,30 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
             .domain([0,labels.length])
             .range(colors);
 
+    var categoryColorScale = d3.scale.category20b()
+            .domain([
+                "Analytical or Scientific Analysis",
+                "Applied computing",
+                "BI/Data Visualization",
+                "Computer Infrastructure",
+                "Data and Information Management",
+                "Data Models",
+                "Data Visualization",
+                "Development Software",
+                "Development Technologies",
+                "Distributed Computing",
+                "ERP Software",
+                "Hardware",
+                "Human-centered computing",
+                "Internet of Things",
+                "Machine Learning",
+                "Math and Statistics",
+                "Quality Assurance",
+                "Security and privacy",
+                "Theory of computation",
+                "Dummy"
+            ]);
+
     var canvas = d3.select('#'+target_div)
             .append('svg')
             .attr({'width':width,'height':height})
@@ -791,11 +929,7 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
                  'x2':function(d,i){ return i*space; },
                  'y2':function(d){ return d.y2; },
               })
-              .style({'stroke':'#adadad','stroke-width':'1px'});
-
-
-
-
+              .style({'stroke':'#adadad','stroke-width':'0px'});
 
     //y axis line and labels  
     var yAxis = d3.svg.axis();
@@ -811,7 +945,7 @@ function horizontal_graph(labels, values, target_div, title, input_width, input_
               .attr('id','yaxis')
               .call(yAxis);
 
-y_xis.selectAll("text")
+	y_xis.selectAll("text")
       .attr('y', 6);              
 
     //x axis line and labels
@@ -825,8 +959,6 @@ y_xis.selectAll("text")
               .attr("transform", "translate("+transform_x+"," + y2 + ")")
               .attr('id','xaxis')
               .call(xAxis);
-
-
 
     var title = canvas.append("text")
         .attr("x", ((width / 2) + (transform_x/2)))
@@ -865,7 +997,7 @@ y_xis.selectAll("text")
               .attr('height',bar_height)
               .attr('id',function(d,i){return labels[i] +'|'+ job_id;})
               .attr({'x':0,'y':function(d,i){ return yscale(i)+y_xis_transform_y; }})
-              .style('fill',function(d,i){ return colorScale(i); })
+              .style('fill',function(d,i){ return categoryColorScale(labels[i]); })
               .attr('width',function(d){return d * space; })
               .on('click', function(d){ //update drilldown
               					var tokens = this.id.split("|");
@@ -885,7 +1017,7 @@ y_xis.selectAll("text")
               .attr('height',bar_height)
               .attr('id',function(d,i){return labels[i] +'|'+ job_id;})
               .attr({'x':0,'y':function(d,i){ return yscale(i)+y_xis_transform_y; }})
-              .style('fill',function(d,i){ return colorScale(i); })
+              .style('fill',function(d,i){ return categoryColorScale(labels[i]); })
               .attr('width',function(d){ return d * space; })
               .on('click', function(d){ //open modal
               					var tokens = this.id.split("|");
