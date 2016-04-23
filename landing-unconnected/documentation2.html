@@ -66,8 +66,7 @@
           </li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Data<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#section21">Data Collection</a></li>
-              <li><a href="#section22">Data Storage</a></li>
+              <li><a href="#section21">Data Collection & Storage</a></li>
             </ul>
           </li>
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Architecture<span class="caret"></span></a>
@@ -187,18 +186,17 @@
 
 
 <div class="container-fluid myDocs container" id="section21">
-              <h1 style="margin-bottom: 40px">Data Collection</h1>
-            <p>Data is acquired from the Indeed API. We are limited to the first 10000 first results, leading to our decision to pull by batches based on the zipcode.</p>
+              <h1 style="margin-bottom: 40px">Data Collection & Storage</h1>
+            <p>Data is acquired from the <a href="https://github.com/indeedlabs/indeed-python" >Indeed API</a>. We are limited to the first 10000 first results, leading to our decision to pull by batches based on the zipcode.</p>
 <p>A Cron job runs the acquire script every morning to pull new jobs and store them in MongoDB. The jobs are not filtered; all jobs from truck drivers to data scientists are collected as we do not want to bias the jobs used (this is the problem we want to solve!).</p>
 
     <ul>
             <li>More than 1,000,000 job ads have been accumulated - that's over 3 Gbs</li>
             <li>Jobs pulled daily and stored in MongoDB</li>
             <li>No filtering - all jobs from truck driver to CEO is pulled</li>
-            <ul><li>Less than 20% of all jobs collected contained the word "data"</li></ul>
+            <li>Less than 20% of all jobs collected contained the word "data"</li>
             </ul>
             </div>
-
 
 
 
@@ -237,8 +235,12 @@ ElasticSearch instance.</p>
 <div class="container-fluid myDocs container" id="section41b">
   <h1>MAUI Explained</h1>
 <ol>
-<li>Tokenize candidate keyphrase using a thesaurus as a control dictionary. We used <a href="http://www.acm.org/about/class/2012?pageIndex=1">the 2012 ACM Computing Classification System</a> as our controlled dictionnary.</li> 
-<li>Compute features:
+<li>Tokenize candidate keyphrase using a thesaurus as a control dictionary. 
+<ul>
+    <li>
+  We used <a href="http://www.acm.org/about/class/2012?pageIndex=1">the 2012 ACM Computing Classification System</a> as our controlled dictionnary.</li>
+    </ul></li>
+<li>Compute features
   <ul>
     <li>TF-IDF: Term Frequency Inverse Document Frequency</li>
     <li>First Occurence</li>
@@ -246,8 +248,17 @@ ElasticSearch instance.</p>
     <li>Length</li>
 
   </ul></li>
-<li>Train a model with Naive Bayes and a set of label generated from Jobscan.co. This website provides a tool to extract keywords from resume and job ads.</li>
-<li>Use the generated model to tag keywords. The associated likelihood and the keyword category are also returned.</li>
+<li>Train a model 
+  <ul>
+    <li>Using Naive Bayes as a supervised classifier </li>
+    <li>Leveraging a set of labels acquired from <a href="www.jobscan.co">JobScan.co</a>, a tool to extract keywords from resume and job ads.</li>
+  </ul>
+   </li>
+<li> Keyword extraction
+  <ul>
+    <li>Use the generated model to tag keywords. The associated likelihood and the keyword categories are also returned. </li>
+  </ul>
+  </li>
 </ol>
 </div>
 <div class="container-fluid myDocs container" id="section42">
