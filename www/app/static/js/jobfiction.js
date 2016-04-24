@@ -5,6 +5,121 @@ var description_graph = {}
 
 // initialization
 $(document).ready(function() {
+	$('body').css('overflow', 'auto');
+	// Instance the tour
+	var tour = new Tour({
+		name: "job-fiction-tour",
+		storage: false,
+		autoscroll: true
+	});
+
+	tour.addStep({
+	    element: "#tour-go",
+	    title: "Job Fiction Tour Website",
+		content: 
+			"This tour will guide you through main features of Job Fiction " +
+			"we'd like to point out.",
+		// backdrop: true,
+		placement: "bottom"
+		// path: "/home"
+	});
+
+	tour.addStep({
+	    element: "#heading-job-fiction",
+	    title: "Job Fiction",
+	    content: 
+	    	"Job Fiction finds best jobs matching your dream job " + 
+	    	"description and your preferences in three steps" + "<br/><br/>" + 
+	    	"1. Start with a job description you think is a good fit for you." +
+	    	"<br/><br/>" + 
+	    	"2. Adjust the job model to highlight the job features important " +
+	    	"to you and deemphasize what you do not want." + "<br/><br/>" + 
+	    	"3. With this model of the fictional perfect job – the " +
+	    	"combination of job descriptions and priority features, job " +
+	    	"fiction finds job postings that are great matches for you.",
+		placement: "bottom"
+	});
+
+	tour.addStep({
+	    element: "#heading-job-desc",
+	    title: "Job Descriptions",
+	    content: 
+	    	"Enter the descriptions of up to three jobs you currently " + 
+	    	"are interested in",
+		placement: "bottom"
+	});
+
+	tour.addStep({
+	    element: "#heading-job-model",
+	    title: "Your Skill Preferences",
+	    content: 
+	    	"Adjust the job model to highlight the job features important " +
+	    	"to you (must haves and nice haves) and deemphasize what you do " +
+	    	"not want (exclude).",
+		placement: "bottom",
+		redirect: function(){
+        	document.location.href = '/home/#portfolioModal2';
+      	}
+	});
+
+	tour.addStep({
+	    element: "#add-new-token",
+	    title: "Add New Token",
+	    content: 
+	    	"If the keywords from job fiction do not meet your interest, " +
+	    	"add your own tokens by clicking on add token",
+		placement: "bottom",
+		redirect: function(){
+        	document.location.href = '/home/#portfolioModal2';
+      	}
+	});
+
+	tour.addStep({
+	    element: "#heading-job-results",
+	    title: "Job Search Matches",
+	    content: 
+	    	"With this model of the fictional perfect job, the combination " +
+	    	"of job descriptions and priority features, job fiction finds " +
+	    	"job postings that are great matches for you.",
+		placement: "bottom"
+	});
+
+	tour.addStep({
+	    element: "#filter-results",
+	    title: "Filter Job Search Results",
+	    content: 
+	    	"Use search bar to filter text in the results table",
+		placement: "left"
+	});
+
+	tour.addStep({
+	    element: "#th-results-score",
+	    title: "Job Search Results Sorting",
+	    content: 
+	    	"Sort the results based on score or any other column after " +
+	    	"results are shown",
+		placement: "bottom"
+	});
+
+	tour.addStep({
+	    element: "#tour-go",
+	    title: "Job Fiction End of Tour",
+		content: 
+			"That ends tour of job fiction. Add your dream job description " +
+			"and find your passion",
+		// backdrop: true,
+		placement: "bottom"
+		// path: "/home"
+	});
+
+	// Initialize the tour
+	tour.init();
+
+	$('#tour-go').click(function () {
+	    // Start the tour
+	    if (! tour.ended()) { tour.end() };
+	    tour.restart();
+	});
 
 	// function to set shapeshift plug-in containers
 	$('.modelcontainer').shapeshift({
@@ -22,7 +137,13 @@ $(document).ready(function() {
 
     // add sorter plug-in
     $('#tableSearchResults').tablesorter({ 
-        widthFixed: false
+        widthFixed: false,
+        sortList: [[4,1]],
+        sortForce: [[4,1]],
+        sortAppend: [[4,1]],
+		headers: {
+		      4: { sorter: "percent" }
+		}
     });
 
 	// add search on the results table
@@ -305,21 +426,6 @@ function collectModelInputs(){
 		job_desc.push($(this).val());
 	});
 
-    // option - zip code
-    if ($("#zip").val().length>0) {
-        var zip = $("#zip").val();
-    }
-
-    // option - education
-    if ($('#education').val() != "None"){
-        var education = $('#education').val();
-    }
-
-    // option - sort
-    if ($('#sort').val() != "None"){
-        var sort = $('#sort').val();
-    }
-
 	// compose model input JSON
 	var strJSON = {
         title: job_title, 
@@ -328,11 +434,6 @@ function collectModelInputs(){
             must_have: must_have, 
             nice_have: nice_have, 
             exclude: exclude
-        },
-        preferences: {
-            zip_code: zip, 
-            education: education, 
-            sort:sort
         }
     };
 
@@ -341,10 +442,14 @@ function collectModelInputs(){
 }
 
 function getResultsES(match_jobs, bar){
-	var scores = {}
-	match_jobs['jobs'].map(function(job) { scores[job[0]] = parseFloat(job[1]); });
+	var scores = [];
+	match_jobs['jobs'].map(function(job) { scores.push({key: job[0], value: parseFloat(job[1])}) });
+	scores = scores.sort(function(a,b) {
+    	return -1 * (a['value'] - b['value']);
+	});
 
-	var job_ids = Object.keys(scores);
+	//var job_ids = Object.keys(scores);
+	var job_ids = scores.map(function(score) { return score['key']});
 	//job_ids = [ "indeed_4da5859d10426dab", "indeed_8e1f2f2909654316" ]
 
 	// prepare ES query call
@@ -477,13 +582,16 @@ function loadResults(results, match_rates, statusBar){
             cell.style.width = '190px';
 			cell.innerHTML = current_job.job_class[0]['label'];
 			var cell  = row.insertCell(4);
-            cell.style.width = '120px';
+            cell.style.width = '150px';
 			// cell.innerHTML = (	current_job.job_class[0]['score']*100).toFixed(2);
             user_pref_match_score = ((must_have.length * 1.25) + (nice_have.length * 1) + (exclude.length * -2)); 
             //cell.innerHTML = user_pref_match_score;
 			//var cell = row.insertCell(5);
             //cell.style.width = '100px';
-			cell.innerHTML = ((match_rates[job_id] + user_pref_match_score*.01)*100).toFixed(2);
+            relevancy_score = match_rates.filter(function(score) { 
+            	return (score['key'] === job_id);
+            }).map(function(score){return score['value']});
+			cell.innerHTML = ((relevancy_score[0] + user_pref_match_score*.01)*100).toFixed(2);
 			var cell = row.insertCell(5);
 			cell.innerHTML='<i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>';
 
@@ -501,9 +609,11 @@ function loadResults(results, match_rates, statusBar){
 			section.id="result"+ job_count;
 
 			//Job Description
-			//var job_desc = document.createElement("p");
-			//job_desc.appendChild(document.createTextNode(current_job.job_description));
-			//section.appendChild(job_desc);
+			if (current_job.description != undefined) {
+				var job_desc = document.createElement("p");
+				job_desc.appendChild(document.createTextNode(current_job.description));
+				section.appendChild(job_desc);
+			}
 
 			//Link
 			var link = document.createElement("a");
@@ -609,10 +719,11 @@ function loadResults(results, match_rates, statusBar){
         job_count++; //increment job count
 	} // for (var job in results){
 
-	$("#tableSearchResults").trigger("update");
     var sorting = [[4,1]]; 
-    $("#tableSearchResults").trigger("sorton",[sorting]);
-    $("#tableSearchResults").trigger("update");
+	$("#tableSearchResults")
+		.trigger("update")
+		.trigger("appendCache")
+		.trigger("sorton", [ sorting ]);
 
     //bar = ProgressBar('#resultsprogressbar');
     statusBar.destroy();

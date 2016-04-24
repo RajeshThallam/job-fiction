@@ -21,6 +21,7 @@
  		<!-- application custom css -->
  		<link href="/static/css/jobfiction.css" rel="stylesheet">
  		<link href="https://cdn.rawgit.com/markmalek/Fixed-Header-Table/master/css/defaultTheme.css" rel="stylesheet">
+ 		<link href="/static/css/lib/bootstrap-tour.css" rel="stylesheet">
 
 	<!-- Javascripts -->
 		<!-- jquery core and UI -->
@@ -43,6 +44,12 @@
 
 		<!-- progress bar -->
 		<script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
+
+		<!-- bootstrap tour -->
+		<script src="/static/js/lib/bootstrap-tour.min.js"></script>
+
+	 	<!-- application custom javascript -->
+ 		<script src="/static/js/jobfiction.js"></script>
 </head>
 
 <body>
@@ -57,8 +64,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<!--<a class="navbar-brand page-scroll" href="#page-top">Yelp</a>-->
-					<a class="page-scroll" href="/home" target="_top"><h2 class="section-heading">Job Fiction</h2></a>
+					<a class="page-scroll" href="/home" target="_top"><h2 class="section-heading" id="heading-job-fiction">Job Fiction</h2></a>
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -71,7 +77,9 @@
 						<li><a class="page-scroll" href="#portfolioModal2"><h4 class="section-heading">Model</h4></a></li>
 						<li><a class="page-scroll" href="#portfolioModal3"><h4 class="section-heading">Results</h4></a></li>
 					</ul>
-
+					<ul class="nav navbar-nav navbar-right">
+						<li><a class="page-scroll"  href="javascript:void(0);" id="tour-go"><h4 class="section-heading">Tour</h4></a></li>						
+					</ul>
 					
 				</div>
 				<!-- /.navbar-collapse -->
@@ -79,32 +87,21 @@
 			<!-- /.container-fluid -->
 		</nav>
 	</div>
-	<div class="modal-body" style="max-height: 900px; overflow-y: auto; ">
+	<div class="modal-body" style="overflow-y: auto; ">
 		<div class="container-fluid">
 			<div class="row-fluid">
 				<div class='span12' id='explore-container'>
 
-					<section id="portfolioModal">
-					  <div class="container">
-						<div class="row">
-						  <p class="intro-description" style="color: cornflowerblue; font-weight: 300;"></p>
-
-					  </div>
-					</section>
-				
-
-
 <!--  JOB DESCRIPTION PAGE -->
 
-
-					<section id="portfolioModal0">
+					<section id="portfolioModal0" style="min-height: 900px;">
 						
-						<div class="container " style="min-height: 900px;">
+						<div class="container ">
 							<div class="row" >
 								<div class="col-lg-12 text-center">
 									<p>&nbsp</p>
 									<p>&nbsp</p>
-									<h2 class="section-heading">Job Descriptions</h2>
+									<h2 class="section-heading" id ="heading-job-desc">Job Descriptions</h2>
 									<h4 class="section-subheading text-muted">Enter the descriptions of up to three jobs you currently are interested in.</h4>
 									<hr>
 								</div>
@@ -153,12 +150,7 @@
 						</div>
 					</section>
 
-			
-
-
-
 <!--  MODEL PAGE -->
-
 
 					<section id="portfolioModal2" style="min-height: 900px;">
 						
@@ -166,20 +158,20 @@
 							<div class="row">
 								<div class="col-lg-12 text-center">
 									<p>&nbsp;</p><p>&nbsp;</p>
-									<h2 class="section-heading">Job Description Model</h2>
+									<h2 class="section-heading" id ="heading-job-model">Job Description Model</h2>
 								</div>
 							</div>
 							<div class="row">
 								<!--<H8>&nbsp;</H8>-->
 								
 								<!-- Trigger the modal with a button -->	
-								    <div class="col-sm-2"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">Add New Tokens</button></div>
+								    <div class="col-sm-2"><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal" id="add-new-token">Add New Tokens</button></div>
 								    <div class="col-sm-2">&nbsp;</div>
 								    <div class="col-sm-2" style="background-color:cornflowerblue; color:#e6e6e6;"><strong>Auto - High Weight</strong></div>
 								    <div class="col-sm-2" style="background-color:steelblue; color:#e6e6e6;"><strong>Auto - Low Weight</strong></div>
 								    <div class="col-sm-2" style="background-color:lightslategray; color:#e6e6e6;"><strong>User Entered</strong></div>
 								    
-			<!--User Entered Tokens Modal-->
+								<!--User Entered Tokens Modal-->
 									<!-- Modal -->
 									<div id="myModal" class="modal fade" role="dialog">
 									  <div class="modal-dialog">
@@ -227,136 +219,70 @@
 								 <div class="col-sm-3">
 									<h3>Must Have</h3>These tokens will influence the job results as the  highest priority
 								 	<div class="modelcontainer" id="must_have">
-										<div style="left: 10px; top: 63px;" id="Data Management" class="ss-active-child" data-ss-colspan="PlaceHolder"><p word-wrap="normal" style="text-align:center">&nbsp;</p></div>
 								 	</div>
 								 </div>
 
 								 <div class="col-sm-3">
 								 	<h3>Nice to Have</h3>These tokens will influence the job results&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								 	<div class="modelcontainer" id="nice_have">
-										<div style="left: 10px; top: 63px;" id="Data Management" class="ss-active-child" data-ss-colspan="PlaceHolder"><p word-wrap="normal" style="text-align:center">&nbsp;</p></div>
 								 	</div>
 								 </div>
 
 								 <div class="col-sm-3">
 									 <h3>Indifferent</h3>These tokens will not influence the job results
 									 <div class="modelcontainer" id="indiffer ">
-										<!--place holder - will be filled with things later-->
-										<div style="left: 10px; top: 63px;" id="Data Management" class="ss-active-child" data-ss-colspan="PlaceHolder"><p word-wrap="normal" style="text-align:center">&nbsp;</p></div>
 									 </div>
 								 </div>
 
 								 <div class="col-sm-3">
 								 	<h3 style="color:red;">Exclude</h3>Jobs with these tokens may be excluded&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								 	<div class="modelcontainer" id="exclude">
-										<!--place holder - will be filled with things later-->
-										<div style="left: 10px; top: 63px;" id="Data Management" class="ss-active-child" data-ss-colspan="PlaceHolder"><p word-wrap="normal" style="text-align:center">&nbsp;</p></div>
 								 	</div>
 								 </div>
 							</div>
 							<HR></HR>
 						</div>
-							
-						
-
-
 					</section>
 
-
-
 <!--  RESULTS PAGE -->
-
-
 
 					<section id="portfolioModal3" style="min-height: 900px;">
 						
 						<div class="container ">
 							<div class="row">
 								<div class="col-lg-12 text-center">
-									
 									<p>&nbsp;</p>
 									<p>&nbsp;</p>
-									<h2 class="section-heading">Job Search Matches</h2>
+									<h2 class="section-heading" id ="heading-job-results">Job Search Matches</h2>
+									<hr>
 								</div>
+								<hr>
 							</div>
-							 <div class="col-sm-2">
-							    <button type="button" class="btn btn-primary btn-sm" id="btn-collectResults" onclick="getResults();">Refresh Results</button>
-							 </div>
-							 <div class="col-md-10">
-							 	<!-- <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#optionsModal">Options</button> -->
- 								<div class="form-group pull-right" style="width:255px">
-    								 <input type="text" class="search form-control" placeholder="Filter: What you looking for?">
-    								<span class="counter pull-right"></span>
+							<div class="row">
+								<div class="col-sm-2">
+								    <button type="button" class="btn btn-primary btn-sm" id="btn-collectResults" onclick="getResults();">Refresh Results</button>
 								</div>
-							 </div>
-
-
-			<!--Options Modal-->
-									<!-- Modal -->
-									<div id="optionsModal" class="modal fade" role="dialog">
-									  <div class="modal-dialog">
-
-									    <!-- Modal content-->
-									    <div class="modal-content">
-									      <div class="modal-header">
-									        <button type="button" class="close" data-dismiss="modal">&times;</button>
-									        <h4 class="modal-title">Set Options</h4>
-									      </div>
-									      <div class="modal-body">
-									        <table>
-													<tr>
-														<td><label for="zip">ZIP Code:</label></td>
-														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-														<td><input type="text" size = "10" id="zip"></td>
-													</tr>
-												
-													<tr>
-																												
-														<td><label for="education">Minimum Education:</label></td>
-														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-														<td><select  id="education">
-																<option value = "None" selected = "selected">None</option>
-																<option value = "Bachelor">Bachelor</option>
-																<option value = "Master">Master</option>
-																<option value = "Doctorate">Doctorate</option>
-															</select></td>
-													</tr>
-													<tr>
-																												
-														<td><label for="sort">Sort Results By:</label></td>
-														<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-														<td><select  id="sort">
-																<option value="Class">Class</option>
-																<option value="Company">Company</option>
-																<option value="Location">Location</option>				
-																<option value="Match" selected = "selected">Match</option>
-															</select></td>
-													</tr>
-												</table>
-											  
-											
-												
-									      </div>
-									      <div class="modal-footer">
-									        <button type="button" class="btn btn-default" data-dismiss="modal" onclick="setOptions();">Save</button>
-									      </div>
-									    </div>
-
-									  </div>
+								<div class="col-md-10">
+	 								<div class="form-group pull-right" style="width:255px">
+	    								 <input id="filter-results" type="text" class="search form-control" placeholder="Filter: What you looking for?">
+	    								<span class="counter pull-right"></span>
 									</div>
-
+								</div>
 							</div>
+						</div>
 
 							<div id="resultsprogressbar" style="display: none;"></div>
-							<div id="JobResults" style="overflow : auto; height:900px;">
+							<div id="JobResults" style="overflow : auto; height:720px;">
 								<table id="tableSearchResults" class="results table table-responsive table-hover table-striped table-condensed tablesorter">
 									<thead>
 										<tr>
-											<th>Title</th>
-											<th>Company</th>
-											<th>Location</th>
-											<th>Class</th>
-											<th width="100">Model Score</th>
+											<th title="Job title on the job post">Title</th>
+											<th title="Company that posted the job">Company</th>
+											<th title="Job post location (City, State) - only US">Location</th>
+											<th title="Job class/category predicted by job fiction">Class</th>
+											<th title="Score in % (0-100)  is confidence score given by job fiction model based on how close a particular job post is to the user’s interests" style="text-align: center; width: 150px;" id="th-results-score">
+												Model Score (0-100)
+											</th>
 											<!--<th width="100">Relevance</th>-->
 										</tr>
 									</thead>
@@ -372,14 +298,12 @@
 									</tbody>
 								</table>
 							</div>
-
-						</div>
 					</section>
 
 <!--GRAPH Modal-->
 
-                  <!-- Modal -->
-                  <div id="graphModal" class="modal fade " role="dialog">
+                 <!-- Modal -->
+                 <div id="graphModal" class="modal fade " role="dialog">
                     <div class="modal-dialog modal-lg">
 
                       <!-- Modal content-->
@@ -398,24 +322,11 @@
                           <button type="button" class="btn btn-default" data-dismiss="modal" >Close</button>
                         </div>
                       </div>
-
-                    </div>
-                  </div>
-
-              </div>
-
-
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<!-- </div> -->
-	<!-- /#wrapper -->
-
-	 	<!-- application custom javascript -->
- 		<script src="/static/js/jobfiction.js"></script>
-
-
+</div>
 </body>
 </html>

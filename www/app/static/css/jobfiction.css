@@ -1,101 +1,101 @@
-	@font-face {
-		font-family: "Lato";
-		font-style: normal;
-		src: 
-		local("Lato Regular"), 
-		url("http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2") 
-		format("woff2");
-	}
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	src: 
+	local("Lato Regular"), 
+	url("http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2") 
+	format("woff2");
+}
 
-	* {
-		font-family: Lato, Avenir, Helvetica, Arial;
-		font-weight: 400;
-	}
+* {
+	font-family: Lato, Avenir, Helvetica, Arial;
+	font-weight: 400;
+}
 
-	div.modelcontainer {
-		border: 1px dashed grey;
-		position: relative;
-		min-height: 400px;
-		width:90%;
-	}
+div.modelcontainer {
+	border: 1px dashed grey;
+	position: relative;
+	min-height: 400px;
+	width:90%;
+}
 
-	div.modelcontainer > div {
-		background: #e6e6e6;
-		position: absolute;
-		height: 43px;
-		width: 200px;
-		border: 1px solid #f2f2f2;
-		color:#f2f2f2;
-		font-weight: bold;
-	}
+div.modelcontainer > div {
+	background: #e6e6e6;
+	position: absolute;
+	height: 43px;
+	width: 200px;
+	border: 1px solid #f2f2f2;
+	color:#f2f2f2;
+	font-weight: bold;
+}
 
-	div.modelcontainer > div[data-ss-colspan="2"] { 
-		width: 218px; ;
-	}
+div.modelcontainer > div[data-ss-colspan="2"] { 
+	width: 218px; ;
+}
 
-	div.modelcontainer > div[data-ss-colspan="3"] { 
-		width: 260px; 
-	}
-	
-	
-	div.modelcontainer > div[data-ss-colspan="PlaceHolder"] {
-		width: 1%; 
-		background: transparent;
-		border: transparent;
-	}
-	
-	div.modelcontainer > .ss-placeholder-child {
-		background: transparent;
-		border: 1px dashed blue;
-	}
+div.modelcontainer > div[data-ss-colspan="3"] { 
+	width: 260px; 
+}
 
-	div.must_have {
-		background: cornflowerblue !important
-	}
-	div.nice_have {
-		background: steelblue !important
-	}
-	div.manual {
-		background: lightslategray !important
-	}
 
-	div.notshapeshift {
-		position: relative;
-		min-height: 100px;
-		text-align: center;
-		padding-bottom: 20px;
-	}
+div.modelcontainer > div[data-ss-colspan="PlaceHolder"] {
+	width: 1%; 
+	background: transparent;
+	border: transparent;
+}
 
-	section.modelsection {
-		width: 90%;
-		height: 170px;
-		padding: 10px;
-		background: #f5f5f5;
-	}
+div.modelcontainer > .ss-placeholder-child {
+	background: transparent;
+	border: 1px dashed blue;
+}
 
-	div#one {
-		width: 30%;
-		height:200px;
-		float: left;
-	}
+div.must_have {
+	background: cornflowerblue !important
+}
+div.nice_have {
+	background: steelblue !important
+}
+div.manual {
+	background: lightslategray !important
+}
 
-	div#two {
-		margin-left: 50%;
-		width: 40%;
-		height: 200px;
-	}
-	  
-	div#skilltable {
-		width: 30%;
-		height: 150px;
-		float: left;
-	}
+div.notshapeshift {
+	position: relative;
+	min-height: 100px;
+	text-align: center;
+	padding-bottom: 20px;
+}
 
-	div#skillgraph {
-		margin-left: 50%;
-		height: 150px;
-		background: cornflowerblue;
-	}
+section.modelsection {
+	width: 90%;
+	height: 170px;
+	padding: 10px;
+	background: #f5f5f5;
+}
+
+div#one {
+	width: 30%;
+	height:200px;
+	float: left;
+}
+
+div#two {
+	margin-left: 50%;
+	width: 40%;
+	height: 200px;
+}
+  
+div#skilltable {
+	width: 30%;
+	height: 150px;
+	float: left;
+}
+
+div#skillgraph {
+	margin-left: 50%;
+	height: 150px;
+	background: cornflowerblue;
+}
 
 	
 .bar {
