@@ -18,7 +18,7 @@
 	}
 
 	* {
-		font-family: Avenir, Lato, Helvetica, Arial;
+		font-family: Raleway, Avenir, Lato, Helvetica, Arial;
 		font-weight: 400;
 	}
 
@@ -73,7 +73,8 @@
 	.p-content-dark {
 		color: color: rgba(255, 255, 255, 0.55);
 		font-size: 1.15em;
-		font-weight: 200;
+		font-weight: 300;
+		text-align: justify;
 	}
 	
 	p {

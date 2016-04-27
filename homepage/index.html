@@ -23,7 +23,7 @@
 								<h1 style="margin-bottom: 0px; margin-top: 7px;">JOB FICTION</h2>
 								</a>
 							</li>
-							<li><a class="scrolly active" href="#">HOMEPAGE</a></li>
+							<li><a class="scrolly active" href="#">HOME</a></li>
 							<li><a class="scrolly" href="#challenge">CHALLENGE</a></li>
 							<li><a class="scrolly" href="#solution">SOLUTION</a></li>
 							<li><a class="scrolly" href="#approach">APPROACH</a></li>
@@ -122,7 +122,7 @@
 							<div class="features inactive">
 								<section style="text-align: center;">
 									<ul class="actions">
-										<li><a href="#" class="button">DATA INGESTION</a></li>
+										<li><a href="#sol-data-ingestion" class="button approach">DATA INGESTION</a></li>
 									</ul>
 									<p>Data collection, acquisition and storage</p>
 								</section>
@@ -134,7 +134,7 @@
 								</section>
 								<section style="text-align: center;">
 									<ul class="actions">
-										<li><a href="#" class="button">SOLUTION ARCHITECTURE</a></li>
+										<li><a href="#sol-solution-arch" class="button approach">SOLUTION ARCHITECTURE</a></li>
 									</ul>
 									<p>Application components and data pipeline</p>
 								</section>
@@ -146,13 +146,13 @@
 								</section>
 								<section style="text-align: center;">
 									<ul class="actions">
-										<li><a href="#" class="button">KEYWORDS EXTRACTION</a></li>
+										<li><a href="#sol-keyword-extraction" class="button approach">KEYWORDS EXTRACTION</a></li>
 									</ul>
 									<p>How key words and phrases are detected</p>
 								</section>
 								<section style="text-align: center;">
 									<ul class="actions">
-										<li><a href="#" class="button">TEXT PREPROCESSING</a></li>
+										<li><a href="#sol-text-preprocessing" class="button approach">TEXT PREPROCESSING</a></li>
 									</ul>
 									<p>Text normalization and filtering noise from data</p>
 								</section>
@@ -195,6 +195,166 @@
 							</div>
 						</div>
 					</section>
+
+				<!-- Approach Content -->
+					<!-- data-ingestion -->
+						<section id="sol-data-ingestion" class="wrapper style1-alt fullscreen inactive" style="display: none;">
+							<div class="inner" style="margin-top: 1em; padding-top: 3em">
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<h2 style="font-size: 3em">Data Ingestion</h2>
+
+								<p class="p-content-dark">
+									<span class="image left">
+										<img src="static/img/job_post.png" alt="">
+									</span>
+									We choose <a href="http://www.indeed.com/publisher" target="_blank">Indeed API</a> to acquire jobs posted across United States. Out of all the APIs evaluated (LinkedIn, Glassdoor, Monster and Indeed), Indeed API offered flexible API and convenient rate limits. Indeed API limits to the first 10000 results, leading to our decision to run batches based on the zip codes across US.
+
+									<br><br>
+								
+									A Cron job runs the data acquisition script daily to pull new jobs and store the data as is into the MongoDB store <quote>"jobfiction"</quote>. Since the results from Indeed API are well formed JSON, it was an easy decision to store the raw data in MongoDB. We started collecting all the jobs without any filtering and later filtered only "data" related jobs. The resultant job posts had job titles varied from truck drivers to data scientists.
+
+									<br><br>
+								
+									Quick numbers and facts on the data acquisition process
+									<ul>
+										<li class="p-content-dark">1.5 Million job posts were accumulated in JSON format - ~ 4 GB volume of data</li>
+										<li class="p-content-dark">Jobs pulled daily and stored in MongoDB and synced up with ElasticSearch instance for data exploration</li>
+										<li class="p-content-dark">No filtering - all jobs with titles varying from truck driver to CEO are pulled</li>
+										<li class="p-content-dark">Less than 20% of all jobs collected contained the word "data"</li>
+									</li>
+									</ul>
+								</p>
+
+								<br>
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<br>
+							</div>
+						</section>
+
+					<!-- solution architecture -->
+						<section id="sol-solution-arch" class="wrapper style1-alt fullscreen inactive" style="display: none;">
+							<div class="inner" style="margin-top: 1em; padding-top: 3em">
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+
+								<h2 style="font-size: 3em">Solution Architecture</h2>
+
+								<span class="image main" style="display:block; text-align:center;">
+									<img src="static/img/arch_diag_blue.png" alt="" style="min-width: 70%; max-width: 100%; min-height: 70%; height: auto;">
+								</span>
+
+								<p class="p-content-dark">
+ 								The job data flow from Indeed API is ingested with a CRON job. A simple registration on Indeed API web services gives programmatic access to millions of jobs. The rows are then stored in a single MongoDB NoSQL database. A second job is run to extract keywords representing skills from each job summary. This task is handle by MAUI Indexer, a supervised keyword extraction tool that leverages a controlled vocabulary of skills. The data is then cleaned for some feature extractions that will serve in the job recommendation model.
+
+ 								<br><br>
+								On the right side of the diagram is where job descriptions submitted by the user are integrated. Keyword extraction program is on those inputs and the calculated keywords are presented back to the users. After users filter and input weights on each skill, those are passed to the recommendation model.
+
+								<br><br>
+								Using the 2 inputs from users - job posts and user preferences - recommender searches for the best job posts that fit contextually to the job descriptions and also matches user’s preferences. In the backend, model is built on the features extracted from the pre-processed text by removing stop-words, stemming text and finding the best n-grams. Our model uses LDA (latent Dirichlet Allocation) for topic modeling and LSI (Latent Semantic Indexing) based similarity indices using the features extracted from the text i.e. TF-IDF, bag-of- words, keywords and best n-grams. Recommender first identifies the clusters where jobs fit in and then find contextually similar jobs within the clusters using topic specific dictionaries and keywords. Finally, recommender arrives at the two scores - job context relevancy score and user preference match score which are combined as model score presented on the results. This score tells how confident model thinks a particular job post is closer to the user’s interests. In term of logistics, model itself is persisted as files on disk and served through Flask microservices The actual job details such as job ids, location, title, keywords are stored on single node ElasticSearch instance.
+								</p>
+
+								<br>
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<br>
+							</div>
+						</section>
+
+					<!-- keyword extraction -->
+						<section id="sol-keyword-extraction" class="wrapper style1-alt fullscreen inactive" style="display: none;">
+							<div class="inner" style="margin-top: 1em; padding-top: 3em">
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+
+								<h2 style="font-size: 3em">Keyword Extraction using MAUI</h2>
+
+<!-- 								<span class="image main" style="display:block; text-align:center;">
+									<img src="static/img/maui.png" alt="" style="min-width: 30%; max-width: 50%; min-height: 70%; height: auto;">
+								</span> -->
+
+								<p class="p-content-dark">
+									<span class="image right">
+										<img src="static/img/maui.png" alt="">
+									</span>
+									<a target="_blank" href="http://entopix.com/maui/">MAUI</a> stands for Multi-purpose automatic topic indexing. It’s a java library and its core is the machine-learning toolkit Weka. Below steps explains how job fiction uses MAUI for controlled keyword extraction to identify skills from job posts.
+									
+									<br><br>
+									<ol>
+										<li type="A" class="p-content-dark">Tokenize candidate keyphrase using a thesaurus as a control dictionary. Following are the controlled dictionaries used</li>
+									    <ul> 
+									    	<li>2012 ACM Computing Classification System</li>
+									    	<li>O*NET (2016) occupational skills</li>
+									    	<li><a href="https://radimrehurek.com/gensim/models/word2vec.html" target="_blank">word2vec</a> embeddings from the job posts corpus</li>
+									    </ul>
+									    <li type="2" class="p-content-dark">Compute features</li>
+									    <ul> 
+									        <li>TF-IDF: Term Frequency Inverse Document Frequency</li>
+									        <li>First Occurence</li>
+									        <li>Node Degree</li>
+									        <li>Length</li>
+									    </ul>
+									    <li type="3" class="p-content-dark">Train a model</li>
+									    <ul>
+									        <li>Using Naive Bayes as a supervised classifier</li>
+									        <li>Leveraging a set of labels acquired from <a href="JobScan.co" target="_blank">JobScan.co</a>, a tool to extract keywords from resume and job ads.</li>
+									    </ul>
+									    <li type="4" class="p-content-dark">Keyword extraction</li>
+									    <ul>
+									        <li>Use the generated model to tag keywords. The associated likelihood and the keyword categories are also returned.</li>
+									    </ul>
+									</ol>
+								</p>
+
+								<br>
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<br>
+							</div>
+						</section>
+
+					<!-- text-preprocessing -->
+						<section id="sol-text-preprocessing" class="wrapper style1-alt fullscreen inactive" style="display: none;">
+							<div class="inner" style="margin-top: 1em; padding-top: 3em">
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<h2 style="font-size: 3em">Text Pre-Processing</h2>
+
+								<h3 style="font-size: 2em">Filter Noise</h3>
+								<p class="p-content-dark">Out of the 1.3 Million jobs we acquired from Indeed, there were 250K jobs with the word "data" in either job title or job description. We filtered "data" related jobs based on the assumption that data science related job will definitely contain the word "data". However, based on cursory analysis on the filtered jobs (and multiple iterations of training and validating the model) we found there were too many irrelevant jobs related to office administration, delivery services, care providers etc. which did not fit our expectations.</p><br>
+								<p class="p-content-dark">To filter the noise, we used <a href="https://raw.githubusercontent.com/RajeshThallam/job-fiction/master/analyze/incl_job_patterns.txt" target="_blank">inclusion</a> and <a href="https://raw.githubusercontent.com/RajeshThallam/job-fiction/master/analyze/excl_job_patterns.txt" target="_blank">exclusion</a> patterns in the job description and job title. The patterns were based on the <a href="http://www.datasciencecentral.com/profiles/blogs/400-categorized-job-titles-for-data-scientists">research by Data Science Central team</a> on ~10K LinkedIn professionals with titles related to Data Science and categorized 400 job titles for data scientists. We formed inclusion patterns based on the cleaned job title from the research and also formed exclusion patterns analyzing job titles that clearly did not fell into data science related job titles. After filtering the noise from master job posts database, we had 85K job posts related to data science field i.e. ~6.5% of job posts collected.</p>
+
+								<h3 style="font-size: 2em; margin-top: 1em;">Text Normalization</h3>
+								<p class="p-content-dark">After analyzing sample job posts, we observed that companies post job descriptions in different formats and varying lengths and different lengths. Most of the job descriptions have - company information (40%), job responsibilities (58%), qualification (50%) and skills (79%). Length of job posts followed typical zipf distribution. We concatenated job title with job description for the entire analysis.</p>
+								<br>
+								
+								<p class="p-content-dark">We applied following text normalization techniques before building features:</p>
+								<ul>
+									<li class="p-content-dark">Removed non-alphanumeric characters including punctuations (except +, ., -)</li>
+									<li class="p-content-dark">Text converted to lower case</li>
+									<li class="p-content-dark">Removed URLs and email ids</li>
+								    <li class="p-content-dark">Removed stop words (used smart list stop words, NLTK stop words and our own stop words based on the analysis)</li>
+								    <li class="p-content-dark">Stemming (Snowball stemmer) to reduce words to their root form</li>
+								</ul>
+								<p class="p-content-dark">We built text pre-processing module with the ability to enable/disable any specific normalization technique. Based on multiple iterations and analysis, our current model does not apply stemming as some of the keywords were lost during the process.
+								After applying the normalization techniques, size of the relevant job posts data came down to 250M from 400M.
+								</p>
+
+								<br>
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<br>
+							</div>
+						</section>
 
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up inactive">
