@@ -6,6 +6,8 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!--[if lte IE 8]><script src="static/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="static/css/bootstrap.css">
+		<link rel="stylesheet" href="static/css/font-awesome.css">
 		<link rel="stylesheet" href="static/css/main.css">
 		<!--[if lte IE 9]><link rel="stylesheet" href="static/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="static/css/ie8.css" /><![endif]-->
@@ -27,7 +29,7 @@
 							<li><a class="scrolly" href="#challenge">CHALLENGE</a></li>
 							<li><a class="scrolly" href="#solution">SOLUTION</a></li>
 							<li><a class="scrolly" href="#approach">APPROACH</a></li>
-							<li><a class="scrolly" href="#three">GET IN TOUCH</a></li>
+							<li><a class="scrolly" href="#contactus">GET IN TOUCH</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -48,7 +50,7 @@
 							<p style="margin-bottom: 20px;">and your preferences, not just the job title or keywords.</p>
 							<ul class="actions">
 								<li><a href="http://prezi.com/agutd95rbx47/view" class="button scrolly" target="_blank">Learn more</a></li>
-								<li><a href="http://bit.ly/jobfiction" class="button scrolly" target="_blank">LAUNCH APP</a></li>
+								<li><a href="http://bit.ly/Job Fiction" class="button scrolly" target="_blank">LAUNCH APP</a></li>
 								<li><a href="https://github.com/RajeshThallam/job-fiction" class="button scrolly" target="_blank">VIEW CODE</a></li>
 							</ul>
 						</div>
@@ -140,7 +142,7 @@
 								</section>
 								<section style="text-align: center;">
 									<ul class="actions">
-										<li><a href="#" class="button">TECHNOLOGY STACK</a></li>
+										<li><a href="#sol-tech-stack" class="button approach">TECHNOLOGY STACK</a></li>
 									</ul>
 									<p>Tools and technologies to make the solution approach work</p>
 								</section>
@@ -158,25 +160,25 @@
 								</section>
 								<section style="text-align: center;">
 									<ul class="actions">
-										<li><a href="#" class="button">MODELING & INDEXING</a></li>
+										<li><a href="#sol-model-build" class="button approach">MODELING & INDEXING</a></li>
 									</ul>
 									<p>Topic modeling and indexing job posts</p>
 								</section>
 								<section style="text-align: center;">
 									<ul class="actions">
-										<li><a href="#" class="button">RECOMMENDATIONS</a></li>
+										<li><a href="#sol-recommender" class="button approach">RECOMMENDATIONS</a></li>
 									</ul>
 									<p>How recommendations work and job results are retrieved</p>
 								</section>
 								<section style="text-align: center;">
 									<ul class="actions">
-										<li><a href="#" class="button">MODEL EVALUATION</a></li>
+										<li><a href="#sol-model_evaluation" class="button approach">MODEL EVALUATION</a></li>
 									</ul>
 									<p>How well the model works and does not work</p>
 								</section>
 								<section style="text-align: center;">
 									<ul class="actions">
-										<li><a href="#" class="button">LEARNINGS & FUTURE</a></li>
+										<li><a href="#sol-learnings-future" class="button approach">LEARNINGS & FUTURE</a></li>
 									</ul>
 									<p>What we learnt, what we could have changed and next steps</p>
 								</section>
@@ -188,7 +190,7 @@
 								</section>
 								<section style="text-align: center;">
 									<ul class="actions">
-										<li><a href="http://bit.ly/jobfiction" class="button" target="_blank">LAUNCH APP</a></li>
+										<li><a href="http://bit.ly/Job Fiction" class="button" target="_blank">LAUNCH APP</a></li>
 									</ul>
 									<p>Play time!! Launch the app and give it a swirl</p>
 								</section>
@@ -197,6 +199,7 @@
 					</section>
 
 				<!-- Approach Content -->
+
 					<!-- data-ingestion -->
 						<section id="sol-data-ingestion" class="wrapper style1-alt fullscreen inactive" style="display: none;">
 							<div class="inner" style="margin-top: 1em; padding-top: 3em">
@@ -213,7 +216,45 @@
 
 									<br><br>
 								
-									A Cron job runs the data acquisition script daily to pull new jobs and store the data as is into the MongoDB store <quote>"jobfiction"</quote>. Since the results from Indeed API are well formed JSON, it was an easy decision to store the raw data in MongoDB. We started collecting all the jobs without any filtering and later filtered only "data" related jobs. The resultant job posts had job titles varied from truck drivers to data scientists.
+									A Cron job runs the data acquisition script daily to pull new jobs and store the data as is into the MongoDB store <quote>"Job Fiction"</quote>. Since the results from Indeed API are well formed JSON, it was an easy decision to store the raw data in MongoDB. We started collecting all the jobs without any filtering and later filtered only "data" related jobs. The resultant job posts had job titles varied from truck drivers to data scientists.
+
+									<br><br>
+								
+									Quick numbers and facts on the data acquisition process
+									<ul>
+										<li class="p-content-dark">1.5 Million job posts were accumulated in JSON format - ~ 4 GB volume of data</li>
+										<li class="p-content-dark">Jobs pulled daily and stored in MongoDB and synced up with ElasticSearch instance for data exploration</li>
+										<li class="p-content-dark">No filtering - all jobs with titles varying from truck driver to CEO are pulled</li>
+										<li class="p-content-dark">Less than 20% of all jobs collected contained the word "data"</li>
+									</li>
+									</ul>
+								</p>
+
+								<br>
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<br>
+							</div>
+						</section>
+
+					<!-- data-exploration -->
+						<section id="sol-data-exploration" class="wrapper style1-alt fullscreen inactive" style="display: none;">
+							<div class="inner" style="margin-top: 1em; padding-top: 3em">
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<h2 style="font-size: 3em">Data Ingestion</h2>
+
+								<p class="p-content-dark">
+									<span class="image left">
+										<img src="static/img/job_post.png" alt="">
+									</span>
+									We choose <a href="http://www.indeed.com/publisher" target="_blank">Indeed API</a> to acquire jobs posted across United States. Out of all the APIs evaluated (LinkedIn, Glassdoor, Monster and Indeed), Indeed API offered flexible API and convenient rate limits. Indeed API limits to the first 10000 results, leading to our decision to run batches based on the zip codes across US.
+
+									<br><br>
+								
+									A Cron job runs the data acquisition script daily to pull new jobs and store the data as is into the MongoDB store <quote>"Job Fiction"</quote>. Since the results from Indeed API are well formed JSON, it was an easy decision to store the raw data in MongoDB. We started collecting all the jobs without any filtering and later filtered only "data" related jobs. The resultant job posts had job titles varied from truck drivers to data scientists.
 
 									<br><br>
 								
@@ -266,6 +307,26 @@
 							</div>
 						</section>
 
+					<!-- technology stack -->
+						<section id="sol-tech-stack" class="wrapper style1-alt fullscreen inactive" style="display: none;">
+							<div class="inner" style="margin-top: 1em; padding-top: 3em">
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+
+								<h2 style="font-size: 3em">Technology Stack</h2>
+
+								<span class="image main" style="display:block; text-align:center;">
+									<img src="static/img/tech_stack.png" alt="" style="height: 50%; width: 70%">
+								</span>
+								<br>
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<br>
+							</div>
+						</section>
+
 					<!-- keyword extraction -->
 						<section id="sol-keyword-extraction" class="wrapper style1-alt fullscreen inactive" style="display: none;">
 							<div class="inner" style="margin-top: 1em; padding-top: 3em">
@@ -274,11 +335,6 @@
 								</ul>
 
 								<h2 style="font-size: 3em">Keyword Extraction using MAUI</h2>
-
-<!-- 								<span class="image main" style="display:block; text-align:center;">
-									<img src="static/img/maui.png" alt="" style="min-width: 30%; max-width: 50%; min-height: 70%; height: auto;">
-								</span> -->
-
 								<p class="p-content-dark">
 									<span class="image right">
 										<img src="static/img/maui.png" alt="">
@@ -356,63 +412,260 @@
 							</div>
 						</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up inactive">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
- turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus
- eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est 
-velit quis lorem.</p>
-							<div class="split style1">
-								<section>
-									<form method="post" action="#">
-										<div class="field half first">
-											<label for="name">Name</label>
-											<input name="name" id="name" type="text">
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input name="email" id="email" type="text">
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5"></textarea>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br>
-											Nashville, TN 00000-0000<br>
-											USA</span>
-										</li>
-										<li>
-											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
+					<!-- model-build -->
+						<section id="sol-model-build" class="wrapper style1-alt fullscreen inactive" style="display: none;">
+							<div class="inner" style="margin-top: 1em; padding-top: 3em">
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<h2 style="font-size: 3em">Modeling & Indexing</h2>
+
+								<h3 style="font-size: 2em; margin-top: 1em;">Feature Extraction</h3>
+								<p class="p-content-dark">
+									<span class="image left">
+										<img src="static/img/model.png" alt="">
+									</span>
+									The primary goal of the model is to predict job title/job class given set of job descriptions and respective features. Since the job titles for data science related jobs vary from analyst to C level and job posts under similar titles have varying responsibilities and qualifications, our attempt is to classify the jobs based on the job descriptions and skills required instead of just job titles. Our expected job classes are: Data Analyst, Data Engineer, Machine Learning Engineer, Research, Data Visualization, Research, Chief level positions, Data Scientists, Data Architect etc. Given a set of job posts, our model should be able to classify job post as x% of class-1, y% of class-2 etc. This is similar to classifying the reviews of a restaurant based on food, ambience, service, 
+									<br><br>
+									Due to unavailability of training data set we resorted to unsupervised learning techniques such as Latent Dirichlet Allocation (LDA) to identify the job classes. We looked for features to help LDA to come up with topics closer to our expectations. We went through multiple iterations to analyze the features or inputs required for predicting decent job class. 
+									<br><br>
+									The key features we looked at  
+								</p>
+								<ul>
+									<li class="p-content-dark"><b style="font-weight: 300;">
+										1. Skill Identifiers (Keywords):</b> We used controlled keyword extraction using MAUI (Multi-purpose Topic Indexing) algorithm to extract key words and phrases based on the O*NET and ACM taxonomy classification. We added additional skills to the dictionary based on the big data and data science related technologies. The skills extracted were one of the important features to the model to classify job posts. We explored alternative approaches before banking on keywords from MAUI such as Named Entity Extraction (NER) to identify skills, Word2vec embedding to look at local context of skills (such as skills similar to Python). We could not get right keywords from NER due to no training data set and general corpus trained data sets did not work. Word2vec embedding are promising to identify similar skills but does not identify a skill. We used Word2Vec embedding to form a vocabulary for MAUI controlled keyword extraction.</li>
+									<li class="p-content-dark"><b style="font-weight: 300;">
+										2. Bag-of-Words:</b> Each sentence and the entire job post was transformed to a bag-of-words model to represent each job post as a set of words and  frequency irrespective of grammar and word order. </li>
+									<li class="p-content-dark"><b style="font-weight: 300;">
+										3. TF-IDF:</b> Each job description is converted into a vector space model base don term frequency and inverse document frequency scores. Minimum thresholds are set to remove any common words even after removal of stop-words.</li>
+									<li class="p-content-dark"><b style="font-weight: 300;">
+										4. Best n-Grams:</b> From the job posts corpus, we found best n-grams with n ranging from 1 to 5. This feature was part of improvements we identified after initial iterations of model building exercise. Best n-grams has immensely helped LDA topic clusters to make more sense.</li>
+								</ul>
+
+<!-- 								<h3 style="font-size: 2em; margin-top: 1em;">Modeling and Indexing</h3>
+								<p class="p-content-dark">
+									1. LDA Based Clusters
+									2. LSI projection of TF-IDF
+									3. Building indices
+								</p> -->
+
+								<br>
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<br>
 							</div>
+						</section>
+
+					<!-- recommendation -->
+						<section id="sol-recommender" class="wrapper style1-alt fullscreen inactive" style="display: none;">
+							<div class="inner" style="margin-top: 1em; padding-top: 3em">
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<h2 style="font-size: 3em">Recommendations and Results</h2>
+
+								<h3 style="font-size: 2em; margin-top: 1em;">Recommender</h3>
+								<p class="p-content-dark">
+								Job Fiction recommender uses pre-built indices during training to compare and retreive the best results from the job posts database based on contextual similarity of job descriptions entered by the job seeker and his/her preferences. Following steps summarize the action behind recommendations.
+								<br><br>
+								<ul>
+									<li class="p-content-dark">
+									Gather and pre-process user entered job titles and job descriptions along with user preferences tagged - must have, nice-to-have and exclusions.
+									</li>
+									<li class="p-content-dark">
+									Find topics (or clusters) where user entered [Job Title + Job description] fits into the trained LDA topic clusters. This is based on the jobs pre-trained on the LDA model. This is equivalent to semantic searching (contextual search)
+									</li>
+									<li class="p-content-dark">
+									Based on the scores of top 3 topics, recommender retrieves the job posts in those topics. Score of each job post retrieved = (topic_score) * similarity_score(compared with [Job Title + Job description])
+									</li>
+									<li class="p-content-dark">
+									From this list of jobs, check for each job how many of them have user preferred skills. Apply term weights to determine score. 
+									</li>
+									<li class="p-content-dark">
+									The list of top N job ids are returned to the front-end interface through Python Flask micro-service
+									</li>
+									<li class="p-content-dark">
+									The client interface queries ElasticSearch to fetch job details - title, location, job class, URL and necessary charts to show how job post returned matches the skills.
+									</li>
+								</ul>
+								</p>
+
+								<h3 style="font-size: 2em; margin-top: 1em;">Results</h3>
+
+								<p class="p-content-dark">
+									<span class="image main">
+										<img src="static/img/job_results.png" alt="">
+									</span>								
+								Results page has the ability to scan through jobs and compare jobs in the same view. This was done by using collapsible rows allow the user to show or hide the details of the job.  The heading row was set to include the job title, company and location. After, the job classification and confidence scores were added. 
+								<br><br>
+
+								The collapsible section includes a link to the job online, a table showing the counts for “Must Have” and “Nice to Have” and a graph to visually show the job skills. Sort to add to the results and a search field to allow additional filtering on search results. The search only filters on information in the heading row of the job in the search table - not the actual job content itself. 
+								<br><br>
+
+								Graphs are an important feature to Job Fiction because no other job search site (to current knowledge) has a way to visualize a job.  While bar graphs are some of the simpler forms of visualizations, it is an appropriate choice for the data at hand. The job terms or “tokens” parsed from the job description are categorized and the counts for each category fed into the graph. The counts of tokens in each category make the primary graph for the jobs. 
+								<br><br>
+
+								For added dimension, clicking on the graph bars reveals a second graph with counts of secondary token levels. This gives further information and ideas to the job applicant of what job features are really important to them in an organized way. 
+
+								<br>
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<br><br>
+							</div>
+						</section>
+
+					<!-- model evaluation -->
+						<section id="sol-model_evaluation" class="wrapper style1-alt fullscreen inactive" style="display: none;">
+							<div class="inner" style="margin-top: 1em; padding-top: 3em">
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+
+								<h2 style="font-size: 3em;">Evaluation of Model</h2>
+								<p class="p-content-dark">
+									There really is not a standard way to evaluate retrieval effectiveness of a job search engine, or a search engine of any type for that matter. The results can only be subjectively compared to what an individual is expecting, or what is done by similar systems. 
+								</p>
+
+								<h3 style="font-size: 2em; margin-top: 1em;">Evaluation</h3>
+								<p class="p-content-dark">
+									There are two particular problems in evaluating Job Fiction’s model. 
+								</p>
+								<ul>
+									<li class="p-content-dark">Unlike commercial job search engines (LinkedIn, Indeed, Dice, etc.), Job Fiction's database is not a live database and the job posts returned may already be expired. </li>
+									<li class="p-content-dark">The retrieval logic of the commercial job search engines is not known, and each has its own advance search options available to users. To say the jobs returned from two different job search engines are not the same is only acknowledging that each search algorithm is different.
+									</li>
+								</ul>
+
+								<p class="p-content-dark">
+									<span class="image right">
+										<img src="static/img/model_eval.png" alt="">
+									</span>
+
+									One search engine that is similar to Job Fiction is <a href="http://jobscan.co">JobScan.co</a>. Though the main goal of JobScan.co is to evaluate the match between a resume and a job description, it offers a list of jobs similar to the job description submitted. Submitting the same job description to Job Fiction and to JobScan.co result in different jobs; this is expected since Job Fiction queries it’s own dataset. Subjectively comparing the job titles reviewed, it is possible to suggest Job Fiction returns better matches, but since the goal of Job Fiction is to ignore job titles as an indicator of an appropriate job match this too is not an appropriate evaluation.
+								</p>
+
+								<h3 style="font-size: 2em; margin-top: 1em;">Feedback</h3>
+								<p class="p-content-dark">
+									From the minimal usability testing conducted, 
+								</p>
+								<ul>
+									<li class="p-content-dark">There is general excitement for the results returned. The job results are interesting to the user, and some have titles the user would typically dismiss and never consider. </li>
+									<li class="p-content-dark">Users were at first confused with the usability and functionality until realized just how simple it was. It was later complimented for being so simple and to-the-point, saying they were not used to such a straight-forward design.</li>
+									<li class="p-content-dark">The job classification in the results is a little less useful, especially if the three job descriptions entered are already very similar.</li> 
+									<li class="p-content-dark">Even though the jobs returned matched the user’s interest, many still included the job tokens the user explicitly placed in the Exclude list, suggesting the weights used in the model’s “Must Have,” Nice to Have” and “Exclude” lists were not effective.</li>
+								</ul>
+
+								<br>
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<br>
+							</div>
+						</section>
+
+					<!-- learnings and future -->
+						<section id="sol-learnings-future" class="wrapper style1-alt fullscreen inactive" style="display: none;">
+							<div class="inner" style="margin-top: 1em; padding-top: 3em">
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+
+								<h2 style="font-size: 3em;">Learnings and Future Work</h2>
+								<h3 style="font-size: 2em; margin-top: 1em;">Learnings</h3>
+								<ol type="A">
+									<li class="p-content-dark"><b style="font-weight: 300;">Project Management</b></li>
+									<ul>
+										<li class="p-content-dark">Outline the design at the outset of project to avoid issues with integration of components.</li>
+										<li class="p-content-dark">When the team is dispersed, plan to more often than once a week.</li>
+										<li class="p-content-dark">Start working on the user interface and home page from the beginning.</li>
+									</ul>
+									<li class="p-content-dark"><b style="font-weight: 300;">ML Modeling</b></li>
+									<ul>
+										<li class="p-content-dark">Capture baseline of the model as early as possible</li>
+										<li class="p-content-dark">Plan to have minimal training data set even though it's expensive.</li>
+										<li class="p-content-dark">Assess quality of the data and filter irrelevant data to build a better model and results</li>
+										<li class="p-content-dark">Engage users early into the game to make quantitative evaluation of the model</li>
+									</ul>
+								</ol>
+
+								<h3 style="font-size: 2em; margin-top: 1em;">Future Work</h3>
+								<ul>
+									<li class="p-content-dark"><b style="font-weight: 300;">Automatic Topic Labeling:</b> Instead of manually assigning topic labels, utilize word2vec embeddings to automatically assign topic labels.</li>
+									<li class="p-content-dark"><b style="font-weight: 300;">Live database:</b> Job Fiction model is based on 1.3 Million jobs acquired and current job results are not live. Making the database real time will give live results.</li>
+									<li class="p-content-dark"><b style="font-weight: 300;">Better weights on tokens:</b> Adjust weights on tokens such that “Must Have,” “Nice to Have” and “Exclude” all have noticeable influence on the results.</li>
+									<li class="p-content-dark"><b style="font-weight: 300;">Advanced Search Options:</b> Add filters for location, company types, and other general job features.</li>
+									<li class="p-content-dark"><b style="font-weight: 300;">Third Party Data Integration:</b> Working with a company like GlassDoor would allow us to query real-time datasets of jobs and give us access to additional data like salary, company size, job titles that we cannot access with the public APIs.</li>
+								</ul>
+
+								<br>
+								<ul class="actions">
+									<li style="margin-left: 0;"><a href="index.html#approach" class="button approach-back">BACK</a></li>
+								</ul>
+								<br>
+							</div>
+						</section>
+
+				<!-- Get in touch -->
+					<section id="contactus" class="wrapper style1 fade-up inactive">
+						<div class="inner" style="padding-bottom: 0px;">
+							<h2>Get in touch</h2>
+					            <div class="row">
+					                <div class="col-lg-12 text-center">
+					                   	<p class="p-content-dark">
+											Get in touch with us if you would like to know more about the project or our team. 
+										</p><br>
+					                </div>
+					            </div>
+					            <div class="row">
+					                <div class="col-sm-3">
+					                    <div class="team-member">
+					                        <img src="static/img/angela.jpg" class="img-responsive img-circle" alt="">
+					                        <h4>Angela Gunn</h4>
+					                        <p class="text-muted"></p>
+					                        <ul class="list-inline social-buttons">
+					                            <li><a href="https://www.linkedin.com/in/anggunn"><i class="fa fa-linkedin"></i></a>
+					                            </li>
+					                            <li><a href="https://github.com/anggunn"><i class="fa fa-github"></i></a>
+					                            </li>
+					                        </ul>
+					                    </div>
+					                </div>
+					                <div class="col-sm-3">
+					                    <div class="team-member">
+					                        <img src="static/img/rajesh.png" class="img-responsive img-circle" alt="" style="width: 200%; heigh:200%">
+					                        <h4>Rajesh Thallam</h4>
+					                        <p class="text-muted"></p>
+					                        <ul class="list-inline social-buttons">
+					                            <li><a href="https://www.linkedin.com/in/rajeshthallam"><i class="fa fa-linkedin"></i></a>
+					                            </li>
+					                            <li><a href="https://github.com/rajeshthallam/"><i class="fa fa-github"></i></a>
+					                            </li>
+					                            <li><a href="https://twitter.com/rajesh_thallam"><i class="fa fa-twitter"></i></a>
+					                            </li>
+					                        </ul>
+					                    </div>
+					                </div>
+					                <div class="col-sm-3">
+					                    <div class="team-member">
+					                        <img src="static/img/stephane.jpg" class="img-responsive img-circle" alt="">
+					                        <h4>Stephane Truong</h4>
+					                        <p class="text-muted"></p>
+					                        <ul class="list-inline social-buttons">
+					                            <li><a href="https://cn.linkedin.com/in/truongstephane"><i class="fa fa-linkedin"></i></a>
+					                            </li>
+					                            <li><a href="https://github.com/StephTruong"><i class="fa fa-github"></i></a>
+					                            </li>
+					                        </ul>
+					                    </div>
+					                </div>
+					            </div>
+					            <div class="row">
+					                <div class="col-lg-8 col-lg-offset-2 text-center">
+					                    </p>
+					                </div>
+					            </div>
 						</div>
 					</section>
 
@@ -420,10 +673,13 @@ velit quis lorem.</p>
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>© Untitled. All rights reserved.</li>
-					</ul>
+				<div class="inner" style="padding-top: 0px;">
+							<p style="text-align: justify;font-size: 1em;">
+								<span class="image right">
+									<img src="static/img/mids_logo.png" alt="" style="width: 75%;">
+								</span>
+								Job Fiction is delivered as a Capstone project, one of the core requirements of the UC Berkeley's Master of Information and Data Science (MIDS) program, where students combine the technical, analytic, and communication skills to execute a full data science project.
+							</p>
 				</div>
 			</footer>
 
